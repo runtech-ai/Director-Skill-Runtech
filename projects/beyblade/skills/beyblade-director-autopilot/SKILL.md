@@ -19,10 +19,11 @@ Whenever a segment contains a Beyblade, launcher, ripcord, stadium interaction, 
 
 - When asked to autopilot from a segment, start at that exact segment and continue in package order through the final segment.
 - Resolve the exact active scene UUID and clip ID from live MCP. Never generate against an inactive duplicate.
-- Before every individual generation request, verify required assets, subject bindings, picture labels, storyboard attachment and freshness, exact scene/clip ownership, and authored prompt source.
+- Before every individual generation request, verify required assets, subject bindings, picture labels, storyboard attachment/readability/freshness, exact scene/clip ownership, and authored prompt source. Then read the complete compiled prompt against the exact Director record and confirm identities, blocking, camera, timing, dialogue or silence, sound, causal order, transitions, and every intended shot beat. Fix every confirmed issue before generating.
 - Generate Draft-Anime, validate the complete causal action, make only evidence-based corrections, repeat asset preflight, then generate Production-Anime.
-- Accept when the primary shot beats and overall scene match at least 95%, all applicable physics hard gates pass, and the newly versioned take belongs to the exact active clip.
-- Display exactly one latent preview frame for each run. After completion, download and expose the exact new video when the runtime provides authenticated media access. Never substitute an older take.
+- Production is forbidden until the exact new Draft passes the 97% Director-shot-beat review and all applicable Physics Bible gates. After repeating both preflight gates, call `list_h3_presets`, resolve the live preset named `Production-Anime`, and pass that returned `preset_id` to `generate_segment`; never invent or cache a preset ID.
+- Accept only when every Director shot beat is covered, the rest of the scene intent matches at least 97%, all applicable Physics Bible hard gates pass, and the newly versioned take belongs to the exact active clip.
+- After each successful generation, download and expose the exact newly versioned video through authenticated MCP instead of displaying a latent image. Never substitute an older take; a stopped or failed run with no new take has no video result.
 - Update `../../checkpoints/AUTOPILOT_CURRENT.json` and `../../checkpoints/SEQUENTIAL_VALIDATION_STATUS.md` after each material result.
 
 ## Context discipline

@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "reviewedAt": "2026-09-27T11:14:25.017896+00:00",
+  "scope": "All 43 storyboard images; launcher attachment, release, stadium motion, knockout gravity, and stopped-top stability.",
+  "storyboardReshoots": [
+    "SEG_SC001_001",
+    "SEG_SC001_002",
+    "SEG_SC005_008",
+    "SEG_SC005_009",
+    "SEG_SC006_001",
+    "SEG_SC006_003",
+    "SEG_SC006_004",
+    "SEG_SC006_005"
+  ],
+  "passNoReshootCount": 35,
+  "promptOnlyCount": 0,
+  "fullSegmentRedirectCount": 0,
+  "mechanicsLocks": {
+    "launcherCenterSlotGeometry": "Launcher center-slot geometry lock: the launcher has exactly two short, close-set engagement prongs symmetric about its central axis. Both prongs enter the paired launcher slots immediately beside the Beyblade's central Bit Chip/center gap, one on each side of the axis. They never attach to the outer Attack Ring, Weight Disk, perimeter, or tip. Before release the top is level, flush, and firmly retained on both prongs; at release both prongs disengage together and the top becomes fully unsupported, descending tip-first under gravity.",
+    "releaseGravity": "After both prongs disengage, a clear air gap remains; no string or tether; the top descends tip-first under gravity.",
+    "stadiumMotion": "A spinning top translates continuously across the bowl and cannot stick to a slope.",
+    "stoppedTop": "A free non-spinning top falls and lies on its side; it cannot balance upright on its tip."
+  },
+  "segments": [
+    {
+      "segmentId": "SEG_SC001_001",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "894356c6706eed3f609c9f7b1ca272da8c86204ef571244b3fc9ad530cba6681",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC001_002",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "5cd75e5d154284916406232c94fd321c0e03d598e013e662a6a6cc85af809c7c",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC001_003",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "ee863a78abc83a0b2d2e335b48af2428a36a89ab4b2208c87dc57ce0e0e65323",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC002_001",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "e407dbe3e61cbac954909f7784542f336001f7a7be79ecd174249ddc970b5fa6",
+      "dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC002_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "5bbda62b8145a097c88cababe4d7ceaa85519dc7ab83ad29ecba85179eed8a7d",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC002_003",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "c53055ccfc3333425075c250607e33b4fa978d372ba170060748367b6ff173c1",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC002_004",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "3b083e7b4bb99ad4346fd1d346de545c757df1effd59bc01a2fe2ba8ade8d83d",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC002_005",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "357f3488455595cc8b48cef1dec1b318618bbeb4ede34e597fe93c9a4cae2aaf",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC003_001",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "0c9cebef131af4ed6078122e58ba1b2029682052a414926a253cd91f21f73628",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC003_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "1f5b3bfadc0540702851d41aac6fb2e40df9d01cf1d5f935db4a48249af1a2f4",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC003_003",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "31dcc86bad68908daf467d0cf083fe59a250ce52ebc0f17bcb8ef8bcd232b64f",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC003_004",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "d99d73a0f24b1c22c7bd554055af2ea27c0c264a9da7c298c316ff617e27f8fa",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "d5c0ae11503e6ae528808e6960c6653dfcea08f6c42b93732380293e6ab30dfd",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC003_006",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "d06d7715cc5b5268f3760efa2b180da3c1903aef9db22bb614f9f42a7d6a05f5",
+      "dimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC004_001",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "5034c3a5b3c6127d992db0ecabad50fc5148372ee1a01f95fbf45732a9b8b072",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "c3f66e06e3e396644d921e6b47e2078abe71ce11454e22787275b515d0c94dfc",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC004_003",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "8e1526f44352d1aca31193c98011e0c383f078e8c2af691d5e9604d3e0b448e3",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC004_004",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "bf6f6373d29dcccd3fb12a5985da106376fe90cfa53bee1197d34aa407b1bd50",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "1a2f232f4f8c4223225135634dd6a196baef7f7e25b7ea79357e60ee5d35f576",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "c0edc0986b7244e90d93dff10495fe072474b0792f017fcbd45a58d7b9c307a4",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "e4429eba78757b6e6113cf6477420004f74b13d23577bfefe82b6a613a184a7d",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "ded3f784cd187398e9cba2e37e920649dfcad7618283f320755e709544225430",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "e66736bd83bff154f00370c7aa2fc98a938422339a34bcff96e6700506c4116d",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "473694666d110f751a520f58c6a20eca4325ba7efe7a02fe0ad6034280329b50",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "c42ad71d9cf5da7ffe0638611a0ac94b7ae040ff401ea4da228be88c00c4521c",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "a99f23afcab499fc55d253d55b443506fed52bde93fb6eebef6589f563795b4e",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "cf8c1fe5eb2198283726330efd355f23cdb6698c05d38a0b8a7dbeb279873a1a",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "a0d9e611c99a2a7a03504e7d23c247ebce6be4e57bb501090fc617ba3ec96088",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "3e80d944f9fb50ef826157c34de794b12d8d0493af90cef06738c956ffc65b71",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "8b0b624a7fc3c673001d626039b799ef54a6a70144b2b3a2028e9661558ab99c",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "5d14b698e877070f8fad4d205ca7d61451d3d8ef1cbafe86c4b64cf830e4f9bd",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "classification": "STORYBOARD_RESHOOT",
+      "sha256": "0e9dfa1d64ce9d9e0fba357da1339c3b395784011b2b6fcf506f3b037076a08e",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "44a3424bc6511e5a97f7a32d550487e6d5fa110e6d29416df1abaf0395c58e5d",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "97343692a999dea6a20041ea6615732f4f8c1825105abe0f5c69ce0fa8427c8e",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "59dff8140e6c474155b21a44c29cadce2782ed1b2154794f552c5705f7fd2a63",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "e54fa535af404cf2cb4e50112fa1dfd8ecfe35d7bfb1868171fde825725d5815",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "f46b120ad2caf37226b0c10884a9f450a4a62c867b5a92d4516cdf56cc693d29",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "7364e0ed3596fbc50e633cedb5a346fcdcd5e6b72d16e84686d48a4882e0cba2",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "40e316a68d1c49e3f6fe105018195a764d6f0dc621d92471ee840e905c42bfa3",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "da38ea1689fb35b9700ddfb738689a2cc336d69562bad6758f524df32cfab722",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "60a1d8b2494beca1c0d83db20ab06403e5c702c2f0fa4baaccd017e7c7deecea",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC008_001",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "e66a521b133d4abb97eead987f21032dd1bd81c8d5dbcb3ddab5071f8afa43d8",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    },
+    {
+      "segmentId": "SEG_SC008_002",
+      "classification": "PASS_NO_RESHOOT",
+      "sha256": "227122382bb8be65e1830975e74fba8d6424a334edd80590c60a2768256b5856",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "panels": 3
+    }
+  ]
+}

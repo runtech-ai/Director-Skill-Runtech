@@ -1,0 +1,264 @@
+{
+  "segment_id": "SEG_SC004_001",
+  "scene_id": "SC004",
+  "scene_time": {
+    "start": 0,
+    "end": 15
+  },
+  "storyboard_required": false,
+  "canonical_references": [
+    {
+      "entity": "@kaiden",
+      "path": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "authority": "character identity for kaiden",
+      "subject": "<Subject 1>",
+      "picture": "<Picture 1>",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "entity": "@bicycle",
+      "path": "canonical_refs/assets/props/bicycle_sheet.png",
+      "authority": "prop identity for bicycle",
+      "subject": "<Subject 2>",
+      "picture": "<Picture 2>",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "entity": "@imphal",
+      "path": "canonical_refs/assets/locations/imphal_sheet.png",
+      "authority": "location identity for imphal",
+      "subject": "<Subject 3>",
+      "picture": "<Picture 3>",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE"
+    }
+  ],
+  "editorial_mode": "FINAL_EDIT_MASTER",
+  "post_production_expectation": "CONCAT_ONLY_NO_TRIM",
+  "environment_state": {
+    "continuity_group": "SC004",
+    "anchors": [
+      "Travel screen direction is left to right; bicycle is walked near people and inside heritage grounds."
+    ]
+  },
+  "shot_planning_prompt": {
+    "segment_duration": 15,
+    "shots": [
+      {
+        "id": "MS_SC004_001_01",
+        "displayShot": 1,
+        "segmentStart": 0,
+        "segmentEnd": 3.5,
+        "sceneStart": 0,
+        "sceneEnd": 3.5,
+        "purpose": "Kaiden pedals left to right along the damp lane, passing shutters and umbrellas;",
+        "framing": "low lateral tracking wide",
+        "visibleAssets": [
+          "@kaiden",
+          "@bicycle",
+          "@imphal"
+        ],
+        "startState": "Kaiden rides away from home with wrapped breakfast, top, launcher and ripcord secured.",
+        "action": "Kaiden pedals left to right along the damp lane, passing shutters and umbrellas;",
+        "endState": "Kaiden pedals left to right along the damp lane, passing shutters and umbrellas;",
+        "camera": "The camera holds nearly static.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "low lateral tracking wide; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+        "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+        "continuity": "Incoming physical state: Kaiden rides away from home with wrapped breakfast, top, launcher and ripcord secured. Outgoing physical state: Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+        "sound": "Chain chatter and tyre hiss.",
+        "transitionIn": "HARD_CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": "@imphal",
+        "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+        "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC004_001_02",
+        "displayShot": 2,
+        "segmentStart": 3.5,
+        "segmentEnd": 7,
+        "sceneStart": 3.5,
+        "sceneEnd": 7,
+        "purpose": "rotating wheels throw narrow sprays.",
+        "framing": "slightly lower low lateral tracking wide",
+        "visibleAssets": [
+          "@kaiden",
+          "@bicycle",
+          "@imphal"
+        ],
+        "startState": "rotating wheels throw narrow sprays..",
+        "action": "rotating wheels throw narrow sprays.",
+        "endState": "rotating wheels throw narrow sprays.",
+        "camera": "The camera tracks beside him at fast speed.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "slightly lower low lateral tracking wide; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+        "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+        "continuity": "Incoming physical state: Kaiden rides away from home with wrapped breakfast, top, launcher and ripcord secured. Outgoing physical state: Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+        "sound": "Chain chatter and tyre hiss.",
+        "transitionIn": "CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": "@imphal",
+        "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+        "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC004_001_03",
+        "displayShot": 3,
+        "segmentStart": 7,
+        "segmentEnd": 15,
+        "sceneStart": 7,
+        "sceneEnd": 15,
+        "purpose": "Tea steam drifts across Kaiden as he coasts around pedestrians at walking speed, then dismounts under a shop awning.",
+        "framing": "front tracking medium",
+        "visibleAssets": [
+          "@kaiden",
+          "@bicycle",
+          "@imphal"
+        ],
+        "startState": "Tea steam drifts across Kaiden as he coasts around pedestrians at walking speed, then dismounts under a shop awning..",
+        "action": "Tea steam drifts across Kaiden as he coasts around pedestrians at walking speed, then dismounts under a shop awning.",
+        "endState": "Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+        "camera": "The camera retreats at cycling speed then settles.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "front tracking medium; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+        "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+        "continuity": "Incoming physical state: Kaiden rides away from home with wrapped breakfast, top, launcher and ripcord secured. Outgoing physical state: Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+        "sound": "Market ambience and a bicycle freewheel.",
+        "transitionIn": "CUT",
+        "transitionOut": "MATCH_CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": "@imphal",
+        "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+        "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      }
+    ],
+    "compiled_prompt": "subject_definitions:\n<Subject 1> is @kaiden (Kaiden), the twelve-year-old boy with short spiky navy hair, plain pocketless cobalt-blue T-shirt, black athletic shorts with white side stripes and blue-white sneakers from <Picture 1>, used for character identity and design.\n<Subject 2> is @bicycle, the Kaiden s bicycle. from <Picture 2>, used for prop identity and design.\n<Subject 3> is @imphal, the The city where Kaiden lives. from <Picture 3>, used for location identity and design.\n\nsummary:\n[reference generation] A 15-second 3-shot anime sequence showing Kaiden pedals left to right along the damp lane, passing shutters and umbrellas;\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n<Subject 3> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n\ndetailed_description:\nStrict consistent 2D television Beyblade anime in a landscape 16:9 frame: bold clean inked linework on characters, props and backgrounds, vibrant controlled cel shading, simplified hand-painted anime backgrounds and expressive stepped character animation. No photorealism, live-action texture, photographic depth of field, 3D/CG rendering or mixed visual medium.\n[Shot 1] A low lateral tracking wide opens the sequence.  Location: <Subject 3> (the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships). The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight. Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight. <Subject 1> pedals left to right along the damp lane, passing shutters and umbrellas; Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The camera holds nearly static.\n[Shot 2] At 00:03.500, the camera cuts to a slightly lower low lateral tracking wide.  Location: <Subject 3> (the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships). The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight. Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight. rotating wheels throw narrow sprays. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The camera tracks beside him at fast speed.\n[Shot 3] At 00:07.000, the camera cuts to a front tracking medium.  Location: <Subject 3> (the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships). The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight. Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight. Tea steam drifts across <Subject 1> as he coasts around pedestrians at walking speed, then dismounts under a shop awning. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The camera retreats at cycling speed then settles.\n\noverall_soundscape:\nChain chatter and tyre hiss. Market ambience and a bicycle freewheel.\n\nnon_diegetic_music:\nLight kick, tight hi-hat and plucked bass at 132 BPM in D minor, thinning to a sustained D beneath the pocket pulse. This is the continuous scene cue M04, using source offset 0.000 to 15.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade."
+  },
+  "storyboard_mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "optional_h3_storyboard_reference": {
+    "enabled": false,
+    "resolved": false,
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "audio_continuity": {
+    "cueId": "M04",
+    "movieStart": 200,
+    "movieEnd": 215,
+    "sceneCueOffset": 0,
+    "sampleRate": 48000,
+    "startSample": 9600000,
+    "endSample": 10320000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "voice_continuity": {},
+  "continuity_handoff": {
+    "incoming": "Kaiden rides away from home with wrapped breakfast, top, launcher and ripcord secured.",
+    "outgoing": "Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+    "editorialBoundaryIn": "HARD_CUT",
+    "previousSegmentId": "SEG_SC003_006",
+    "referencePreviousLastKeyframe": false,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": false,
+      "onMissing": "NOT_REQUIRED",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classic_beyblade_state": {},
+  "asset_reference_coverage": [
+    {
+      "displayShot": 1,
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>",
+        "<Subject 3>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 2,
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>",
+        "<Subject 3>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 3,
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>",
+        "<Subject 3>"
+      ],
+      "insertedSubjects": []
+    }
+  ],
+  "runtime_asset_lock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@bicycle",
+      "@imphal"
+    ]
+  },
+  "runtime_asset_mention_lock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  }
+}

@@ -1,0 +1,713 @@
+MOVIE "The Blade That Shouldn't Spin"
+
+VERSION 2.0
+
+PROJECT
+{
+    style: ANIME
+    target_runtime: 00:10:00
+    duration_mode: FIXED
+    aspect_ratio: 4:3
+    fps: 24
+    language: English
+    director_mode: GUIDED
+    storyboard_approval: REQUIRED
+    source_estimated_runtime: "00:10:00"
+    adaptation_mode: PRESERVE
+    adaptation_notes: "film_style:anime-modern; preserve all eight story beats, all source dialogue, the failed launch, the uncontrolled second launch, the silent circle, the full manifestation, and the post-credit stinger; do not summarize or omit story events; asset declarations are closed and exhaustive; never infer an asset from unprefixed prose, capitalization, dialogue, adjectives, adverbs, common nouns, groups, or nicknames"
+}
+
+ASSETS
+{
+    @kaiden: CHARACTER
+    {
+        description: Twelve-year-old boy passionate about Beyblade.
+        consistency: STRICT
+    }
+    @ima: CHARACTER
+    {
+        description: Kaiden s caring mother.
+        consistency: STRICT
+    }
+    @nanao: CHARACTER
+    {
+        description: Kaiden s friend competitive and supportive.
+        consistency: STRICT
+    }
+    @mocha: CHARACTER
+    {
+        description: Kaiden s friend playful and teasing.
+        consistency: STRICT
+    }
+    @unknown_observer: CHARACTER
+    {
+        description: Mysterious figure observing Kaiden.
+        consistency: STRICT
+    }
+    @narrator: CHARACTER
+    {
+        description: Voice-only episode narrator never appears on screen.
+        consistency: STRICT
+    }
+    @control_voice: CHARACTER
+    {
+        description: Distorted voice heard only through the observer s earpiece never appears on screen.
+        consistency: STRICT
+    }
+    @ebudhou_pakhangba: CREATURE
+    {
+        description: A single revered deity-presence manifested as a vast serpent-dragon in Kaiden s dream and above Kangla.
+        consistency: STRICT
+    }
+    @imphal: LOCATION
+    {
+        description: The city where Kaiden lives.
+        consistency: STRICT
+    }
+    @kaidens_house: LOCATION
+    {
+        description: Kaiden s modest home.
+        consistency: STRICT
+    }
+    @kangla: LOCATION
+    {
+        description: A historical site where Kaiden and friends play.
+        consistency: STRICT
+    }
+    @kangla_perimeter: LOCATION
+    {
+        description: The outer area of Kangla.
+        consistency: STRICT
+    }
+    @beyblade: PROP
+    {
+        description: Kaiden s homemade Beyblade built from plastic wood and scrap metal.
+        consistency: STRICT
+    }
+    @3_beyblades: PROP
+    {
+        description: One owner-labeled reference sheet for three separate Beyblades: Kaiden handmade blue-red-metal-and-brown-wood, Nanao blue-red-yellow, Mocha white-red-purple.
+        consistency: STRICT
+    }
+    @launcher: PROP
+    {
+        description: The device used to launch Beyblades.
+        consistency: STRICT
+    }
+    @breakfast_plate: PROP
+    {
+        description: Plate of breakfast prepared by Eema.
+        consistency: STRICT
+    }
+    @dragoon: PROP
+    {
+        description: Nanao s blue toy Beyblade.
+        consistency: STRICT
+    }
+    @driger: PROP
+    {
+        description: Mocha s toy Beyblade.
+        consistency: STRICT
+    }
+    @phone: PROP
+    {
+        description: Kaiden s old mobile phone displaying messages from his friends.
+        consistency: STRICT
+    }
+    @bicycle: PROP
+    {
+        description: Kaiden s bicycle.
+        consistency: STRICT
+    }
+    @stadium: PROP
+    {
+        description: Shallow plastic Beyblade stadium that splits during the resonance.
+        consistency: STRICT
+    }
+    @observer_device: PROP
+    {
+        description: Rugged handheld resonance detector used by the unknown observer.
+        consistency: STRICT
+    }
+    @toybeyblade: PROP
+    {
+        description: "Scene asset: toybeyblade."
+        consistency: STRICT
+    }
+
+}
+
+STYLE
+{
+    visual_medium: Anime
+    lighting: Cel-shaded with vibrant colors
+    lens_character: Expressive and dynamic
+    contrast: High contrast for dramatic effect
+    camera_behavior: Fluid and responsive to action
+    motion: Stepped motion sensibility
+}
+
+SCENE SC001 "A world of toys"
+{
+    INT_EXT: EXT
+    LOCATION: @imphal
+    TIME: DAY
+    target_duration: "00:40"
+    pacing: FAST
+    directorial_freedom: MEDIUM
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @narrator
+        @kaiden
+    }
+    ASSETS
+    {
+        @launcher
+        @toybeyblade
+    }
+    ACTION
+    {
+        Open on black as a ripcord tears through a @launcher and plastic strikes plastic. In a brisk everyday-world montage, a television anime hero summons a cartoon dragon; a child launches a toy under a sofa; an official @toybeyblade display promises "BECOME A LEGEND" while a parent guides a child towards a cheaper shelf; two schoolgirls battle in a dented steel basin; and the television dragon vanishes when the channel changes. End on wet @imphal rooftops and @kaiden's modest house. Every effect in the montage is clearly television imagery or childhood play, never real magic.
+    }
+    DIALOGUE
+    {
+        @narrator:
+                                                                                "This is a world without magic."
+
+                                                                @narrator:
+                                                                                "Dragons live on screens. Legends come in cardboard boxes. And every battle ends the same way: one toy spins, the other stops, and everyone goes home for lunch."
+    }
+    SOUND
+    {
+        Ripcord snap, plastic impacts, children roaring, television audio, then the bicycle bells, rolling shutters, and tea-pour hiss of waking Imphal.
+    }
+    DIRECTOR_NOTE
+    {
+        Preserve the economic contrast in the toy-shop image and establish that supernatural Beyblade phenomena do not yet exist in this world.
+    }
+}
+
+SCENE SC002 "The dream"
+{
+    INT_EXT: INT
+    LOCATION: @kaidens_house
+    TIME: NIGHT
+    target_duration: "01:15"
+    pacing: SLOW_OBSERVATIONAL
+    directorial_freedom: HIGH
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @kaiden
+        @ima
+        @ebudhou_pakhangba
+    }
+    ASSETS
+    {
+        @beyblade
+    }
+    ACTION
+    {
+        In his cluttered bedroom, sleeping @kaiden slips into a black dream void and kneels before a familiar devotional image of @ebudhou_pakhangba. A heatless flame bends towards the image; its painted coils move and two ancient eyes open. The image reveals an endless newborn sky as a white-gold serpent-dragon with antler-like horns unfolds. A scale of light avoids @kaiden's reaching hand, passes through his shirt, and enters the right side-seam pocket of his black athletic shorts, where @beyblade turns once. The turn becomes @ima's knock. @kaiden wakes, finds the blade cold and motionless under yesterday's trousers, dismisses the dream, and the opening title flashes images that foreshadow the episode without advancing time.
+    }
+    DIALOGUE
+    {
+        @kaiden:
+                                                                                "Ebudhou... I told Baba I don't need one from the shop."
+
+                                                                @kaiden:
+                                                                                "But today they'll laugh again. Just once... let the one I made be good enough."
+
+                                                                @kaiden:
+                                                                                "Ebudhou Pakhangba?"
+
+                                                                @ima:
+                                                                                "Kaiden? If you're awake, your breakfast is getting cold."
+
+                                                                @kaiden:
+                                                                                "Too much cartoon."
+    }
+    SOUND
+    {
+        Television commentary fades into total dream silence. A soft flame movement, deep serpentine resonance, one wooden TIK, then @ima's knock, rain at the eaves, and the lazy ceiling fan.
+    }
+    DIRECTOR_NOTE
+    {
+        Keep the presence sacred and ambiguous rather than presenting it as a collectible battle creature. The single turn of @beyblade must be visible and audible.
+    }
+}
+
+SCENE SC003 "What Kaiden can afford"
+{
+    INT_EXT: INT
+    LOCATION: @kaidens_house
+    TIME: MORNING
+    target_duration: "01:25"
+    pacing: MODERATE
+    directorial_freedom: MEDIUM
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @kaiden
+        @ima
+        @mocha
+        @nanao
+    }
+    ASSETS
+    {
+        @beyblade
+        @breakfast_plate
+        @launcher
+        @phone
+    }
+    ACTION
+    {
+        At a work corner covered with measurements and the handwritten rule "BALANCE FIRST. POWER LATER," @kaiden fits a scrap-metal washer around the wooden core of @beyblade. A test spin wobbles into a steel cup. @ima enters with @breakfast_plate and notices him looking at an advertisement for an official metal @beyblade. Their exchange exposes his embarrassment about money and her refusal to let him carry the family's financial burden. @phone then displays @nanao's message: "We started without you. @mocha says that means you surrendered." @kaiden realises he is late, pockets @beyblade, grabs @launcher, briefly returns for food and the forgotten ripcord, kisses @ima's cheek, and rushes out.
+    }
+    DIALOGUE
+    {
+        @kaiden:
+                                                                                "You're supposed to attack them, not Eema's cups."
+
+                                                                @ima:
+                                                                                "Your opponent has already defeated you."
+
+                                                                @kaiden:
+                                                                                "Two minutes. I nearly fixed the balance."
+
+                                                                @ima:
+                                                                                "You said that twenty minutes ago."
+
+                                                                @ima:
+                                                                                "Your Baba asked at the shop again. Maybe after next month—"
+
+                                                                @kaiden:
+                                                                                "I didn't ask him to."
+
+                                                                @kaiden:
+                                                                                "This one is better. If something breaks, I know how to fix it."
+
+                                                                @ima:
+                                                                                "Then make it because you're proud of it. Not because you think you must save us from buying you things."
+
+                                                                @kaiden:
+                                                                                "Oh, shoot. Kangla!"
+
+                                                                @ima:
+                                                                                "Breakfast!"
+
+                                                                @kaiden:
+                                                                                "I'll eat on the way! Back before lunch!"
+
+                                                                @ima:
+                                                                                "Walk your bicycle near people—and no riding inside the heritage grounds!"
+
+                                                                @kaiden:
+                                                                                "I know!"
+
+                                                                @ima:
+                                                                                "Kaiden!"
+    }
+    SOUND
+    {
+        Small metal clicks, a wobbling top, steel cup rattle, the television in the next room, @phone chiming, hurried footsteps, and the ripcord snatched from @ima's hand.
+    }
+    DIRECTOR_NOTE
+    {
+        Retain the full parent-child exchange. @kaiden's defensive speed and @ima's calm response are the emotional reason he later refuses a safe test launch.
+    }
+}
+
+SCENE SC004 "Racing to Kangla"
+{
+    INT_EXT: EXT
+    LOCATION: @imphal
+    TIME: DAY
+    target_duration: "00:55"
+    pacing: FAST
+    directorial_freedom: MEDIUM
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @kaiden
+        @ima
+        @mocha
+    }
+    ASSETS
+    {
+        @beyblade
+        @phone
+        @bicycle
+        @kangla
+    }
+    ACTION
+    {
+        @kaiden pedals @bicycle hard through damp @imphal, passing shutters, umbrellas, and curls of tea steam. @kaiden stops under a shop awning, finishes breakfast, and checks @phone. @mocha's message reads "R.I.P. your homemade blade—defeated by fear," followed by a triumphant photograph beside the arena's empty third place. @kaiden rides faster. When @beyblade pulses hot against his chest, he slows and considers turning home to show @ima, but pride and loyalty to his waiting friends make him continue towards @kangla.
+    }
+    DIALOGUE
+    {
+        @kaiden:
+                                                                                "Not a chance."
+    }
+    SOUND
+    {
+        Bicycle chain chatter, tyre hiss on damp road, traffic and market ambience, two phone alerts, then a low warm pulse from @beyblade.
+    }
+    DIRECTOR_NOTE
+    {
+        The one-second choice to turn home must be explicit; continuing is @kaiden's consequential decision, not merely travel montage.
+    }
+}
+
+SCENE SC005 "Friends and friction"
+{
+    INT_EXT: EXT
+    LOCATION: @kangla
+    TIME: DAY
+    target_duration: "02:05"
+    pacing: MODERATE
+    directorial_freedom: MEDIUM
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @kaiden
+        @nanao
+        @mocha
+        @ima
+    }
+    ASSETS
+    {
+        @beyblade
+        @dragoon
+        @driger
+        @launcher
+        @bicycle
+        @stadium
+    }
+    ACTION
+    {
+        @kaiden dismounts at @kangla and walks @bicycle inside, honouring his promise to @ima. In an open plaza clear of monuments and passers-by, @dragoon defeats @driger inside @stadium. @kaiden arrives late; teasing about his homemade @beyblade exposes the friends' affectionate rivalry and @nanao's instinct to protect him. When @kaiden removes @beyblade, he discovers that his three ink lines have become a faintly luminous coiling serpent-dragon emblem. @nanao offers him a safe way out, but he reads kindness as doubt, locks the hot blade onto @launcher, bends a loose prong inward, and commits to a three-way battle.
+    }
+    DIALOGUE
+    {
+        @mocha:
+                                                                                "Come on, Driger. Hold the centre!"
+
+                                                                @nanao:
+                                                                                "Three–one."
+
+                                                                @mocha:
+                                                                                "Two–one. The scratch won that round."
+
+                                                                @nanao:
+                                                                                "Then challenge the scratch next."
+
+                                                                @kaiden:
+                                                                                "Guys! Sorry I'm late."
+
+                                                                @mocha:
+                                                                                "The missing champion arrives."
+
+                                                                @mocha:
+                                                                                "Wait. Did you finally buy one?"
+
+                                                                @kaiden:
+                                                                                "No. Baba hasn't bought it yet."
+
+                                                                @mocha:
+                                                                                "So the homemade blade lives."
+
+                                                                @nanao:
+                                                                                "Mocha."
+
+                                                                @mocha:
+                                                                                "What? He named mine 'Spoiled Milk' last week."
+
+                                                                @kaiden:
+                                                                                "Because it's white and goes bad under pressure."
+
+                                                                @mocha:
+                                                                                "Fine. Put your masterpiece in. Three-way battle."
+
+                                                                @nanao:
+                                                                                "We can give him a test launch first."
+
+                                                                @kaiden:
+                                                                                "No test. Three-way."
+
+                                                                @nanao:
+                                                                                "You changed the centre."
+
+                                                                @kaiden:
+                                                                                "I drew three lines. That's all."
+
+                                                                @mocha:
+                                                                                "Paint doesn't grow while it's in your pocket."
+
+                                                                @kaiden:
+                                                                                "I know that."
+
+                                                                @nanao:
+                                                                                "We don't have to launch it."
+
+                                                                @kaiden:
+                                                                                "Yes, we do."
+    }
+    SOUND
+    {
+        Normal plastic top impacts, decelerating spin, bicycle tyre skid, warm electrical hum from @beyblade, and the small click of its imperfect fit on @launcher.
+    }
+    DIRECTOR_NOTE
+    {
+        Preserve the complete teasing-to-concern progression. The friends are affectionate, and @kaiden chooses risk because @nanao's kindness touches his financial shame.
+    }
+}
+
+SCENE SC006 "Try, fail, escalate"
+{
+    INT_EXT: EXT
+    LOCATION: @kangla
+    TIME: DAY
+    target_duration: "02:05"
+    pacing: TENSE
+    directorial_freedom: HIGH
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @kaiden
+        @nanao
+        @mocha
+    }
+    ASSETS
+    {
+        @beyblade
+        @dragoon
+        @driger
+        @launcher
+        @stadium
+    }
+    ACTION
+    {
+        All three launch together. @dragoon and @driger land cleanly, but @beyblade catches on @launcher, tumbles into @stadium, and falls flat without one full turn. Humiliated but stubborn, @kaiden straightens the bent prong against the blade's metal washer. @beyblade hums and clicks onto @launcher by itself. On the second launch it lands crooked, then stands upright, deliberately pivots, ejects @dragoon, reverses without losing speed, chases @driger, and knocks it out on the third impact. Instead of slowing, @beyblade accelerates at the centre until @stadium rotates under it. @kaiden orders his friends back, reaches in with his sleeve covering his hand, and is thrown backwards by a spark from the emblem. @mocha prevents his head striking the ground. @stadium splits; loose leaves rise clockwise. Outside the spiral, passers-by remain unaware as everyday @kangla sound drains away.
+    }
+    DIALOGUE
+    {
+        @kaiden:
+                                                                                "Three! Two! One! Let it rip!"
+
+                                                                @nanao:
+                                                                                "Don't."
+
+                                                                @mocha:
+                                                                                "I was going to say the launcher slipped."
+
+                                                                @kaiden:
+                                                                                "Again."
+
+                                                                @nanao:
+                                                                                "Your prong is bent."
+
+                                                                @kaiden:
+                                                                                "I can fix it."
+
+                                                                @mocha:
+                                                                                "Did you put a motor in there?"
+
+                                                                @kaiden:
+                                                                                "With what battery?"
+
+                                                                @nanao:
+                                                                                "Kaiden—"
+
+                                                                @kaiden:
+                                                                                "One more."
+
+                                                                @kaiden:
+                                                                                "Three! Two! One! Let it rip!"
+
+                                                                @mocha:
+                                                                                "There. Normal."
+
+                                                                @nanao:
+                                                                                "That's not normal."
+
+                                                                @mocha:
+                                                                                "How are you steering it?"
+
+                                                                @kaiden:
+                                                                                "I'm not!"
+
+                                                                @mocha:
+                                                                                "You won. Make it stop."
+
+                                                                @kaiden:
+                                                                                "It stops when it loses balance."
+
+                                                                @nanao:
+                                                                                "It isn't losing balance."
+
+                                                                @kaiden:
+                                                                                "Move back."
+
+                                                                @mocha:
+                                                                                "What about you?"
+
+                                                                @kaiden:
+                                                                                "It's my blade!"
+
+                                                                @nanao:
+                                                                                "And that's still your hand."
+
+                                                                @kaiden:
+                                                                                "Stop!"
+
+                                                                @nanao:
+                                                                                "Why can't they feel this?"
+    }
+    SOUND
+    {
+        Two synchronized three-launch ripcord snaps, failed plastic clatter, a faint impossible hum, escalating impacts, continuous rising spin, stadium vibration, electric crack, splitting plastic, clockwise wind, and the sudden loss of all sound except @beyblade.
+    }
+    DIRECTOR_NOTE
+    {
+        The failed first launch, self-locking click, deliberate attacks, refusal to slow, hand danger, electrical rejection, and silent-circle threshold are mandatory escalation beats and must appear in this order.
+    }
+}
+
+SCENE SC007 "The silent circle"
+{
+    INT_EXT: EXT
+    LOCATION: @kangla
+    TIME: DAY
+    target_duration: "01:10"
+    pacing: SLOW_OBSERVATIONAL
+    directorial_freedom: HIGH
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @kaiden
+        @nanao
+        @mocha
+        @ebudhou_pakhangba
+    }
+    ASSETS
+    {
+        @beyblade
+        @dragoon
+        @stadium
+    }
+    ACTION
+    {
+        Inside the silent ring of clockwise leaves, branches bend towards @beyblade and the clouds fold inward. The glowing emblem rises from the wooden centre as a white-gold coil, climbs past the @kangla Sha and treetops, and unfolds into the colossal @ebudhou_pakhangba presence made of cloud, rain, and fire. @nanao notices that people beyond the circle hear nothing and see only weather. The ancient eyes from @kaiden's dream look directly at the children. @kaiden is frightened but steps in front of @nanao and @mocha, presses his palms together, and addresses the presence with reverence. It opens its jaws without roaring; every bell in @kangla rings at once. People beyond the circle hear the bells but cannot see the manifestation. The presence collapses into a thread of light and plunges back into @beyblade. everyday sound rushes back, birds flee the trees, and broken @stadium settles. After one breath, @mocha points out that @beyblade is still spinning on bare ground. Cut to black and "TO BE CONTINUED" before the stinger.
+    }
+    DIALOGUE
+    {
+        @mocha:
+                                                                                "Kaiden, tell me this was part of your plan."
+
+                                                                @kaiden:
+                                                                                "I saw it this morning."
+
+                                                                @nanao:
+                                                                                "On the blade?"
+
+                                                                @kaiden:
+                                                                                "In a dream."
+
+                                                                @mocha:
+                                                                                "That's a Bit-Beast."
+
+                                                                @nanao:
+                                                                                "Bit-Beasts are drawings. This is looking at us."
+
+                                                                @kaiden:
+                                                                                "Ebudhou Pakhangba... was that you?"
+
+                                                                @mocha:
+                                                                                "Kaiden."
+    }
+    SOUND
+    {
+        Isolated blade hum, strengthening clockwise wind, deep resonance, rain and fire textures without a roar, every bell in Kangla ringing together, then a violent return of birds and everyday ambience while @beyblade continues spinning.
+    }
+    DIRECTOR_NOTE
+    {
+        This is the episode's visual climax. Preserve outsider blindness, @kaiden shielding his friends, the reverent address, the bell response, the return of the light to @beyblade, and the final impossible-spin cliffhanger.
+    }
+}
+
+SCENE SC008 "Post-credit stinger"
+{
+    INT_EXT: EXT
+    LOCATION: @kangla_perimeter
+    TIME: DAY
+    target_duration: "00:25"
+    pacing: FAST
+    directorial_freedom: MEDIUM
+    continuity_in: CUT
+    continuity_out: CUT
+    chronology: LINEAR
+    CAST
+    {
+        @unknown_observer
+        @control_voice
+        @kaiden
+        @nanao
+        @mocha
+    }
+    ASSETS
+    {
+        @observer_device
+        @kangla
+    }
+    ACTION
+    {
+        After the end title, rain dots @observer_device at the @kangla perimeter. Its red waveform spikes and displays "RESONANCE CONFIRMED / LOCATION: @kangla / SOURCE: UNREGISTERED / 01." @unknown_observer enlarges a distant image of @kaiden before the fading sky-form and contacts @control_voice through a concealed earpiece. The device classifies the signal, frames @kaiden's face in red, and establishes that the last signal occurred 112 years ago. @control_voice orders observation rather than contact. @unknown_observer lowers the device under an empty sky.
+    }
+    DIALOGUE
+    {
+        @unknown_observer:
+                                                                                "Control, confirm receipt."
+
+                                                                @control_voice:
+                                                                                "Image received. Classification?"
+
+                                                                @unknown_observer:
+                                                                                "Guardian-class resonance. Kangla origin."
+
+                                                                @control_voice:
+                                                                                "Time since last signal?"
+
+                                                                @unknown_observer:
+                                                                                "One hundred and twelve years."
+
+                                                                @control_voice:
+                                                                                "Do not approach. Track the boy."
+
+                                                                @unknown_observer:
+                                                                                "Understood."
+    }
+    SOUND
+    {
+        Rain on the detector casing, electronic waveform alarm, concealed earpiece click, radio static, and @control_voice distorted over comms.
+    }
+    DIRECTOR_NOTE
+    {
+        Preserve every exchange: classification, Kangla origin, 112-year interval, and the order to track without approaching. This is a post-credit stinger, not part of the main-scene resolution.
+    }
+}

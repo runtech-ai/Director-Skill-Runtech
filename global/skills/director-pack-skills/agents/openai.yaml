@@ -1,0 +1,4 @@
+interface:
+  display_name: "Director Pack"
+  short_description: "Director packs with one board per segment"
+  default_prompt: "Use $director-pack-skills to build an importer-locked director package from the v9 markdown, validate compiled prompts with $h3-prompt-writing, then zip one storyboard image per segment."

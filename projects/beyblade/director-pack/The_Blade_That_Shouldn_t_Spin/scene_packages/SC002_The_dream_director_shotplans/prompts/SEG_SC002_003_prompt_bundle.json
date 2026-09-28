@@ -1,0 +1,247 @@
+{
+  "segment_id": "SEG_SC002_003",
+  "scene_id": "SC002",
+  "scene_time": {
+    "start": 30,
+    "end": 45
+  },
+  "storyboard_required": false,
+  "canonical_references": [
+    {
+      "entity": "@kaiden",
+      "path": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "authority": "character identity for kaiden",
+      "subject": "<Subject 1>",
+      "picture": "<Picture 1>",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "entity": "@ebudhou_pakhangba",
+      "path": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "authority": "creature identity for ebudhou pakhangba",
+      "subject": "<Subject 2>",
+      "picture": "<Picture 2>",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CREATURE_IDENTITY"
+    }
+  ],
+  "editorial_mode": "FINAL_EDIT_MASTER",
+  "post_production_expectation": "CONCAT_ONLY_NO_TRIM",
+  "environment_state": {
+    "continuity_group": "SC002",
+    "anchors": [
+      "Bedroom bed left, workbench right. Dream is a separate black void.",
+      "The real top stays stationary until the authored supernatural event."
+    ]
+  },
+  "shot_planning_prompt": {
+    "segment_duration": 15,
+    "shots": [
+      {
+        "id": "MS_SC002_003_01",
+        "displayShot": 1,
+        "segmentStart": 0,
+        "segmentEnd": 4.0,
+        "sceneStart": 30,
+        "sceneEnd": 34.0,
+        "purpose": "The framed image opens into an endless newborn sky.",
+        "framing": "extreme wide dream sky",
+        "visibleAssets": [
+          "@kaiden",
+          "@ebudhou_pakhangba"
+        ],
+        "startState": "Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+        "action": "The framed image opens into an endless newborn sky.",
+        "endState": "The framed image opens into an endless newborn sky.",
+        "camera": "The camera holds nearly static.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "extreme wide dream sky; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+        "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "continuity": "Incoming physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless. Outgoing physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+        "sound": "Deep resonance and soft moving air.",
+        "transitionIn": "MATCH_CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": null,
+        "locationDescription": "explicitly authored synthetic field",
+        "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC002_003_02",
+        "displayShot": 2,
+        "segmentStart": 4.0,
+        "segmentEnd": 8,
+        "sceneStart": 34.0,
+        "sceneEnd": 38,
+        "purpose": "One white-gold serpent-dragon unfolds above the tiny kneeling boy, retaining its antler-like horns.",
+        "framing": "slightly lower extreme wide dream sky",
+        "visibleAssets": [
+          "@kaiden",
+          "@ebudhou_pakhangba"
+        ],
+        "startState": "One white-gold serpent-dragon unfolds above the tiny kneeling boy, retaining its antler-like horns..",
+        "action": "One white-gold serpent-dragon unfolds above the tiny kneeling boy, retaining its antler-like horns.",
+        "endState": "One white-gold serpent-dragon unfolds above the tiny kneeling boy, retaining its antler-like horns.",
+        "camera": "The camera pulls back slowly with large amplitude.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "slightly lower extreme wide dream sky; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+        "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "continuity": "Incoming physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless. Outgoing physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+        "sound": "Deep resonance and soft moving air.",
+        "transitionIn": "CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": null,
+        "locationDescription": "explicitly authored synthetic field",
+        "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+        "physics": "BIT BEAST: luminous spirit essence phases out of or back into the intact seated centre emblem. The centre Bit Chip/cap and every physical component remain closed, assembled and attached; no solid part opens or ejects.",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC002_003_03",
+        "displayShot": 3,
+        "segmentStart": 8,
+        "segmentEnd": 15,
+        "sceneStart": 38,
+        "sceneEnd": 45,
+        "purpose": "Kaiden lifts his chin and slowly reaches one open hand toward a descending scale of light.",
+        "framing": "low medium view",
+        "visibleAssets": [
+          "@kaiden",
+          "@ebudhou_pakhangba"
+        ],
+        "startState": "Kaiden lifts his chin and slowly reaches one open hand toward a descending scale of light..",
+        "action": "Kaiden lifts his chin and slowly reaches one open hand toward a descending scale of light.",
+        "endState": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+        "camera": "The camera tilts upward with his hand.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "low medium view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+        "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "continuity": "Incoming physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless. Outgoing physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+        "sound": "A faint crystalline rustle.",
+        "transitionIn": "CUT",
+        "transitionOut": "MATCH_CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+        "locationHandle": null,
+        "locationDescription": "explicitly authored synthetic field",
+        "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      }
+    ],
+    "compiled_prompt": "subject_definitions:\n<Subject 1> is @kaiden (Kaiden), the twelve-year-old boy with short spiky navy hair, plain pocketless cobalt-blue T-shirt, black athletic shorts with white side stripes and blue-white sneakers from <Picture 1>, used for character identity and design.\n<Subject 2> is @ebudhou_pakhangba, the one sacred serpent-dragon presence with golden mane and antler-like horns, white-gold light, an elongated coiling body and ancient eyes from <Picture 2>, used for creature identity and design.\n\nsummary:\n[reference generation] A 15-second 3-shot anime sequence showing The framed image opens into an endless newborn sky.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n\ndetailed_description:\nStrict consistent 2D television Beyblade anime in a landscape 16:9 frame: bold clean inked linework on characters, props and backgrounds, vibrant controlled cel shading, simplified hand-painted anime backgrounds and expressive stepped character animation. No photorealism, live-action texture, photographic depth of field, 3D/CG rendering or mixed visual medium.\n[Shot 1] A extreme wide dream sky opens the sequence. No spoken words occur in this shot. Visible characters keep their lips closed.  Location: the explicitly authored dream, graphic or black visual field; no substitute real location. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. The framed image opens into an endless newborn sky. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The camera holds nearly static.\n[Shot 2] At 00:04.000, the camera cuts to a slightly lower extreme wide dream sky. No spoken words occur in this shot. Visible characters keep their lips closed.  Location: the explicitly authored dream, graphic or black visual field; no substitute real location. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. One white-gold serpent-dragon unfolds above the tiny kneeling boy, retaining its antler-like horns. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. BIT BEAST: luminous spirit essence phases out of or back into the intact seated centre emblem. The centre Bit Chip/cap and every physical component remain closed, assembled and attached; no solid part opens or ejects. The camera pulls back slowly with large amplitude.\n[Shot 3] At 00:08.000, the camera cuts to a low medium view.  Location: the explicitly authored dream, graphic or black visual field; no substitute real location. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. <Subject 1> lifts his chin and slowly reaches one open hand toward a descending scale of light. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The camera tilts upward with his hand. From 8.000 seconds until 15.000 seconds, only <Subject 1> (S1) produces the voice and says, <d>[English] Ebudhou Pakhangba?</d>. <Subject 1> closes their lips immediately after the line.\n\noverall_soundscape:\nDeep resonance and soft moving air. A faint crystalline rustle.\n\nnon_diegetic_music:\nSparse glass mallet D–F–E–A tones and a low D drone at 60 BPM, broad quiet reverb; the opening-title section adds sustained strings. This is the continuous scene cue M02, using source offset 30.000 to 45.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade."
+  },
+  "storyboard_mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "optional_h3_storyboard_reference": {
+    "enabled": false,
+    "resolved": false,
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "audio_continuity": {
+    "cueId": "M02",
+    "movieStart": 70,
+    "movieEnd": 85,
+    "sceneCueOffset": 30,
+    "sampleRate": 48000,
+    "startSample": 3360000,
+    "endSample": 4080000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "voice_continuity": {
+    "@kaiden": "youthful mid-pitched boy voice, clear consonants and quick breath-led phrasing"
+  },
+  "continuity_handoff": {
+    "incoming": "Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+    "outgoing": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC002_002",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classic_beyblade_state": {},
+  "asset_reference_coverage": [
+    {
+      "displayShot": 1,
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 2,
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 3,
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>"
+      ],
+      "insertedSubjects": []
+    }
+  ],
+  "runtime_asset_lock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@ebudhou_pakhangba"
+    ]
+  },
+  "runtime_asset_mention_lock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  }
+}

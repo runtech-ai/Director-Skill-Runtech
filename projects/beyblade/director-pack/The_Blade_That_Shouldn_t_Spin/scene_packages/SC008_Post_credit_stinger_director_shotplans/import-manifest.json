@@ -1,0 +1,67 @@
+{
+  "format": "movie-director-result",
+  "version": "3.1-shotplan-only",
+  "sceneId": "SC008",
+  "title": "Post-credit stinger",
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "direction": "direction.md",
+  "scenePlan": "scene-plan.json",
+  "segmentsIndex": "segments.json",
+  "production": "scenes/SC008/production.json",
+  "legacySegments": "scenes/SC008/segments.json",
+  "validationReport": "validation-report.json",
+  "readme": "README.txt",
+  "segmentFiles": [
+    "segments/SEG_SC008_001.json",
+    "segments/SEG_SC008_002.json"
+  ],
+  "promptBundles": [
+    "prompts/SEG_SC008_001_prompt_bundle.json",
+    "prompts/SEG_SC008_002_prompt_bundle.json"
+  ],
+  "shotPlans": [
+    "prompts/SEG_SC008_001_shot_plan.txt",
+    "prompts/SEG_SC008_002_shot_plan.txt"
+  ],
+  "aggregatePromptBundle": "prompts/all_segments_prompt_bundle.json",
+  "canonicalReferences": [
+    {
+      "entity": "@unknown_observer",
+      "path": "canonical_refs/assets/characters/unknown_observer_sheet.png",
+      "authority": "character identity for unknown observer"
+    },
+    {
+      "entity": "@observer_device",
+      "path": "canonical_refs/assets/props/observer_device_sheet.jpg",
+      "authority": "prop identity for observer device"
+    },
+    {
+      "entity": "@kangla_perimeter",
+      "path": "canonical_refs/assets/locations/kangla_perimeter_sheet.png",
+      "authority": "location identity for kangla perimeter"
+    },
+    {
+      "entity": "@kaiden",
+      "path": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "authority": "character identity for kaiden"
+    }
+  ],
+  "directorEditorMode": "FINAL_EDIT_MASTER",
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "baseSchemaCompatibility": "3.1-shotplan-only",
+  "storyboardPromptIndex": "storyboards/index.json",
+  "storyboardReferenceDefault": false,
+  "storyboardPromptFiles": [
+    "storyboards/prompts/SEG_SC008_001_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC008_002_storyboard_prompt.txt"
+  ],
+  "storyboardSpecFiles": [
+    "storyboards/specs/SEG_SC008_001_storyboard.json",
+    "storyboards/specs/SEG_SC008_002_storyboard.json"
+  ],
+  "schemaExtensions": [
+    "director-editor-final-master-v1",
+    "optional-storyboard-film-still-beat-sheet-v1",
+    "h3-optional-storyboard-reference-v1"
+  ]
+}

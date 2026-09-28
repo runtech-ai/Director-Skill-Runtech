@@ -1,0 +1,181 @@
+{
+  "segmentId": "SEG_SC001_003",
+  "sceneId": "SC001",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC001_003_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC001_003.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC001_003_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 4
+      },
+      "timeLabel": "0–4s",
+      "framing": "television close-up",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal"
+      ],
+      "description": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC001_003_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 4,
+        "end": 7.0
+      },
+      "timeLabel": "4–7.0s",
+      "framing": "wide rooftop view",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "description": "Rain beads along tin rooftops;",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC001_003_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 7.0,
+        "end": 10
+      },
+      "timeLabel": "7.0–10s",
+      "framing": "slightly lower wide rooftop view",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera cranes down slowly toward the house.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "description": "the view settles on the small house below.",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+    "outgoing": "Rainy roof view settles on Kaiden's small house.",
+    "editorialBoundaryIn": "HARD_CUT",
+    "previousSegmentId": "SEG_SC001_002",
+    "referencePreviousLastKeyframe": false,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": false,
+      "onMissing": "NOT_REQUIRED",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC001_003.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "f096c9c4d03141f77ff3136100e88024c12befe6f99200444b1874d6eae60641",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC001_003_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC001_003_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC005_004",
+  "sceneId": "SC005",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC005_004_P01",
+    "SEG_SC005_004_P02",
+    "SEG_SC005_004_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden occupies south position and looks at closed pocket; Nanao north-west, Mocha north-east.",
+  "continuityOut": "Kaiden loosely folds arms; friends remain at same arena positions; bowl intact and empty.",
+  "music": "Dry hand percussion and plucked bass at 108 BPM; the D–F–E–A figure gradually loses its upper notes as the emblem brightens. This is the continuous scene cue M05, using source offset 45.000 to 60.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC005_004_P01",
+      "sourceMicroShotId": "MS_SC005_004_01",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_004",
+        "sourceBeatIds": [
+          "SC005_B004"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.0
+      },
+      "shotSizeAndAngle": "medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Mocha tilts his chin toward Kaiden’s pocket.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "focalPoint": "Mocha tilts his chin toward Kaiden’s pocket.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden occupies south position and looks at closed pocket; Nanao north-west, Mocha north-east. Outgoing physical state: Kaiden loosely folds arms; friends remain at same arena positions; bowl intact and empty.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "So the homemade blade lives.",
+          "start": 3.553878,
+          "end": 5.594694
+        }
+      ],
+      "sound": "Cloth shifts and distant birds.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_004_P02",
+      "sourceMicroShotId": "MS_SC005_004_02",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_004",
+        "sourceBeatIds": [
+          "SC005_B004"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.0,
+        "end": 10
+      },
+      "shotSizeAndAngle": "lower-angle medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Nanao turns a level stare toward Mocha. Kaiden’s eyes lift back toward them.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "lower-angle medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "focalPoint": "Nanao turns a level stare toward Mocha. Kaiden’s eyes lift back toward them.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden occupies south position and looks at closed pocket; Nanao north-west, Mocha north-east. Outgoing physical state: Kaiden loosely folds arms; friends remain at same arena positions; bowl intact and empty.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "So the homemade blade lives.",
+          "start": 3.553878,
+          "end": 5.594694
+        },
+        {
+          "speaker": "@nanao",
+          "text": "Mocha.",
+          "start": 5.814694,
+          "end": 6.514694
+        },
+        {
+          "speaker": "@mocha",
+          "text": "What? He named mine 'Spoiled Milk' last week.",
+          "start": 6.734694,
+          "end": 10.0
+        }
+      ],
+      "sound": "Cloth shifts and distant birds.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_004_P03",
+      "sourceMicroShotId": "MS_SC005_004_03",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_004",
+        "sourceBeatIds": [
+          "SC005_B004"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "medium close single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes in slightly at slow speed.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden’s mouth corners lift; he folds his arms loosely and raises one eyebrow.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium close single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden. The visible setting is @kangla.",
+      "focalPoint": "Kaiden’s mouth corners lift; he folds his arms loosely and raises one eyebrow.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden occupies south position and looks at closed pocket; Nanao north-west, Mocha north-east. Outgoing physical state: Kaiden loosely folds arms; friends remain at same arena positions; bowl intact and empty.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Because it's white and goes bad under pressure.",
+          "start": 10,
+          "end": 15
+        }
+      ],
+      "sound": "A small breath and park ambience.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

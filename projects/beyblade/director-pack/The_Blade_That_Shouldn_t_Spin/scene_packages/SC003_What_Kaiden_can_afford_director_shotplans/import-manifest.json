@@ -1,0 +1,111 @@
+{
+  "format": "movie-director-result",
+  "version": "3.1-shotplan-only",
+  "sceneId": "SC003",
+  "title": "What Kaiden can afford",
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "direction": "direction.md",
+  "scenePlan": "scene-plan.json",
+  "segmentsIndex": "segments.json",
+  "production": "scenes/SC003/production.json",
+  "legacySegments": "scenes/SC003/segments.json",
+  "validationReport": "validation-report.json",
+  "readme": "README.txt",
+  "segmentFiles": [
+    "segments/SEG_SC003_001.json",
+    "segments/SEG_SC003_002.json",
+    "segments/SEG_SC003_003.json",
+    "segments/SEG_SC003_004.json",
+    "segments/SEG_SC003_005.json",
+    "segments/SEG_SC003_006.json"
+  ],
+  "promptBundles": [
+    "prompts/SEG_SC003_001_prompt_bundle.json",
+    "prompts/SEG_SC003_002_prompt_bundle.json",
+    "prompts/SEG_SC003_003_prompt_bundle.json",
+    "prompts/SEG_SC003_004_prompt_bundle.json",
+    "prompts/SEG_SC003_005_prompt_bundle.json",
+    "prompts/SEG_SC003_006_prompt_bundle.json"
+  ],
+  "shotPlans": [
+    "prompts/SEG_SC003_001_shot_plan.txt",
+    "prompts/SEG_SC003_002_shot_plan.txt",
+    "prompts/SEG_SC003_003_shot_plan.txt",
+    "prompts/SEG_SC003_004_shot_plan.txt",
+    "prompts/SEG_SC003_005_shot_plan.txt",
+    "prompts/SEG_SC003_006_shot_plan.txt"
+  ],
+  "aggregatePromptBundle": "prompts/all_segments_prompt_bundle.json",
+  "canonicalReferences": [
+    {
+      "entity": "@kaiden",
+      "path": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "authority": "character identity for kaiden"
+    },
+    {
+      "entity": "@beyblade",
+      "path": "canonical_refs/assets/props/beyblade_sheet.png",
+      "authority": "prop identity for beyblade"
+    },
+    {
+      "entity": "@kaidens_house",
+      "path": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "authority": "location identity for kaidens house"
+    },
+    {
+      "entity": "@ima",
+      "path": "canonical_refs/assets/characters/ima_sheet.png",
+      "authority": "character identity for Eema"
+    },
+    {
+      "entity": "@breakfast_plate",
+      "path": "canonical_refs/assets/props/breakfast_plate_sheet.jpg",
+      "authority": "prop identity for breakfast plate"
+    },
+    {
+      "entity": "@phone",
+      "path": "canonical_refs/assets/props/phone_sheet.jpg",
+      "authority": "prop identity for phone"
+    },
+    {
+      "entity": "@launcher",
+      "path": "canonical_refs/assets/props/launcher_sheet.png",
+      "authority": "prop identity for launcher"
+    }
+  ],
+  "directorEditorMode": "FINAL_EDIT_MASTER",
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "baseSchemaCompatibility": "3.1-shotplan-only",
+  "storyboardPromptIndex": "storyboards/index.json",
+  "storyboardReferenceDefault": false,
+  "storyboardPromptFiles": [
+    "storyboards/prompts/SEG_SC003_001_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC003_002_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC003_003_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC003_004_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC003_005_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC003_006_storyboard_prompt.txt"
+  ],
+  "storyboardSpecFiles": [
+    "storyboards/specs/SEG_SC003_001_storyboard.json",
+    "storyboards/specs/SEG_SC003_002_storyboard.json",
+    "storyboards/specs/SEG_SC003_003_storyboard.json",
+    "storyboards/specs/SEG_SC003_004_storyboard.json",
+    "storyboards/specs/SEG_SC003_005_storyboard.json",
+    "storyboards/specs/SEG_SC003_006_storyboard.json"
+  ],
+  "schemaExtensions": [
+    "director-editor-final-master-v1",
+    "optional-storyboard-film-still-beat-sheet-v1",
+    "h3-optional-storyboard-reference-v1"
+  ],
+  "generationReferences": [
+    {
+      "entity": "@beyblade",
+      "path": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "role": "PROP_DESIGN_STATE_VARIANT",
+      "source": "canonical_refs/assets/props/beyblade_sheet.png",
+      "state": "Three ink strokes before discovery"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "segmentId": "SEG_SC006_003",
+  "sceneId": "SC006",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC006_003_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC006_003.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 5,
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 6,
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 7,
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC006_003_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 6
+      },
+      "timeLabel": "0–6s",
+      "framing": "hands insert",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand. When three owner sets are present, Kaiden alone holds the blue-red launcher and handmade brown-ring top, Nanao alone holds the green-black-yellow launcher and blue-red-yellow Dragoon, and Mocha alone holds the red-purple launcher and white-red-purple Driger; never swap, repeat or hybridize these pairs.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@3_beyblades",
+        "@launcher",
+        "@kangla",
+        "@stadium"
+      ],
+      "description": "The motionless palm-sized Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade rests directly below the repaired shooter. Kaiden lifts it through the final few millimetres by hand; both launcher posts enter the two matching openings fully, and the top rotates a short distance in its spin-compatible locking direction until both retainers click firmly into place. Kaiden’s fingers remain clear. The top does not spin, hover freely or use an unseen string.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. Every launcher remains ordinary nonluminous plastic with no emblem on its housing. Launcher ownership never swaps: Kaiden uses only the canonical blue-red launcher with blue ring, Nanao only the green-black-yellow launcher with yellow ring, and Mocha only the red-purple launcher with red ring. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east. Outgoing physical state: Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC006_003_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 6,
+        "end": 10.5
+      },
+      "timeLabel": "6–10.5s",
+      "framing": "medium three-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand. When three owner sets are present, Kaiden alone holds the blue-red launcher and handmade brown-ring top, Nanao alone holds the green-black-yellow launcher and blue-red-yellow Dragoon, and Mocha alone holds the red-purple launcher and white-red-purple Driger; never swap, repeat or hybridize these pairs.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@kangla",
+        "@3_beyblades",
+        "@stadium"
+      ],
+      "description": "Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade is firmly twist-locked level and flush beneath the shooter on both fully inserted engagement posts, conical tip straight down. Mocha tilts his head toward the mechanical connection while Nanao watches from the other side.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. Every launcher remains ordinary nonluminous plastic with no emblem on its housing. Launcher ownership never swaps: Kaiden uses only the canonical blue-red launcher with blue ring, Nanao only the green-black-yellow launcher with yellow ring, and Mocha only the red-purple launcher with red ring. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east. Outgoing physical state: Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC006_003_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 10.5,
+        "end": 15
+      },
+      "timeLabel": "10.5–15s",
+      "framing": "lower-angle medium three-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand. When three owner sets are present, Kaiden alone holds the blue-red launcher and handmade brown-ring top, Nanao alone holds the green-black-yellow launcher and blue-red-yellow Dragoon, and Mocha alone holds the red-purple launcher and white-red-purple Driger; never swap, repeat or hybridize these pairs.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@kangla",
+        "@3_beyblades",
+        "@stadium"
+      ],
+      "description": "Kaiden holds the loaded shooter securely in his left hand and turns his open right palm toward Mocha before taking the winder. The attached top remains still and level; Nanao’s hand rises, then stops.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. Every launcher remains ordinary nonluminous plastic with no emblem on its housing. Launcher ownership never swaps: Kaiden uses only the canonical blue-red launcher with blue ring, Nanao only the green-black-yellow launcher with yellow ring, and Mocha only the red-purple launcher with red ring. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east. Outgoing physical state: Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "generationAttachmentOrder": [
+    {
+      "imageIndex": 1,
+      "file": "canonical_refs/generated/trio_identity_plate.png",
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 2,
+      "file": "canonical_refs/assets/props/beyblade_sheet.png",
+      "assetIds": [
+        "@3_beyblades"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 3,
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "assetIds": [
+        "@launcher"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 4,
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "assetIds": [
+        "@kangla"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    }
+  ],
+  "continuityHandoff": {
+    "incoming": "All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+    "outgoing": "Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC006_002",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classicBeybladeState": {
+    "handmade": "STOPPED; mechanically coupled to repaired shooter; Bit Beast dormant"
+  },
+  "ownerBeybladeState": {
+    "kaiden": "STOPPED; mechanically coupled to repaired shooter; Bit Beast dormant"
+  },
+  "threeBeybladesAssetLock": {
+    "assetId": "@3_beyblades",
+    "kaiden": "handmade blue-red-metal-and-brown-wood; right-spin",
+    "nanao": "blue-red-yellow; left-spin",
+    "mocha": "white-red-purple; right-spin"
+  },
+  "launcherCenterSlotGeometryLock": "Launcher center-slot geometry lock: the launcher has exactly two short, close-set engagement prongs symmetric about its central axis. Both prongs enter the paired launcher slots immediately beside the Beyblade's central Bit Chip/center gap, one on each side of the axis. They never attach to the outer Attack Ring, Weight Disk, perimeter, or tip. Before release the top is level, flush, and firmly retained on both prongs; at release both prongs disengage together and the top becomes fully unsupported, descending tip-first under gravity.",
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "launcherAttachmentProximityLock": "Launcher-to-Beyblade proximity lock: whenever a Beyblade is loaded before release, its flat upper face is in direct visible contact with the launcher underside, with zero visible air gap. Exactly two short close-set launcher prongs are fully inserted into the paired slots beside the central Bit Chip and twist-locked together; the top is level, centered on the launcher axis, and its tip points straight down. The launcher and loaded top move as one rigid assembly with identical position and tilt: no dangling top, long connector, exposed suspension gap, single-post support, floating, or early separation. The visible gap begins only on the single release frame, when both prongs disengage together and the already-spinning top immediately descends tip-first under gravity.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "launcherNoConnectorLock": "Launcher silhouette lock: the Beyblade's upper face sits immediately beneath and touches the actual launcher housing. Only the two very short engagement prongs hidden inside the top's center slots may connect them. Never draw any long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether, suspension bar, or extended post between launcher and Beyblade.",
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC006_003.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "c66ce86f77c4d53d6fbe691ffc5cf9e021fc3e9074b26fff1bd13eabe481077b",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC006_003_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC006_003_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

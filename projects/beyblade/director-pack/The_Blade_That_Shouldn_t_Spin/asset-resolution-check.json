@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "generatedFilesRelocated": 10,
+  "promptBundleReferencesResolved": 215,
+  "runtimeSegmentReferencesResolved": 215,
+  "runtimeReferencesResolved": 430,
+  "test": "Actual importer asset collector and storage-path remapper; prompt-bundle and importer-facing segment canonicalReferences all resolve to matching scene-local bytes; storage collisions checked.",
+  "liveApplicationImport": "Not run"
+}

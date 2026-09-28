@@ -1,0 +1,294 @@
+{
+  "id": "SEG_SC003_006",
+  "sceneId": "SC003",
+  "sceneStart": 75,
+  "sceneEnd": 85,
+  "duration": 10,
+  "sourceBeatIds": [
+    "SC003_B006"
+  ],
+  "purpose": "Kaiden bobs his head and moves out;",
+  "continuityIn": "Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate.",
+  "continuityOut": "Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+  "requiredAssets": [
+    "@kaiden",
+    "@ima",
+    "@launcher",
+    "@kaidens_house"
+  ],
+  "optionalAssets": [],
+  "dialogue": [
+    {
+      "id": "DLG_SC003_013",
+      "sourceLine": 13,
+      "speaker": "@kaiden",
+      "text": "I know!",
+      "language": "English",
+      "start": 4.263673,
+      "end": 5.08
+    },
+    {
+      "id": "DLG_SC003_014",
+      "sourceLine": 14,
+      "speaker": "@ima",
+      "text": "Kaiden!",
+      "language": "English",
+      "start": 5.3,
+      "end": 6.0
+    }
+  ],
+  "microShots": [
+    {
+      "id": "MS_SC003_006_01",
+      "displayShot": 1,
+      "segmentStart": 0,
+      "segmentEnd": 3.0,
+      "sceneStart": 75,
+      "sceneEnd": 78.0,
+      "purpose": "Kaiden bobs his head and moves out;",
+      "framing": "medium doorway two-shot",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "startState": "Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate.",
+      "action": "Kaiden bobs his head, turns toward the already-open doorway and walks toward the exterior; Eema remains behind him inside.",
+      "endState": "Kaiden bobs his head and moves out;",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "medium doorway two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @launcher. The visible setting is @kaidens_house.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "continuity": "Incoming physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate. Outgoing physical state: Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "sound": "Two quick footfalls and a ripcord rattle.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "LAUNCHER GEOMETRY LOCK: use only the canonical launcher and short rigid toothed ripcord; no string, cable, long shaft, hanging top or invented launcher design."
+    },
+    {
+      "id": "MS_SC003_006_02",
+      "displayShot": 2,
+      "segmentStart": 3.0,
+      "segmentEnd": 6,
+      "sceneStart": 78.0,
+      "sceneEnd": 81,
+      "purpose": "Eema lifts the forgotten ripcord. He turns back sharply.",
+      "framing": "slightly lower medium doorway two-shot",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "startState": "Eema lifts the forgotten ripcord.",
+      "action": "Eema notices and lifts the forgotten ripcord. Kaiden pauses at the doorway threshold and turns only far enough to receive it; they remain separated with no embrace or kiss.",
+      "endState": "He turns back sharply.",
+      "camera": "The camera makes a short pan toward the doorway.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "slightly lower medium doorway two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @launcher. The visible setting is @kaidens_house.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "continuity": "Incoming physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate. Outgoing physical state: Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "sound": "Two quick footfalls and a ripcord rattle.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "LAUNCHER GEOMETRY LOCK: use only the canonical launcher and short rigid toothed ripcord; no string, cable, long shaft, hanging top or invented launcher design."
+    },
+    {
+      "id": "MS_SC003_006_03",
+      "displayShot": 3,
+      "segmentStart": 6,
+      "segmentEnd": 10,
+      "sceneStart": 81,
+      "sceneEnd": 85,
+      "purpose": "Kaiden takes the ripcord from Eema, kisses her cheek and rushes left to right out of frame. Her raised hand lowers slowly.",
+      "framing": "medium two-shot",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "startState": "Kaiden takes the ripcord from Eema, kisses her cheek and rushes left to right out of frame.",
+      "action": "From arm's length, Kaiden takes the ripcord from Eema, pivots back toward the exterior, crosses through the open doorway and exits left to right into the rain. Eema stays inside and lowers her raised hand. No hug, kiss or other invented contact occurs.",
+      "endState": "Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @launcher.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "continuity": "Incoming physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate. Outgoing physical state: Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "sound": "Fabric swish and fading footsteps.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "LAUNCHER GEOMETRY LOCK: use only the canonical launcher and short rigid toothed ripcord; no string, cable, long shaft, hanging top or invented launcher design."
+    }
+  ],
+  "soundPlan": [
+    "Two quick footfalls and a ripcord rattle. Fabric swish and fading footsteps. Continuous ambience and spin phase bridge internal cuts; cut effects only at their physical event."
+  ],
+  "musicPlan": "Soft electric-piano D–F–E–A notes and warm sustained low strings at 84 BPM; sparse phrasing under the two voices. This is the continuous scene cue M03, using source offset 75.000 to 85.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "storyboard": {
+    "spec": "storyboards/specs/SEG_SC003_006_storyboard.json",
+    "prompt": "storyboards/prompts/SEG_SC003_006_storyboard_prompt.txt",
+    "expectedOutputFile": "SEG_SC003_006.png",
+    "h3StoryboardReferenceDefault": false
+  },
+  "promptBundle": "prompts/SEG_SC003_006_prompt_bundle.json",
+  "continuityMode": "MATCH_CONTINUITY",
+  "previousSegmentId": "SEG_SC003_005",
+  "referencePreviousLastKeyframe": true,
+  "previousKeyframeReference": null,
+  "finalEditUnit": true,
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "continuityPriority": "HIGH",
+  "environmentContinuityGroup": "SC003",
+  "environmentStateAnchors": [
+    "Bedroom bed left, workbench right; doorway screen right.",
+    "Top centre is three ink lines; blue shirt and black white-striped shorts remain."
+  ],
+  "editorialPacing": {
+    "shotCount": 3,
+    "pace": "AUTHORED"
+  },
+  "editorialBoundaryIn": "MATCH_CUT",
+  "usePreviousLastKeyframeAsFirstFrame": false,
+  "editorialBoundaryOut": "HARD_CUT",
+  "outgoingFrameIsHandoff": false,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "physicsPlan": "[Shot 1] HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.\n[Shot 2] HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.\n[Shot 3] HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+  "audioContinuity": {
+    "cueId": "M03",
+    "movieStart": 190,
+    "movieEnd": 200,
+    "sceneCueOffset": 75,
+    "sampleRate": 48000,
+    "startSample": 9120000,
+    "endSample": 9600000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "continuityReferencePolicy": {
+    "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+    "role": "VISUAL_STATE_ONLY",
+    "required": true,
+    "onMissing": "BLOCK_GENERATION",
+    "neverUse": "latest unused retry or storyboard composite"
+  },
+  "speechRouting": [
+    {
+      "dialogueId": "DLG_SC003_013",
+      "speaker": "@kaiden",
+      "start": 4.263673,
+      "end": 5.08,
+      "mouthTarget": "@kaiden",
+      "delivery": "ONSCREEN"
+    },
+    {
+      "dialogueId": "DLG_SC003_014",
+      "speaker": "@ima",
+      "start": 5.3,
+      "end": 6.0,
+      "mouthTarget": "@ima",
+      "delivery": "ONSCREEN"
+    }
+  ],
+  "classicBeybladePhysics": "Classic Plastic Generation physics apply: physical Beyblades stay palm-sized, solid and tip-driven; right-spin and left-spin remain constant; stadium translation is separate from axial rotation; collisions use direct Attack Ring contact with recoil; supernatural energy remains anchored to the visible physical top. Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "canonicalReferences": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@ima",
+      "file": "canonical_refs/assets/characters/ima_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for Eema",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for launcher",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "runtimeAssetLock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@ima",
+      "@launcher",
+      "@kaidens_house"
+    ]
+  },
+  "runtimeAssetMentionLock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "optional_h3_storyboard_reference": {
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "stadiumMotionLock": "Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side.",
+  "realWorldSpinStabilityLock": "Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "launcherAttachmentProximityLock": "Launcher-to-Beyblade proximity lock: whenever a Beyblade is loaded before release, its flat upper face is in direct visible contact with the launcher underside, with zero visible air gap. Exactly two short close-set launcher prongs are fully inserted into the paired slots beside the central Bit Chip and twist-locked together; the top is level, centered on the launcher axis, and its tip points straight down. The launcher and loaded top move as one rigid assembly with identical position and tilt: no dangling top, long connector, exposed suspension gap, single-post support, floating, or early separation. The visible gap begins only on the single release frame, when both prongs disengage together and the already-spinning top immediately descends tip-first under gravity.",
+  "launcherNoConnectorLock": "Launcher silhouette lock: the Beyblade's upper face sits immediately beneath and touches the actual launcher housing. Only the two very short engagement prongs hidden inside the top's center slots may connect them. Never draw any long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether, suspension bar, or extended post between launcher and Beyblade.",
+  "dialogueTurnPolicy": "Exactly one named structured speaker owns each timed line; all other visible humans keep lips closed for that interval."
+}

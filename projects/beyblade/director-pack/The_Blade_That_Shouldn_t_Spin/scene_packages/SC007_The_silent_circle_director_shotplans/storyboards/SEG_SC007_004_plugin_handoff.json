@@ -1,0 +1,179 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC007_004",
+  "sceneId": "SC007",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC007_004_P01",
+    "SEG_SC007_004_P02",
+    "SEG_SC007_004_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CREATURE_IDENTITY",
+      "authority": "creature identity for ebudhou pakhangba",
+      "h3Role": "CREATURE_IDENTITY"
+    },
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+  "continuityOut": "Guardian essence has returned to seated chip; top still spins; shattered bowl remains; rain stops and daylight returns; boys stay off-camera.",
+  "music": "N/A",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC007_004_P01",
+      "sourceMicroShotId": "MS_SC007_004_01",
+      "scriptReference": {
+        "sceneId": "SC007",
+        "segmentId": "SEG_SC007_004",
+        "sourceBeatIds": [
+          "SC007_B004"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5
+      },
+      "shotSizeAndAngle": "wide outside-circle view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "An empty courtyard lies beneath a rain-clouded sky; the manifestation is invisible from this outside viewpoint.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide outside-circle view; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @kangla.",
+      "focalPoint": "An empty courtyard lies beneath a rain-clouded sky; the manifestation is invisible from this outside viewpoint.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium. Outgoing physical state: Guardian essence has returned to seated chip; top still spins; shattered bowl remains; rain stops and daylight returns; boys stay off-camera.",
+      "dialogue": [],
+      "sound": "Bells carry clearly across the grounds.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC007_004_P02",
+      "sourceMicroShotId": "MS_SC007_004_02",
+      "scriptReference": {
+        "sceneId": "SC007",
+        "segmentId": "SEG_SC007_004",
+        "sourceBeatIds": [
+          "SC007_B004"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5,
+        "end": 10
+      },
+      "shotSizeAndAngle": "low arena-to-sky wide",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tilts rapidly down along the light path.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "From inside the ring, the single spectral presence contracts into a rotating white-gold thread that descends along the existing energy column into the seated central Bit Chip. The intact physical Beyblade remains visible, palm-sized and right-spinning while its contacting tip traces a small continuous orbit throughout.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "low arena-to-sky wide; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @ebudhou_pakhangba, @3_beyblades, @stadium. The visible setting is @kangla.",
+      "focalPoint": "From inside the ring, the single spectral presence contracts into a rotating white-gold thread that descends along the existing energy column into the seated central Bit Chip. The intact physical Beyblade remains visible, palm-sized and right-spinning while its contacting tip traces a small continuous orbit throughout.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@ebudhou_pakhangba",
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium. Outgoing physical state: Guardian essence has returned to seated chip; top still spins; shattered bowl remains; rain stops and daylight returns; boys stay off-camera.",
+      "dialogue": [],
+      "sound": "Resonance contracts into one short pulse.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC007_004_P03",
+      "sourceMicroShotId": "MS_SC007_004_03",
+      "scriptReference": {
+        "sceneId": "SC007",
+        "segmentId": "SEG_SC007_004",
+        "sourceBeatIds": [
+          "SC007_B004"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "wide empty courtyard view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pulls back slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The spectral light finishes entering the seated Bit Chip and fades. Leaves settle around the shattered stadium as daylight returns. The physical Beyblade remains intact and continues a weaker right-spin while tracing a smaller decaying orbit with its tip in moving contact; no chip or part separates from it.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide empty courtyard view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @stadium. The visible setting is @kangla.",
+      "focalPoint": "The spectral light finishes entering the seated Bit Chip and fades. Leaves settle around the shattered stadium as daylight returns. The physical Beyblade remains intact and continues a weaker right-spin while tracing a smaller decaying orbit with its tip in moving contact; no chip or part separates from it.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@stadium",
+        "@kangla",
+        "@3_beyblades"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium. Outgoing physical state: Guardian essence has returned to seated chip; top still spins; shattered bowl remains; rain stops and daylight returns; boys stay off-camera.",
+      "dialogue": [],
+      "sound": "Everyday ambience rushes back with birds and falling leaves.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

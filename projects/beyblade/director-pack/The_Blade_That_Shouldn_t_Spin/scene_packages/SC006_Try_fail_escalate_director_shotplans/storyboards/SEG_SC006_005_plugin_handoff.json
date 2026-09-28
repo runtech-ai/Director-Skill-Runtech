@@ -1,0 +1,213 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC006_005",
+  "sceneId": "SC006",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC006_005_P01",
+    "SEG_SC006_005_P02",
+    "SEG_SC006_005_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "continuityIn": "Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+  "continuityOut": "Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl.",
+  "music": "Low strings, muted kick and syncopated synth bass at 132 BPM, a brief percussion gap at the failed launch, rising density at the second launch, then a complete score drop at the silent-circle threshold. This is the continuous scene cue M06, using source offset 60.000 to 75.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC006_005_P01",
+      "sourceMicroShotId": "MS_SC006_005_01",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_005",
+        "sourceBeatIds": [
+          "SC006_B005"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6
+      },
+      "shotSizeAndAngle": "top-down arena view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds overhead to expose the complete paths.",
+      "cameraGeometry": "AUTHORED OVERHEAD GEOMETRY: the upper face is visible because this shot is explicitly overhead; do not mix in an edge-on body view within the same panel.",
+      "blockingAndAction": "From the mid-zone, the right-spinning handmade attack-type Beyblade accelerates along a curved inward path and its physical Attack Ring strikes left-spinning Nanao’s blue-red-yellow Beyblade tangentially on the outer-right quadrant. Both tops recoil. Nanao’s blue-red-yellow Beyblade is driven outward, climbs the north-west stadium slope and crosses the rim in one short ballistic arc while retaining spin; the Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade kicks back toward centre, tilts briefly, then the bowl slope redirects it into a new orbit without reversing its right-spin.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "top-down arena view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @3_beyblades, @stadium.",
+      "focalPoint": "From the mid-zone, the right-spinning handmade attack-type Beyblade accelerates along a curved inward path and its physical Attack Ring strikes left-spinning Nanao’s blue-red-yellow Beyblade tangentially on the outer-right quadrant. Both tops recoil. Nanao’s blue-red-yellow Beyblade is driven outward, climbs the north-west stadium slope and crosses the rim in one short ballistic arc while retaining spin; the Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade kicks back toward centre, tilts briefly, then the bowl slope redirects it into a new orbit without reversing its right-spin.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact. Outgoing physical state: Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl.",
+      "dialogue": [],
+      "sound": "A hard contact and blue plastic skitter outside the bowl.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_005_P02",
+      "sourceMicroShotId": "MS_SC006_005_02",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_005",
+        "sourceBeatIds": [
+          "SC006_B005"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6,
+        "end": 11
+      },
+      "shotSizeAndAngle": "rim-level close-up",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tracks the impacts along the inner slope.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade approaches right-spinning Mocha’s white-red-purple Beyblade three separate times. On each pass, the two physical Attack Rings make direct contact, both tops recoil, separate visibly and follow new paths before the next approach. The third hit drives Mocha’s white-red-purple Beyblade up the north-east slope and across the rim; it lands outside, wobbles, scrapes and stops intact. The Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade recoils inward and remains right-spinning.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "rim-level close-up; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @3_beyblades, @stadium.",
+      "focalPoint": "Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade approaches right-spinning Mocha’s white-red-purple Beyblade three separate times. On each pass, the two physical Attack Rings make direct contact, both tops recoil, separate visibly and follow new paths before the next approach. The third hit drives Mocha’s white-red-purple Beyblade up the north-east slope and across the rim; it lands outside, wobbles, scrapes and stops intact. The Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade recoils inward and remains right-spinning.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact. Outgoing physical state: Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl.",
+      "dialogue": [],
+      "sound": "Three spaced impacts, then one hollow ground clatter.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_005_P03",
+      "sourceMicroShotId": "MS_SC006_005_03",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_005",
+        "sourceBeatIds": [
+          "SC006_B005"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 11,
+        "end": 15
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pulls back slightly.",
+      "cameraGeometry": "STRICT SIDE-VIEW GEOMETRY: show the Beyblade edge-on at body mid-height with its horizontal layers and contacting tip in profile; never reveal the circular upper face, centre emblem as a top view, or an overhead angle.",
+      "blockingAndAction": "A low rim-level side view shows Kaiden at left, Nanao at centre and Mocha at right behind the complete intact stadium. Only the palm-sized Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade remains inside the bowl, upright in strict side profile with its layered body and planted metal tip visible. Nanao’s blue-red-yellow Beyblade lies stopped on its side on the courtyard beyond the north-west outer wall and Mocha’s white-red-purple Beyblade lies stopped on its side beyond the north-east outer wall, each separated from the full rim by a clear gap; neither re-enters.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @mocha, @nanao, @stadium, @3_beyblades. The visible setting is @kangla.",
+      "focalPoint": "A low rim-level side view shows Kaiden at left, Nanao at centre and Mocha at right behind the complete intact stadium. Only the palm-sized Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade remains inside the bowl, upright in strict side profile with its layered body and planted metal tip visible. Nanao’s blue-red-yellow Beyblade lies stopped on its side on the courtyard beyond the north-west outer wall and Mocha’s white-red-purple Beyblade lies stopped on its side beyond the north-east outer wall, each separated from the full rim by a clear gap; neither re-enters.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@mocha",
+        "@kangla",
+        "@nanao",
+        "@stadium",
+        "@3_beyblades"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact. Outgoing physical state: Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "How are you steering it?",
+          "start": 11.922857,
+          "end": 13.963673
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "I'm not!",
+          "start": 14.183673,
+          "end": 15.0
+        }
+      ],
+      "sound": "The lone metallic spin remains.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

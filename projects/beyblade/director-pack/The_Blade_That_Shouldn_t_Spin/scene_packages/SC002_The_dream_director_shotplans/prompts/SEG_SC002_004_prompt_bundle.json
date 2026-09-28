@@ -1,0 +1,264 @@
+{
+  "segment_id": "SEG_SC002_004",
+  "scene_id": "SC002",
+  "scene_time": {
+    "start": 45,
+    "end": 60
+  },
+  "storyboard_required": false,
+  "canonical_references": [
+    {
+      "entity": "@kaiden",
+      "path": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "authority": "character identity for kaiden",
+      "subject": "<Subject 1>",
+      "picture": "<Picture 1>",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "entity": "@beyblade",
+      "path": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "authority": "prop identity for handmade blade before emblem discovery",
+      "subject": "<Subject 2>",
+      "picture": "<Picture 2>",
+      "derivedFrom": "canonical_refs/assets/props/beyblade_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "entity": "@kaidens_house",
+      "path": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "authority": "location identity for kaidens house",
+      "subject": "<Subject 3>",
+      "picture": "<Picture 3>",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE"
+    }
+  ],
+  "editorial_mode": "FINAL_EDIT_MASTER",
+  "post_production_expectation": "CONCAT_ONLY_NO_TRIM",
+  "environment_state": {
+    "continuity_group": "SC002",
+    "anchors": [
+      "Bedroom bed left, workbench right. Dream is a separate black void.",
+      "The real top stays stationary until the authored supernatural event."
+    ]
+  },
+  "shot_planning_prompt": {
+    "segment_duration": 15,
+    "shots": [
+      {
+        "id": "MS_SC002_004_01",
+        "displayShot": 1,
+        "segmentStart": 0,
+        "segmentEnd": 4.0,
+        "sceneStart": 45,
+        "sceneEnd": 49.0,
+        "purpose": "The light scale bends around Kaiden’s reaching fingers and passes past his ordinary nonluminous blue shirt toward the right side-seam pocket of his black athletic shorts;",
+        "framing": "close chest-and-hand insert",
+        "visibleAssets": [
+          "@kaiden",
+          "@beyblade"
+        ],
+        "startState": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+        "action": "The light scale bends around Kaiden’s reaching fingers and passes past his ordinary nonluminous blue shirt toward the right side-seam pocket of his black athletic shorts;",
+        "endState": "The light scale bends around Kaiden’s reaching fingers and passes past his ordinary nonluminous blue shirt toward the right side-seam pocket of his black athletic shorts;",
+        "camera": "The camera holds nearly static.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "close chest-and-hand insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @beyblade.",
+        "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "continuity": "Incoming physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead. Outgoing physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+        "sound": "One wooden TIK at the end of the single turn.",
+        "transitionIn": "MATCH_CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": null,
+        "locationDescription": "explicitly authored synthetic field",
+        "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections.",
+        "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC002_004_02",
+        "displayShot": 2,
+        "segmentStart": 4.0,
+        "segmentEnd": 8,
+        "sceneStart": 49.0,
+        "sceneEnd": 53,
+        "purpose": "the handmade top turns exactly once inside a translucent dream glimpse, then stops.",
+        "framing": "slightly lower close chest-and-hand insert",
+        "visibleAssets": [
+          "@kaiden",
+          "@beyblade"
+        ],
+        "startState": "the handmade top turns exactly once inside a translucent dream glimpse, then stops..",
+        "action": "the handmade top turns exactly once inside a translucent dream glimpse, then stops.",
+        "endState": "the handmade top turns exactly once inside a translucent dream glimpse, then stops.",
+        "camera": "The camera pushes in slowly.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "slightly lower close chest-and-hand insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @beyblade.",
+        "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "continuity": "Incoming physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead. Outgoing physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+        "sound": "One wooden TIK at the end of the single turn.",
+        "transitionIn": "CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+        "locationHandle": null,
+        "locationDescription": "explicitly authored synthetic field",
+        "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections.",
+        "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC002_004_03",
+        "displayShot": 3,
+        "segmentStart": 8,
+        "segmentEnd": 15,
+        "sceneStart": 53,
+        "sceneEnd": 60,
+        "purpose": "Kaiden opens his eyes and lifts the spare trousers; beneath them the top lies cold and motionless. The closed bedroom door stays in the background.",
+        "framing": "medium bedside view",
+        "visibleAssets": [
+          "@kaiden",
+          "@kaidens_house",
+          "@beyblade"
+        ],
+        "startState": "Kaiden opens his eyes and lifts the spare trousers; beneath them the top lies cold and motionless.",
+        "action": "Kaiden opens his eyes and lifts the spare trousers; beneath them the top lies cold and motionless. The closed bedroom door stays in the background.",
+        "endState": "Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+        "camera": "The camera pans gently from his face to the uncovered top.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "medium bedside view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @beyblade. The visible setting is @kaidens_house.",
+        "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "continuity": "Incoming physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead. Outgoing physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+        "sound": "A knock replaces the TIK; rain and ceiling fan return.",
+        "transitionIn": "CUT",
+        "transitionOut": "MATCH_CUT",
+        "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+        "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice. From 8.000 to 15.000 seconds, Eema is audio-only off-screen; every visible mouth stays closed. Do not cut to or invent a speaking face for this voice.",
+        "locationHandle": "@kaidens_house",
+        "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+        "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+        "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections.",
+        "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      }
+    ],
+    "compiled_prompt": "subject_definitions:\n<Subject 1> is @kaiden (Kaiden), the twelve-year-old boy with short spiky navy hair, plain pocketless cobalt-blue T-shirt, black athletic shorts with white side stripes and blue-white sneakers from <Picture 1>, used for character identity and design.\n<Subject 2> is @beyblade, the palm-sized handmade top with blue and red attack ring, weathered silver metal, brown wooden lower layer, visible screws, central bit chip and conical metal tip; the bit chip shows three ink strokes before discovery and the canonical yellow dragon emblem afterward from <Picture 2>, used for prop identity and design.\n<Subject 3> is @kaidens_house, the Kaiden s modest home. from <Picture 3>, used for location identity and design.\n\nsummary:\n[reference generation] A 15-second 3-shot anime sequence showing The light scale bends around Kaiden’s reaching fingers and passes past his ordinary nonluminous blue shirt toward the right side-seam pocket of his black athletic shorts;\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n<Subject 3> (appears in [Shot 3]): fully_preserved - preserve only its declared identity and design; the current shot controls state, pose, motion and population.\n\ndetailed_description:\nStrict consistent 2D television Beyblade anime in a landscape 16:9 frame: bold clean inked linework on characters, props and backgrounds, vibrant controlled cel shading, simplified hand-painted anime backgrounds and expressive stepped character animation. No photorealism, live-action texture, photographic depth of field, 3D/CG rendering or mixed visual medium.\n[Shot 1] A close chest-and-hand insert opens the sequence. No spoken words occur in this shot. Visible characters keep their lips closed.  Location: the explicitly authored dream, graphic or black visual field; no substitute real location. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. The light scale bends around <Subject 1>’s reaching fingers and passes past his ordinary nonluminous blue shirt toward the right side-seam pocket of his black athletic shorts; Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself. The camera holds nearly static.\n[Shot 2] At 00:04.000, the camera cuts to a slightly lower close chest-and-hand insert. No spoken words occur in this shot. Visible characters keep their lips closed.  Location: the explicitly authored dream, graphic or black visual field; no substitute real location. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. the handmade top turns exactly once inside a translucent dream glimpse, then stops. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself. The camera pushes in slowly.\n[Shot 3] At 00:08.000, the camera cuts to a medium bedside view.  Location: <Subject 3> (Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography). The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change. <Subject 1> opens his eyes and lifts the spare trousers; beneath them the top lies cold and motionless. The closed bedroom door stays in the background. Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade. Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly. PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it. No launcher attachment is invented in this panel. Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself. The camera pans gently from his face to the uncovered top. From 8.000 seconds until 15.000 seconds, only Eema (S1) produces the voice and says, <d>[English] Kaiden? If you're awake, your breakfast is getting cold.</d>. <Subject 1> remains silent with lips closed for this entire line and never shares the voice.\n\noverall_soundscape:\nOne wooden TIK at the end of the single turn. A knock replaces the TIK; rain and ceiling fan return.\n\nnon_diegetic_music:\nSparse glass mallet D–F–E–A tones and a low D drone at 60 BPM, broad quiet reverb; the opening-title section adds sustained strings. This is the continuous scene cue M02, using source offset 45.000 to 60.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade."
+  },
+  "storyboard_mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "optional_h3_storyboard_reference": {
+    "enabled": false,
+    "resolved": false,
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "audio_continuity": {
+    "cueId": "M02",
+    "movieStart": 85,
+    "movieEnd": 100,
+    "sceneCueOffset": 45,
+    "sampleRate": 48000,
+    "startSample": 4080000,
+    "endSample": 4800000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "voice_continuity": {
+    "@ima": "warm low-mid adult female voice with measured soft delivery"
+  },
+  "continuity_handoff": {
+    "incoming": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+    "outgoing": "Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC002_003",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classic_beyblade_state": {},
+  "asset_reference_coverage": [
+    {
+      "displayShot": 1,
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 2,
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 3,
+      "visibleAssets": [
+        "@kaiden",
+        "@kaidens_house",
+        "@beyblade"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 3>",
+        "<Subject 2>"
+      ],
+      "insertedSubjects": []
+    }
+  ],
+  "runtime_asset_lock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@beyblade",
+      "@kaidens_house"
+    ]
+  },
+  "runtime_asset_mention_lock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself."
+}

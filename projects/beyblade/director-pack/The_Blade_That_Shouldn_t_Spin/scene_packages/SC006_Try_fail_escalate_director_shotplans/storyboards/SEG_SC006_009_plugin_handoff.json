@@ -1,0 +1,210 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC006_009",
+  "sceneId": "SC006",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC006_009_P01",
+    "SEG_SC006_009_P02",
+    "SEG_SC006_009_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "continuityIn": "Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+  "continuityOut": "Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+  "music": "N/A",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC006_009_P01",
+      "sourceMicroShotId": "MS_SC006_009_01",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_009",
+        "sourceBeatIds": [
+          "SC006_B009"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 1.5
+      },
+      "shotSizeAndAngle": "tight portrait",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Nanao turns his head outward, eyes widening toward the distant path.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @nanao; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "tight portrait; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @nanao. The visible setting is @kangla.",
+      "focalPoint": "Nanao turns his head outward, eyes widening toward the distant path.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins. Outgoing physical state: Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "Why can't they feel this?",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sound": "Isolated blade hum.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_009_P02",
+      "sourceMicroShotId": "MS_SC006_009_02",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_009",
+        "sourceBeatIds": [
+          "SC006_B009"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 1.5,
+        "end": 3
+      },
+      "shotSizeAndAngle": "long-lens exterior path view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Two distant anonymous passers-by walk normally beyond the clockwise leaf ring.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "long-lens exterior path view; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @kangla.",
+      "focalPoint": "Two distant anonymous passers-by walk normally beyond the clockwise leaf ring.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins. Outgoing physical state: Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "Why can't they feel this?",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sound": "Isolated blade hum; distant footsteps are inaudible.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_009_P03",
+      "sourceMicroShotId": "MS_SC006_009_03",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_009",
+        "sourceBeatIds": [
+          "SC006_B009"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 3,
+        "end": 5
+      },
+      "shotSizeAndAngle": "medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden sits supported against Mocha; Nanao crouches beside them with his head turned toward the distant path.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @mocha, @nanao. The visible setting is @kangla.",
+      "focalPoint": "Kaiden sits supported against Mocha; Nanao crouches beside them with his head turned toward the distant path.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@mocha",
+        "@nanao",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins. Outgoing physical state: Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "Why can't they feel this?",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sound": "Isolated blade hum and close cloth movement.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

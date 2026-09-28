@@ -1,0 +1,6 @@
+{
+  "source": "Director v9 is already compiled; use the per-segment prompt and storyboard named in CHECKPOINT.json",
+  "review": "Exact active clip only; require a new versioned path; sample only enough frames to confirm primary beats and continuity. For any Beyblade mechanics, load BEYBLADE_PHYSICS_BIBLE.md and apply it as a hard gate",
+  "generation": "Use active scene UUID and exact clip ID; never the inactive duplicate",
+  "edits": "Only confirmed H3-form or main-beat fixes; preserve duration, dialogue timing, and required assets"
+}

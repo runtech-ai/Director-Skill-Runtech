@@ -1,0 +1,223 @@
+{
+  "id": "SEG_SC001_003",
+  "sceneId": "SC001",
+  "sceneStart": 30,
+  "sceneEnd": 40,
+  "duration": 10,
+  "sourceBeatIds": [
+    "SC001_B003"
+  ],
+  "purpose": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+  "continuityIn": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+  "continuityOut": "Rainy roof view settles on Kaiden's small house.",
+  "requiredAssets": [
+    "@imphal",
+    "@kaidens_house"
+  ],
+  "optionalAssets": [],
+  "dialogue": [],
+  "microShots": [
+    {
+      "id": "MS_SC001_003_01",
+      "displayShot": 1,
+      "segmentStart": 0,
+      "segmentEnd": 4,
+      "sceneStart": 30,
+      "sceneEnd": 34,
+      "purpose": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+      "framing": "television close-up",
+      "visibleAssets": [
+        "@imphal"
+      ],
+      "startState": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+      "action": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+      "endState": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "television close-up; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house.",
+      "sound": "Channel click and indistinct television noise.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "appearance": "",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC001_003_02",
+      "displayShot": 2,
+      "segmentStart": 4,
+      "segmentEnd": 7.0,
+      "sceneStart": 34,
+      "sceneEnd": 37.0,
+      "purpose": "Rain beads along tin rooftops;",
+      "framing": "wide rooftop view",
+      "visibleAssets": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "startState": "Rain beads along tin rooftops;.",
+      "action": "Rain beads along tin rooftops;",
+      "endState": "Rain beads along tin rooftops;",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "wide rooftop view; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal, @kaidens_house.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house.",
+      "sound": "Bicycle bells, rolling shutters, tea-pour hiss and rain.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "appearance": "",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC001_003_03",
+      "displayShot": 3,
+      "segmentStart": 7.0,
+      "segmentEnd": 10,
+      "sceneStart": 37.0,
+      "sceneEnd": 40,
+      "purpose": "the view settles on the small house below.",
+      "framing": "slightly lower wide rooftop view",
+      "visibleAssets": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "startState": "the view settles on the small house below..",
+      "action": "the view settles on the small house below.",
+      "endState": "Rainy roof view settles on Kaiden's small house.",
+      "camera": "The camera cranes down slowly toward the house.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "slightly lower wide rooftop view; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal, @kaidens_house.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house.",
+      "sound": "Bicycle bells, rolling shutters, tea-pour hiss and rain.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "appearance": "",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    }
+  ],
+  "soundPlan": [
+    "Channel click and indistinct television noise. Bicycle bells, rolling shutters, tea-pour hiss and rain. Continuous ambience and spin phase bridge internal cuts; cut effects only at their physical event."
+  ],
+  "musicPlan": "Muted electric bass, dry snare taps and bright plucked synth at 108 BPM in D minor; a short D–F–E–A figure repeats softly. This is the continuous scene cue M01, using source offset 30.000 to 40.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "storyboard": {
+    "spec": "storyboards/specs/SEG_SC001_003_storyboard.json",
+    "prompt": "storyboards/prompts/SEG_SC001_003_storyboard_prompt.txt",
+    "expectedOutputFile": "SEG_SC001_003.png",
+    "h3StoryboardReferenceDefault": false
+  },
+  "promptBundle": "prompts/SEG_SC001_003_prompt_bundle.json",
+  "continuityMode": "CUT",
+  "previousSegmentId": "SEG_SC001_002",
+  "referencePreviousLastKeyframe": false,
+  "previousKeyframeReference": null,
+  "finalEditUnit": true,
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "continuityPriority": "HIGH",
+  "environmentContinuityGroup": "SC001",
+  "environmentStateAnchors": [
+    "Ordinary-world television effects remain inside screens."
+  ],
+  "editorialPacing": {
+    "shotCount": 3,
+    "pace": "AUTHORED"
+  },
+  "editorialBoundaryIn": "HARD_CUT",
+  "usePreviousLastKeyframeAsFirstFrame": false,
+  "editorialBoundaryOut": "HARD_CUT",
+  "outgoingFrameIsHandoff": false,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "physicsPlan": "",
+  "audioContinuity": {
+    "cueId": "M01",
+    "movieStart": 30,
+    "movieEnd": 40,
+    "sceneCueOffset": 30,
+    "sampleRate": 48000,
+    "startSample": 1440000,
+    "endSample": 1920000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "continuityReferencePolicy": {
+    "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+    "role": "VISUAL_STATE_ONLY",
+    "required": false,
+    "onMissing": "NOT_REQUIRED",
+    "neverUse": "latest unused retry or storyboard composite"
+  },
+  "speechRouting": [],
+  "canonicalReferences": [
+    {
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for imphal",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "runtimeAssetLock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@imphal",
+      "@kaidens_house"
+    ]
+  },
+  "runtimeAssetMentionLock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "optional_h3_storyboard_reference": {
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "dialogueTurnPolicy": "Exactly one named structured speaker owns each timed line; all other visible humans keep lips closed for that interval."
+}

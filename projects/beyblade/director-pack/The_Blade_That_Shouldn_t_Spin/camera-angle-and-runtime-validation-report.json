@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": [
+    "SEG_SC006_006",
+    "SEG_SC006_007",
+    "SEG_SC006_008",
+    "SEG_SC006_009",
+    "SEG_SC007_001",
+    "SEG_SC007_002",
+    "SEG_SC007_003"
+  ],
+  "overlayMode": "SAME_IDS_NO_CLIP_DELETION",
+  "checks": {
+    "s6c6StrictSideProfile": "PASS",
+    "s6c6StoryboardReferenceReplaced": "PASS",
+    "s6c7ToS7c3RetentionSyntax": "PASS",
+    "s7c2SubFrameDialogueBoundary": "PASS",
+    "s7c3VisibleStateOccupancy": "PASS",
+    "structuredFieldsAndPromptBundlesSynchronized": "PASS"
+  },
+  "gateRemoval": {
+    "status": "REMOVED",
+    "removedOnThisRun": 0,
+    "remaining": 0
+  }
+}

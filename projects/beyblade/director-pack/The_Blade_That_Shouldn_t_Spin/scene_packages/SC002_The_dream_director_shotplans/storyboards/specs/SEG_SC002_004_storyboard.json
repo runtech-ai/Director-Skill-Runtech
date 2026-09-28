@@ -1,0 +1,192 @@
+{
+  "segmentId": "SEG_SC002_004",
+  "sceneId": "SC002",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC002_004_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC002_004.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@beyblade",
+      "file": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC002_004_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 4.0
+      },
+      "timeLabel": "0–4.0s",
+      "framing": "close chest-and-hand insert",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade"
+      ],
+      "description": "The light scale bends around Kaiden’s reaching fingers and passes past his ordinary nonluminous blue shirt toward the right side-seam pocket of his black athletic shorts;",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections.",
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead. Outgoing physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC002_004_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 4.0,
+        "end": 8
+      },
+      "timeLabel": "4.0–8s",
+      "framing": "slightly lower close chest-and-hand insert",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pushes in slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade"
+      ],
+      "description": "the handmade top turns exactly once inside a translucent dream glimpse, then stops.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections.",
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead. Outgoing physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC002_004_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 8,
+        "end": 15
+      },
+      "timeLabel": "8–15s",
+      "framing": "medium bedside view",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pans gently from his face to the uncovered top.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@kaidens_house",
+        "@beyblade"
+      ],
+      "description": "Kaiden opens his eyes and lifts the spare trousers; beneath them the top lies cold and motionless. The closed bedroom door stays in the background.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections.",
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Dream boy reaches his open hand toward descending light; one golden guardian overhead. Outgoing physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+    "outgoing": "Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC002_003",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC002_004.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "e5bac360d07992255aa2d111284d027d9e1479f33f8a907d08cfc1d38e4f853a",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC002_004_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC002_004_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

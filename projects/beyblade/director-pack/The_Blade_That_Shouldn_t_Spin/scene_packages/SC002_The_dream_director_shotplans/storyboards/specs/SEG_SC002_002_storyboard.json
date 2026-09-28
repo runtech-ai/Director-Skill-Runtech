@@ -1,0 +1,181 @@
+{
+  "segmentId": "SEG_SC002_002",
+  "sceneId": "SC002",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC002_002_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC002_002.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "role": "CREATURE_IDENTITY"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC002_002_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 5.5
+      },
+      "timeLabel": "0–5.5s",
+      "framing": "medium kneeling profile",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "description": "Kaiden’s shoulders sink, then square;",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "continuity": "Incoming physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting. Outgoing physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC002_002_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 5.5,
+        "end": 11
+      },
+      "timeLabel": "5.5–11s",
+      "framing": "slightly lower medium kneeling profile",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pushes inward with small amplitude at slow speed.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "description": "his joined hands remain below his chin. The framed coil towers above him.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "continuity": "Incoming physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting. Outgoing physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC002_002_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 11,
+        "end": 15
+      },
+      "timeLabel": "11–15s",
+      "framing": "extreme close-up of painted eyes",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weatherState": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@ebudhou_pakhangba"
+      ],
+      "description": "Two ancient painted eyes open and the flat gold coils gain shallow depth.",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting. Outgoing physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+    "outgoing": "Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC002_001",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC002_002.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "897c780d400a7b3054f3e10f37ab9e16426eb521987fc25059ded05414f078f2",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC002_002_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC002_002_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

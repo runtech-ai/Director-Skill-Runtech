@@ -1,0 +1,157 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC001_003",
+  "sceneId": "SC001",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC001_003_P01",
+    "SEG_SC001_003_P02",
+    "SEG_SC001_003_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for imphal",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "continuityIn": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+  "continuityOut": "Rainy roof view settles on Kaiden's small house.",
+  "music": "Muted electric bass, dry snare taps and bright plucked synth at 108 BPM in D minor; a short D–F–E–A figure repeats softly. This is the continuous scene cue M01, using source offset 30.000 to 40.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC001_003_P01",
+      "sourceMicroShotId": "MS_SC001_003_01",
+      "scriptReference": {
+        "sceneId": "SC001",
+        "segmentId": "SEG_SC001_003",
+        "sourceBeatIds": [
+          "SC001_B003"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 4
+      },
+      "shotSizeAndAngle": "television close-up",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "television close-up; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal.",
+      "focalPoint": "The drawn dragon disappears when a hand changes the television channel; a plain weather image replaces it.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house.",
+      "dialogue": [],
+      "sound": "Channel click and indistinct television noise.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC001_003_P02",
+      "sourceMicroShotId": "MS_SC001_003_02",
+      "scriptReference": {
+        "sceneId": "SC001",
+        "segmentId": "SEG_SC001_003",
+        "sourceBeatIds": [
+          "SC001_B003"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 4,
+        "end": 7.0
+      },
+      "shotSizeAndAngle": "wide rooftop view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Rain beads along tin rooftops;",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide rooftop view; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal, @kaidens_house.",
+      "focalPoint": "Rain beads along tin rooftops;",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house.",
+      "dialogue": [],
+      "sound": "Bicycle bells, rolling shutters, tea-pour hiss and rain.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC001_003_P03",
+      "sourceMicroShotId": "MS_SC001_003_03",
+      "scriptReference": {
+        "sceneId": "SC001",
+        "segmentId": "SEG_SC001_003",
+        "sourceBeatIds": [
+          "SC001_B003"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 7.0,
+        "end": 10
+      },
+      "shotSizeAndAngle": "slightly lower wide rooftop view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera cranes down slowly toward the house.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "the view settles on the small house below.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower wide rooftop view; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal, @kaidens_house.",
+      "focalPoint": "the view settles on the small house below.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin. Outgoing physical state: Rainy roof view settles on Kaiden's small house.",
+      "dialogue": [],
+      "sound": "Bicycle bells, rolling shutters, tea-pour hiss and rain.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT"
+    }
+  ]
+}

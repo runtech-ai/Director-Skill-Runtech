@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "all Director prompt bundles",
+  "overlayMode": "SAME_SEGMENT_IDS_PRESERVE_EXISTING_CLIPS",
+  "bundleCount": 43,
+  "locationAndStadiumTagsInserted": 60,
+  "checks": {
+    "exactHandleInSubjectDefinition": "PASS",
+    "pictureBindingRetained": "PASS",
+    "canonicalReferenceFileExists": "PASS",
+    "aggregatePromptBundlesSynchronized": "PASS"
+  }
+}

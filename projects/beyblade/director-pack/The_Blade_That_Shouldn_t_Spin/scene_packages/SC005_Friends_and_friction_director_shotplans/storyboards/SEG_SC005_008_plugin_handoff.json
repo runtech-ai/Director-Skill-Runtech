@@ -1,0 +1,218 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC005_008",
+  "sceneId": "SC005",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC005_008_P01",
+    "SEG_SC005_008_P02",
+    "SEG_SC005_008_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@beyblade",
+      "file": "canonical_refs/assets/props/beyblade_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for beyblade",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for launcher",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden draws top to chest; Nanao raises open palm toward unloaded launcher; Mocha watches.",
+  "continuityOut": "Kaiden holds the loaded launcher with the top level, flush and firmly twist-locked on both posts; no release.",
+  "music": "Dry hand percussion and plucked bass at 108 BPM; the D–F–E–A figure gradually loses its upper notes as the emblem brightens. This is the continuous scene cue M05, using source offset 105.000 to 120.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC005_008_P01",
+      "sourceMicroShotId": "MS_SC005_008_01",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_008",
+        "sourceBeatIds": [
+          "SC005_B008"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.0
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Nanao holds an open palm beside the unloaded classic shooter. The exactly two short, close-set engagement prongs beneath the shooter are clearly visible beside the central axis; the handmade Beyblade remains stationary in Kaiden’s other hand.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @nanao; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @beyblade, @launcher. The visible setting is @kangla.",
+      "focalPoint": "Nanao holds an open palm beside the unloaded classic shooter. The exactly two short, close-set engagement prongs beneath the shooter are clearly visible beside the central axis; the handmade Beyblade remains stationary in Kaiden’s other hand.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@beyblade",
+        "@launcher",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden draws top to chest; Nanao raises open palm toward unloaded launcher; Mocha watches. Outgoing physical state: Kaiden holds the loaded launcher with the top level, flush and firmly twist-locked on both posts; no release.",
+      "dialogue": [],
+      "sound": "A small uneven plastic click.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_008_P02",
+      "sourceMicroShotId": "MS_SC005_008_02",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_008",
+        "sourceBeatIds": [
+          "SC005_B008"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.0,
+        "end": 10
+      },
+      "shotSizeAndAngle": "slightly lower medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden aligns the Beyblade's paired launcher slots immediately beside its central Bit Chip/center gap with both close-set shooter posts, raises the palm-sized top directly beneath the shooter, inserts both posts fully, and rotates the top in its spin-compatible locking direction until both retainers engage. The top sits level and flush with no gap; it does not float or spin.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @nanao; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "composition": "slightly lower medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @beyblade, @launcher. The visible setting is @kangla.",
+      "focalPoint": "Kaiden aligns the Beyblade's paired launcher slots immediately beside its central Bit Chip/center gap with both close-set shooter posts, raises the palm-sized top directly beneath the shooter, inserts both posts fully, and rotates the top in its spin-compatible locking direction until both retainers engage. The top sits level and flush with no gap; it does not float or spin.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@beyblade",
+        "@launcher",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden draws top to chest; Nanao raises open palm toward unloaded launcher; Mocha watches. Outgoing physical state: Kaiden holds the loaded launcher with the top level, flush and firmly twist-locked on both posts; no release.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "We don't have to launch it.",
+          "start": 6.106531,
+          "end": 8.55551
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "Yes, we do.",
+          "start": 8.77551,
+          "end": 10.0
+        }
+      ],
+      "sound": "A small uneven plastic click.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_008_P03",
+      "sourceMicroShotId": "MS_SC005_008_03",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_008",
+        "sourceBeatIds": [
+          "SC005_B008"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "hands insert",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes toward the prong slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "In a macro view, Kaiden checks the uneven handmade washer edge with his thumbnail, then confirms that both launcher posts are fully inserted and retained behind the Beyblade’s locking lips. The top is firmly twist-locked, level and flush beneath the shooter, with its conical tip pointing straight down; the toothed winder has not yet been pulled and the stiff handmade fit has not yet been tested under release load.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "composition": "hands insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @beyblade, @launcher.",
+      "focalPoint": "In a macro view, Kaiden checks the uneven handmade washer edge with his thumbnail, then confirms that both launcher posts are fully inserted and retained behind the Beyblade’s locking lips. The top is firmly twist-locked, level and flush beneath the shooter, with its conical tip pointing straight down; the toothed winder has not yet been pulled and the stiff handmade fit has not yet been tested under release load.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade",
+        "@launcher",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden draws top to chest; Nanao raises open palm toward unloaded launcher; Mocha watches. Outgoing physical state: Kaiden holds the loaded launcher with the top level, flush and firmly twist-locked on both posts; no release.",
+      "dialogue": [],
+      "sound": "Prong creak and rough engagement click.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

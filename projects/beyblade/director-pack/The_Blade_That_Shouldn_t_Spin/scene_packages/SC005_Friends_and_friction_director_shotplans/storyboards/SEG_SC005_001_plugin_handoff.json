@@ -1,0 +1,209 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC005_001",
+  "sceneId": "SC005",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC005_001_P01",
+    "SEG_SC005_001_P02",
+    "SEG_SC005_001_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@dragoon",
+      "file": "canonical_refs/assets/props/dragoon_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for dragoon",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@driger",
+      "file": "canonical_refs/assets/props/driger_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for driger",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "continuityIn": "Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen.",
+  "continuityOut": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+  "music": "Dry hand percussion and plucked bass at 108 BPM; the D–F–E–A figure gradually loses its upper notes as the emblem brightens. This is the continuous scene cue M05, using source offset 0.000 to 15.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC005_001_P01",
+      "sourceMicroShotId": "MS_SC005_001_01",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_001",
+        "sourceBeatIds": [
+          "SC005_B001"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6
+      },
+      "shotSizeAndAngle": "wide two-person arena view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera lowers slowly toward rim height.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Nanao remains at the north-west rim and Mocha at the north-east rim after the launch has already finished. Their empty shooters are lowered and the fully extracted toothed winders are held separately. Palm-sized Dragoon and Driger spin and travel inside the bowl with their tips in continuous moving contact; no Beyblade remains attached to either shooter.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @nanao, @mocha; exactly 2 top(s): @dragoon, @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide two-person arena view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @nanao, @mocha, @stadium, @dragoon, @driger. The visible setting is @kangla.",
+      "focalPoint": "Nanao remains at the north-west rim and Mocha at the north-east rim after the launch has already finished. Their empty shooters are lowered and the fully extracted toothed winders are held separately. Palm-sized Dragoon and Driger spin and travel inside the bowl with their tips in continuous moving contact; no Beyblade remains attached to either shooter.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen. Outgoing physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "Come on, Driger. Hold the centre!",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "sound": "Plastic tip hiss and distant park ambience.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_001_P02",
+      "sourceMicroShotId": "MS_SC005_001_02",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_001",
+        "sourceBeatIds": [
+          "SC005_B001"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6,
+        "end": 10.5
+      },
+      "shotSizeAndAngle": "low arena close-up",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "AUTHORED OVERHEAD GEOMETRY: the upper face is visible because this shot is explicitly overhead; do not mix in an edge-on body view within the same panel.",
+      "blockingAndAction": "An overhead view establishes battle geography. Left-spinning Dragoon runs a wide outer orbit counterclockwise around its own axis while right-spinning Driger circulates on a tighter continuous orbit near the centre. Dragoon descends the stadium slope and cuts inward along a readable attack sweep.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 2 top(s): @dragoon, @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "low arena close-up; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @stadium, @dragoon, @driger.",
+      "focalPoint": "An overhead view establishes battle geography. Left-spinning Dragoon runs a wide outer orbit counterclockwise around its own axis while right-spinning Driger circulates on a tighter continuous orbit near the centre. Dragoon descends the stadium slope and cuts inward along a readable attack sweep.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen. Outgoing physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "dialogue": [],
+      "sound": "Impact click, falling-pitch whir and a soft stop.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_001_P03",
+      "sourceMicroShotId": "MS_SC005_001_03",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_001",
+        "sourceBeatIds": [
+          "SC005_B001"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10.5,
+        "end": 15
+      },
+      "shotSizeAndAngle": "slightly lower low arena close-up",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tracks a short arc beside the rim.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The physical Attack Rings meet once at the edge. Both palm-sized Beyblades recoil and change paths: Dragoon kicks outward, briefly tilts, then restabilizes; Driger is displaced toward the middle slope with reduced RPM. Driger progresses from slight wobble to wider precession, ring scrape, slow final rotations and a stop on its side. Dragoon remains upright at low-to-medium RPM.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 2 top(s): @dragoon, @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower low arena close-up; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @stadium, @dragoon, @driger.",
+      "focalPoint": "The physical Attack Rings meet once at the edge. Both palm-sized Beyblades recoil and change paths: Dragoon kicks outward, briefly tilts, then restabilizes; Driger is displaced toward the middle slope with reduced RPM. Driger progresses from slight wobble to wider precession, ring scrape, slow final rotations and a stop on its side. Dragoon remains upright at low-to-medium RPM.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen. Outgoing physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "dialogue": [],
+      "sound": "Impact click, falling-pitch whir and a soft stop.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

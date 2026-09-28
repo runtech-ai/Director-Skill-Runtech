@@ -1,0 +1,132 @@
+{
+  "format": "movie-director-result",
+  "version": "3.1-shotplan-only",
+  "sceneId": "SC006",
+  "title": "Try, fail, escalate",
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "direction": "direction.md",
+  "scenePlan": "scene-plan.json",
+  "segmentsIndex": "segments.json",
+  "production": "scenes/SC006/production.json",
+  "legacySegments": "scenes/SC006/segments.json",
+  "validationReport": "validation-report.json",
+  "readme": "README.txt",
+  "segmentFiles": [
+    "segments/SEG_SC006_001.json",
+    "segments/SEG_SC006_002.json",
+    "segments/SEG_SC006_003.json",
+    "segments/SEG_SC006_004.json",
+    "segments/SEG_SC006_005.json",
+    "segments/SEG_SC006_006.json",
+    "segments/SEG_SC006_007.json",
+    "segments/SEG_SC006_008.json",
+    "segments/SEG_SC006_009.json"
+  ],
+  "promptBundles": [
+    "prompts/SEG_SC006_001_prompt_bundle.json",
+    "prompts/SEG_SC006_002_prompt_bundle.json",
+    "prompts/SEG_SC006_003_prompt_bundle.json",
+    "prompts/SEG_SC006_004_prompt_bundle.json",
+    "prompts/SEG_SC006_005_prompt_bundle.json",
+    "prompts/SEG_SC006_006_prompt_bundle.json",
+    "prompts/SEG_SC006_007_prompt_bundle.json",
+    "prompts/SEG_SC006_008_prompt_bundle.json",
+    "prompts/SEG_SC006_009_prompt_bundle.json"
+  ],
+  "shotPlans": [
+    "prompts/SEG_SC006_001_shot_plan.txt",
+    "prompts/SEG_SC006_002_shot_plan.txt",
+    "prompts/SEG_SC006_003_shot_plan.txt",
+    "prompts/SEG_SC006_004_shot_plan.txt",
+    "prompts/SEG_SC006_005_shot_plan.txt",
+    "prompts/SEG_SC006_006_shot_plan.txt",
+    "prompts/SEG_SC006_007_shot_plan.txt",
+    "prompts/SEG_SC006_008_shot_plan.txt",
+    "prompts/SEG_SC006_009_shot_plan.txt"
+  ],
+  "aggregatePromptBundle": "prompts/all_segments_prompt_bundle.json",
+  "canonicalReferences": [
+    {
+      "entity": "@kaiden",
+      "path": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "authority": "character identity for kaiden"
+    },
+    {
+      "entity": "@nanao",
+      "path": "canonical_refs/assets/characters/nanao_sheet.png",
+      "authority": "character identity for nanao"
+    },
+    {
+      "entity": "@mocha",
+      "path": "canonical_refs/assets/characters/mocha_sheet.png",
+      "authority": "character identity for mocha"
+    },
+    {
+      "entity": "@launcher",
+      "path": "canonical_refs/assets/props/launcher_sheet.png",
+      "authority": "prop identity for launcher"
+    },
+    {
+      "entity": "@stadium",
+      "path": "canonical_refs/assets/props/stadium_sheet.png",
+      "authority": "prop identity for stadium"
+    },
+    {
+      "entity": "@kangla",
+      "path": "canonical_refs/assets/locations/kangla_sheet.png",
+      "authority": "location identity for kangla"
+    },
+    {
+      "entity": "@beyblade",
+      "path": "canonical_refs/assets/props/beyblade_sheet.png",
+      "authority": "prop identity for beyblade"
+    },
+    {
+      "entity": "@dragoon",
+      "path": "canonical_refs/assets/props/dragoon_sheet.png",
+      "authority": "prop identity for dragoon"
+    },
+    {
+      "entity": "@driger",
+      "path": "canonical_refs/assets/props/driger_sheet.png",
+      "authority": "prop identity for driger"
+    },
+    {
+      "entity": "@3_beyblades",
+      "path": "canonical_refs/assets/props/3_beyblades.png",
+      "authority": "prop identity for the three owner-labeled Beyblades"
+    }
+  ],
+  "directorEditorMode": "FINAL_EDIT_MASTER",
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "baseSchemaCompatibility": "3.1-shotplan-only",
+  "storyboardPromptIndex": "storyboards/index.json",
+  "storyboardReferenceDefault": false,
+  "storyboardPromptFiles": [
+    "storyboards/prompts/SEG_SC006_001_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_002_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_003_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_004_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_005_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_006_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_007_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_008_storyboard_prompt.txt",
+    "storyboards/prompts/SEG_SC006_009_storyboard_prompt.txt"
+  ],
+  "storyboardSpecFiles": [
+    "storyboards/specs/SEG_SC006_001_storyboard.json",
+    "storyboards/specs/SEG_SC006_002_storyboard.json",
+    "storyboards/specs/SEG_SC006_003_storyboard.json",
+    "storyboards/specs/SEG_SC006_004_storyboard.json",
+    "storyboards/specs/SEG_SC006_005_storyboard.json",
+    "storyboards/specs/SEG_SC006_006_storyboard.json",
+    "storyboards/specs/SEG_SC006_007_storyboard.json",
+    "storyboards/specs/SEG_SC006_008_storyboard.json",
+    "storyboards/specs/SEG_SC006_009_storyboard.json"
+  ],
+  "schemaExtensions": [
+    "director-editor-final-master-v1",
+    "optional-storyboard-film-still-beat-sheet-v1",
+    "h3-optional-storyboard-reference-v1"
+  ]
+}

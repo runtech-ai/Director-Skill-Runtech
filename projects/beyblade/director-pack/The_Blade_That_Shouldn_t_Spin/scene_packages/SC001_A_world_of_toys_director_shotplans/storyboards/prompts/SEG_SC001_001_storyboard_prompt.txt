@@ -1,0 +1,18 @@
+STORYBOARD GENERATOR PLUGIN — VALIDATED PRODUCTION HANDOFF
+Render one landscape 16:9 image with exactly three equal vertical anime storyboard panels, left to right, separated only by thin black dividers. No captions, labels, timestamps, dialogue text, logos or watermark.
+
+CANONICAL REFERENCES
+<Image 1> is @kaidens_house and is the only location authority.
+<Image 2> is the launcher sheet. Use only the UNASSIGNED orange-and-black rectangular launcher with orange octagonal pull ring; ignore all other launchers on the sheet.
+<Image 3> is the exact white-red-yellow @toybeyblade with blue dragon centre and red conical tip.
+
+PANEL 1 — 0–2s
+Completely black. No subjects or objects.
+
+PANEL 2 — 2–8s
+Close view of the television inside the exact dry living room of @kaidens_house. The television shows one static paused anime illustration: a mouthless blue dragon lightning emblem and a hero seen from behind with the lower face fully hidden by a closed helmet and high collar. No visible mouth anywhere. Monsoon rain is visible only outside the windows.
+
+PANEL 3 — 8–15s
+Locked floor-level side view inside the same living room. Only anonymous hands and knees enter from screen-left. Exactly one white-red-yellow @toybeyblade is stationary, level and flush in direct contact beneath the exact unassigned orange-black launcher. Two very short centre prongs are hidden inside the top; red tip straight down; zero gap; short rigid toothed ripcord through the launcher with orange ring in the pulling hand. Empty floor and empty space beneath the green sofa. No second top, no long connector, no glow or sparks.
+
+Maintain strict classic 2D television anime with bold clean inked linework and controlled cel shading. Never use photorealism or 3D rendering.

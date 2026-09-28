@@ -1,0 +1,197 @@
+{
+  "segmentId": "SEG_SC003_004",
+  "sceneId": "SC003",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC003_004_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC003_004.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@ima",
+      "file": "canonical_refs/assets/characters/ima_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@phone",
+      "file": "canonical_refs/assets/props/phone_sheet.jpg",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC003_004_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 6.0
+      },
+      "timeLabel": "0–6.0s",
+      "framing": "medium close single",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@ima",
+        "@kaidens_house"
+      ],
+      "description": "Eema bends to Kaiden’s seated eye level, her face soft and steady;",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table. Outgoing physical state: Top rests on table beside phone and screw; Kaiden's fingers pause over screw."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC003_004_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 6.0,
+        "end": 12
+      },
+      "timeLabel": "6.0–12s",
+      "framing": "slightly lower medium close single",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@ima",
+        "@kaidens_house"
+      ],
+      "description": "one hand rests open on the table edge.",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table. Outgoing physical state: Top rests on table beside phone and screw; Kaiden's fingers pause over screw."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC003_004_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 12,
+        "end": 15
+      },
+      "timeLabel": "12–15s",
+      "framing": "insert of hands and phone",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@phone",
+        "@kaidens_house"
+      ],
+      "description": "The phone lies face-up toward Kaiden’s downward eyeline and lights with Nanao’s source message. Kaiden’s fingers stop on the loose screw beside it. Any readable screen view is a high over-shoulder angle from behind Kaiden, so the display still physically faces him rather than the audience.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table. Outgoing physical state: Top rests on table beside phone and screw; Kaiden's fingers pause over screw."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+    "outgoing": "Top rests on table beside phone and screw; Kaiden's fingers pause over screw.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC003_003",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC003_004.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "4314265a58b751f02d192ec228497b2ebdef78ca181d5b9fd40fcb9cd9e6dd95",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC003_004_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC003_004_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

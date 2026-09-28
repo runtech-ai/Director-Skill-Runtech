@@ -1,0 +1,227 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC006_007",
+  "sceneId": "SC006",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC006_007_P01",
+    "SEG_SC006_007_P02",
+    "SEG_SC006_007_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear.",
+  "continuityOut": "Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+  "music": "Low strings, muted kick and syncopated synth bass at 132 BPM, a brief percussion gap at the failed launch, rising density at the second launch, then a complete score drop at the silent-circle threshold. This is the continuous scene cue M06, using source offset 90.000 to 105.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC006_007_P01",
+      "sourceMicroShotId": "MS_SC006_007_01",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_007",
+        "sourceBeatIds": [
+          "SC006_B007"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6.0
+      },
+      "shotSizeAndAngle": "medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden plants himself ahead of his friends and sweeps his left arm backward.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "focalPoint": "Kaiden plants himself ahead of his friends and sweeps his left arm backward.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear. Outgoing physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "dialogue": [],
+      "sound": "Wind lifts cloth over a continuous metallic whine.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_007_P02",
+      "sourceMicroShotId": "MS_SC006_007_02",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_007",
+        "sourceBeatIds": [
+          "SC006_B007"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6.0,
+        "end": 12
+      },
+      "shotSizeAndAngle": "lower-angle medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds on their triangular arrangement.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Mocha shifts back; Nanao reaches toward Kaiden’s forearm. Kaiden extends his bare right hand toward the stadium.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "lower-angle medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "focalPoint": "Mocha shifts back; Nanao reaches toward Kaiden’s forearm. Kaiden extends his bare right hand toward the stadium.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear. Outgoing physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Move back.",
+          "start": 6.033878,
+          "end": 6.850204
+        },
+        {
+          "speaker": "@mocha",
+          "text": "What about you?",
+          "start": 7.070204,
+          "end": 8.294694
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "It's my blade!",
+          "start": 8.514694,
+          "end": 9.739184
+        },
+        {
+          "speaker": "@nanao",
+          "text": "And that's still your hand.",
+          "start": 9.959184,
+          "end": 12.0
+        }
+      ],
+      "sound": "Wind lifts cloth over a continuous metallic whine.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_007_P03",
+      "sourceMicroShotId": "MS_SC006_007_03",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_007",
+        "sourceBeatIds": [
+          "SC006_B007"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 12,
+        "end": 15
+      },
+      "shotSizeAndAngle": "close hand-and-rim insert",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes a few inches toward the gap.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden lowers his bare hand toward the spinning top, with a small air gap still separating his fingertips from the spinning surface. The emblem brightens before contact.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "close hand-and-rim insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @3_beyblades, @stadium.",
+      "focalPoint": "Kaiden lowers his bare hand toward the spinning top, with a small air gap still separating his fingertips from the spinning surface. The emblem brightens before contact.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear. Outgoing physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "dialogue": [],
+      "sound": "Electrical ticks above the blade hum.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

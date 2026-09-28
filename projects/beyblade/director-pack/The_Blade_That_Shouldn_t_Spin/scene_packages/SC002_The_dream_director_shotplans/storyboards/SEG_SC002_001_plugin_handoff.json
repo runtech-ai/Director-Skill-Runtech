@@ -1,0 +1,181 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC002_001",
+  "sceneId": "SC002",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC002_001_P01",
+    "SEG_SC002_001_P02",
+    "SEG_SC002_001_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CREATURE_IDENTITY",
+      "authority": "creature identity for ebudhou pakhangba",
+      "h3Role": "CREATURE_IDENTITY"
+    }
+  ],
+  "continuityIn": "Night bedroom; Kaiden asleep, real top stationary.",
+  "continuityOut": "Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+  "music": "Sparse glass mallet D–F–E–A tones and a low D drone at 60 BPM, broad quiet reverb; the opening-title section adds sustained strings. This is the continuous scene cue M02, using source offset 0.000 to 15.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC002_001_P01",
+      "sourceMicroShotId": "MS_SC002_001_01",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_001",
+        "sourceBeatIds": [
+          "SC002_B001"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6
+      },
+      "shotSizeAndAngle": "wide bedroom",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera glides slowly toward the bed.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden sleeps in his blue shirt and black white-striped shorts beside spare trousers; the work corner sits right, bed left.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide bedroom; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden. The visible setting is @kaidens_house.",
+      "focalPoint": "Kaiden sleeps in his blue shirt and black white-striped shorts beside spare trousers; the work corner sits right, bed left.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@kaidens_house"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Night bedroom; Kaiden asleep, real top stationary. Outgoing physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+      "dialogue": [],
+      "sound": "Distant television fades beneath a ceiling fan.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC002_001_P02",
+      "sourceMicroShotId": "MS_SC002_001_02",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_001",
+        "sourceBeatIds": [
+          "SC002_B001"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6,
+        "end": 10.5
+      },
+      "shotSizeAndAngle": "medium kneeling profile",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden kneels with palms together before a devotional image in a black void.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium kneeling profile; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+      "focalPoint": "Kaiden kneels with palms together before a devotional image in a black void.",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Night bedroom; Kaiden asleep, real top stationary. Outgoing physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Ebudhou... I told Baba I don't need one from the shop.",
+          "start": 6,
+          "end": 15
+        }
+      ],
+      "sound": "A faint flame flutter; the room noise disappears.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC002_001_P03",
+      "sourceMicroShotId": "MS_SC002_001_03",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_001",
+        "sourceBeatIds": [
+          "SC002_B001"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10.5,
+        "end": 15
+      },
+      "shotSizeAndAngle": "slightly lower medium kneeling profile",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera arcs slightly on his right.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "A small heatless flame leans toward the painted coil.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium kneeling profile; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+      "focalPoint": "A small heatless flame leans toward the painted coil.",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Night bedroom; Kaiden asleep, real top stationary. Outgoing physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Ebudhou... I told Baba I don't need one from the shop.",
+          "start": 6,
+          "end": 15
+        }
+      ],
+      "sound": "A faint flame flutter; the room noise disappears.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

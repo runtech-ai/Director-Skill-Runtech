@@ -1,0 +1,248 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC005_002",
+  "sceneId": "SC005",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC005_002_P01",
+    "SEG_SC005_002_P02",
+    "SEG_SC005_002_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@dragoon",
+      "file": "canonical_refs/assets/props/dragoon_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for dragoon",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@driger",
+      "file": "canonical_refs/assets/props/driger_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for driger",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 7,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@bicycle",
+      "file": "canonical_refs/assets/props/bicycle_sheet.png",
+      "attach": true,
+      "imageIndex": 8,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for bicycle",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+  "continuityOut": "Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+  "music": "Dry hand percussion and plucked bass at 108 BPM; the D–F–E–A figure gradually loses its upper notes as the emblem brightens. This is the continuous scene cue M05, using source offset 15.000 to 30.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC005_002_P01",
+      "sourceMicroShotId": "MS_SC005_002_01",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_002",
+        "sourceBeatIds": [
+          "SC005_B002"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.5
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Nanao retrieves only his blue-red-yellow Dragoon after it slows while Mocha remains visible at the opposite rim. No white-red-purple Driger appears in this panel.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @nanao, @mocha; exactly 1 top(s): @dragoon. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @nanao, @mocha, @stadium, @dragoon, @driger. The visible setting is @kangla.",
+      "focalPoint": "Nanao retrieves the blue top after it slows.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@dragoon",
+        "@kangla"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east. Outgoing physical state: Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "Three–one.",
+          "start": 5.370204,
+          "end": 6.070204
+        }
+      ],
+      "sound": "Residual whir fades, fingers tap plastic.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_002_P02",
+      "sourceMicroShotId": "MS_SC005_002_02",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_002",
+        "sourceBeatIds": [
+          "SC005_B002"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.5,
+        "end": 11
+      },
+      "shotSizeAndAngle": "slightly lower medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Mocha crouches beside only his white-red-purple Driger and runs a finger near a shallow scratch in the stadium while Nanao remains visible at the opposite rim. No blue-red-yellow Dragoon appears in this panel.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @nanao, @mocha; exactly 1 top(s): @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @nanao, @mocha, @stadium, @dragoon, @driger. The visible setting is @kangla.",
+      "focalPoint": "Mocha crouches beside the white top and runs a finger near a shallow scratch in the stadium.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@driger",
+        "@kangla"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east. Outgoing physical state: Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "Three–one.",
+          "start": 5.370204,
+          "end": 6.070204
+        },
+        {
+          "speaker": "@mocha",
+          "text": "Two–one. The scratch won that round.",
+          "start": 6.290204,
+          "end": 8.739184
+        },
+        {
+          "speaker": "@nanao",
+          "text": "Then challenge the scratch next.",
+          "start": 8.959184,
+          "end": 11.0
+        }
+      ],
+      "sound": "Residual whir fades, fingers tap plastic.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_002_P03",
+      "sourceMicroShotId": "MS_SC005_002_03",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_002",
+        "sourceBeatIds": [
+          "SC005_B002"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 11,
+        "end": 15
+      },
+      "shotSizeAndAngle": "wide arrival single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pans gently right.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden walks his bicycle to the plaza edge and parks it away from the arena. Nanao and Mocha both remain visible beside the stadium in the background; no Beyblade is visible. The right side-seam pocket of Kaiden's black athletic shorts remains closed.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide arrival single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @kangla.",
+      "focalPoint": "Kaiden walks his bicycle to the plaza edge and parks it away from the arena; the right side-seam pocket of his black athletic shorts remains closed.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@bicycle",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east. Outgoing physical state: Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+      "dialogue": [],
+      "sound": "Bicycle stand click and approaching steps.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

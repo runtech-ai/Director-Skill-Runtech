@@ -1,0 +1,219 @@
+{
+  "segmentId": "SEG_SC006_009",
+  "sceneId": "SC006",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC006_009_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC006_009.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 5,
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC006_009_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 1.5
+      },
+      "timeLabel": "0–1.5s",
+      "framing": "tight portrait",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @nanao; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@kangla",
+        "@stadium"
+      ],
+      "description": "Nanao turns his head outward, eyes widening toward the distant path.",
+      "appearance": "The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins. Outgoing physical state: Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC006_009_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 1.5,
+        "end": 3
+      },
+      "timeLabel": "1.5–3s",
+      "framing": "long-lens exterior path view",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kangla",
+        "@stadium"
+      ],
+      "description": "Two distant anonymous passers-by walk normally beyond the clockwise leaf ring.",
+      "appearance": "The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins. Outgoing physical state: Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC006_009_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 3,
+        "end": 5
+      },
+      "timeLabel": "3–5s",
+      "framing": "medium three-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@mocha",
+        "@nanao",
+        "@kangla",
+        "@stadium"
+      ],
+      "description": "Kaiden sits supported against Mocha; Nanao crouches beside them with his head turned toward the distant path.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins. Outgoing physical state: Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+    "outgoing": "Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC006_008",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classicBeybladeState": {
+    "handmade": "RIGHT spin continues off-camera in shattered stadium; Bit Beast state GLOWING"
+  },
+  "ownerBeybladeState": {
+    "kaiden": "RIGHT spin continues off-camera in shattered stadium; Bit Beast state GLOWING"
+  },
+  "threeBeybladesAssetLock": {
+    "assetId": "@3_beyblades",
+    "kaiden": "handmade blue-red-metal-and-brown-wood; right-spin",
+    "nanao": "blue-red-yellow; left-spin",
+    "mocha": "white-red-purple; right-spin"
+  },
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC006_009.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "b461856c2370f039b6b69bd9242ecd8e4aecc702b66d037b5fa4d36d9d234de2",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC006_009_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC006_009_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

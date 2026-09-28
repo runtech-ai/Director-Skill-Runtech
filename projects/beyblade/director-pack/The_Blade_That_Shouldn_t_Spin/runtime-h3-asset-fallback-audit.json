@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "segmentId": "SEG_SC003_001",
+  "failureConditionReproduced": "Only @kaiden supplied by movie asset library",
+  "runtimeSubjects": [
+    "@kaiden",
+    "@beyblade",
+    "@kaidens_house"
+  ],
+  "directorFallbackNotes": [
+    "@beyblade: attached from Director canonical reference",
+    "@kaidens_house: attached from Director canonical reference"
+  ],
+  "subjectDefinitions": "<Subject 1> is @kaiden from <Picture 1>; preserve identity, facial features, hairstyle, body proportions, wardrobe, and appearance.\n<Subject 2> is @beyblade from <Picture 2>; preserve shape, colors, materials, and design.\n<Subject 3> is @kaidens_house from <Picture 3>; preserve canonical architecture, materials, colors, geography, structural layout, and visual character."
+}

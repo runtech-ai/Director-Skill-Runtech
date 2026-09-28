@@ -1,0 +1,205 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC005_006",
+  "sceneId": "SC005",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC005_006_P01",
+    "SEG_SC005_006_P02",
+    "SEG_SC005_006_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@beyblade",
+      "file": "canonical_refs/assets/props/beyblade_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for beyblade",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden holds stationary handmade top in palm; three ink strokes have become seated golden emblem; unloaded launcher beside him.",
+  "continuityOut": "Kaiden still holds stationary top, centre Bit Chip seated and nonluminous; Nanao leans toward it; no launch.",
+  "music": "Dry hand percussion and plucked bass at 108 BPM; the D–F–E–A figure gradually loses its upper notes as the emblem brightens. This is the continuous scene cue M05, using source offset 75.000 to 90.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC005_006_P01",
+      "sourceMicroShotId": "MS_SC005_006_01",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_006",
+        "sourceBeatIds": [
+          "SC005_B006"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.0
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Nanao bends slightly toward the top in Kaiden’s palm.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @nanao; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @beyblade. The visible setting is @kangla.",
+      "focalPoint": "Nanao bends slightly toward the top in Kaiden’s palm.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@beyblade",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden holds stationary handmade top in palm; three ink strokes have become seated golden emblem; unloaded launcher beside him. Outgoing physical state: Kaiden still holds stationary top, centre Bit Chip seated and nonluminous; Nanao leans toward it; no launch.",
+      "dialogue": [],
+      "sound": "Fingertips brush the worn rim.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_006_P02",
+      "sourceMicroShotId": "MS_SC005_006_02",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_006",
+        "sourceBeatIds": [
+          "SC005_B006"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.0,
+        "end": 10
+      },
+      "shotSizeAndAngle": "slightly lower medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden turns it under the light; both keep their hands separated.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @nanao; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @beyblade. The visible setting is @kangla.",
+      "focalPoint": "Kaiden turns it under the light; both keep their hands separated.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@beyblade",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden holds stationary handmade top in palm; three ink strokes have become seated golden emblem; unloaded launcher beside him. Outgoing physical state: Kaiden still holds stationary top, centre Bit Chip seated and nonluminous; Nanao leans toward it; no launch.",
+      "dialogue": [
+        {
+          "speaker": "@nanao",
+          "text": "You changed the centre.",
+          "start": 5.698367,
+          "end": 7.33102
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "I drew three lines. That's all.",
+          "start": 7.55102,
+          "end": 10.0
+        }
+      ],
+      "sound": "Fingertips brush the worn rim.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC005_006_P03",
+      "sourceMicroShotId": "MS_SC005_006_03",
+      "scriptReference": {
+        "sceneId": "SC005",
+        "segmentId": "SEG_SC005_006",
+        "sourceBeatIds": [
+          "SC005_B006"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "macro insert",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The stationary seated emblem remains an ordinary nonluminous printed surface under natural overcast reflections; chips in the blue attack ring stay fixed.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "macro insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @beyblade.",
+      "focalPoint": "The stationary seated emblem remains an ordinary nonluminous printed surface under natural overcast reflections; chips in the blue attack ring stay fixed.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@beyblade",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden holds stationary handmade top in palm; three ink strokes have become seated golden emblem; unloaded launcher beside him. Outgoing physical state: Kaiden still holds stationary top, centre Bit Chip seated and nonluminous; Nanao leans toward it; no launch.",
+      "dialogue": [],
+      "sound": "Low warm hum, no mechanical rotation.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

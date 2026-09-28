@@ -1,0 +1,285 @@
+{
+  "segmentId": "SEG_SC005_002",
+  "sceneId": "SC005",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC005_002_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC005_002.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@dragoon",
+      "file": "canonical_refs/assets/props/dragoon_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 5,
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 6,
+      "assetId": "@driger",
+      "file": "canonical_refs/assets/props/driger_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 7,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 8,
+      "assetId": "@bicycle",
+      "file": "canonical_refs/assets/props/bicycle_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC005_002_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 5.5
+      },
+      "timeLabel": "0–5.5s",
+      "framing": "medium two-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @nanao, @mocha; exactly 1 top(s): @dragoon. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@dragoon",
+        "@kangla"
+      ],
+      "description": "Nanao retrieves only his blue-red-yellow Dragoon after it slows while Mocha remains visible at the opposite rim. No white-red-purple Driger appears in this panel.",
+      "appearance": "Nanao's Dragoon preserves its canonical blue-red-yellow design and never borrows parts or colors from another top. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east. Outgoing physical state: Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC005_002_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 5.5,
+        "end": 11
+      },
+      "timeLabel": "5.5–11s",
+      "framing": "slightly lower medium two-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @nanao, @mocha; exactly 1 top(s): @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@driger",
+        "@kangla"
+      ],
+      "description": "Mocha crouches beside only his white-red-purple Driger and runs a finger near a shallow scratch in the stadium while Nanao remains visible at the opposite rim. No blue-red-yellow Dragoon appears in this panel.",
+      "appearance": "Mocha's Driger preserves its canonical white-red-purple design and never borrows parts or colors from another top. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east. Outgoing physical state: Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC005_002_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 11,
+        "end": 15
+      },
+      "timeLabel": "11–15s",
+      "framing": "wide arrival single",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pans gently right.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@bicycle",
+        "@stadium",
+        "@kangla"
+      ],
+      "description": "Kaiden walks his bicycle to the plaza edge and parks it away from the arena. Nanao and Mocha both remain visible beside the stadium in the background; no Beyblade is visible. The right side-seam pocket of Kaiden's black athletic shorts remains closed.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "continuity": "Incoming physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east. Outgoing physical state: Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "generationAttachmentOrder": [
+    {
+      "imageIndex": 1,
+      "file": "canonical_refs/generated/trio_identity_plate.png",
+      "assetIds": [
+        "@nanao",
+        "@mocha",
+        "@kaiden"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 2,
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "assetIds": [
+        "@stadium"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 3,
+      "file": "canonical_refs/generated/tops_identity_plate.png",
+      "assetIds": [
+        "@dragoon",
+        "@driger"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 4,
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "assetIds": [
+        "@kangla"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 5,
+      "file": "canonical_refs/assets/props/bicycle_sheet.png",
+      "assetIds": [
+        "@bicycle"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    }
+  ],
+  "continuityHandoff": {
+    "incoming": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+    "outgoing": "Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC005_001",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classicBeybladeState": {
+    "dragoon": "STOPPED and recovered",
+    "driger": "STOPPED beside stadium"
+  },
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC005_002.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "39d34d4f5ffb1ad7e7e085081e3b8aeeb1ededd9760b5f245ff7a58f0873f909",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC005_002_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC005_002_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

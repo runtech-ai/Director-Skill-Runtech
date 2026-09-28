@@ -1,0 +1,299 @@
+{
+  "id": "SEG_SC004_002",
+  "sceneId": "SC004",
+  "sceneStart": 15,
+  "sceneEnd": 30,
+  "duration": 15,
+  "sourceBeatIds": [
+    "SC004_B002"
+  ],
+  "purpose": "Kaiden leans the bicycle beside him and finishes the wrapped breakfast, rain dripping beyond the awning.",
+  "continuityIn": "Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+  "continuityOut": "Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+  "requiredAssets": [
+    "@kaiden",
+    "@bicycle",
+    "@imphal",
+    "@phone",
+    "@mocha",
+    "@stadium"
+  ],
+  "optionalAssets": [],
+  "dialogue": [
+    {
+      "id": "DLG_SC004_001",
+      "sourceLine": 1,
+      "speaker": "@kaiden",
+      "text": "Not a chance.",
+      "language": "English",
+      "start": 11,
+      "end": 15
+    }
+  ],
+  "microShots": [
+    {
+      "id": "MS_SC004_002_01",
+      "displayShot": 1,
+      "segmentStart": 0,
+      "segmentEnd": 6,
+      "sceneStart": 15,
+      "sceneEnd": 21,
+      "purpose": "Kaiden leans the bicycle beside him and finishes the wrapped breakfast, rain dripping beyond the awning.",
+      "framing": "medium awning single",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "startState": "Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+      "action": "Kaiden leans the bicycle beside him and finishes the wrapped breakfast, rain dripping beyond the awning.",
+      "endState": "Kaiden leans the bicycle beside him and finishes the wrapped breakfast, rain dripping beyond the awning.",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "medium awning single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street. Outgoing physical state: Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+      "sound": "Paper rustle and rain drip.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC004_002_02",
+      "displayShot": 2,
+      "segmentStart": 6,
+      "segmentEnd": 11,
+      "sceneStart": 21,
+      "sceneEnd": 26,
+      "purpose": "From Kaiden’s eye-line POV, the phone screen faces Kaiden and displays Mocha’s source message and a photograph of Mocha beside the stadium’s empty third position. Only Kaiden’s hands and the phone occupy the live foreground; his fingers hold the side and lower edges without covering the display. This is not a front-facing audience presentation.",
+      "framing": "phone insert in Kaiden’s hands",
+      "visibleAssets": [
+        "@kaiden",
+        "@phone",
+        "@mocha",
+        "@stadium",
+        "@imphal"
+      ],
+      "startState": "The screen displays Mocha’s source message and a photograph of Mocha beside the stadium’s empty third position.",
+      "action": "From Kaiden’s eye-line POV, the phone screen faces Kaiden and displays Mocha’s source message and a photograph of Mocha beside the stadium’s empty third position. Only Kaiden’s hands and the phone occupy the live foreground; his fingers hold the side and lower edges without covering the display. This is not a front-facing audience presentation.",
+      "endState": "Only Kaiden’s hands and the phone occupy the live foreground.",
+      "camera": "The camera pushes toward the screen slowly.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "phone insert in Kaiden’s hands; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @phone, @mocha, @stadium.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street. Outgoing physical state: Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+      "sound": "Two alert tones.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC004_002_03",
+      "displayShot": 3,
+      "segmentStart": 11,
+      "segmentEnd": 15,
+      "sceneStart": 26,
+      "sceneEnd": 30,
+      "purpose": "Kaiden lowers the phone, tightens his jaw and swings onto the saddle.",
+      "framing": "medium single",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "startState": "Kaiden lowers the phone, tightens his jaw and swings onto the saddle..",
+      "action": "Kaiden lowers the phone, tightens his jaw and swings onto the saddle.",
+      "endState": "Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+      "camera": "The camera tilts from his face to the handlebars.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "medium single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street. Outgoing physical state: Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+      "sound": "Handlebar creak.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    }
+  ],
+  "soundPlan": [
+    "Paper rustle and rain drip. Two alert tones. Handlebar creak. Continuous ambience and spin phase bridge internal cuts; cut effects only at their physical event."
+  ],
+  "musicPlan": "Light kick, tight hi-hat and plucked bass at 132 BPM in D minor, thinning to a sustained D beneath the pocket pulse. This is the continuous scene cue M04, using source offset 15.000 to 30.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "storyboard": {
+    "spec": "storyboards/specs/SEG_SC004_002_storyboard.json",
+    "prompt": "storyboards/prompts/SEG_SC004_002_storyboard_prompt.txt",
+    "expectedOutputFile": "SEG_SC004_002.png",
+    "h3StoryboardReferenceDefault": false
+  },
+  "promptBundle": "prompts/SEG_SC004_002_prompt_bundle.json",
+  "continuityMode": "MATCH_CONTINUITY",
+  "previousSegmentId": "SEG_SC004_001",
+  "referencePreviousLastKeyframe": true,
+  "previousKeyframeReference": null,
+  "finalEditUnit": true,
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "continuityPriority": "HIGH",
+  "environmentContinuityGroup": "SC004",
+  "environmentStateAnchors": [
+    "Travel screen direction is left to right; bicycle is walked near people and inside heritage grounds."
+  ],
+  "editorialPacing": {
+    "shotCount": 3,
+    "pace": "AUTHORED"
+  },
+  "editorialBoundaryIn": "MATCH_CUT",
+  "usePreviousLastKeyframeAsFirstFrame": false,
+  "editorialBoundaryOut": "MATCH_CUT",
+  "outgoingFrameIsHandoff": true,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "physicsPlan": "",
+  "audioContinuity": {
+    "cueId": "M04",
+    "movieStart": 215,
+    "movieEnd": 230,
+    "sceneCueOffset": 15,
+    "sampleRate": 48000,
+    "startSample": 10320000,
+    "endSample": 11040000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "visibleSceneText": [
+    "R.I.P. your homemade blade—defeated by fear"
+  ],
+  "continuityReferencePolicy": {
+    "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+    "role": "VISUAL_STATE_ONLY",
+    "required": true,
+    "onMissing": "BLOCK_GENERATION",
+    "neverUse": "latest unused retry or storyboard composite"
+  },
+  "speechRouting": [
+    {
+      "dialogueId": "DLG_SC004_001",
+      "speaker": "@kaiden",
+      "start": 11,
+      "end": 15,
+      "mouthTarget": "@kaiden",
+      "delivery": "ONSCREEN"
+    }
+  ],
+  "classicBeybladePhysics": "Classic Plastic Generation physics apply: physical Beyblades stay palm-sized, solid and tip-driven; right-spin and left-spin remain constant; stadium translation is separate from axial rotation; collisions use direct Attack Ring contact with recoil; supernatural energy remains anchored to the visible physical top. Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "canonicalReferences": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@bicycle",
+      "file": "canonical_refs/assets/props/bicycle_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for bicycle",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for imphal",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@phone",
+      "file": "canonical_refs/assets/props/phone_sheet.jpg",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for phone",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "runtimeAssetLock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@bicycle",
+      "@imphal",
+      "@phone",
+      "@mocha",
+      "@stadium"
+    ]
+  },
+  "runtimeAssetMentionLock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "optional_h3_storyboard_reference": {
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "screenOrientationLock": "Viewed-screen orientation lock: whenever a subject reads a phone or detector, the display plane faces that subject's eyes, not the audience. The audience sees the back or edge unless the authored camera is a subject POV or an over-the-shoulder view from behind the subject; in that case the screen remains physically facing the subject while also readable to camera. Hands grip the side or lower edges without covering the viewed content, and wrists remain anatomically plausible.",
+  "stadiumMotionLock": "Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side.",
+  "realWorldSpinStabilityLock": "Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "dialogueTurnPolicy": "Exactly one named structured speaker owns each timed line; all other visible humans keep lips closed for that interval."
+}

@@ -1,0 +1,267 @@
+{
+  "segmentId": "SEG_SC003_005",
+  "sceneId": "SC003",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC003_005_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC003_005.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@ima",
+      "file": "canonical_refs/assets/characters/ima_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@beyblade",
+      "file": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 5,
+      "assetId": "@breakfast_plate",
+      "file": "canonical_refs/assets/props/breakfast_plate_sheet.jpg",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 6,
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC003_005_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 4.0
+      },
+      "timeLabel": "0–4.0s",
+      "framing": "wide room two-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@beyblade",
+        "@launcher",
+        "@breakfast_plate",
+        "@kaidens_house"
+      ],
+      "description": "Kaiden stuffs the top into the right side-seam pocket of his black athletic shorts and grabs the launcher.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Top rests on table beside phone and screw; Kaiden's fingers pause over screw. Outgoing physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC003_005_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 4.0,
+        "end": 8
+      },
+      "timeLabel": "4.0–8s",
+      "framing": "slightly lower wide room two-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pans across the short room.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@beyblade",
+        "@launcher",
+        "@breakfast_plate",
+        "@kaidens_house"
+      ],
+      "description": "He darts toward the door, then pivots back toward the breakfast plate in Eema’s hands.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Top rests on table beside phone and screw; Kaiden's fingers pause over screw. Outgoing physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC003_005_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 8,
+        "end": 15
+      },
+      "timeLabel": "8–15s",
+      "framing": "doorway two-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds at the threshold.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weatherState": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@breakfast_plate",
+        "@kaidens_house"
+      ],
+      "description": "Kaiden folds food into paper while Eema stands beside the open doorway. The street light catches their profiles.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "continuity": "Incoming physical state: Top rests on table beside phone and screw; Kaiden's fingers pause over screw. Outgoing physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "generationAttachmentOrder": [
+    {
+      "imageIndex": 1,
+      "file": "canonical_refs/generated/family_identity_plate.png",
+      "assetIds": [
+        "@kaiden",
+        "@ima"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 2,
+      "file": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "assetIds": [
+        "@beyblade"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 3,
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "assetIds": [
+        "@launcher"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 4,
+      "file": "canonical_refs/assets/props/breakfast_plate_sheet.jpg",
+      "assetIds": [
+        "@breakfast_plate"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 5,
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "assetIds": [
+        "@kaidens_house"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    }
+  ],
+  "continuityHandoff": {
+    "incoming": "Top rests on table beside phone and screw; Kaiden's fingers pause over screw.",
+    "outgoing": "Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC003_004",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "launcherAttachmentProximityLock": "Launcher-to-Beyblade proximity lock: whenever a Beyblade is loaded before release, its flat upper face is in direct visible contact with the launcher underside, with zero visible air gap. Exactly two short close-set launcher prongs are fully inserted into the paired slots beside the central Bit Chip and twist-locked together; the top is level, centered on the launcher axis, and its tip points straight down. The launcher and loaded top move as one rigid assembly with identical position and tilt: no dangling top, long connector, exposed suspension gap, single-post support, floating, or early separation. The visible gap begins only on the single release frame, when both prongs disengage together and the already-spinning top immediately descends tip-first under gravity.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "launcherNoConnectorLock": "Launcher silhouette lock: the Beyblade's upper face sits immediately beneath and touches the actual launcher housing. Only the two very short engagement prongs hidden inside the top's center slots may connect them. Never draw any long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether, suspension bar, or extended post between launcher and Beyblade.",
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC003_005.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "9170b9622f4b08ee454d92cb75531c28756c3f943a83a75a26987387376b292a",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC003_005_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC003_005_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

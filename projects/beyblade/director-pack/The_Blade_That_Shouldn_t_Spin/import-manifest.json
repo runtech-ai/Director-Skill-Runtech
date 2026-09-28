@@ -1,0 +1,122 @@
+{
+  "format": "movie-director-result",
+  "version": "3.1-shotplan-only",
+  "scope": "movie",
+  "title": "The Blade That Shouldn't Spin",
+  "targetRuntime": 600,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "scenePackages": [
+    {
+      "sceneId": "SC001",
+      "title": "A world of toys",
+      "runtime": 40,
+      "packageRoot": "scene_packages/SC001_A_world_of_toys_director_shotplans",
+      "importManifest": "scene_packages/SC001_A_world_of_toys_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC001_A_world_of_toys_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC002",
+      "title": "The dream",
+      "runtime": 75,
+      "packageRoot": "scene_packages/SC002_The_dream_director_shotplans",
+      "importManifest": "scene_packages/SC002_The_dream_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC002_The_dream_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC003",
+      "title": "What Kaiden can afford",
+      "runtime": 85,
+      "packageRoot": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans",
+      "importManifest": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC004",
+      "title": "Racing to Kangla",
+      "runtime": 55,
+      "packageRoot": "scene_packages/SC004_Racing_to_Kangla_director_shotplans",
+      "importManifest": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC005",
+      "title": "Friends and friction",
+      "runtime": 125,
+      "packageRoot": "scene_packages/SC005_Friends_and_friction_director_shotplans",
+      "importManifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC005_Friends_and_friction_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC006",
+      "title": "Try, fail, escalate",
+      "runtime": 125,
+      "packageRoot": "scene_packages/SC006_Try_fail_escalate_director_shotplans",
+      "importManifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC006_Try_fail_escalate_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC007",
+      "title": "The silent circle",
+      "runtime": 70,
+      "packageRoot": "scene_packages/SC007_The_silent_circle_director_shotplans",
+      "importManifest": "scene_packages/SC007_The_silent_circle_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC007_The_silent_circle_director_shotplans/validation-report.json"
+    },
+    {
+      "sceneId": "SC008",
+      "title": "Post-credit stinger",
+      "runtime": 25,
+      "packageRoot": "scene_packages/SC008_Post_credit_stinger_director_shotplans",
+      "importManifest": "scene_packages/SC008_Post_credit_stinger_director_shotplans/import-manifest.json",
+      "validationReport": "scene_packages/SC008_Post_credit_stinger_director_shotplans/validation-report.json"
+    }
+  ],
+  "aggregatePromptBundles": [
+    {
+      "sceneId": "SC001",
+      "aggregatePromptBundle": "scene_packages/SC001_A_world_of_toys_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC002",
+      "aggregatePromptBundle": "scene_packages/SC002_The_dream_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC003",
+      "aggregatePromptBundle": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC004",
+      "aggregatePromptBundle": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC005",
+      "aggregatePromptBundle": "scene_packages/SC005_Friends_and_friction_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC006",
+      "aggregatePromptBundle": "scene_packages/SC006_Try_fail_escalate_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC007",
+      "aggregatePromptBundle": "scene_packages/SC007_The_silent_circle_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    },
+    {
+      "sceneId": "SC008",
+      "aggregatePromptBundle": "scene_packages/SC008_Post_credit_stinger_director_shotplans/prompts/all_segments_prompt_bundle.json"
+    }
+  ],
+  "validationReport": "validation-report.json",
+  "readme": "README.txt",
+  "directorEditorMode": "FINAL_EDIT_MASTER",
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "deliveryIntent": "Accepted generated segments concatenate directly in the authored order. Continuous audio mastering follows audio-continuity.json.",
+  "baseSchemaCompatibility": "3.1-shotplan-only",
+  "storyboardPromptIndex": "storyboard-index.json",
+  "storyboardReferenceDefault": false,
+  "storyboardGenerator": "GPT Image 2",
+  "schemaExtensions": [
+    "director-editor-final-master-v1",
+    "optional-storyboard-film-still-beat-sheet-v1",
+    "h3-optional-storyboard-reference-v1"
+  ]
+}

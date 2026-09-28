@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "videoModel": "minimax",
+  "capabilities": {
+    "modelId": "minimax",
+    "minDuration": 2.0,
+    "maxDuration": 15.0,
+    "fps": 24,
+    "maxImageReferences": 9,
+    "maxVideoReferences": 3,
+    "maxAudioReferences": 3,
+    "maxTotalReferences": 12,
+    "supportsFirstFrame": true,
+    "supportsLastFrame": true,
+    "supportsAudio": true
+  },
+  "dslSettings": {
+    "targetRuntime": "00:10:00",
+    "aspectRatio": "16:9",
+    "fps": 24,
+    "language": "English",
+    "directorMode": "GUIDED",
+    "storyboardApproval": "REQUIRED"
+  },
+  "styleProfile": {
+    "visual_medium": "Anime",
+    "lighting": "Cel-shaded with vibrant colors",
+    "lens_character": "Expressive and dynamic",
+    "contrast": "High contrast for dramatic effect",
+    "camera_behavior": "Fluid and responsive to action",
+    "motion": "Stepped motion sensibility"
+  },
+  "linkedMovieId": "82e1e29d-cf5f-48de-802b-478422125ef7",
+  "movieSettings": {
+    "title": "Beyblade",
+    "model": "minimax",
+    "imageModel": "qwen_image_21",
+    "quality": "standard",
+    "aspectRatio": "16:9",
+    "style": "anime-modern",
+    "h3Settings": "{}",
+    "krea2Settings": "{}"
+  }
+}

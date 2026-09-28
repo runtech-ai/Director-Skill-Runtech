@@ -1,0 +1,192 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC002_005",
+  "sceneId": "SC002",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC002_005_P01",
+    "SEG_SC002_005_P02",
+    "SEG_SC002_005_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@beyblade",
+      "file": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for handmade blade before emblem discovery",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CREATURE_IDENTITY",
+      "authority": "creature identity for ebudhou pakhangba",
+      "h3Role": "CREATURE_IDENTITY"
+    }
+  ],
+  "continuityIn": "Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+  "continuityOut": "Symbolic opening-title tableau ends; this is not a chronological physical event.",
+  "music": "Sparse glass mallet D–F–E–A tones and a low D drone at 60 BPM, broad quiet reverb; the opening-title section adds sustained strings. This is the continuous scene cue M02, using source offset 60.000 to 75.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC002_005_P01",
+      "sourceMicroShotId": "MS_SC002_005_01",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_005",
+        "sourceBeatIds": [
+          "SC002_B005"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6
+      },
+      "shotSizeAndAngle": "medium bedside single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden presses the cold top to his cheek, lowers it and rubs one eye.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium bedside single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @beyblade. The visible setting is @kaidens_house.",
+      "focalPoint": "Kaiden presses the cold top to his cheek, lowers it and rubs one eye.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade",
+        "@kaidens_house"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts. Outgoing physical state: Symbolic opening-title tableau ends; this is not a chronological physical event.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Too much cartoon.",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "sound": "Fan hum and fabric rub.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC002_005_P02",
+      "sourceMicroShotId": "MS_SC002_005_02",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_005",
+        "sourceBeatIds": [
+          "SC002_B005"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6,
+        "end": 10
+      },
+      "shotSizeAndAngle": "macro graphic insert",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera makes a small slow orbit.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Against flat blue darkness, the top rotates as an isolated opening-title graphic; three ink lines briefly catch white light.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "macro graphic insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @beyblade.",
+      "focalPoint": "Against flat blue darkness, the top rotates as an isolated opening-title graphic; three ink lines briefly catch white light.",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@beyblade"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts. Outgoing physical state: Symbolic opening-title tableau ends; this is not a chronological physical event.",
+      "dialogue": [],
+      "sound": "A soft graphic whoosh.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC002_005_P03",
+      "sourceMicroShotId": "MS_SC002_005_03",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_005",
+        "sourceBeatIds": [
+          "SC002_B005"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "wide symbolic title tableau",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "A graphic silhouette of the Sha statues sits beneath a white-gold coil and a dark sky. This is a nonchronological opening-title image, with the episode title centered in the video.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide symbolic title tableau; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @ebudhou_pakhangba. The visible setting is @kangla.",
+      "focalPoint": "A graphic silhouette of the Sha statues sits beneath a white-gold coil and a dark sky. This is a nonchronological opening-title image, with the episode title centered in the video.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kangla",
+        "@ebudhou_pakhangba"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts. Outgoing physical state: Symbolic opening-title tableau ends; this is not a chronological physical event.",
+      "dialogue": [],
+      "sound": "A short wind sweep.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT"
+    }
+  ]
+}

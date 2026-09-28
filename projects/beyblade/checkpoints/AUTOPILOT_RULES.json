@@ -1,0 +1,10 @@
+{
+  "authority": "Do not use prior chat context as project state. Load the applicable skills and query the live MCP; checkpoints are only compact navigation caches and must not override MCP state.",
+  "range": "When asked to Auto Pilot from a named segment, begin at that exact segment and continue sequentially through the final segment.",
+  "loop": "For each segment: resolve exact active scene and clip via MCP, pass the asset-integrity gate before every individual run, generate Draft-Anime, validate, correct only confirmed failures, pass the asset-integrity gate again, generate Production-Anime, validate, checkpoint, then advance.",
+  "asset_integrity_gate": "Before every generation request, verify the live segment required-assets list, H3 subject bindings and picture labels, storyboard attachment, active scene UUID and exact clip ownership, and absence of inactive-duplicate routing. Do not queue while any required asset is missing, substituted, misbound, stale, or attached to the wrong scene or clip.",
+  "beyblade_physics_bible": "Whenever a segment contains a Beyblade, launcher, ripcord, stadium, collision, knockout, or Bit Beast, read BEYBLADE_PHYSICS_BIBLE.md before directing or generating and apply every relevant rule as a hard validation gate.",
+  "acceptance": "Scene and primary beats must match at least 95 percent. Any Beyblade launch, launcher attachment, release, landing, spin, collision, wobble, or stadium interaction must pass coherent Beyblade physics as a hard gate.",
+  "media_preview": "For every generation, display exactly one available latent preview image in the chat. After that generation finishes, download the exact newly versioned video for the exact active clip and embed the local video in the chat so the user can watch it.",
+  "safety": "Never generate against inactive duplicates. Require a newly versioned exact-clip path before reviewing. Stop only for a real blocker, required authority, or repeated infrastructure failure."
+}

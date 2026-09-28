@@ -1,0 +1,62 @@
+{
+  "sceneId": "SC007",
+  "mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "generator": "GPT Image 2",
+  "storyboardImageRequiredForH3": false,
+  "panelCountRangePerSegment": {
+    "min": 1,
+    "max": 10
+  },
+  "segments": [
+    {
+      "segmentId": "SEG_SC007_001",
+      "sceneId": "SC007",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC007_001_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC007_001_storyboard.json",
+      "expectedOutputFile": "SEG_SC007_001.png",
+      "generatedFile": "SEG_SC007_001.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "sceneId": "SC007",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC007_002_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC007_002_storyboard.json",
+      "expectedOutputFile": "SEG_SC007_002.png",
+      "generatedFile": "SEG_SC007_002.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "sceneId": "SC007",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC007_003_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC007_003_storyboard.json",
+      "expectedOutputFile": "SEG_SC007_003.png",
+      "generatedFile": "SEG_SC007_003.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "sceneId": "SC007",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC007_004_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC007_004_storyboard.json",
+      "expectedOutputFile": "SEG_SC007_004.png",
+      "generatedFile": "SEG_SC007_004.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "sceneId": "SC007",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC007_005_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC007_005_storyboard.json",
+      "expectedOutputFile": "SEG_SC007_005.png",
+      "generatedFile": "SEG_SC007_005.png",
+      "h3StoryboardReferenceDefault": false
+    }
+  ]
+}

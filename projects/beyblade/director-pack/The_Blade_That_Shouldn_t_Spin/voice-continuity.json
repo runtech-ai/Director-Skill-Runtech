@@ -1,0 +1,13 @@
+{
+  "voices": {
+    "@kaiden": "youthful mid-pitched boy voice, clear consonants and quick breath-led phrasing",
+    "@ima": "warm low-mid adult female voice with measured soft delivery",
+    "@nanao": "steady youthful boy voice, slightly lower than Kaiden, measured articulation",
+    "@mocha": "bright youthful boy voice with a light nasal edge and quick rhythm",
+    "@unknown_observer": "low restrained adult male voice with compact clipped articulation",
+    "@narrator": "warm dry adult male narration with unhurried diction",
+    "@control_voice": "flat clipped adult voice through a narrow-band radio filter"
+  },
+  "referenceAudioProvided": false,
+  "productionRequirement": "Use the same approved voice preset or actor for each handle across all clips. Speaker S numbers are local H3 vocal order; character handles identify the continuous role. No voice recording is included."
+}

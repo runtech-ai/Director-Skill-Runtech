@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "segmentsChecked": 43,
+  "shotsChecked": 129,
+  "explicitMentionsVerified": 447,
+  "failures": [],
+  "reason": "Compatibility lock for runtimes that discover movie-library props and locations only from explicit @handle mentions in shot prose."
+}

@@ -1,0 +1,352 @@
+{
+  "plugin": "Storyboard Generator",
+  "aspectRatio": "16:9",
+  "segments": [
+    {
+      "segmentId": "SEG_SC001_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC001_A_world_of_toys_director_shotplans/storyboards/SEG_SC001_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC001_A_world_of_toys_director_shotplans/storyboards/SEG_SC001_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC001_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC001_A_world_of_toys_director_shotplans/storyboards/SEG_SC001_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC001_A_world_of_toys_director_shotplans/storyboards/SEG_SC001_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC001_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC001_A_world_of_toys_director_shotplans/storyboards/SEG_SC001_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC001_A_world_of_toys_director_shotplans/storyboards/SEG_SC001_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC002_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC002_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC002_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC002_004",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_004_plugin_handoff.json",
+      "prompt": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_004_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC002_005",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_005_plugin_handoff.json",
+      "prompt": "scene_packages/SC002_The_dream_director_shotplans/storyboards/SEG_SC002_005_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC003_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC003_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC003_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC003_004",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_004_plugin_handoff.json",
+      "prompt": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_004_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_005_plugin_handoff.json",
+      "prompt": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_005_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC003_006",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_006_plugin_handoff.json",
+      "prompt": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/SEG_SC003_006_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC004_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC004_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC004_004",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_004_plugin_handoff.json",
+      "prompt": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/SEG_SC004_004_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_004_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_004_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_005_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_005_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_006_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_006_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_007_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_007_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_008_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_008_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_009_plugin_handoff.json",
+      "prompt": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/SEG_SC005_009_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_004_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_004_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_005_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_005_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_006_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_006_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_007_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_007_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_008_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_008_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_009_plugin_handoff.json",
+      "prompt": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/SEG_SC006_009_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_002_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_003_plugin_handoff.json",
+      "prompt": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_003_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_004_plugin_handoff.json",
+      "prompt": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_004_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_005_plugin_handoff.json",
+      "prompt": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/SEG_SC007_005_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC008_001",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC008_Post_credit_stinger_director_shotplans/storyboards/SEG_SC008_001_plugin_handoff.json",
+      "prompt": "scene_packages/SC008_Post_credit_stinger_director_shotplans/storyboards/SEG_SC008_001_plugin_prompt.txt"
+    },
+    {
+      "segmentId": "SEG_SC008_002",
+      "panelCount": 3,
+      "status": "PASS",
+      "errors": [],
+      "handoff": "scene_packages/SC008_Post_credit_stinger_director_shotplans/storyboards/SEG_SC008_002_plugin_handoff.json",
+      "prompt": "scene_packages/SC008_Post_credit_stinger_director_shotplans/storyboards/SEG_SC008_002_plugin_prompt.txt"
+    }
+  ],
+  "valid": true,
+  "errors": []
+}

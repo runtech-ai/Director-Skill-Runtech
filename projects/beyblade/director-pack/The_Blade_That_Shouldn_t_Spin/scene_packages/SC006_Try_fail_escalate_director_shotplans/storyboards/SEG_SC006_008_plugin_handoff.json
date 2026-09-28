@@ -1,0 +1,208 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC006_008",
+  "sceneId": "SC006",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC006_008_P01",
+    "SEG_SC006_008_P02",
+    "SEG_SC006_008_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "continuityIn": "Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+  "continuityOut": "Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+  "music": "Low strings, muted kick and syncopated synth bass at 132 BPM, a brief percussion gap at the failed launch, rising density at the second launch, then a complete score drop at the silent-circle threshold. This is the continuous scene cue M06, using source offset 105.000 to 120.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC006_008_P01",
+      "sourceMicroShotId": "MS_SC006_008_01",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_008",
+        "sourceBeatIds": [
+          "SC006_B008"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5
+      },
+      "shotSizeAndAngle": "close hand-and-rim view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera jolts once at the discharge.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "A brief non-sustained static arc jumps from the seated Bit Chip to Kaiden's bare hand before contact, and his arm recoils. Kaiden's handmade top remains upright at the exact stadium centre while Dragoon and Driger remain stopped outside opposite rim sides exactly as locked.",
+      "spatialBlocking": "THREE-TOP POSITION LOCK: Kaiden's handmade blue-red-metal-and-brown-wood Beyblade is the only top inside the stadium, upright at the exact centre on its planted tip. Nanao's blue-red-yellow Dragoon is stopped on its side outside the north-west rim with a clear gap from the stadium. Mocha's white-red-purple Driger is stopped on its side outside the north-east rim with a clear gap from the stadium. These three positions do not change across any panel; never place Dragoon or Driger inside the bowl and never omit any of the three tops.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "close hand-and-rim view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @3_beyblades, @stadium.",
+      "focalPoint": "A brief non-sustained static arc jumps from the seated Bit Chip to Kaiden’s bare hand before his skin reaches the right-spinning Beyblade. The physical top remains palm-sized, visible and tip-down on the stadium floor; Kaiden’s arm recoils.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens. Outgoing physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Stop!",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sound": "One electric crack.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_008_P02",
+      "sourceMicroShotId": "MS_SC006_008_02",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_008",
+        "sourceBeatIds": [
+          "SC006_B008"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5,
+        "end": 10
+      },
+      "shotSizeAndAngle": "medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tilts down with their movement.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden falls backward. Mocha catches his shoulders and supports the back of his head clear of the paving while Nanao crouches beside them. The stadium and all three Beyblades remain fully visible: only the handmade top is inside at exact centre; Dragoon and Driger remain stopped outside opposite rim sides.",
+      "spatialBlocking": "THREE-TOP POSITION LOCK: Kaiden's handmade blue-red-metal-and-brown-wood Beyblade is the only top inside the stadium, upright at the exact centre on its planted tip. Nanao's blue-red-yellow Dragoon is stopped on its side outside the north-west rim with a clear gap from the stadium. Mocha's white-red-purple Driger is stopped on its side outside the north-east rim with a clear gap from the stadium. These three positions do not change across any panel; never place Dragoon or Driger inside the bowl and never omit any of the three tops.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @mocha, @nanao. The visible setting is @kangla.",
+      "focalPoint": "Kaiden falls backward. Mocha catches his shoulders and supports the back of his head clear of the paving while Nanao crouches beside them. The mechanical spin whirr continues from the bowl.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@mocha",
+        "@nanao",
+        "@kangla",
+        "@stadium",
+        "@3_beyblades"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens. Outgoing physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+      "dialogue": [],
+      "sound": "Shoes scrape and a heavy fabric thump.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_008_P03",
+      "sourceMicroShotId": "MS_SC006_008_03",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_008",
+        "sourceBeatIds": [
+          "SC006_B008"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "low wide arena view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pulls back slowly to include the distant path.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Resonance propagates from the still-visible right-spinning handmade top at exact centre into the stadium. The plastic bowl cracks outward and separates along radial seams while the top stays intact on the surviving centre floor. Dragoon and Driger remain stopped outside the north-west and north-east edges; a clockwise ring of leaves rises.",
+      "spatialBlocking": "THREE-TOP POSITION LOCK: Kaiden's handmade blue-red-metal-and-brown-wood Beyblade is the only top inside the stadium, upright at the exact centre on its planted tip. Nanao's blue-red-yellow Dragoon is stopped on its side outside the north-west rim with a clear gap from the stadium. Mocha's white-red-purple Driger is stopped on its side outside the north-east rim with a clear gap from the stadium. These three positions do not change across any panel; never place Dragoon or Driger inside the bowl and never omit any of the three tops.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "low wide arena view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @3_beyblades, @stadium. The visible setting is @kangla.",
+      "focalPoint": "Resonance propagates from the still-visible right-spinning Beyblade into the stadium. The plastic bowl cracks outward from the contact region and separates along radial seams; fragments move away from the planted tip rather than exploding from the Beyblade. The top stays intact and continues spinning on the surviving centre floor as a clockwise ring of leaves rises.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens. Outgoing physical state: Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+      "dialogue": [],
+      "sound": "Splitting plastic and wind; park ambience drains to the isolated blade hum.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

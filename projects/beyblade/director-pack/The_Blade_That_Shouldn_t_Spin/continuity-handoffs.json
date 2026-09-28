@@ -1,0 +1,693 @@
+{
+  "status": "PLANNED_AND_AUDITED_NOT_VIDEO_RENDER_VERIFIED",
+  "segments": [
+    {
+      "segmentId": "SEG_SC001_001",
+      "incoming": "Black frame; ordinary-world montage begins.",
+      "outgoing": "Toy top has stopped under the sofa; anonymous child remains beside it.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": null,
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC001_002",
+      "incoming": "Toy top has stopped under the sofa; anonymous child remains beside it.",
+      "outgoing": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC001_001",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC001_003",
+      "incoming": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+      "outgoing": "Rainy roof view settles on Kaiden's small house.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC001_002",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC002_001",
+      "incoming": "Night bedroom; Kaiden asleep, real top stationary.",
+      "outgoing": "Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC001_003",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC002_002",
+      "incoming": "Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+      "outgoing": "Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC002_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC002_003",
+      "incoming": "Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+      "outgoing": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC002_002",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC002_004",
+      "incoming": "Dream boy reaches his open hand toward descending light; one golden guardian overhead.",
+      "outgoing": "Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC002_003",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC002_005",
+      "incoming": "Awake Kaiden sits beside bed holding cold motionless three-ink-stroke top; blue shirt and black white-striped shorts.",
+      "outgoing": "Symbolic opening-title tableau ends; this is not a chronological physical event.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC002_004",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC003_001",
+      "incoming": "After opening titles, morning workbench; Kaiden seated, top has three ink strokes.",
+      "outgoing": "Kaiden is seated at workbench, left hand has caught the cup; top is stopped on table, three ink strokes intact.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC002_005",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC003_002",
+      "incoming": "Kaiden is seated at workbench, left hand has caught the cup; top is stopped on table, three ink strokes intact.",
+      "outgoing": "Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC003_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC003_003",
+      "incoming": "Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+      "outgoing": "Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC003_002",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC003_004",
+      "incoming": "Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+      "outgoing": "Top rests on table beside phone and screw; Kaiden's fingers pause over screw.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC003_003",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "incoming": "Top rests on table beside phone and screw; Kaiden's fingers pause over screw.",
+      "outgoing": "Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC003_004",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC003_006",
+      "incoming": "Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate.",
+      "outgoing": "Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC003_005",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC004_001",
+      "incoming": "Kaiden rides away from home with wrapped breakfast, top, launcher and ripcord secured.",
+      "outgoing": "Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC003_006",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "incoming": "Kaiden is dismounted under shop awning; bicycle points right; wrapped food in hand; damp street.",
+      "outgoing": "Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC004_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC004_003",
+      "incoming": "Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+      "outgoing": "Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC004_002",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC004_004",
+      "incoming": "Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+      "outgoing": "Kaiden walks right-facing bicycle beside perimeter moat toward tall cream gateway; blue shirt unchanged, top concealed.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC004_003",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "incoming": "Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen.",
+      "outgoing": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC004_004",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "incoming": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "outgoing": "Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "incoming": "Both ordinary tops recovered; Kaiden parks bicycle at plaza edge, top still concealed; stadium intact.",
+      "outgoing": "Kaiden occupies south position and looks at closed pocket; Nanao north-west, Mocha north-east.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_002",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "incoming": "Kaiden occupies south position and looks at closed pocket; Nanao north-west, Mocha north-east.",
+      "outgoing": "Kaiden loosely folds arms; friends remain at same arena positions; bowl intact and empty.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_003",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "incoming": "Kaiden loosely folds arms; friends remain at same arena positions; bowl intact and empty.",
+      "outgoing": "Kaiden holds stationary handmade top in palm; three ink strokes have become seated golden emblem; unloaded launcher beside him.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_004",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "incoming": "Kaiden holds stationary handmade top in palm; three ink strokes have become seated golden emblem; unloaded launcher beside him.",
+      "outgoing": "Kaiden still holds stationary top, centre Bit Chip seated and nonluminous; Nanao leans toward it; no launch.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_005",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "incoming": "Kaiden still holds stationary top, centre Bit Chip seated and nonluminous; Nanao leans toward it; no launch.",
+      "outgoing": "Kaiden draws top to chest; Nanao raises open palm toward unloaded launcher; Mocha watches.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_006",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "incoming": "Kaiden draws top to chest; Nanao raises open palm toward unloaded launcher; Mocha watches.",
+      "outgoing": "Kaiden holds loaded launcher, top slightly crooked on bent prong; no release.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_007",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "incoming": "Kaiden holds loaded launcher, top slightly crooked on bent prong; no release.",
+      "outgoing": "All three crouch ready at fixed positions; one top docked below each launcher; short ripcords inserted, fingers hooked through rings; bowl empty.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC005_008",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "incoming": "All three crouch ready at fixed positions; one top docked below each launcher; short ripcords inserted, fingers hooked through rings; bowl empty.",
+      "outgoing": "First launch completed once: handmade top flat and stopped in bowl, Dragoon and Driger spinning; Nanao holds Kaiden's reaching wrist.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC005_009",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "incoming": "First launch completed once: handmade top flat and stopped in bowl, Dragoon and Driger spinning; Nanao holds Kaiden's reaching wrist.",
+      "outgoing": "All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "incoming": "All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+      "outgoing": "Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_002",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "incoming": "Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops.",
+      "outgoing": "Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC006_003",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "incoming": "Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+      "outgoing": "Dragoon stopped outside north-west rim and Driger outside north-east rim; only handmade top spins inside bowl.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_004",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "incoming": "Dragoon stopped outside north-west rim and Driger outside north-east rim; only handmade top spins inside bowl.",
+      "outgoing": "Handmade top spins clockwise on planted tip; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_005",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "incoming": "Handmade top spins clockwise on planted tip; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear.",
+      "outgoing": "Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_006",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "incoming": "Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "outgoing": "Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_007",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "incoming": "Kaiden sits supported by Mocha, Nanao crouches beside them; stadium shattered radially; top spins on surviving center floor; storm rain begins.",
+      "outgoing": "Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_008",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "incoming": "Same seated supported Kaiden; Nanao watches distant path; wet shattered stadium and clockwise leaf ring persist.",
+      "outgoing": "Kaiden has stood beside his friends; wet courtyard, shattered bowl, top spins with chip firmly seated; only luminous essence rises.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC006_009",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "incoming": "Kaiden has stood beside his friends; wet courtyard, shattered bowl, top spins with chip firmly seated; only luminous essence rises.",
+      "outgoing": "Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC007_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "incoming": "Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist.",
+      "outgoing": "Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC007_002",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "incoming": "Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "outgoing": "Guardian essence has returned to seated chip; top still spins; shattered bowl remains; rain stops and daylight returns; boys stay off-camera.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC007_003",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "incoming": "Guardian essence has returned to seated chip; top still spins; shattered bowl remains; rain stops and daylight returns; boys stay off-camera.",
+      "outgoing": "Top continues spinning between jagged fragments, then image cuts to black title.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC007_004",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    },
+    {
+      "segmentId": "SEG_SC008_001",
+      "incoming": "Post-credit time/location cut to observer outside perimeter in renewed light rain.",
+      "outgoing": "Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+      "editorialBoundaryIn": "HARD_CUT",
+      "previousSegmentId": "SEG_SC007_005",
+      "referencePreviousLastKeyframe": false,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": false,
+        "onMissing": "NOT_REQUIRED",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Deliberate montage/time/viewpoint cut; preserve state text. Launch cuts reserve all 9 canonical image slots."
+    },
+    {
+      "segmentId": "SEG_SC008_002",
+      "incoming": "Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+      "outgoing": "Observer lowers detector and turns screen inward beside same wet fence; light rain continues.",
+      "editorialBoundaryIn": "MATCH_CUT",
+      "previousSegmentId": "SEG_SC008_001",
+      "referencePreviousLastKeyframe": true,
+      "referencePolicy": {
+        "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+        "role": "VISUAL_STATE_ONLY",
+        "required": true,
+        "onMissing": "BLOCK_GENERATION",
+        "neverUse": "latest unused retry or storyboard composite"
+      },
+      "reason": "Camera angle may change; physical pose, prop state and environment match selected previous take."
+    }
+  ]
+}

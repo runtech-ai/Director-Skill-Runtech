@@ -1,0 +1,217 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC007_003",
+  "sceneId": "SC007",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC007_003_P01",
+    "SEG_SC007_003_P02",
+    "SEG_SC007_003_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CREATURE_IDENTITY",
+      "authority": "creature identity for ebudhou pakhangba",
+      "h3Role": "CREATURE_IDENTITY"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist.",
+  "continuityOut": "Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+  "music": "N/A",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC007_003_P01",
+      "sourceMicroShotId": "MS_SC007_003_01",
+      "scriptReference": {
+        "sceneId": "SC007",
+        "segmentId": "SEG_SC007_003",
+        "sourceBeatIds": [
+          "SC007_B003"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.0
+      },
+      "shotSizeAndAngle": "wide profile group",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden steps in front of Nanao and Mocha, places his palms together and raises his face toward the immense eyes.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide profile group; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha, @ebudhou_pakhangba. The visible setting is @kangla.",
+      "focalPoint": "Kaiden steps in front of Nanao and Mocha, places his palms together and raises his face toward the immense eyes.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@ebudhou_pakhangba",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist. Outgoing physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Ebudhou Pakhangba... was that you?",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "sound": "Low resonance and rain.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC007_003_P02",
+      "sourceMicroShotId": "MS_SC007_003_02",
+      "scriptReference": {
+        "sceneId": "SC007",
+        "segmentId": "SEG_SC007_003",
+        "sourceBeatIds": [
+          "SC007_B003"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.0,
+        "end": 10
+      },
+      "shotSizeAndAngle": "slightly lower wide profile group",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera makes a slow quarter arc without crossing their axis.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "His knees tremble but his feet stay planted.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower wide profile group; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha, @ebudhou_pakhangba. The visible setting is @kangla.",
+      "focalPoint": "His knees tremble but his feet stay planted.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@ebudhou_pakhangba",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist. Outgoing physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Ebudhou Pakhangba... was that you?",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "sound": "Low resonance and rain.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC007_003_P03",
+      "sourceMicroShotId": "MS_SC007_003_03",
+      "scriptReference": {
+        "sceneId": "SC007",
+        "segmentId": "SEG_SC007_003",
+        "sourceBeatIds": [
+          "SC007_B003"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "low monumental wide",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The vast jaws open silently above the statues; rain hangs in the white-gold light.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "Low monumental wide containing only @ebudhou_pakhangba and the @kangla Sha statues in rain; zero humans, Beyblades or stadium pieces are visible.",
+      "focalPoint": "The vast jaws open silently above the statues; rain hangs in the white-gold light.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@ebudhou_pakhangba",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist. Outgoing physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "dialogue": [],
+      "sound": "All Kangla bells begin ringing together; no creature roar.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT"
+    }
+  ]
+}

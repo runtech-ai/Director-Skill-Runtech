@@ -1,0 +1,270 @@
+{
+  "segmentId": "SEG_SC006_005",
+  "sceneId": "SC006",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC006_005_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC006_005.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 5,
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 6,
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC006_005_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 6
+      },
+      "timeLabel": "0–6s",
+      "framing": "top-down arena view",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds overhead to expose the complete paths.",
+      "cameraGeometry": "AUTHORED OVERHEAD GEOMETRY: the upper face is visible because this shot is explicitly overhead; do not mix in an edge-on body view within the same panel.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "description": "From the mid-zone, the right-spinning handmade attack-type Beyblade accelerates along a curved inward path and its physical Attack Ring strikes left-spinning Nanao’s blue-red-yellow Beyblade tangentially on the outer-right quadrant. Both tops recoil. Nanao’s blue-red-yellow Beyblade is driven outward, climbs the north-west stadium slope and crosses the rim in one short ballistic arc while retaining spin; the Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade kicks back toward centre, tilts briefly, then the bowl slope redirects it into a new orbit without reversing its right-spin.",
+      "appearance": "Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact. Outgoing physical state: Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC006_005_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 6,
+        "end": 11
+      },
+      "timeLabel": "6–11s",
+      "framing": "rim-level close-up",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera tracks the impacts along the inner slope.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "description": "Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade approaches right-spinning Mocha’s white-red-purple Beyblade three separate times. On each pass, the two physical Attack Rings make direct contact, both tops recoil, separate visibly and follow new paths before the next approach. The third hit drives Mocha’s white-red-purple Beyblade up the north-east slope and across the rim; it lands outside, wobbles, scrapes and stops intact. The Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade recoils inward and remains right-spinning.",
+      "appearance": "Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact. Outgoing physical state: Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC006_005_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 11,
+        "end": 15
+      },
+      "timeLabel": "11–15s",
+      "framing": "medium two-shot",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pulls back slightly.",
+      "cameraGeometry": "STRICT SIDE-VIEW GEOMETRY: show the Beyblade edge-on at body mid-height with its horizontal layers and contacting tip in profile; never reveal the circular upper face, centre emblem as a top view, or an overhead angle.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@mocha",
+        "@kangla",
+        "@nanao",
+        "@stadium",
+        "@3_beyblades"
+      ],
+      "description": "A low rim-level side view shows Kaiden at left, Nanao at centre and Mocha at right behind the complete intact stadium. Only the palm-sized Kaiden’s handmade blue-red-metal-and-brown-wood Beyblade remains inside the bowl, upright in strict side profile with its layered body and planted metal tip visible. Nanao’s blue-red-yellow Beyblade lies stopped on its side on the courtyard beyond the north-west outer wall and Mocha’s white-red-purple Beyblade lies stopped on its side beyond the north-east outer wall, each separated from the full rim by a clear gap; neither re-enters.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact. Outgoing physical state: Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "generationAttachmentOrder": [
+    {
+      "imageIndex": 1,
+      "file": "canonical_refs/generated/tops_identity_plate.png",
+      "assetIds": [
+        "@3_beyblades"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 2,
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "assetIds": [
+        "@stadium"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 3,
+      "file": "canonical_refs/generated/trio_identity_plate.png",
+      "assetIds": [
+        "@kaiden",
+        "@mocha"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    },
+    {
+      "imageIndex": 4,
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "assetIds": [
+        "@kangla"
+      ],
+      "role": "IDENTITY_OR_DESIGN_ONLY"
+    }
+  ],
+  "continuityHandoff": {
+    "incoming": "Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+    "outgoing": "Dragoon lies stopped on its side outside the north-west rim and Driger lies stopped on its side outside the north-east rim; only handmade top spins inside bowl.",
+    "editorialBoundaryIn": "MATCH_CUT",
+    "previousSegmentId": "SEG_SC006_004",
+    "referencePreviousLastKeyframe": true,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": true,
+      "onMissing": "BLOCK_GENERATION",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classicBeybladeState": {
+    "handmade": "RIGHT spin; HIGH RPM; attack sweeps and recoil",
+    "dragoon": "LEFT spin; ejected north-west, loses RPM through widening precession, then falls onto its side and STOPPED",
+    "driger": "RIGHT spin; ejected north-east, loses RPM through widening precession, then falls onto its side and STOPPED"
+  },
+  "ownerBeybladeState": {
+    "kaiden": "RIGHT spin; HIGH RPM; attack sweeps and recoil",
+    "nanao": "LEFT spin; ejected north-west, loses RPM through widening precession, then falls onto its side and STOPPED",
+    "mocha": "RIGHT spin; ejected north-east, loses RPM through widening precession, then falls onto its side and STOPPED"
+  },
+  "threeBeybladesAssetLock": {
+    "assetId": "@3_beyblades",
+    "kaiden": "handmade blue-red-metal-and-brown-wood; right-spin",
+    "nanao": "blue-red-yellow; left-spin",
+    "mocha": "white-red-purple; right-spin"
+  },
+  "launcherCenterSlotGeometryLock": "Launcher center-slot geometry lock: the launcher has exactly two short, close-set engagement prongs symmetric about its central axis. Both prongs enter the paired launcher slots immediately beside the Beyblade's central Bit Chip/center gap, one on each side of the axis. They never attach to the outer Attack Ring, Weight Disk, perimeter, or tip. Before release the top is level, flush, and firmly retained on both prongs; at release both prongs disengage together and the top becomes fully unsupported, descending tip-first under gravity.",
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC006_005.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "2dfa850564f6d2bb052830822e5ec34da877c749f89478614c1bccfa92c48a3e",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC006_005_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC006_005_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

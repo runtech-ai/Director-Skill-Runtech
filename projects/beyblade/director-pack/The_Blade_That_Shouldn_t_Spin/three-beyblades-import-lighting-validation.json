@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "scope": [
+    "SEG_SC005_009",
+    "SEG_SC006_001",
+    "SEG_SC006_002",
+    "SEG_SC006_003",
+    "SEG_SC006_004",
+    "SEG_SC006_005",
+    "SEG_SC006_006",
+    "SEG_SC006_007",
+    "SEG_SC006_008",
+    "SEG_SC006_009",
+    "SEG_SC007_001",
+    "SEG_SC007_002",
+    "SEG_SC007_003",
+    "SEG_SC007_004",
+    "SEG_SC007_005"
+  ],
+  "combinedAssetHandle": "@3_beyblades",
+  "bitBeastLightingSegment": "SEG_SC007_002",
+  "segments": {
+    "SEG_SC005_009": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_001": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_002": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_003": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_004": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_005": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_006": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_007": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_008": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC006_009": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC007_001": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC007_002": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 3
+    },
+    "SEG_SC007_003": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC007_004": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    },
+    "SEG_SC007_005": {
+      "combinedHandlePresent": true,
+      "legacyHandleOccurrences": 0,
+      "bitBeastIntroductionLightingOccurrences": 0
+    }
+  }
+}

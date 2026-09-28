@@ -1,0 +1,82 @@
+{
+  "segmentId": "SEG_SC004_002",
+  "canvas": {
+    "width": 3840,
+    "height": 2160
+  },
+  "labelPolicy": "Each label names the only canonical design in that tile; labels are metadata and must not appear in the rendered storyboard.",
+  "tiles": [
+    {
+      "tile": 1,
+      "assetId": "@kaiden",
+      "sourceFile": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "character identity for kaiden"
+    },
+    {
+      "tile": 2,
+      "assetId": "@bicycle",
+      "sourceFile": "canonical_refs/assets/props/bicycle_sheet.png",
+      "rect": {
+        "x": 960,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "prop identity for bicycle"
+    },
+    {
+      "tile": 3,
+      "assetId": "@imphal",
+      "sourceFile": "canonical_refs/assets/locations/imphal_sheet.png",
+      "rect": {
+        "x": 1920,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "location identity for imphal"
+    },
+    {
+      "tile": 4,
+      "assetId": "@phone",
+      "sourceFile": "canonical_refs/assets/props/phone_sheet.jpg",
+      "rect": {
+        "x": 2880,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "prop identity for phone"
+    },
+    {
+      "tile": 5,
+      "assetId": "@mocha",
+      "sourceFile": "canonical_refs/assets/characters/mocha_sheet.png",
+      "rect": {
+        "x": 0,
+        "y": 1080,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "character identity for mocha"
+    },
+    {
+      "tile": 6,
+      "assetId": "@stadium",
+      "sourceFile": "canonical_refs/assets/props/stadium_sheet.png",
+      "rect": {
+        "x": 960,
+        "y": 1080,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "prop identity for stadium"
+    }
+  ]
+}

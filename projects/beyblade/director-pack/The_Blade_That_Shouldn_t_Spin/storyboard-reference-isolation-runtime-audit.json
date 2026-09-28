@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "segmentId": "SEG_SC003_001",
+  "storyboardPicture": "<Picture 4>",
+  "instruction": "<Picture 4> is the storyboard reference for [Shot 1], [Shot 2], and [Shot 3], defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+  "forbiddenLayoutElements": [
+    "multi-panel grid",
+    "split screen",
+    "panel borders",
+    "divider lines",
+    "gutters",
+    "white margins",
+    "page edges",
+    "adjacent-panel fragments",
+    "captions/labels/timestamps/typography"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC004_004",
+  "sceneId": "SC004",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC004_004_P01",
+    "SEG_SC004_004_P02",
+    "SEG_SC004_004_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@bicycle",
+      "file": "canonical_refs/assets/props/bicycle_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for bicycle",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for imphal",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@kangla_perimeter",
+      "file": "canonical_refs/assets/locations/kangla_perimeter_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla_perimeter",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+  "continuityOut": "Kaiden walks right-facing bicycle beside perimeter moat toward tall cream gateway; blue shirt unchanged, top concealed.",
+  "music": "Light kick, tight hi-hat and plucked bass at 132 BPM in D minor, thinning to a sustained D beneath the pocket pulse. This is the continuous scene cue M04, using source offset 45.000 to 55.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC004_004_P01",
+      "sourceMicroShotId": "MS_SC004_004_01",
+      "scriptReference": {
+        "sceneId": "SC004",
+        "segmentId": "SEG_SC004_004",
+        "sourceBeatIds": [
+          "SC004_B004"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 2.0
+      },
+      "shotSizeAndAngle": "medium side single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden holds the right-facing bicycle still for one full second;",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium side single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+      "focalPoint": "Kaiden holds the right-facing bicycle still for one full second;",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears. Outgoing physical state: Kaiden walks right-facing bicycle beside perimeter moat toward tall cream gateway; blue shirt unchanged, top concealed.",
+      "dialogue": [],
+      "sound": "A bicycle spoke ticks.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC004_004_P02",
+      "sourceMicroShotId": "MS_SC004_004_02",
+      "scriptReference": {
+        "sceneId": "SC004",
+        "segmentId": "SEG_SC004_004",
+        "sourceBeatIds": [
+          "SC004_B004"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 2.0,
+        "end": 4
+      },
+      "shotSizeAndAngle": "medium side single matching the preceding camera position",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden keeps his torso, shoulders, hips and both hands fixed in the right-facing pose, turning only his head naturally toward his left shoulder for a backward glance; he then faces forward toward the gate.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium side single matching the preceding camera position; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+      "focalPoint": "Kaiden keeps his torso, shoulders, hips and both hands fixed in the right-facing pose, turning only his head naturally toward his left shoulder for a backward glance; he then faces forward toward the gate.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears. Outgoing physical state: Kaiden walks right-facing bicycle beside perimeter moat toward tall cream gateway; blue shirt unchanged, top concealed.",
+      "dialogue": [],
+      "sound": "A bicycle spoke ticks.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC004_004_P03",
+      "sourceMicroShotId": "MS_SC004_004_03",
+      "scriptReference": {
+        "sceneId": "SC004",
+        "segmentId": "SEG_SC004_004",
+        "sourceBeatIds": [
+          "SC004_B004"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 4,
+        "end": 10
+      },
+      "shotSizeAndAngle": "wide perimeter moat and entrance composition",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera cranes slightly upward to reveal the approach.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden walks his bicycle left to right beside the Kangla perimeter moat toward the tall cream entrance gateway.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide perimeter moat and entrance composition; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @kangla_perimeter.",
+      "focalPoint": "Kaiden walks his bicycle left to right beside the Kangla perimeter moat toward the tall cream entrance gateway.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears. Outgoing physical state: Kaiden walks right-facing bicycle beside perimeter moat toward tall cream gateway; blue shirt unchanged, top concealed.",
+      "dialogue": [],
+      "sound": "Footsteps replace tyre hiss; distant top impacts enter.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT"
+    }
+  ]
+}

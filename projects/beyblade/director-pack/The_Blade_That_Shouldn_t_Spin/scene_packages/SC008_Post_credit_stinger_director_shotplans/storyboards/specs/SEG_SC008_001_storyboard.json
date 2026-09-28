@@ -1,0 +1,201 @@
+{
+  "segmentId": "SEG_SC008_001",
+  "sceneId": "SC008",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC008_001_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC008_001.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@unknown_observer",
+      "file": "canonical_refs/assets/characters/unknown_observer_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@observer_device",
+      "file": "canonical_refs/assets/props/observer_device_sheet.jpg",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@kangla_perimeter",
+      "file": "canonical_refs/assets/locations/kangla_perimeter_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 4,
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC008_001_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 4
+      },
+      "timeLabel": "0–4s",
+      "framing": "over-shoulder device view",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera pushes toward the device slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kangla_perimeter"
+      ],
+      "description": "Rain dots the detector in the lone observer’s hand. A red waveform spikes and the source classification display illuminates. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge.",
+      "appearance": "",
+      "physics": "",
+      "continuity": "Incoming physical state: Post-credit time/location cut to observer outside perimeter in renewed light rain. Outgoing physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC008_001_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 4,
+        "end": 9.5
+      },
+      "timeLabel": "4–9.5s",
+      "framing": "medium single with visible device screen",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kaiden",
+        "@kangla_perimeter"
+      ],
+      "description": "The observer enlarges a captured distant image of Kaiden on the detector while the display remains angled toward his eyes. The camera stays over his shoulder rather than placing the screen toward the audience.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "continuity": "Incoming physical state: Post-credit time/location cut to observer outside perimeter in renewed light rain. Outgoing physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC008_001_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 9.5,
+        "end": 15
+      },
+      "timeLabel": "9.5–15s",
+      "framing": "slightly lower medium single with visible device screen",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera trucks slightly to reveal the screen beside the dark hair.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kaiden",
+        "@kangla_perimeter"
+      ],
+      "description": "A red rectangle settles around the boy’s face in the recorded image; the live observer remains alone. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot.",
+      "physics": "",
+      "continuity": "Incoming physical state: Post-credit time/location cut to observer outside perimeter in renewed light rain. Outgoing physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "Post-credit time/location cut to observer outside perimeter in renewed light rain.",
+    "outgoing": "Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+    "editorialBoundaryIn": "HARD_CUT",
+    "previousSegmentId": "SEG_SC007_005",
+    "referencePreviousLastKeyframe": false,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": false,
+      "onMissing": "NOT_REQUIRED",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC008_001.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "b43e93def9834a26401d152496ef6dabca8e28fbb45c9db5d2303f0eca582fca",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC008_001_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC008_001_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "id": "SEG_SC006_007",
+  "sceneId": "SC006",
+  "sceneStart": 90,
+  "sceneEnd": 105,
+  "duration": 15,
+  "sourceBeatIds": [
+    "SC006_B007"
+  ],
+  "purpose": "Kaiden plants himself ahead of his friends and sweeps his left arm backward.",
+  "continuityIn": "Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear.",
+  "continuityOut": "Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+  "requiredAssets": [
+    "@kaiden",
+    "@nanao",
+    "@mocha",
+    "@kangla",
+    "@stadium",
+    "@3_beyblades"
+  ],
+  "optionalAssets": [],
+  "dialogue": [
+    {
+      "id": "DLG_SC006_019",
+      "sourceLine": 19,
+      "speaker": "@kaiden",
+      "text": "Move back.",
+      "language": "English",
+      "start": 6.033878,
+      "end": 6.850204,
+      "delivery": "ONSCREEN",
+      "mouthTarget": "@kaiden"
+    },
+    {
+      "id": "DLG_SC006_020",
+      "sourceLine": 20,
+      "speaker": "@mocha",
+      "text": "What about you?",
+      "language": "English",
+      "start": 7.070204,
+      "end": 8.294694,
+      "delivery": "ONSCREEN",
+      "mouthTarget": "@mocha"
+    },
+    {
+      "id": "DLG_SC006_021",
+      "sourceLine": 21,
+      "speaker": "@kaiden",
+      "text": "It's my blade!",
+      "language": "English",
+      "start": 8.514694,
+      "end": 9.739184,
+      "delivery": "ONSCREEN",
+      "mouthTarget": "@kaiden"
+    },
+    {
+      "id": "DLG_SC006_022",
+      "sourceLine": 22,
+      "speaker": "@nanao",
+      "text": "And that's still your hand.",
+      "language": "English",
+      "start": 9.959184,
+      "end": 12.0,
+      "delivery": "ONSCREEN",
+      "mouthTarget": "@nanao"
+    }
+  ],
+  "microShots": [
+    {
+      "id": "MS_SC006_007_01",
+      "displayShot": 1,
+      "segmentStart": 0,
+      "segmentEnd": 6.0,
+      "sceneStart": 90,
+      "sceneEnd": 96.0,
+      "purpose": "Kaiden plants himself ahead of his friends and sweeps his left arm backward.",
+      "framing": "medium three-shot",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "startState": "Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear.",
+      "action": "Kaiden plants himself ahead of his friends and sweeps his left arm backward.",
+      "endState": "Kaiden plants himself ahead of his friends and sweeps his left arm backward.",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear. Outgoing physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "sound": "Wind lifts cloth over a continuous metallic whine.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC006_007_02",
+      "displayShot": 2,
+      "segmentStart": 6.0,
+      "segmentEnd": 12,
+      "sceneStart": 96.0,
+      "sceneEnd": 102,
+      "purpose": "Mocha shifts back; Nanao reaches toward Kaiden’s forearm. Kaiden extends his bare right hand toward the stadium.",
+      "framing": "lower-angle medium three-shot",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "startState": "Mocha shifts back; Nanao reaches toward Kaiden’s forearm.",
+      "action": "Mocha shifts back; Nanao reaches toward Kaiden’s forearm. Kaiden extends his bare right hand toward the stadium.",
+      "endState": "Kaiden extends his bare right hand toward the stadium.",
+      "camera": "The camera holds on their triangular arrangement.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "lower-angle medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear. Outgoing physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "sound": "Wind lifts cloth over a continuous metallic whine.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC006_007_03",
+      "displayShot": 3,
+      "segmentStart": 12,
+      "segmentEnd": 15,
+      "sceneStart": 102,
+      "sceneEnd": 105,
+      "purpose": "Kaiden lowers his bare hand toward the spinning top, with a small air gap still separating his fingertips from the spinning surface. The emblem brightens before contact.",
+      "framing": "close hand-and-rim insert",
+      "visibleAssets": [
+        "@kaiden",
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "startState": "Kaiden lowers his bare hand toward the spinning top, with a small air gap still separating his fingertips from the spinning surface.",
+      "action": "Kaiden lowers his bare hand toward the spinning top, with a small air gap still separating his fingertips from the spinning surface. The emblem brightens before contact.",
+      "endState": "Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "camera": "The camera pushes a few inches toward the gap.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "close hand-and-rim insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @3_beyblades, @stadium.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Handmade top spins clockwise while tracing a tight continuous orbit with its tip in moving contact; intact stadium vibrates and yaws slowly counterclockwise; boys keep hands clear. Outgoing physical state: Kaiden's bare fingertips hover above spinning top with visible air gap; no cloth; emblem brightens.",
+      "sound": "Electrical ticks above the blade hum.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. Kaiden's Ebudhou Blade preserves the canonical blue-red metal attack layer, brown wooden lower ring, exposed worn metal, intact seated centre Bit Chip and exact component colors in every frame. The physical Beyblade and centre Bit Chip emit no glow, aura, light pulse, luminous trail or supernatural shine; visible highlights are only ordinary wet, plastic or metal reflections. The three owner-mapped designs remain separate and exact: Kaiden owns only the handmade blue-red-metal and brown-wood Ebudhou Blade; Nanao owns only the blue-red-yellow Dragoon; Mocha owns only the white-red-purple Driger. Never fuse their components, swap owners, repeat one design, or invent a hybrid Beyblade. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    }
+  ],
+  "soundPlan": [
+    "Wind lifts cloth over a continuous metallic whine. Electrical ticks above the blade hum. Continuous ambience and spin phase bridge internal cuts; cut effects only at their physical event."
+  ],
+  "musicPlan": "Low strings, muted kick and syncopated synth bass at 132 BPM, a brief percussion gap at the failed launch, rising density at the second launch, then a complete score drop at the silent-circle threshold. This is the continuous scene cue M06, using source offset 90.000 to 105.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "storyboard": {
+    "spec": "storyboards/specs/SEG_SC006_007_storyboard.json",
+    "prompt": "storyboards/prompts/SEG_SC006_007_storyboard_prompt.txt",
+    "expectedOutputFile": "SEG_SC006_007.png",
+    "h3StoryboardReferenceDefault": false
+  },
+  "promptBundle": "prompts/SEG_SC006_007_prompt_bundle.json",
+  "continuityMode": "MATCH_CONTINUITY",
+  "previousSegmentId": "SEG_SC006_006",
+  "referencePreviousLastKeyframe": true,
+  "previousKeyframeReference": null,
+  "finalEditUnit": true,
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "continuityPriority": "HIGH",
+  "environmentContinuityGroup": "KANGLa_PLAZA",
+  "environmentStateAnchors": [
+    "Same plaza and fixed three-child positions as SC005.",
+    "Blue Dragoon ejects north-west and white Driger north-east; neither re-enters after ejection.",
+    "Clockwise homemade axial spin persists; reversal describes orbit, not axial direction.",
+    "The stadium splits only late in this scene."
+  ],
+  "editorialPacing": {
+    "shotCount": 3,
+    "pace": "AUTHORED"
+  },
+  "editorialBoundaryIn": "MATCH_CUT",
+  "usePreviousLastKeyframeAsFirstFrame": false,
+  "editorialBoundaryOut": "MATCH_CUT",
+  "outgoingFrameIsHandoff": true,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "physicsPlan": "[Shot 3] ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+  "audioContinuity": {
+    "cueId": "M06",
+    "movieStart": 470,
+    "movieEnd": 485,
+    "sceneCueOffset": 90,
+    "sampleRate": 48000,
+    "startSample": 22560000,
+    "endSample": 23280000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "continuityReferencePolicy": {
+    "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+    "role": "VISUAL_STATE_ONLY",
+    "required": true,
+    "onMissing": "BLOCK_GENERATION",
+    "neverUse": "latest unused retry or storyboard composite"
+  },
+  "speechRouting": [
+    {
+      "dialogueId": "DLG_SC006_019",
+      "speaker": "@kaiden",
+      "start": 6.033878,
+      "end": 6.850204,
+      "mouthTarget": "@kaiden",
+      "delivery": "ONSCREEN"
+    },
+    {
+      "dialogueId": "DLG_SC006_020",
+      "speaker": "@mocha",
+      "start": 7.070204,
+      "end": 8.294694,
+      "mouthTarget": "@mocha",
+      "delivery": "ONSCREEN"
+    },
+    {
+      "dialogueId": "DLG_SC006_021",
+      "speaker": "@kaiden",
+      "start": 8.514694,
+      "end": 9.739184,
+      "mouthTarget": "@kaiden",
+      "delivery": "ONSCREEN"
+    },
+    {
+      "dialogueId": "DLG_SC006_022",
+      "speaker": "@nanao",
+      "start": 9.959184,
+      "end": 12.0,
+      "mouthTarget": "@nanao",
+      "delivery": "ONSCREEN"
+    }
+  ],
+  "classicBeybladeState": {
+    "handmade": "RIGHT spin; HIGH RPM; centre hold; Bit Beast state GLOWING"
+  },
+  "classicBeybladePhysics": "@3_beyblades defines three separate rigid owner-matched props: Kaiden handmade blue-red-metal-and-brown-wood right-spin; Nanao blue-red-yellow left-spin; Mocha white-red-purple right-spin. Classic ripcord-launcher attachment lock: before a pull, insert both close-set launcher posts fully into the paired launcher slots immediately beside the central Bit Chip/center gap, one slot on each side of the central axis and never on the outer Attack Ring or Weight Disk and rotate the top in its spin-compatible locking direction until both posts are retained. The top must sit level and flush beneath the launcher with no visible gap, tilt, dangling, floating or single-post support; its tip points straight down. The rigid toothed ripcord is fully inserted through the gear housing. One hand holds the launcher steady while the other pulls the ring once. The top stays locked during gear acceleration, then both posts disengage at the release event and the top descends under gravity tip-first. After release, the launcher underside is empty and the fully extracted ripcord is separate in the pulling hand. Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side. Attack Ring impacts cause recoil, deflection, wobble and speed loss without reversing axial spin. Knocked-out tops cross the rim and stay outside. Bit Beast energy remains anchored to Kaiden’s intact visible top; no solid component ejects. Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts. Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "canonicalReferences": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "runtimeAssetLock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@nanao",
+      "@mocha",
+      "@kangla",
+      "@3_beyblades",
+      "@stadium"
+    ]
+  },
+  "runtimeAssetMentionLock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "optional_h3_storyboard_reference": {
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "ownerBeybladeState": {
+    "kaiden": "RIGHT spin; HIGH RPM; centre hold; Bit Beast state GLOWING"
+  },
+  "stadiumMotionLock": "Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side.",
+  "realWorldSpinStabilityLock": "Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "dialogueTurnPolicy": "Exactly one named structured speaker owns each timed line; all other visible humans keep lips closed for that interval."
+}

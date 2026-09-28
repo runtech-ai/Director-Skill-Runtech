@@ -1,0 +1,220 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC008_001",
+  "sceneId": "SC008",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC008_001_P01",
+    "SEG_SC008_001_P02",
+    "SEG_SC008_001_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@unknown_observer",
+      "file": "canonical_refs/assets/characters/unknown_observer_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for unknown observer",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@observer_device",
+      "file": "canonical_refs/assets/props/observer_device_sheet.jpg",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for observer device",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla_perimeter",
+      "file": "canonical_refs/assets/locations/kangla_perimeter_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla perimeter",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    }
+  ],
+  "continuityIn": "Post-credit time/location cut to observer outside perimeter in renewed light rain.",
+  "continuityOut": "Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+  "music": "Sparse low synth pulses and one metallic mallet note at 72 BPM in D minor, ending on an unresolved soft D. This is the continuous scene cue M08, using source offset 0.000 to 15.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC008_001_P01",
+      "sourceMicroShotId": "MS_SC008_001_01",
+      "scriptReference": {
+        "sceneId": "SC008",
+        "segmentId": "SEG_SC008_001",
+        "sourceBeatIds": [
+          "SC008_B001"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 4
+      },
+      "shotSizeAndAngle": "over-shoulder device view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes toward the device slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Rain dots the detector in the lone observer’s hand. A red waveform spikes and the source classification display illuminates. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "over-shoulder device view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @unknown_observer, @observer_device. The visible setting is @kangla_perimeter.",
+      "focalPoint": "Rain dots the detector in the lone observer’s hand. A red waveform spikes and the source classification display illuminates. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge. The display faces the observer’s eyes; the camera reads it only from over his shoulder, with his hand gripping the side and lower edge.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Post-credit time/location cut to observer outside perimeter in renewed light rain. Outgoing physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+      "dialogue": [
+        {
+          "speaker": "@unknown_observer",
+          "text": "Control, confirm receipt.",
+          "start": 0,
+          "end": 4
+        }
+      ],
+      "sound": "Rain taps, waveform alarm and concealed earpiece click.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC008_001_P02",
+      "sourceMicroShotId": "MS_SC008_001_02",
+      "scriptReference": {
+        "sceneId": "SC008",
+        "segmentId": "SEG_SC008_001",
+        "sourceBeatIds": [
+          "SC008_B001"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 4,
+        "end": 9.5
+      },
+      "shotSizeAndAngle": "medium single with visible device screen",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The observer enlarges a captured distant image of Kaiden on the detector while the display remains angled toward his eyes. The camera stays over his shoulder rather than placing the screen toward the audience.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium single with visible device screen; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @unknown_observer, @observer_device, @kaiden. The visible setting is @kangla_perimeter.",
+      "focalPoint": "The observer enlarges a captured distant image of Kaiden on the detector while the display remains angled toward his eyes. The camera stays over his shoulder rather than placing the screen toward the audience.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kaiden",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Post-credit time/location cut to observer outside perimeter in renewed light rain. Outgoing physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+      "dialogue": [
+        {
+          "speaker": "@control_voice",
+          "text": "Image received. Classification?",
+          "start": 7.809388,
+          "end": 9.033878
+        },
+        {
+          "speaker": "@unknown_observer",
+          "text": "Guardian-class resonance. Kangla origin.",
+          "start": 9.253878,
+          "end": 10.886531
+        }
+      ],
+      "sound": "Rain and light radio static.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC008_001_P03",
+      "sourceMicroShotId": "MS_SC008_001_03",
+      "scriptReference": {
+        "sceneId": "SC008",
+        "segmentId": "SEG_SC008_001",
+        "sourceBeatIds": [
+          "SC008_B001"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 9.5,
+        "end": 15
+      },
+      "shotSizeAndAngle": "slightly lower medium single with visible device screen",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera trucks slightly to reveal the screen beside the dark hair.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "A red rectangle settles around the boy’s face in the recorded image; the live observer remains alone. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium single with visible device screen; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @unknown_observer, @observer_device, @kaiden. The visible setting is @kangla_perimeter.",
+      "focalPoint": "A red rectangle settles around the boy’s face in the recorded image; the live observer remains alone. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder. The detector display still faces the observer, readable to camera only across his shoulder.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kaiden",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Post-credit time/location cut to observer outside perimeter in renewed light rain. Outgoing physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+      "dialogue": [
+        {
+          "speaker": "@unknown_observer",
+          "text": "Guardian-class resonance. Kangla origin.",
+          "start": 9.253878,
+          "end": 10.886531
+        },
+        {
+          "speaker": "@control_voice",
+          "text": "Time since last signal?",
+          "start": 11.106531,
+          "end": 12.739184
+        },
+        {
+          "speaker": "@unknown_observer",
+          "text": "One hundred and twelve years.",
+          "start": 12.959184,
+          "end": 15.0
+        }
+      ],
+      "sound": "Rain and light radio static.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

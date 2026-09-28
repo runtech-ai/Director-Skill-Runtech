@@ -1,0 +1,316 @@
+{
+  "id": "SEG_SC007_003",
+  "sceneId": "SC007",
+  "sceneStart": 30,
+  "sceneEnd": 45,
+  "duration": 15,
+  "sourceBeatIds": [
+    "SC007_B003"
+  ],
+  "purpose": "Kaiden steps in front of Nanao and Mocha, places his palms together and raises his face toward the immense eyes.",
+  "continuityIn": "Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist.",
+  "continuityOut": "Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+  "requiredAssets": [
+    "@kaiden",
+    "@nanao",
+    "@mocha",
+    "@kangla",
+    "@ebudhou_pakhangba",
+    "@stadium"
+  ],
+  "optionalAssets": [],
+  "dialogue": [
+    {
+      "id": "DLG_SC007_007",
+      "sourceLine": 7,
+      "speaker": "@kaiden",
+      "text": "Ebudhou Pakhangba... was that you?",
+      "language": "English",
+      "start": 0,
+      "end": 10,
+      "delivery": "ONSCREEN",
+      "mouthTarget": "@kaiden"
+    }
+  ],
+  "microShots": [
+    {
+      "id": "MS_SC007_003_01",
+      "displayShot": 1,
+      "segmentStart": 0,
+      "segmentEnd": 5.0,
+      "sceneStart": 30,
+      "sceneEnd": 35.0,
+      "purpose": "Kaiden steps in front of Nanao and Mocha, places his palms together and raises his face toward the immense eyes.",
+      "framing": "wide profile group",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@ebudhou_pakhangba",
+        "@stadium"
+      ],
+      "startState": "Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist.",
+      "action": "Kaiden steps in front of Nanao and Mocha, places his palms together and raises his face toward the immense eyes.",
+      "endState": "Kaiden steps in front of Nanao and Mocha, places his palms together and raises his face toward the immense eyes.",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "wide profile group; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha, @ebudhou_pakhangba. The visible setting is @kangla.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist. Outgoing physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "sound": "Low resonance and rain.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC007_003_02",
+      "displayShot": 2,
+      "segmentStart": 5.0,
+      "segmentEnd": 10,
+      "sceneStart": 35.0,
+      "sceneEnd": 40,
+      "purpose": "His knees tremble but his feet stay planted.",
+      "framing": "slightly lower wide profile group",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@ebudhou_pakhangba",
+        "@stadium"
+      ],
+      "startState": "His knees tremble but his feet stay planted.",
+      "action": "His knees tremble but his feet stay planted.",
+      "endState": "His knees tremble but his feet stay planted.",
+      "camera": "The camera makes a slow quarter arc without crossing their axis.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "slightly lower wide profile group; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha, @ebudhou_pakhangba. The visible setting is @kangla.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist. Outgoing physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "sound": "Low resonance and rain.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Kaiden's blue T-shirt remains plain, pocketless and nonluminous; storage uses only the right side-seam pocket of his black athletic shorts. He wears no backpack, shoulder bag, school bag, satchel or added accessory in any shot. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC007_003_03",
+      "displayShot": 3,
+      "segmentStart": 10,
+      "segmentEnd": 15,
+      "sceneStart": 40,
+      "sceneEnd": 45,
+      "purpose": "The vast jaws open silently above the statues; rain hangs in the white-gold light.",
+      "framing": "low monumental wide",
+      "visibleAssets": [
+        "@ebudhou_pakhangba",
+        "@kangla",
+        "@stadium"
+      ],
+      "startState": "The vast jaws open silently above the statues; rain hangs in the white-gold light.",
+      "action": "The vast jaws open silently above the statues; rain hangs in the white-gold light.",
+      "endState": "Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "Low monumental wide containing only @ebudhou_pakhangba and the @kangla Sha statues in rain; zero humans, Beyblades or stadium pieces are visible.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Three boys stand below single guardian, no spectators in frame; rain and broken stadium persist. Outgoing physical state: Kaiden stands ahead with joined palms; guardian opens jaws silently; same rain and damaged stadium.",
+      "sound": "All Kangla bells begin ringing together; no creature roar.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    }
+  ],
+  "soundPlan": [
+    "Low resonance and rain. All Kangla bells begin ringing together; no creature roar. Continuous ambience and spin phase bridge internal cuts; cut effects only at their physical event."
+  ],
+  "musicPlan": "N/A",
+  "storyboard": {
+    "spec": "storyboards/specs/SEG_SC007_003_storyboard.json",
+    "prompt": "storyboards/prompts/SEG_SC007_003_storyboard_prompt.txt",
+    "expectedOutputFile": "SEG_SC007_003.png",
+    "h3StoryboardReferenceDefault": false
+  },
+  "promptBundle": "prompts/SEG_SC007_003_prompt_bundle.json",
+  "continuityMode": "MATCH_CONTINUITY",
+  "previousSegmentId": "SEG_SC007_002",
+  "referencePreviousLastKeyframe": true,
+  "previousKeyframeReference": null,
+  "finalEditUnit": true,
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "continuityPriority": "HIGH",
+  "environmentContinuityGroup": "KANGLa_PLAZA",
+  "environmentStateAnchors": [
+    "Same plaza; stadium already split; defeated tops remain outside the bowl.",
+    "One presence only; outsider viewpoint cannot see it.",
+    "Homemade top remains spinning on its tip after light returns."
+  ],
+  "editorialPacing": {
+    "shotCount": 3,
+    "pace": "AUTHORED"
+  },
+  "editorialBoundaryIn": "MATCH_CUT",
+  "usePreviousLastKeyframeAsFirstFrame": false,
+  "editorialBoundaryOut": "HARD_CUT",
+  "outgoingFrameIsHandoff": false,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "physicsPlan": "",
+  "audioContinuity": {
+    "cueId": "M07",
+    "movieStart": 535,
+    "movieEnd": 550,
+    "sceneCueOffset": 30,
+    "sampleRate": 48000,
+    "startSample": 25680000,
+    "endSample": 26400000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "continuityReferencePolicy": {
+    "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+    "role": "VISUAL_STATE_ONLY",
+    "required": true,
+    "onMissing": "BLOCK_GENERATION",
+    "neverUse": "latest unused retry or storyboard composite"
+  },
+  "speechRouting": [
+    {
+      "dialogueId": "DLG_SC007_007",
+      "speaker": "@kaiden",
+      "start": 0,
+      "end": 5.0,
+      "mouthTarget": "@kaiden",
+      "delivery": "ONSCREEN"
+    },
+    {
+      "dialogueId": "DLG_SC007_007",
+      "speaker": "@kaiden",
+      "start": 5.0,
+      "end": 10,
+      "mouthTarget": "@kaiden",
+      "delivery": "ONSCREEN"
+    }
+  ],
+  "classicBeybladeState": {
+    "handmade": "RIGHT spin continues below frame; Bit Beast MANIFESTED"
+  },
+  "canonicalReferences": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "CREATURE_IDENTITY",
+      "authority": "creature identity for ebudhou pakhangba",
+      "h3Role": "CREATURE_IDENTITY"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "runtimeAssetLock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaiden",
+      "@nanao",
+      "@mocha",
+      "@kangla",
+      "@ebudhou_pakhangba"
+    ]
+  },
+  "runtimeAssetMentionLock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "optional_h3_storyboard_reference": {
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "classicBeybladePhysics": "@3_beyblades defines three separate rigid owner-matched props: Kaiden handmade blue-red-metal-and-brown-wood right-spin; Nanao blue-red-yellow left-spin; Mocha white-red-purple right-spin. Classic ripcord-launcher attachment lock: before a pull, insert both close-set launcher posts fully into the paired launcher slots immediately beside the central Bit Chip/center gap, one slot on each side of the central axis and never on the outer Attack Ring or Weight Disk and rotate the top in its spin-compatible locking direction until both posts are retained. The top must sit level and flush beneath the launcher with no visible gap, tilt, dangling, floating or single-post support; its tip points straight down. The rigid toothed ripcord is fully inserted through the gear housing. One hand holds the launcher steady while the other pulls the ring once. The top stays locked during gear acceleration, then both posts disengage at the release event and the top descends under gravity tip-first. After release, the launcher underside is empty and the fully extracted ripcord is separate in the pulling hand. Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side. Attack Ring impacts cause recoil, deflection, wobble and speed loss without reversing axial spin. Knocked-out tops cross the rim and stay outside. Bit Beast energy remains anchored to Kaiden’s intact visible top; no solid component ejects. Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "ownerBeybladeState": {
+    "kaiden": "RIGHT spin continues below frame; Bit Beast MANIFESTED"
+  },
+  "stadiumMotionLock": "Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side.",
+  "realWorldSpinStabilityLock": "Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "dialogueTurnPolicy": "Exactly one named structured speaker owns each timed line; all other visible humans keep lips closed for that interval."
+}

@@ -1,0 +1,227 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC003_002",
+  "sceneId": "SC003",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC003_002_P01",
+    "SEG_SC003_002_P02",
+    "SEG_SC003_002_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@ima",
+      "file": "canonical_refs/assets/characters/ima_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for Eema",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@breakfast_plate",
+      "file": "canonical_refs/assets/props/breakfast_plate_sheet.jpg",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for breakfast plate",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@beyblade",
+      "file": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for handmade blade before emblem discovery",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@phone",
+      "file": "canonical_refs/assets/props/phone_sheet.jpg",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for phone",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden is seated at workbench, left hand has caught the cup; top has lost all RPM and lies on its side on the table, three ink strokes intact.",
+  "continuityOut": "Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+  "music": "Soft electric-piano D–F–E–A notes and warm sustained low strings at 84 BPM; sparse phrasing under the two voices. This is the continuous scene cue M03, using source offset 15.000 to 30.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC003_002_P01",
+      "sourceMicroShotId": "MS_SC003_002_01",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_002",
+        "sourceBeatIds": [
+          "SC003_B002"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6.0
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Eema sets breakfast beside the cup.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @breakfast_plate, @beyblade. The visible setting is @kaidens_house.",
+      "focalPoint": "Eema sets breakfast beside the cup.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@breakfast_plate",
+        "@beyblade",
+        "@kaidens_house"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden is seated at workbench, left hand has caught the cup; top has lost all RPM and lies on its side on the table, three ink strokes intact. Outgoing physical state: Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+      "dialogue": [
+        {
+          "speaker": "@ima",
+          "text": "Your opponent has already defeated you.",
+          "start": 3.804898,
+          "end": 6.253878
+        }
+      ],
+      "sound": "Plate settling and fan hum.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC003_002_P02",
+      "sourceMicroShotId": "MS_SC003_002_02",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_002",
+        "sourceBeatIds": [
+          "SC003_B002"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6.0,
+        "end": 12
+      },
+      "shotSizeAndAngle": "slightly lower medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes in slowly with small amplitude.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden hunches over the stationary top; Eema rests a hand on the chair back. Kaiden remains screen left, Eema screen right.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @breakfast_plate, @beyblade. The visible setting is @kaidens_house.",
+      "focalPoint": "Kaiden hunches over the stationary top; Eema rests a hand on the chair back. Kaiden remains screen left, Eema screen right.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@breakfast_plate",
+        "@beyblade",
+        "@kaidens_house"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Kaiden is seated at workbench, left hand has caught the cup; top has lost all RPM and lies on its side on the table, three ink strokes intact. Outgoing physical state: Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+      "dialogue": [
+        {
+          "speaker": "@ima",
+          "text": "Your opponent has already defeated you.",
+          "start": 3.804898,
+          "end": 6.253878
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "Two minutes. I nearly fixed the balance.",
+          "start": 6.473878,
+          "end": 9.33102
+        },
+        {
+          "speaker": "@ima",
+          "text": "You said that twenty minutes ago.",
+          "start": 9.55102,
+          "end": 12.0
+        }
+      ],
+      "sound": "Plate settling and fan hum.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC003_002_P03",
+      "sourceMicroShotId": "MS_SC003_002_03",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_002",
+        "sourceBeatIds": [
+          "SC003_B002"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 12,
+        "end": 15
+      },
+      "shotSizeAndAngle": "tight portrait with phone edge",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden’s eyes flick toward the bright official-top advertisement on the phone, then back down. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "tight portrait with phone edge; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @phone. The visible setting is @kaidens_house.",
+      "focalPoint": "Kaiden’s eyes flick toward the bright official-top advertisement on the phone, then back down. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip. The phone lies face-up on the table with its display angled toward Kaiden’s downward eyeline; the audience sees readable content only from the authored over-shoulder or high-angle position behind him, never from an impossible audience-facing flip.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@phone",
+        "@kaidens_house"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden is seated at workbench, left hand has caught the cup; top has lost all RPM and lies on its side on the table, three ink strokes intact. Outgoing physical state: Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+      "dialogue": [],
+      "sound": "Fan hum and a distant television murmur.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

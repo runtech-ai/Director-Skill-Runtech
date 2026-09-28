@@ -1,0 +1,254 @@
+{
+  "segment_id": "SEG_SC001_001",
+  "scene_id": "SC001",
+  "scene_time": {
+    "start": 0,
+    "end": 15
+  },
+  "storyboard_required": false,
+  "canonical_references": [
+    {
+      "entity": "@kaidens_house",
+      "path": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "authority": "location identity for Kaiden's house",
+      "subject": "<Subject 1>",
+      "picture": "<Picture 1>",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "entity": "@launcher",
+      "path": "canonical_refs/assets/props/launcher_sheet.png",
+      "authority": "prop identity for the unassigned orange-black launcher",
+      "subject": "<Subject 2>",
+      "picture": "<Picture 2>",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "entity": "@toybeyblade",
+      "path": "canonical_refs/assets/props/toybeyblade_sheet.png",
+      "authority": "prop identity for the white-red-yellow toy Beyblade",
+      "subject": "<Subject 3>",
+      "picture": "<Picture 3>",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE"
+    }
+  ],
+  "editorial_mode": "FINAL_EDIT_MASTER",
+  "post_production_expectation": "CONCAT_ONLY_NO_TRIM",
+  "environment_state": {
+    "continuity_group": "SC001",
+    "anchors": [
+      "Ordinary-world television effects remain inside screens."
+    ]
+  },
+  "shot_planning_prompt": {
+    "segment_duration": 15,
+    "shots": [
+      {
+        "id": "MS_SC001_001_01",
+        "displayShot": 1,
+        "segmentStart": 0,
+        "segmentEnd": 2,
+        "sceneStart": 0,
+        "sceneEnd": 2,
+        "purpose": "The frame remains completely black; only quiet room tone is audible.",
+        "framing": "black frame",
+        "visibleAssets": [],
+        "startState": "Black frame; ordinary-world montage begins.",
+        "action": "The frame remains completely black; only quiet room tone is audible.",
+        "endState": "The frame remains completely black.",
+        "camera": "The camera holds nearly static.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "black frame; empty black field.",
+        "lighting": "Unlit black field.",
+        "continuity": "Incoming physical state: Black frame; ordinary-world montage begins. Outgoing physical state: The same white-red-yellow @toybeyblade remains at rapid RPM while traveling deeper beneath the sofa; no second top exists.",
+        "sound": "Quiet room tone; no launch yet.",
+        "transitionIn": "HARD_CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "No voice is heard before 2.0 seconds.",
+        "lipSyncDirection": "No visible subject exists in this shot.",
+        "locationHandle": null,
+        "locationDescription": "explicitly authored synthetic field",
+        "weatherState": "Continuous monsoon overcast remains visible through the windows; the living-room interior stays dry, with no sunny or clear-sky shift.",
+        "appearance": "",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC001_001_02",
+        "displayShot": 2,
+        "segmentStart": 2,
+        "segmentEnd": 8,
+        "sceneStart": 2,
+        "sceneEnd": 8,
+        "purpose": "A close view of the television inside @kaidens_house shows one absolutely motionless paused anime illustration. A blue dragon appears only as a mouthless lightning emblem, while the hero is seen from behind with the lower face fully hidden by a closed helmet and high collar. No human or creature mouth is visible anywhere on the screen. The television image remains pixel-for-pixel still from 2.0 through 8.0 seconds: no face, jaw, eyes, head, body, emblem or background element animates.",
+        "framing": "close view of a television",
+        "visibleAssets": [
+          "@kaidens_house"
+        ],
+        "startState": "A dry living room contains a television showing a paused mouthless anime illustration; the television bezel is visible.",
+        "action": "A close view of the television inside @kaidens_house shows one absolutely motionless paused anime illustration. A blue dragon appears only as a mouthless lightning emblem, while the hero is seen from behind with the lower face fully hidden by a closed helmet and high collar. No human or creature mouth is visible anywhere on the screen. The television image remains pixel-for-pixel still from 2.0 through 8.0 seconds: no face, jaw, eyes, head, body, emblem or background element animates.",
+        "endState": "The same paused mouthless illustration remains unchanged on the television.",
+        "camera": "The camera makes one slow push toward the television while the image inside the screen remains perfectly frozen.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "close view of the television inside @kaidens_house; the visible TV artwork contains no mouth and no speaking face.",
+        "lighting": "Soft overcast daylight enters the dry room; the television emits only ordinary screen light. Continuous monsoon overcast remains visible through the windows; the living-room interior stays dry, with no sunny or clear-sky shift.",
+        "continuity": "Incoming physical state: Black frame; ordinary-world montage begins. Outgoing physical state: The same white-red-yellow @toybeyblade remains at rapid RPM while traveling deeper beneath the sofa; no second top exists.",
+        "sound": "Quiet room tone and faint nonverbal television hiss under the external narration.",
+        "transitionIn": "CUT",
+        "transitionOut": "CUT",
+        "speechRouting": "The only voice is the external audio-only @narrator. It has no visible body, avatar or mouth target and never originates from the television.",
+        "lipSyncDirection": "No visible mouth exists in the television artwork; no visible pixels or features animate during the narrator line.",
+        "locationHandle": "@kaidens_house",
+        "locationDescription": "the exact dry living-room interior inside @kaidens_house, preserving the canonical wall openings, window placement, furniture layout, television position, green sofa geometry and room proportions; monsoon rain is visible only outside the windows",
+        "weatherState": "Continuous monsoon overcast remains visible through the windows; the living-room interior stays dry, with no sunny or clear-sky shift.",
+        "appearance": "",
+        "physics": "",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "Exactly zero visible human characters, zero visible mouths and zero Beyblades. The television shows one static mouthless emblem-and-helmet illustration only.",
+        "attachmentLock": "No launcher attachment is invented in this panel."
+      },
+      {
+        "id": "MS_SC001_001_03",
+        "displayShot": 3,
+        "segmentStart": 8,
+        "segmentEnd": 15,
+        "sceneStart": 8,
+        "sceneEnd": 15,
+        "purpose": "From 8.0 to 10.3 seconds, only an anonymous child's hands and knees are visible at screen-left. Exactly one white-red-yellow @toybeyblade with blue dragon centre and red conical tip is stationary, level and flush against the underside of the exact unassigned orange-black rectangular @launcher with orange octagonal pull ring. Both short engagement prongs are fully seated in the paired centre slots; there is zero gap, and the floor and under-sofa space are empty. From 10.3 to 11.2 seconds, the stabilizing hand keeps the launcher rigid while the opposite hand performs one continuous outward pull of the short black toothed ripcord by its orange ring. The same top accelerates while still attached; its white-red-yellow perimeter becomes a continuous circumferential blur before release. At 11.2 seconds both prongs disengage together exactly once. The first unsupported frame already shows high-RPM axial rotation and strong perimeter blur. From 11.2 to 11.6 seconds the spinning top drops tip-first under gravity without hovering or changing orientation. At 11.6 seconds its red tip makes one floor contact. From 11.6 through 15.0 seconds, the same top keeps continuous rapid axial rotation while its red tip stays on the floor and its centre follows one smooth curved path screen-right and deeper beneath the sofa. The upper face stays up, the red tip stays down, and any lean continuously precesses around the contact point. The top never stops, becomes crisp, flips, lies flat, hovers, teleports, restarts, changes colour or duplicates. At the cut it is still visibly spinning rapidly under the sofa. The detached ripcord remains in the pulling hand and the launcher underside is empty.",
+        "framing": "floor-level wide",
+        "visibleAssets": [
+          "@launcher",
+          "@toybeyblade",
+          "@kaidens_house"
+        ],
+        "startState": "Exactly one stationary white-red-yellow @toybeyblade is flush-mounted beneath the unassigned orange-black @launcher inside @kaidens_house; the floor and under-sofa space are empty.",
+        "action": "From 8.0 to 10.3 seconds, only an anonymous child's hands and knees are visible at screen-left. Exactly one white-red-yellow @toybeyblade with blue dragon centre and red conical tip is stationary, level and flush against the underside of the exact unassigned orange-black rectangular @launcher with orange octagonal pull ring. Both short engagement prongs are fully seated in the paired centre slots; there is zero gap, and the floor and under-sofa space are empty. From 10.3 to 11.2 seconds, the stabilizing hand keeps the launcher rigid while the opposite hand performs one continuous outward pull of the short black toothed ripcord by its orange ring. The same top accelerates while still attached; its white-red-yellow perimeter becomes a continuous circumferential blur before release. At 11.2 seconds both prongs disengage together exactly once. The first unsupported frame already shows high-RPM axial rotation and strong perimeter blur. From 11.2 to 11.6 seconds the spinning top drops tip-first under gravity without hovering or changing orientation. At 11.6 seconds its red tip makes one floor contact. From 11.6 through 15.0 seconds, the same top keeps continuous rapid axial rotation while its red tip stays on the floor and its centre follows one smooth curved path screen-right and deeper beneath the sofa. The upper face stays up, the red tip stays down, and any lean continuously precesses around the contact point. The top never stops, becomes crisp, flips, lies flat, hovers, teleports, restarts, changes colour or duplicates. At the cut it is still visibly spinning rapidly under the sofa. The detached ripcord remains in the pulling hand and the launcher underside is empty.",
+        "endState": "The same white-red-yellow @toybeyblade remains at rapid RPM while traveling deeper beneath the sofa; no second top exists.",
+        "camera": "A locked floor-level side view holds the launcher-to-floor path so attachment, release, landing, rotation and translation remain simultaneously readable.",
+        "POV": "Objective camera on the authored side of the scene axis",
+        "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+        "composition": "floor-level side view inside @kaidens_house; the unassigned orange-black launcher is screen-left, the green sofa is screen-right, and exactly one white-red-yellow toy Beyblade occupies the launch axis.",
+        "lighting": "Soft overcast daylight with no glow, aura, sparks or emitted supernatural light. Continuous monsoon overcast remains visible through the windows; the living-room interior stays dry, with no sunny or clear-sky shift.",
+        "continuity": "Incoming physical state: Black frame; ordinary-world montage begins. Outgoing physical state: The same white-red-yellow @toybeyblade remains at rapid RPM while traveling deeper beneath the sofa; no second top exists.",
+        "sound": "One rigid ripcord scrape, a brief gear whir, one tip contact, then continuous high-RPM plastic-tip hiss receding beneath the sofa.",
+        "transitionIn": "CUT",
+        "transitionOut": "HARD_CUT",
+        "speechRouting": "No spoken words occur after 8.0 seconds.",
+        "lipSyncDirection": "No visible face or mouth is present.",
+        "locationHandle": "@kaidens_house",
+        "locationDescription": "the exact dry living-room interior inside @kaidens_house, preserving the canonical wall openings, window placement, furniture layout, television position, green sofa geometry and room proportions; monsoon rain is visible only outside the windows",
+        "weatherState": "Continuous monsoon overcast remains visible through the windows; the living-room interior stays dry, with no sunny or clear-sky shift.",
+        "appearance": "Use only the exact unassigned orange-black rectangular launcher with orange octagonal pull ring and the exact white-red-yellow toy Beyblade with blue dragon centre and red tip. Both remain ordinary nonluminous plastic and metal with no glow or colour change.",
+        "physics": "FOUR-PHASE CAUSALITY LOCK: (1) stationary top is fully supported and flush-mounted; (2) one ripcord pull accelerates it while it remains engaged; (3) it releases once already at high RPM and falls tip-first; (4) after one tip contact it preserves continuous rapid axial rotation plus smooth curved translation through the final frame. Strong circumferential perimeter blur is visible continuously from before release through cut-out. The top never spins up after detachment, never stops and restarts, never becomes an upright crisp disc, never flips tip-up, and never loses floor contact after landing.",
+        "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+        "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+        "populationLock": "Exactly one @toybeyblade and exactly one @launcher are present. No second top exists on the floor, beneath the sofa, in a hand or as a reflection.",
+        "attachmentLock": "The loaded top's flat upper face directly touches the launcher underside with zero visible gap. Exactly two very short prongs are hidden inside the paired centre slots. Never show a long rod, shaft, stem, axle, neck, string, cable, tether or spacer. The separate short rigid toothed ripcord passes horizontally through the launcher and is pulled once by its orange ring."
+      }
+    ],
+    "compiled_prompt": "subject_definitions:\n<Subject 1> is @kaidens_house from <Picture 1>; preserve the exact dry living-room architecture, openings, television position, green sofa, furniture layout and room proportions.\n<Subject 2> is only the unassigned orange-and-black rectangular launcher in <Picture 2>, with orange octagonal pull ring, short black rigid toothed ripcord, and blocky orange-black-grey housing; ignore every other launcher shown on the sheet.\n<Subject 3> is @toybeyblade from <Picture 3>, the exact white-red-yellow rigid toy Beyblade with blue dragon centre emblem, silver weight disk and red conical tip.\n\nsummary:\n[reference generation] A 15-second three-shot 2D anime sequence moves from black, to a paused mouthless television illustration inside <Subject 1>, to one causal launch of <Subject 3> from <Subject 2> across the living-room floor and beneath the sofa.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 2] and [Shot 3]): fully_preserved - retain the exact dry living-room layout, television, green sofa, windows and proportions.\n<Subject 2> (appears in [Shot 3]): fully_preserved - use only the unassigned orange-black rectangular launcher and orange octagonal pull ring.\n<Subject 3> (appears in [Shot 3]): fully_preserved - retain the exact white, red and yellow upper face, blue dragon centre, silver weight disk and red conical tip without recolouring or redesign.\n\ndetailed_description:\nStrict consistent classic 2D television anime in a landscape 16:9 frame, with bold clean inked linework, controlled cel shading and painted anime backgrounds. No photorealism, live-action texture, 3D/CG rendering or mixed medium.\n[Shot 1] A completely black frame holds from 00:00.000 through 00:02.000. No spoken words occur in this shot. There are no visible subjects or objects. Only quiet room tone is audible.\n[Shot 2] At 00:02.000, cut to a close view of the television inside <Subject 1>. The bezel and surrounding dry living room remain visible. The television shows one absolutely motionless paused anime illustration: a blue dragon appears only as a mouthless lightning emblem, while a helmeted hero is seen from behind with the lower face fully hidden by a closed helmet and high collar. No human or creature mouth is visible anywhere on the screen. The image inside the television remains pixel-for-pixel frozen through 00:08.000 while the camera makes one slow push toward the set. An external adult narrator (S1), heard as a dry off-screen voice located outside both the room and the television programme, says, <d>[English] This is a world without magic.</d>. The narrator has no visible body, avatar or mouth target. The television image produces no dialogue and no visible feature moves.\n[Shot 3] At 00:08.000, cut to a locked floor-level side view inside <Subject 1>. No spoken words occur in this shot. Only the anonymous child's hands and knees are visible at screen-left; no face or mouth enters frame. From 00:08.000 to 00:10.300, exactly one <Subject 3> is stationary, level and flush against the underside of <Subject 2>. Both short engagement prongs are fully seated in the paired centre slots, the red tip points straight down, there is zero air gap, and the entire floor and under-sofa space are empty. From 00:10.300 to 00:11.200, one hand holds <Subject 2> rigid while the opposite hand performs one continuous outward pull of the short rigid toothed ripcord by its orange ring. The internal gear accelerates the same <Subject 3> while it remains attached; the white-red-yellow perimeter becomes a continuous circumferential blur before release. At 00:11.200, both prongs disengage together exactly once. The first unsupported frame already shows high-RPM axial rotation and strong perimeter blur. From 00:11.200 to 00:11.600, the spinning top descends tip-first under gravity without hovering or changing orientation. At 00:11.600, the red tip makes one floor contact. From 00:11.600 through 00:15.000, the same rigid top maintains uninterrupted rapid axial rotation and visible perimeter blur while its red tip stays on the floor and its centre follows one smooth curved path screen-right and deeper beneath the green sofa. Its upper face stays upward, its red tip stays downward, and any lean continuously precesses around the contact point. At the final frame it is still visibly spinning rapidly under the sofa. It never stops, becomes crisp, flips, lies flat, hovers, teleports, pivots on a fixed point, restarts, changes colour, glows or duplicates. The detached ripcord remains in the pulling hand and the launcher underside remains empty.\n\noverall_soundscape:\nQuiet dry living-room tone, faint nonverbal television hiss, one rigid ripcord scrape, a short gear whir, one tip contact, and continuous high-RPM plastic-tip hiss receding beneath the sofa. No television dialogue is audible.\n\nnon_diegetic_music:\nMuted electric bass, dry snare taps and bright plucked synth at 108 BPM in D minor continue as scene cue M01 from source offset 0.000 through 15.000 seconds without a fresh intro or end fade."
+  },
+  "storyboard_mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "optional_h3_storyboard_reference": {
+    "enabled": true,
+    "resolved": true,
+    "default_enabled": true,
+    "enabledDefault": true,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "audio_continuity": {
+    "cueId": "M01",
+    "movieStart": 0,
+    "movieEnd": 15,
+    "sceneCueOffset": 0,
+    "sampleRate": 48000,
+    "startSample": 0,
+    "endSample": 720000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "voice_continuity": {
+    "@narrator": "warm dry adult male narration with unhurried diction"
+  },
+  "launcherMechanics": "Launcher housings have no bit-beast emblem; emblems belong only on top center chips. Classic ripcord-launcher attachment lock: before a pull, insert both close-set launcher posts fully into the paired launcher slots immediately beside the central Bit Chip/center gap, one slot on each side of the central axis and never on the outer Attack Ring or Weight Disk and rotate the top in its spin-compatible locking direction until both posts are retained. The top must sit level and flush beneath the launcher with no visible gap, tilt, dangling, floating or single-post support; its tip points straight down. The rigid toothed ripcord is fully inserted through the gear housing. One hand holds the launcher steady while the other pulls the ring once. The top stays locked during gear acceleration, then both posts disengage at the release event and the top descends under gravity tip-first. After release, the launcher underside is empty and the fully extracted ripcord is separate in the pulling hand.",
+  "continuity_handoff": {
+    "incoming": "Black frame; ordinary-world montage begins.",
+    "outgoing": "The same white-red-yellow @toybeyblade remains at rapid RPM while traveling deeper beneath the sofa; no second top exists.",
+    "editorialBoundaryIn": "HARD_CUT",
+    "previousSegmentId": null,
+    "referencePreviousLastKeyframe": false,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": false,
+      "onMissing": "NOT_REQUIRED",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "classic_beyblade_state": {},
+  "asset_reference_coverage": [
+    {
+      "displayShot": 1,
+      "visibleAssets": [],
+      "subjects": [],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 2,
+      "visibleAssets": [
+        "@kaidens_house"
+      ],
+      "subjects": [
+        "<Subject 1>"
+      ],
+      "insertedSubjects": []
+    },
+    {
+      "displayShot": 3,
+      "visibleAssets": [
+        "@launcher",
+        "@toybeyblade",
+        "@kaidens_house"
+      ],
+      "subjects": [
+        "<Subject 1>",
+        "<Subject 2>",
+        "<Subject 3>"
+      ],
+      "insertedSubjects": []
+    }
+  ],
+  "runtime_asset_lock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@kaidens_house",
+      "@launcher",
+      "@toybeyblade"
+    ]
+  },
+  "runtime_asset_mention_lock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "launcherCenterSlotGeometryLock": "Launcher center-slot geometry lock: the launcher has exactly two short, close-set engagement prongs symmetric about its central axis. Both prongs enter the paired launcher slots immediately beside the Beyblade's central Bit Chip/center gap, one on each side of the axis. They never attach to the outer Attack Ring, Weight Disk, perimeter, or tip. Before release the top is level, flush, and firmly retained on both prongs; at release both prongs disengage together and the top becomes fully unsupported, descending tip-first under gravity.",
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "launcherAttachmentProximityLock": "Launcher-to-Beyblade proximity lock: whenever a Beyblade is loaded before release, its flat upper face is in direct visible contact with the launcher underside, with zero visible air gap. Exactly two short close-set launcher prongs are fully inserted into the paired slots beside the central Bit Chip and twist-locked together; the top is level, centered on the launcher axis, and its tip points straight down. The launcher and loaded top move as one rigid assembly with identical position and tilt: no dangling top, long connector, exposed suspension gap, single-post support, floating, or early separation. The visible gap begins only on the single release frame, when both prongs disengage together and the already-spinning top immediately descends tip-first under gravity.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "launcherNoConnectorLock": "Launcher silhouette lock: the Beyblade's upper face sits immediately beneath and touches the actual launcher housing. Only the two very short engagement prongs hidden inside the top's center slots may connect them. Never draw any long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether, suspension bar, or extended post between launcher and Beyblade."
+}

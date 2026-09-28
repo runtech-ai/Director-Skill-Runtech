@@ -1,0 +1,170 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC004_003",
+  "sceneId": "SC004",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC004_003_P01",
+    "SEG_SC004_003_P02",
+    "SEG_SC004_003_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@bicycle",
+      "file": "canonical_refs/assets/props/bicycle_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for bicycle",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for imphal",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "continuityIn": "Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing.",
+  "continuityOut": "Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+  "music": "Light kick, tight hi-hat and plucked bass at 132 BPM in D minor, thinning to a sustained D beneath the pocket pulse. This is the continuous scene cue M04, using source offset 30.000 to 45.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC004_003_P01",
+      "sourceMicroShotId": "MS_SC004_003_01",
+      "scriptReference": {
+        "sceneId": "SC004",
+        "segmentId": "SEG_SC004_003",
+        "sourceBeatIds": [
+          "SC004_B003"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 4.0
+      },
+      "shotSizeAndAngle": "wide lateral tracking",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden rides faster through an open lane, maintaining left-to-right travel;",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "wide lateral tracking; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+      "focalPoint": "Kaiden rides faster through an open lane, maintaining left-to-right travel;",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing. Outgoing physical state: Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+      "dialogue": [],
+      "sound": "Chain and tyres swell.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC004_003_P02",
+      "sourceMicroShotId": "MS_SC004_003_02",
+      "scriptReference": {
+        "sceneId": "SC004",
+        "segmentId": "SEG_SC004_003",
+        "sourceBeatIds": [
+          "SC004_B003"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 4.0,
+        "end": 8
+      },
+      "shotSizeAndAngle": "slightly lower wide lateral tracking",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tracks beside the bicycle with large amplitude at fast speed.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "the wrapped food is gone.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower wide lateral tracking; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle. The visible setting is @imphal.",
+      "focalPoint": "the wrapped food is gone.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing. Outgoing physical state: Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+      "dialogue": [],
+      "sound": "Chain and tyres swell.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC004_003_P03",
+      "sourceMicroShotId": "MS_SC004_003_03",
+      "scriptReference": {
+        "sceneId": "SC004",
+        "segmentId": "SEG_SC004_003",
+        "sourceBeatIds": [
+          "SC004_B003"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 8,
+        "end": 15
+      },
+      "shotSizeAndAngle": "medium side view",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera slows with him to a static hold.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden feels sudden heat through the right side-seam pocket of his black athletic shorts; the Beyblade remains fully concealed inside the closed pocket and no part of it is visible. He brakes beside the bicycle and presses his right palm against the pocket fabric without removing the top. There is no separate Beyblade on the ground, wall, ledge, bicycle or in either hand, and neither the pocket nor his clothing emits light.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium side view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @bicycle, @beyblade. The visible setting is @imphal.",
+      "focalPoint": "Kaiden feels sudden heat through the right side-seam pocket of his black athletic shorts; the Beyblade remains fully concealed inside the closed pocket and no part of it is visible. He brakes beside the bicycle and presses his right palm against the pocket fabric without removing the top. There is no separate Beyblade on the ground, wall, ledge, bicycle or in either hand, and neither the pocket nor his clothing emits light.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Kaiden has eaten food, pocketed phone and mounted bicycle pointing right; brief shower easing. Outgoing physical state: Kaiden has stopped beside right-facing bicycle, one hand on warm right side-seam pocket of his black athletic shorts, other on handlebar; shower clears.",
+      "dialogue": [],
+      "sound": "Brake rub and one low warm pulse.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

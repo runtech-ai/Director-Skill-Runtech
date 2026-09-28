@@ -1,0 +1,27 @@
+subject_definitions:
+<Subject 1> is @kaiden from <Picture 1>; preserve identity, facial features, hairstyle, body proportions, wardrobe, and appearance.
+<Subject 2> is @beyblade from <Picture 2>; preserve shape, colors, materials, and design.
+<Subject 3> is @kaidens_house from <Picture 3>; preserve canonical architecture, materials, colors, geography, structural layout, and visual character.
+
+summary:
+[reference generation] A 15-second three-shot sequence inside <Subject 3> in which <Subject 1> fits a scrap-metal washer around the wooden core, top precesses more widely, clips a steel cup with its rim, tips onto its side, and catches the rolling cup with his left hand.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve Kaiden's identity, appearance, wardrobe, and accessories from <Picture 1>.
+<Subject 2> (appears throughout [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve object design and material identity from <Picture 2>.
+<Subject 3> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve the kaidens house architecture, materials, colors, geography, and spatial identity from <Picture 3>.
+
+detailed_description:
+[Shot 1] An insert objective camera on the authored side of the scene axis view shows <Subject 1> inside <Subject 3>. No spoken words occur in this shot. Visible characters keep their lips closed. After opening titles, morning workbench. Kaiden seated, top has three ink strokes. Kaiden fits a scrap-metal washer around the wooden core. Three simple ink lines remain on its centre. Measurements and the balance rule lie beside his hands. He gives it a clockwise test spin. Soft window daylight with warm skin tones. The camera tracks a few inches along the bench.
+
+[Shot 2] At 00:06.000, the camera cuts to a medium workbench single objective camera on the authored side of the scene axis composition. The top precesses more widely, clips a steel cup with its rim, tips onto its side and stops. Soft window daylight with warm skin tones. The camera holds nearly static.
+<Subject 1> (S1) says, <d>[English] You're supposed to attack them, not Eema's cups.</d>. Do not start a new spoken line.
+
+[Shot 3] At 00:10.500, the camera cuts to a medium workbench single objective camera on the authored side of the scene axis composition. Kaiden catches the rolling cup with his left hand. Soft window daylight with warm skin tones. The camera holds nearly static. Kaiden is seated at workbench, left hand has caught the cup. top is stopped on table, three ink strokes intact.
+
+overall_soundscape:
+Metal clicks and an uneven tip scrape, and Cup rattle, slowing whir and final clack
+
+non_diegetic_music:
+N/A
+

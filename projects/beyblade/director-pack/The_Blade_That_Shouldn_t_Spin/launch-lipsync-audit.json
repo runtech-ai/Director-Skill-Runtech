@@ -1,0 +1,1065 @@
+{
+  "scope": "All 43 segments; prompt and storyboard planning, not generated video verification",
+  "segments": [
+    {
+      "segmentId": "SEG_SC001_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC001_001",
+          "speaker": "@narrator",
+          "start": 2,
+          "end": 8,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        }
+      ],
+      "launchRevised": true
+    },
+    {
+      "segmentId": "SEG_SC001_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC001_002",
+          "speaker": "@narrator",
+          "start": 0,
+          "end": 7,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC001_002",
+          "speaker": "@narrator",
+          "start": 7,
+          "end": 11.0,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC001_002",
+          "speaker": "@narrator",
+          "start": 11.0,
+          "end": 15,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        }
+      ],
+      "launchRevised": true
+    },
+    {
+      "segmentId": "SEG_SC001_003",
+      "dialogueRouting": [],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC002_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC002_001",
+          "speaker": "@kaiden",
+          "start": 6,
+          "end": 10.5,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC002_001",
+          "speaker": "@kaiden",
+          "start": 10.5,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC002_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC002_002",
+          "speaker": "@kaiden",
+          "start": 0,
+          "end": 5.5,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC002_002",
+          "speaker": "@kaiden",
+          "start": 5.5,
+          "end": 11,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC002_003",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC002_003",
+          "speaker": "@kaiden",
+          "start": 8,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC002_004",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC002_004",
+          "speaker": "@ima",
+          "start": 8,
+          "end": 15,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC002_005",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC002_005",
+          "speaker": "@kaiden",
+          "start": 0,
+          "end": 6,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC003_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC003_001",
+          "speaker": "@kaiden",
+          "start": 6,
+          "end": 10.5,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_001",
+          "speaker": "@kaiden",
+          "start": 10.5,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC003_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC003_002",
+          "speaker": "@ima",
+          "start": 3.804898,
+          "end": 6.0,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_002",
+          "speaker": "@ima",
+          "start": 6.0,
+          "end": 6.253878,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_003",
+          "speaker": "@kaiden",
+          "start": 6.473878,
+          "end": 9.33102,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_004",
+          "speaker": "@ima",
+          "start": 9.55102,
+          "end": 12.0,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC003_003",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC003_005",
+          "speaker": "@ima",
+          "start": 1.249388,
+          "end": 4.0,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_005",
+          "speaker": "@ima",
+          "start": 4.0,
+          "end": 5.739184,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_006",
+          "speaker": "@kaiden",
+          "start": 5.959184,
+          "end": 8.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_007",
+          "speaker": "@kaiden",
+          "start": 8,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC003_004",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC003_008",
+          "speaker": "@ima",
+          "start": 0,
+          "end": 6.0,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_008",
+          "speaker": "@ima",
+          "start": 6.0,
+          "end": 12,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC003_009",
+          "speaker": "@kaiden",
+          "start": 2.370204,
+          "end": 3.594694,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_010",
+          "speaker": "@ima",
+          "start": 3.814694,
+          "end": 4.0,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_010",
+          "speaker": "@ima",
+          "start": 4.0,
+          "end": 4.514694,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_011",
+          "speaker": "@kaiden",
+          "start": 4.734694,
+          "end": 8.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_012",
+          "speaker": "@ima",
+          "start": 8,
+          "end": 15,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC003_006",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC003_013",
+          "speaker": "@kaiden",
+          "start": 4.263673,
+          "end": 5.08,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC003_014",
+          "speaker": "@ima",
+          "start": 5.3,
+          "end": 6.0,
+          "mouthTarget": "@ima",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC004_001",
+      "dialogueRouting": [],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC004_001",
+          "speaker": "@kaiden",
+          "start": 11,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC004_003",
+      "dialogueRouting": [],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC004_004",
+      "dialogueRouting": [],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_001",
+          "speaker": "@mocha",
+          "start": 0,
+          "end": 6,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_002",
+          "speaker": "@nanao",
+          "start": 5.370204,
+          "end": 5.5,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_002",
+          "speaker": "@nanao",
+          "start": 5.5,
+          "end": 6.070204,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_003",
+          "speaker": "@mocha",
+          "start": 6.290204,
+          "end": 8.739184,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_004",
+          "speaker": "@nanao",
+          "start": 8.959184,
+          "end": 11.0,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_005",
+          "speaker": "@kaiden",
+          "start": 3.845714,
+          "end": 5.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_005",
+          "speaker": "@kaiden",
+          "start": 5.0,
+          "end": 5.478367,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_006",
+          "speaker": "@mocha",
+          "start": 5.698367,
+          "end": 7.33102,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_007",
+          "speaker": "@mocha",
+          "start": 7.55102,
+          "end": 10.0,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_008",
+          "speaker": "@kaiden",
+          "start": 10,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_009",
+          "speaker": "@mocha",
+          "start": 3.553878,
+          "end": 5.0,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_009",
+          "speaker": "@mocha",
+          "start": 5.0,
+          "end": 5.594694,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_010",
+          "speaker": "@nanao",
+          "start": 5.814694,
+          "end": 6.514694,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_011",
+          "speaker": "@mocha",
+          "start": 6.734694,
+          "end": 10.0,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_012",
+          "speaker": "@kaiden",
+          "start": 10,
+          "end": 15,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_013",
+          "speaker": "@mocha",
+          "start": 2.213061,
+          "end": 5.0,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_013",
+          "speaker": "@mocha",
+          "start": 5.0,
+          "end": 5.070204,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_014",
+          "speaker": "@nanao",
+          "start": 5.290204,
+          "end": 8.55551,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_015",
+          "speaker": "@kaiden",
+          "start": 8.77551,
+          "end": 10.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_016",
+          "speaker": "@nanao",
+          "start": 5.698367,
+          "end": 7.33102,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_017",
+          "speaker": "@kaiden",
+          "start": 7.55102,
+          "end": 10.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_018",
+          "speaker": "@mocha",
+          "start": 5.290204,
+          "end": 8.55551,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_019",
+          "speaker": "@kaiden",
+          "start": 8.77551,
+          "end": 10.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC005_020",
+          "speaker": "@nanao",
+          "start": 6.106531,
+          "end": 8.55551,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC005_021",
+          "speaker": "@kaiden",
+          "start": 8.77551,
+          "end": 10.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "dialogueRouting": [],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_001",
+          "speaker": "@kaiden",
+          "start": 0,
+          "end": 6,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_002",
+          "speaker": "@nanao",
+          "start": 11,
+          "end": 15,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": true
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_003",
+          "speaker": "@mocha",
+          "start": 2.109388,
+          "end": 5.0,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_003",
+          "speaker": "@mocha",
+          "start": 5.0,
+          "end": 5.374694,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_004",
+          "speaker": "@kaiden",
+          "start": 5.594694,
+          "end": 6.294694,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_005",
+          "speaker": "@nanao",
+          "start": 6.514694,
+          "end": 8.147347,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_006",
+          "speaker": "@kaiden",
+          "start": 8.367347,
+          "end": 10.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_007",
+          "speaker": "@mocha",
+          "start": 8.742041,
+          "end": 10.5,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_007",
+          "speaker": "@mocha",
+          "start": 10.5,
+          "end": 11.599184,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_008",
+          "speaker": "@kaiden",
+          "start": 11.819184,
+          "end": 13.043673,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_009",
+          "speaker": "@nanao",
+          "start": 13.263673,
+          "end": 13.963673,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_010",
+          "speaker": "@kaiden",
+          "start": 14.183673,
+          "end": 15.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_011",
+          "speaker": "@kaiden",
+          "start": 0,
+          "end": 7,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_012",
+          "speaker": "@mocha",
+          "start": 12.739184,
+          "end": 13.55551,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC006_013",
+          "speaker": "@nanao",
+          "start": 13.77551,
+          "end": 15.0,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        }
+      ],
+      "launchRevised": true
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_014",
+          "speaker": "@mocha",
+          "start": 11.922857,
+          "end": 13.963673,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_015",
+          "speaker": "@kaiden",
+          "start": 14.183673,
+          "end": 15.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_016",
+          "speaker": "@mocha",
+          "start": 2.437551,
+          "end": 4.478367,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_017",
+          "speaker": "@kaiden",
+          "start": 4.698367,
+          "end": 7.147347,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_018",
+          "speaker": "@nanao",
+          "start": 7.367347,
+          "end": 9.0,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_019",
+          "speaker": "@kaiden",
+          "start": 6.033878,
+          "end": 6.850204,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_020",
+          "speaker": "@mocha",
+          "start": 7.070204,
+          "end": 8.294694,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_021",
+          "speaker": "@kaiden",
+          "start": 8.514694,
+          "end": 9.739184,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_022",
+          "speaker": "@nanao",
+          "start": 9.959184,
+          "end": 12.0,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_023",
+          "speaker": "@kaiden",
+          "start": 0,
+          "end": 5,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC006_024",
+          "speaker": "@nanao",
+          "start": 0,
+          "end": 1.5,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC006_024",
+          "speaker": "@nanao",
+          "start": 1.5,
+          "end": 3,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC006_024",
+          "speaker": "@nanao",
+          "start": 3,
+          "end": 5,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC007_001",
+          "speaker": "@mocha",
+          "start": 1.176735,
+          "end": 4.850204,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC007_002",
+          "speaker": "@kaiden",
+          "start": 5.070204,
+          "end": 7.11102,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC007_003",
+          "speaker": "@nanao",
+          "start": 7.33102,
+          "end": 8.55551,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC007_004",
+          "speaker": "@kaiden",
+          "start": 8.77551,
+          "end": 10.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC007_005",
+          "speaker": "@mocha",
+          "start": 10.290204,
+          "end": 11.5,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC007_006",
+          "speaker": "@nanao",
+          "start": 11.734694,
+          "end": 15.0,
+          "mouthTarget": "@nanao",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC007_007",
+          "speaker": "@kaiden",
+          "start": 0,
+          "end": 5.0,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC007_007",
+          "speaker": "@kaiden",
+          "start": 5.0,
+          "end": 10,
+          "mouthTarget": "@kaiden",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "dialogueRouting": [],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC007_008",
+          "speaker": "@mocha",
+          "start": 0,
+          "end": 4,
+          "mouthTarget": "@mocha",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC008_001",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC008_001",
+          "speaker": "@unknown_observer",
+          "start": 0,
+          "end": 4,
+          "mouthTarget": "@unknown_observer",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC008_002",
+          "speaker": "@control_voice",
+          "start": 7.809388,
+          "end": 9.033878,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC008_003",
+          "speaker": "@unknown_observer",
+          "start": 9.253878,
+          "end": 9.5,
+          "mouthTarget": "@unknown_observer",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC008_003",
+          "speaker": "@unknown_observer",
+          "start": 9.5,
+          "end": 10.886531,
+          "mouthTarget": "@unknown_observer",
+          "delivery": "ONSCREEN"
+        },
+        {
+          "dialogueId": "DLG_SC008_004",
+          "speaker": "@control_voice",
+          "start": 11.106531,
+          "end": 12.739184,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC008_005",
+          "speaker": "@unknown_observer",
+          "start": 12.959184,
+          "end": 15.0,
+          "mouthTarget": "@unknown_observer",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    },
+    {
+      "segmentId": "SEG_SC008_002",
+      "dialogueRouting": [
+        {
+          "dialogueId": "DLG_SC008_006",
+          "speaker": "@control_voice",
+          "start": 2.63102,
+          "end": 5.08,
+          "mouthTarget": null,
+          "delivery": "OFFSCREEN_ONLY"
+        },
+        {
+          "dialogueId": "DLG_SC008_007",
+          "speaker": "@unknown_observer",
+          "start": 5.3,
+          "end": 6.0,
+          "mouthTarget": "@unknown_observer",
+          "delivery": "ONSCREEN"
+        }
+      ],
+      "launchRevised": false
+    }
+  ]
+}

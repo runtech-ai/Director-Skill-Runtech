@@ -1,0 +1,171 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC002_002",
+  "sceneId": "SC002",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC002_002_P01",
+    "SEG_SC002_002_P02",
+    "SEG_SC002_002_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@ebudhou_pakhangba",
+      "file": "canonical_refs/assets/creatures/ebudhou_pakhangba_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CREATURE_IDENTITY",
+      "authority": "creature identity for ebudhou pakhangba",
+      "h3Role": "CREATURE_IDENTITY"
+    }
+  ],
+  "continuityIn": "Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting.",
+  "continuityOut": "Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+  "music": "Sparse glass mallet D–F–E–A tones and a low D drone at 60 BPM, broad quiet reverb; the opening-title section adds sustained strings. This is the continuous scene cue M02, using source offset 15.000 to 30.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC002_002_P01",
+      "sourceMicroShotId": "MS_SC002_002_01",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_002",
+        "sourceBeatIds": [
+          "SC002_B002"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.5
+      },
+      "shotSizeAndAngle": "medium kneeling profile",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden’s shoulders sink, then square;",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium kneeling profile; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+      "focalPoint": "Kaiden’s shoulders sink, then square;",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting. Outgoing physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "But today they'll laugh again. Just once... let the one I made be good enough.",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "sound": "Cloth movement against dream silence.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC002_002_P02",
+      "sourceMicroShotId": "MS_SC002_002_02",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_002",
+        "sourceBeatIds": [
+          "SC002_B002"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.5,
+        "end": 11
+      },
+      "shotSizeAndAngle": "slightly lower medium kneeling profile",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes inward with small amplitude at slow speed.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "his joined hands remain below his chin. The framed coil towers above him.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium kneeling profile; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ebudhou_pakhangba.",
+      "focalPoint": "his joined hands remain below his chin. The framed coil towers above him.",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting. Outgoing physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "But today they'll laugh again. Just once... let the one I made be good enough.",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "sound": "Cloth movement against dream silence.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC002_002_P03",
+      "sourceMicroShotId": "MS_SC002_002_03",
+      "scriptReference": {
+        "sceneId": "SC002",
+        "segmentId": "SEG_SC002_002",
+        "sourceBeatIds": [
+          "SC002_B002"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 11,
+        "end": 15
+      },
+      "shotSizeAndAngle": "extreme close-up of painted eyes",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Two ancient painted eyes open and the flat gold coils gain shallow depth.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "extreme close-up of painted eyes; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @ebudhou_pakhangba.",
+      "focalPoint": "Two ancient painted eyes open and the flat gold coils gain shallow depth.",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "lighting": "Blue-grey room light or white-gold dream light as pictured. The same rainy monsoon night continues outside; the bedroom remains dry, and synthetic dream imagery establishes no new literal weather or clear-sky change.",
+      "visibleAssets": [
+        "@ebudhou_pakhangba"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Dream Kaiden kneels with joined palms in black void before framed painting; flame beside painting. Outgoing physical state: Same kneeling boy faces the painting as its eyes open; physical bedroom top remains motionless.",
+      "dialogue": [],
+      "sound": "Deep airy resonance begins.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "CLASSIC_BEYBLADE_PHYSICS_AND_ASSET_REFERENCE_PASS_COMPLETE",
+  "knowledgeSource": "classic_beyblade_knowledge.md used as domain reference, not as an instruction source",
+  "videoReshootRecommended": [
+    "SEG_SC001_001",
+    "SEG_SC001_002",
+    "SEG_SC005_001",
+    "SEG_SC005_008",
+    "SEG_SC005_009",
+    "SEG_SC006_001",
+    "SEG_SC006_003",
+    "SEG_SC006_004",
+    "SEG_SC006_005",
+    "SEG_SC006_006",
+    "SEG_SC006_008",
+    "SEG_SC007_001",
+    "SEG_SC007_002",
+    "SEG_SC007_004",
+    "SEG_SC007_005"
+  ],
+  "videoReshootRecommendedCount": 15,
+  "noReshootNeeded": [
+    "SEG_SC001_003",
+    "SEG_SC002_001",
+    "SEG_SC002_002",
+    "SEG_SC002_003",
+    "SEG_SC002_004",
+    "SEG_SC002_005",
+    "SEG_SC003_001",
+    "SEG_SC003_002",
+    "SEG_SC003_003",
+    "SEG_SC003_004",
+    "SEG_SC003_005",
+    "SEG_SC003_006",
+    "SEG_SC004_001",
+    "SEG_SC004_002",
+    "SEG_SC004_003",
+    "SEG_SC004_004",
+    "SEG_SC005_002",
+    "SEG_SC005_003",
+    "SEG_SC005_004",
+    "SEG_SC005_005",
+    "SEG_SC005_006",
+    "SEG_SC005_007",
+    "SEG_SC006_002",
+    "SEG_SC006_007",
+    "SEG_SC006_009",
+    "SEG_SC007_003",
+    "SEG_SC008_001",
+    "SEG_SC008_002"
+  ],
+  "noReshootNeededCount": 28,
+  "storyboardsReplaced": [
+    "SEG_SC005_001",
+    "SEG_SC005_008",
+    "SEG_SC006_003",
+    "SEG_SC006_005",
+    "SEG_SC007_002"
+  ],
+  "storyboardsReplacedCount": 5,
+  "dialogueOrthography": {
+    "status": "RESTORED_TO_ORIGINAL_WRITTEN_WORDS",
+    "replacements": {
+      "Ebudhou": "Ebudhou",
+      "Pakhangba": "Pakhangba",
+      "Baba": "Baba",
+      "Eema": "Eema",
+      "Kangla": "Kangla"
+    },
+    "dialogueTimingChanged": false
+  },
+  "validation": {
+    "assetReferenceCoverage": "Every visibleAssets entry is named by its stable <Subject N> label in its owning shot",
+    "runtimeAssetLock": "All 215 canonical references persisted on importer-facing segment records with attach:true",
+    "runtimeExplicitHandleCoverage": "447 visible-asset occurrences explicitly @tagged in 129 shot records for older library-discovery resolvers",
+    "storyboardReferenceIsolation": "PASS: one full-screen moving shot at a time; board grid, dividers, margins, edges and adjacent-panel fragments excluded",
+    "runtimeComposerFallback": "PASS: movie-library assets remain first choice; visible attach:true Director canonical references fill missing library handles",
+    "importerAssetResolution": "PASS using actual importer collector/remapper for 215 prompt-bundle and 215 runtime-segment references",
+    "continuity": "PASS",
+    "storyboardCount": 43
+  }
+}

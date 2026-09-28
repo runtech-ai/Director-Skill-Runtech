@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "contract": "v9 / movie-director-result / 3.1-shotplan-only",
+  "sceneCount": 8,
+  "segmentCount": 43,
+  "microShotCount": 129,
+  "targetRuntime": 600,
+  "exactDialogueLines": 82,
+  "errors": [],
+  "warnings": [],
+  "validationScope": "Package structure, assets, timing, dialogue data, and storyboard mapping only; prompt validation and generation gating are disabled.",
+  "storyboardStatus": "GENERATED_FROM_CURRENT_SCRIPT_AND_REVIEWED",
+  "storyboardImageCount": 43,
+  "aspectRatio": "16:9",
+  "shineAudit": {
+    "status": "PASS",
+    "rule": "Physical Beyblades, launchers, clothing and stadium remain nonluminous. Positive luminous direction is limited to explicit dream-spirit imagery and SEG_SC007_001 through SEG_SC007_004 Bit Beast manifestation/return.",
+    "authorizedPositiveLuminousSegments": [
+      "SEG_SC002_003",
+      "SEG_SC002_005",
+      "SEG_SC007_001",
+      "SEG_SC007_002",
+      "SEG_SC007_003",
+      "SEG_SC007_004"
+    ]
+  }
+}

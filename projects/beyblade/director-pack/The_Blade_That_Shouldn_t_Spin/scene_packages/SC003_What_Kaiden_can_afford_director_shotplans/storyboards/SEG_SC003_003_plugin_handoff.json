@@ -1,0 +1,206 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC003_003",
+  "sceneId": "SC003",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC003_003_P01",
+    "SEG_SC003_003_P02",
+    "SEG_SC003_003_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@ima",
+      "file": "canonical_refs/assets/characters/ima_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for Eema",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@beyblade",
+      "file": "canonical_refs/generated/beyblade_pre_emblem.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for handmade blade before emblem discovery",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup.",
+  "continuityOut": "Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+  "music": "Soft electric-piano D–F–E–A notes and warm sustained low strings at 84 BPM; sparse phrasing under the two voices. This is the continuous scene cue M03, using source offset 30.000 to 45.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC003_003_P01",
+      "sourceMicroShotId": "MS_SC003_003_01",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_003",
+        "sourceBeatIds": [
+          "SC003_B003"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 4.0
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Eema follows Kaiden’s downward eyeline, then relaxes her hand on the chair.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima. The visible setting is @kaidens_house.",
+      "focalPoint": "Eema follows Kaiden’s downward eyeline, then relaxes her hand on the chair.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@kaidens_house"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup. Outgoing physical state: Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+      "dialogue": [
+        {
+          "speaker": "@ima",
+          "text": "Your Baba asked at the shop again. Maybe after next month—",
+          "start": 1.249388,
+          "end": 5.739184
+        }
+      ],
+      "sound": "Room tone and a soft chair creak.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC003_003_P02",
+      "sourceMicroShotId": "MS_SC003_003_02",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_003",
+        "sourceBeatIds": [
+          "SC003_B003"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 4.0,
+        "end": 8
+      },
+      "shotSizeAndAngle": "slightly lower medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden’s shoulders stiffen.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "slightly lower medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima. The visible setting is @kaidens_house.",
+      "focalPoint": "Kaiden’s shoulders stiffen.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@kaidens_house"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup. Outgoing physical state: Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+      "dialogue": [
+        {
+          "speaker": "@ima",
+          "text": "Your Baba asked at the shop again. Maybe after next month—",
+          "start": 1.249388,
+          "end": 5.739184
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "I didn't ask him to.",
+          "start": 5.959184,
+          "end": 8.0
+        }
+      ],
+      "sound": "Room tone and a soft chair creak.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC003_003_P03",
+      "sourceMicroShotId": "MS_SC003_003_03",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_003",
+        "sourceBeatIds": [
+          "SC003_B003"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 8,
+        "end": 15
+      },
+      "shotSizeAndAngle": "medium close single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes toward him slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden lifts the worn top near his chest and rotates it in his fingers, exposing the uneven washer and small screws.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly 1 top(s): @beyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium close single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @beyblade.",
+      "focalPoint": "Kaiden lifts the worn top near his chest and rotates it in his fingers, exposing the uneven washer and small screws.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@beyblade",
+        "@kaidens_house"
+      ],
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Phone rests on table; Kaiden looks down at stopped top, Eema at chair right; breakfast beside cup. Outgoing physical state: Kaiden holds stopped top near chest; Eema stands beside his chair, phone on table.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "This one is better. If something breaks, I know how to fix it.",
+          "start": 8,
+          "end": 15
+        }
+      ],
+      "sound": "Fingertip scrape on wood.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

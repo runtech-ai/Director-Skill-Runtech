@@ -1,0 +1,244 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC006_002",
+  "sceneId": "SC006",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC006_002_P01",
+    "SEG_SC006_002_P02",
+    "SEG_SC006_002_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "imageIndex": 7,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for launcher",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "First launch completed once: handmade top flat and stopped in bowl, Dragoon and Driger spinning; Nanao holds Kaiden's reaching wrist.",
+  "continuityOut": "All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+  "music": "Low strings, muted kick and syncopated synth bass at 132 BPM, a brief percussion gap at the failed launch, rising density at the second launch, then a complete score drop at the silent-circle threshold. This is the continuous scene cue M06, using source offset 15.000 to 30.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC006_002_P01",
+      "sourceMicroShotId": "MS_SC006_002_01",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_002",
+        "sourceBeatIds": [
+          "SC006_B002"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 5.0
+      },
+      "shotSizeAndAngle": "medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden’s empty right hand curls into a fist.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "focalPoint": "Kaiden’s empty right hand curls into a fist.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: First launch completed once: handmade top flat and stopped in bowl, Dragoon and Driger spinning; Nanao holds Kaiden's reaching wrist. Outgoing physical state: All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "I was going to say the launcher slipped.",
+          "start": 2.109388,
+          "end": 5.374694
+        }
+      ],
+      "sound": "Shoes scrape grit.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_002_P02",
+      "sourceMicroShotId": "MS_SC006_002_02",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_002",
+        "sourceBeatIds": [
+          "SC006_B002"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 5.0,
+        "end": 10
+      },
+      "shotSizeAndAngle": "lower-angle medium three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera makes a small slow push.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Mocha shifts his weight toward him, and Nanao releases the wrist slowly.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "lower-angle medium three-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @nanao, @mocha. The visible setting is @kangla.",
+      "focalPoint": "Mocha shifts his weight toward him, and Nanao releases the wrist slowly.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: First launch completed once: handmade top flat and stopped in bowl, Dragoon and Driger spinning; Nanao holds Kaiden's reaching wrist. Outgoing physical state: All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "I was going to say the launcher slipped.",
+          "start": 2.109388,
+          "end": 5.374694
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "Again.",
+          "start": 5.594694,
+          "end": 6.294694
+        },
+        {
+          "speaker": "@nanao",
+          "text": "Your prong is bent.",
+          "start": 6.514694,
+          "end": 8.147347
+        },
+        {
+          "speaker": "@kaiden",
+          "text": "I can fix it.",
+          "start": 8.367347,
+          "end": 10.0
+        }
+      ],
+      "sound": "Shoes scrape grit.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_002_P03",
+      "sourceMicroShotId": "MS_SC006_002_03",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_002",
+        "sourceBeatIds": [
+          "SC006_B002"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 10,
+        "end": 15
+      },
+      "shotSizeAndAngle": "hands insert",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "After the two ordinary tops have stopped, Kaiden retrieves his blade and realigns the deformed washer edge around the handmade top’s launcher opening so both launcher posts can seat and disengage together.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @kaiden; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand. When three owner sets are present, Kaiden alone holds the blue-red launcher and handmade brown-ring top, Nanao alone holds the green-black-yellow launcher and blue-red-yellow Dragoon, and Mocha alone holds the red-purple launcher and white-red-purple Driger; never swap, repeat or hybridize these pairs.",
+      "composition": "hands insert; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @3_beyblades, @launcher.",
+      "focalPoint": "After the two ordinary tops have stopped, Kaiden retrieves his blade and realigns the deformed washer edge around the handmade top’s launcher opening so both launcher posts can seat and disengage together.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@3_beyblades",
+        "@launcher",
+        "@kangla",
+        "@stadium"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: First launch completed once: handmade top flat and stopped in bowl, Dragoon and Driger spinning; Nanao holds Kaiden's reaching wrist. Outgoing physical state: All tops stopped and recovered; Kaiden holds repaired launcher and handmade top separately; friends still north-west/north-east.",
+      "dialogue": [],
+      "sound": "A sharp prong click and washer scrape.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

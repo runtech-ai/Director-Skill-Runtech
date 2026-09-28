@@ -1,0 +1,197 @@
+{
+  "segmentId": "SEG_SC001_002",
+  "sceneId": "SC001",
+  "mode": "SINGLE_IMAGE_MULTI_BEAT_FILM_STILLS",
+  "generator": "GPT Image 2",
+  "required": false,
+  "beatCount": 3,
+  "allowedBeatRange": {
+    "min": 1,
+    "max": 10
+  },
+  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "promptFile": "storyboards/prompts/SEG_SC001_002_storyboard_prompt.txt",
+  "expectedOutputFile": "SEG_SC001_002.png",
+  "assetReferences": [
+    {
+      "imageIndex": 1,
+      "assetId": "@toybeyblade",
+      "file": "canonical_refs/assets/props/toybeyblade_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    },
+    {
+      "imageIndex": 2,
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "role": "LOCATION_REFERENCE"
+    },
+    {
+      "imageIndex": 3,
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "role": "PROP_REFERENCE"
+    }
+  ],
+  "beats": [
+    {
+      "panel": 1,
+      "sourceMicroShotId": "MS_SC001_002_01",
+      "displayShot": 1,
+      "segmentTime": {
+        "start": 0,
+        "end": 7
+      },
+      "timeLabel": "0–7s",
+      "framing": "shop-window wide",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera trucks slowly along the shop window.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 1 top(s): @toybeyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@toybeyblade",
+        "@imphal"
+      ],
+      "description": "A parent’s hand gently leads a child from an expensive boxed top display toward a low shelf of plain toys. Packaging carries the source slogan.",
+      "appearance": "",
+      "physics": "STATIONARY TOP IN THIS SHOT: it remains stopped, held, stored, repaired or displayed exactly as authored and never spins up by itself.",
+      "continuity": "Incoming physical state: Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it. Outgoing physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin."
+    },
+    {
+      "panel": 2,
+      "sourceMicroShotId": "MS_SC001_002_02",
+      "displayShot": 2,
+      "segmentTime": {
+        "start": 7,
+        "end": 11.0
+      },
+      "timeLabel": "7–11.0s",
+      "framing": "low basin two-person wide",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 1 top(s): @toybeyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@toybeyblade",
+        "@launcher",
+        "@imphal"
+      ],
+      "description": "Exactly two anonymous schoolgirls lean over a dented steel basin. From 7 to 8.5 seconds each holds one stationary top level and flush beneath a launcher above the empty basin, both posts fully inserted and twist-locked, finger through the inserted short toothed ripcord ring. At 8.5 seconds each pulls once outward away from the basin, detaching the entire short plastic ripcord. Both tops release immediately downward into the basin, rotating clockwise, and land tip-first once by 9 seconds. They continue axially spinning while translating along distinct curved basin paths until the next cut; neither top sticks to the slope or spins around a fixed glued point. Both girls keep their mouths closed; their launchers are now empty.",
+      "appearance": "Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "AUTHORED LAUNCH: each stationary top is twist-locked flush against its own launcher underside with a short rigid toothed ripcord inserted. One hand stabilizes the launcher while the opposite hand pulls once by the ring; the internal gear accelerates the still-engaged top. It detaches exactly once already at rapid RPM, descends immediately and lands tip-first. The extracted ripcord is fully separate in the pulling hand; no string, tether, duplicate top or delayed spin-up. ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it. Outgoing physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin."
+    },
+    {
+      "panel": 3,
+      "sourceMicroShotId": "MS_SC001_002_03",
+      "displayShot": 3,
+      "segmentTime": {
+        "start": 11.0,
+        "end": 15
+      },
+      "timeLabel": "11.0–15s",
+      "framing": "slightly lower low basin two-person wide",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "cameraContext": "The camera holds at basin rim height.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 1 top(s): @toybeyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "pov": "Objective camera on the authored side of the scene axis",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weatherState": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@toybeyblade",
+        "@launcher",
+        "@imphal"
+      ],
+      "description": "two plastic tops spin clockwise, collide at their rims and separate along changed tangents. One begins a widening wobble.",
+      "appearance": "Every launcher remains ordinary nonluminous plastic with no emblem on its housing.",
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it. ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it. Outgoing physical state: One ordinary basin top wobbles after contact; schoolgirls stay outside basin."
+    }
+  ],
+  "authority": {
+    "directorEditorData": "AUTHORITATIVE_FOR_STORY_ACTION_TIMING_DIALOGUE_AND_CONTINUITY",
+    "canonicalAssets": "AUTHORITATIVE_FOR_IDENTITY_AND_DESIGN",
+    "storyboard": "VISUAL_PLANNING_REFERENCE_ONLY"
+  },
+  "optionalH3StoryboardReference": {
+    "enabled": false,
+    "resolved": false,
+    "defaultEnabled": false,
+    "activationRequires": [
+      "storyboardRefEnabled == true",
+      "storyboard image attached/resolved"
+    ],
+    "referenceToken": "{{STORYBOARD_REFERENCE}}",
+    "injectionTarget": "subject_definitions.storyboard_reference",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "sourceIsolation": {
+    "mode": "PACKAGE_LOCKED",
+    "allowProjectContext": false,
+    "allowUnlistedAssets": false,
+    "allowPriorStoryboardsAsStyleReference": false,
+    "onMissingReference": "FAIL_CLOSED"
+  },
+  "storyboardVisualStyle": {
+    "medium": "cinematic anime film still",
+    "styleText": "Cinematic 2D Beyblade anime adaptation with bold clean linework, vibrant cel shading, high dramatic contrast, painted backgrounds and expressive stepped character animation.",
+    "authority": "DIRECTOR_PACKAGE"
+  },
+  "styleReferences": [],
+  "continuityHandoff": {
+    "incoming": "Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it.",
+    "outgoing": "One ordinary basin top wobbles after contact; schoolgirls stay outside basin.",
+    "editorialBoundaryIn": "HARD_CUT",
+    "previousSegmentId": "SEG_SC001_001",
+    "referencePreviousLastKeyframe": false,
+    "referencePolicy": {
+      "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+      "role": "VISUAL_STATE_ONLY",
+      "required": false,
+      "onMissing": "NOT_REQUIRED",
+      "neverUse": "latest unused retry or storyboard composite"
+    }
+  },
+  "snapshotPolicy": "Each panel is one selected instant, not simultaneous start/end states. Launch setup panels show loaded top and empty receiving surface. Never place a landed top alongside a still-loaded launcher.",
+  "launcherCenterSlotGeometryLock": "Launcher center-slot geometry lock: the launcher has exactly two short, close-set engagement prongs symmetric about its central axis. Both prongs enter the paired launcher slots immediately beside the Beyblade's central Bit Chip/center gap, one on each side of the axis. They never attach to the outer Attack Ring, Weight Disk, perimeter, or tip. Before release the top is level, flush, and firmly retained on both prongs; at release both prongs disengage together and the top becomes fully unsupported, descending tip-first under gravity.",
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "launcherAttachmentProximityLock": "Launcher-to-Beyblade proximity lock: whenever a Beyblade is loaded before release, its flat upper face is in direct visible contact with the launcher underside, with zero visible air gap. Exactly two short close-set launcher prongs are fully inserted into the paired slots beside the central Bit Chip and twist-locked together; the top is level, centered on the launcher axis, and its tip points straight down. The launcher and loaded top move as one rigid assembly with identical position and tilt: no dangling top, long connector, exposed suspension gap, single-post support, floating, or early separation. The visible gap begins only on the single release frame, when both prongs disengage together and the already-spinning top immediately descends tip-first under gravity.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "launcherNoConnectorLock": "Launcher silhouette lock: the Beyblade's upper face sits immediately beneath and touches the actual launcher housing. Only the two very short engagement prongs hidden inside the top's center slots may connect them. Never draw any long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether, suspension bar, or extended post between launcher and Beyblade.",
+  "aspectRatio": "16:9",
+  "generatedFile": "SEG_SC001_002.png",
+  "generationPolicy": {
+    "mode": "FRESH_REGENERATE",
+    "includePreviousGeneration": false,
+    "approvedTakeRequiredForH3": true,
+    "rejectedOrSupersededTakesAllowed": false
+  },
+  "sourceStateHash": "251bea6f1c0dd5095e13588a20cf47502b3170a720e3df1136be5dfcefe9155d",
+  "storyboardGeneratorPlugin": {
+    "handoff": "storyboards/SEG_SC001_002_plugin_handoff.json",
+    "prompt": "storyboards/SEG_SC001_002_plugin_prompt.txt",
+    "validation": "PASS"
+  }
+}

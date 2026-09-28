@@ -1,0 +1,295 @@
+{
+  "status": "PASS",
+  "scope": {
+    "start": "SEG_SC005_009",
+    "end": "SEG_SC007_005",
+    "segmentCount": 15,
+    "segmentIds": [
+      "SEG_SC005_009",
+      "SEG_SC006_001",
+      "SEG_SC006_002",
+      "SEG_SC006_003",
+      "SEG_SC006_004",
+      "SEG_SC006_005",
+      "SEG_SC006_006",
+      "SEG_SC006_007",
+      "SEG_SC006_008",
+      "SEG_SC006_009",
+      "SEG_SC007_001",
+      "SEG_SC007_002",
+      "SEG_SC007_003",
+      "SEG_SC007_004",
+      "SEG_SC007_005"
+    ]
+  },
+  "asset": {
+    "assetId": "@3_beyblades",
+    "sha256": "6f2a1b9c82fa4dd7c3fe5ec8e0d2db474d23baec15bd45eacd7e57507694bbfe",
+    "ownerMapping": {
+      "kaiden": "handmade blue-red-metal-and-brown-wood; right-spin",
+      "nanao": "blue-red-yellow; left-spin",
+      "mocha": "white-red-purple; right-spin"
+    }
+  },
+  "directorIntent": {
+    "timing": "UNCHANGED",
+    "shotOrder": "UNCHANGED",
+    "framing": "UNCHANGED",
+    "camera": "UNCHANGED",
+    "povAndLens": "UNCHANGED",
+    "compositionAndLighting": "UNCHANGED",
+    "transitions": "UNCHANGED",
+    "dialogue": "UNCHANGED"
+  },
+  "physics": {
+    "source": "director-pack direction-continuity-asset-lock mechanical and spinning-top knowledge",
+    "stateChain": "two-prong load -> rigid-ripcord gear drive -> one release -> gravity descent -> tip-first contact -> axial spin plus bowl translation",
+    "collision": "direct Attack Ring contact -> recoil/deflection -> wobble/speed loss; knockout crosses rim and remains outside",
+    "bitBeast": "energy remains anchored to Kaiden's intact physical top; no solid chip ejection"
+  },
+  "segments": [
+    {
+      "segmentId": "SEG_SC005_009",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 7>",
+      "h3Picture": "<Picture 7>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 7>",
+      "h3Picture": "<Picture 7>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade",
+        "@dragoon",
+        "@driger"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "visibleShotsUsing3Beyblades": [
+        3
+      ],
+      "h3Subject": "<Subject 5>",
+      "h3Picture": "<Picture 5>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 2>",
+      "h3Picture": "<Picture 2>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 7>",
+      "h3Picture": "<Picture 7>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade",
+        "@dragoon",
+        "@driger"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 1>",
+      "h3Picture": "<Picture 1>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade",
+        "@dragoon",
+        "@driger"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 5>",
+      "h3Picture": "<Picture 5>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade",
+        "@dragoon",
+        "@driger"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "visibleShotsUsing3Beyblades": [
+        3
+      ],
+      "h3Subject": "<Subject 5>",
+      "h3Picture": "<Picture 5>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        3
+      ],
+      "h3Subject": "<Subject 2>",
+      "h3Picture": "<Picture 2>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "visibleShotsUsing3Beyblades": [],
+      "h3Subject": "<Subject 5>",
+      "h3Picture": "<Picture 5>",
+      "legacyAssetIdsRemoved": [],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "visibleShotsUsing3Beyblades": [
+        3
+      ],
+      "h3Subject": "<Subject 5>",
+      "h3Picture": "<Picture 5>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "visibleShotsUsing3Beyblades": [
+        1,
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 6>",
+      "h3Picture": "<Picture 6>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "visibleShotsUsing3Beyblades": [],
+      "h3Subject": "<Subject 6>",
+      "h3Picture": "<Picture 6>",
+      "legacyAssetIdsRemoved": [],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "visibleShotsUsing3Beyblades": [
+        2,
+        3
+      ],
+      "h3Subject": "<Subject 3>",
+      "h3Picture": "<Picture 3>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "visibleShotsUsing3Beyblades": [
+        2
+      ],
+      "h3Subject": "<Subject 5>",
+      "h3Picture": "<Picture 5>",
+      "legacyAssetIdsRemoved": [
+        "@beyblade"
+      ],
+      "directorFieldsPreserved": true
+    }
+  ],
+  "classification": {
+    "PASS_NO_RESHOOT": [
+      "SEG_SC006_001",
+      "SEG_SC006_002",
+      "SEG_SC006_003",
+      "SEG_SC006_004",
+      "SEG_SC006_005",
+      "SEG_SC006_006",
+      "SEG_SC006_007",
+      "SEG_SC006_008",
+      "SEG_SC006_009",
+      "SEG_SC007_001",
+      "SEG_SC007_002",
+      "SEG_SC007_004",
+      "SEG_SC007_005"
+    ],
+    "PROMPT_ONLY": [],
+    "STORYBOARD_RESHOOT": [
+      "SEG_SC005_009",
+      "SEG_SC007_003"
+    ],
+    "FULL_SEGMENT_REDIRECT": [],
+    "storyboardReshootsResolved": true,
+    "finalPassingTargetSegments": [
+      "SEG_SC005_009",
+      "SEG_SC006_001",
+      "SEG_SC006_002",
+      "SEG_SC006_003",
+      "SEG_SC006_004",
+      "SEG_SC006_005",
+      "SEG_SC006_006",
+      "SEG_SC006_007",
+      "SEG_SC006_008",
+      "SEG_SC006_009",
+      "SEG_SC007_001",
+      "SEG_SC007_002",
+      "SEG_SC007_003",
+      "SEG_SC007_004",
+      "SEG_SC007_005"
+    ]
+  },
+  "validation": {
+    "staticImporterAndH3": "PASS — 8 scenes, 43 segments, 129 micro-shots, 82 exact dialogue lines",
+    "runtimeAssetAttachmentSmoke": "PASS on SEG_SC005_009 using Director canonical-reference fallback",
+    "storyboardPixelReview": "PASS after replacing SEG_SC005_009 and SEG_SC007_003",
+    "storyboardCount": 43
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "sceneId": "SC005",
+  "mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "generator": "GPT Image 2",
+  "storyboardImageRequiredForH3": false,
+  "panelCountRangePerSegment": {
+    "min": 1,
+    "max": 10
+  },
+  "segments": [
+    {
+      "segmentId": "SEG_SC005_001",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_001_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_001_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_001.png",
+      "generatedFile": "SEG_SC005_001.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_002_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_002_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_002.png",
+      "generatedFile": "SEG_SC005_002.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_003_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_003_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_003.png",
+      "generatedFile": "SEG_SC005_003.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_004_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_004_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_004.png",
+      "generatedFile": "SEG_SC005_004.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_005_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_005_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_005.png",
+      "generatedFile": "SEG_SC005_005.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_006_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_006_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_006.png",
+      "generatedFile": "SEG_SC005_006.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_007_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_007_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_007.png",
+      "generatedFile": "SEG_SC005_007.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_008_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_008_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_008.png",
+      "generatedFile": "SEG_SC005_008.png",
+      "h3StoryboardReferenceDefault": false
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "sceneId": "SC005",
+      "beatCount": 3,
+      "promptFile": "storyboards/prompts/SEG_SC005_009_storyboard_prompt.txt",
+      "specFile": "storyboards/specs/SEG_SC005_009_storyboard.json",
+      "expectedOutputFile": "SEG_SC005_009.png",
+      "generatedFile": "SEG_SC005_009.png",
+      "h3StoryboardReferenceDefault": false
+    }
+  ]
+}

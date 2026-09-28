@@ -1,0 +1,20 @@
+{
+  "format": "movie-director-package",
+  "version": "1.0",
+  "exportedAt": "2026-09-25T17:00:32.855841+00:00",
+  "scope": "movie",
+  "sceneId": null,
+  "projectId": "3b4a39bf-f222-420d-95de-c0db4a2e0c37",
+  "projectTitle": "The Blade That Shouldn't Spin",
+  "movieTitle": "Beyblade",
+  "packageName": "The_Blade_That_Shouldn_t_Spin",
+  "fileCount": 22,
+  "assetCount": 22,
+  "includes": [
+    "movie.movie",
+    "asset-manifest.json",
+    "generation-profile.json",
+    "export-manifest.json",
+    "director-brief.md"
+  ]
+}

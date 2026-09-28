@@ -1,0 +1,132 @@
+{
+  "format": "storyboard-canonical-reference-atlas-index",
+  "version": "1.0",
+  "atlases": [
+    {
+      "segmentId": "SEG_SC003_002",
+      "assetCount": 6,
+      "image": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/reference_atlases/SEG_SC003_002_canonical_atlas.png",
+      "manifest": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/reference_atlases/SEG_SC003_002_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "assetCount": 6,
+      "image": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/reference_atlases/SEG_SC003_005_canonical_atlas.png",
+      "manifest": "scene_packages/SC003_What_Kaiden_can_afford_director_shotplans/storyboards/reference_atlases/SEG_SC003_005_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "assetCount": 6,
+      "image": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/reference_atlases/SEG_SC004_002_canonical_atlas.png",
+      "manifest": "scene_packages/SC004_Racing_to_Kangla_director_shotplans/storyboards/reference_atlases/SEG_SC004_002_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "assetCount": 6,
+      "image": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_001_canonical_atlas.png",
+      "manifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_001_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "assetCount": 8,
+      "image": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_002_canonical_atlas.png",
+      "manifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_002_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "assetCount": 7,
+      "image": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_005_canonical_atlas.png",
+      "manifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_005_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "assetCount": 6,
+      "image": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_007_canonical_atlas.png",
+      "manifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_007_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "assetCount": 6,
+      "image": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_008_canonical_atlas.png",
+      "manifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_008_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "assetCount": 7,
+      "image": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_009_canonical_atlas.png",
+      "manifest": "scene_packages/SC005_Friends_and_friction_director_shotplans/storyboards/reference_atlases/SEG_SC005_009_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "assetCount": 7,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_001_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_001_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "assetCount": 7,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_002_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_002_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "assetCount": 7,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_003_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_003_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "assetCount": 7,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_004_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_004_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "assetCount": 6,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_005_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_005_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "assetCount": 6,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_006_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_006_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "assetCount": 6,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_007_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_007_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "assetCount": 6,
+      "image": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_008_canonical_atlas.png",
+      "manifest": "scene_packages/SC006_Try_fail_escalate_director_shotplans/storyboards/reference_atlases/SEG_SC006_008_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "assetCount": 6,
+      "image": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_001_canonical_atlas.png",
+      "manifest": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_001_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "assetCount": 7,
+      "image": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_002_canonical_atlas.png",
+      "manifest": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_002_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "assetCount": 6,
+      "image": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_003_canonical_atlas.png",
+      "manifest": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_003_canonical_atlas.json"
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "assetCount": 6,
+      "image": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_005_canonical_atlas.png",
+      "manifest": "scene_packages/SC007_The_silent_circle_director_shotplans/storyboards/reference_atlases/SEG_SC007_005_canonical_atlas.json"
+    }
+  ]
+}

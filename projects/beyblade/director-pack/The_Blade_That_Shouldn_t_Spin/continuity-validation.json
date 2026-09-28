@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "segments": 43,
+  "matchedTransitions": 32,
+  "explicitCuts": 11,
+  "audioBoundaryCount": 42,
+  "checks": [
+    "All segment/index/prompt handoff copies agree",
+    "Selected previous take linked in order for every match",
+    "Reference budget includes previous frame and never exceeds nine",
+    "First launch preparation and release separated",
+    "Bare-hand state maintained across shock",
+    "42 audio sample boundaries contiguous"
+  ],
+  "scope": "Authored state and storyboard audit. Video motion and final-frame matches require rendered takes; no video was generated."
+}

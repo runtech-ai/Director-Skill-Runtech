@@ -1,0 +1,195 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC003_006",
+  "sceneId": "SC003",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC003_006_P01",
+    "SEG_SC003_006_P02",
+    "SEG_SC003_006_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@ima",
+      "file": "canonical_refs/assets/characters/ima_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for Eema",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for launcher",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kaidens_house",
+      "file": "canonical_refs/assets/locations/kaidens_house_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kaidens house",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "continuityIn": "Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate.",
+  "continuityOut": "Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+  "music": "Soft electric-piano D–F–E–A notes and warm sustained low strings at 84 BPM; sparse phrasing under the two voices. This is the continuous scene cue M03, using source offset 75.000 to 85.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC003_006_P01",
+      "sourceMicroShotId": "MS_SC003_006_01",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_006",
+        "sourceBeatIds": [
+          "SC003_B006"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 3.0
+      },
+      "shotSizeAndAngle": "medium doorway two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Kaiden bobs his head, turns toward the already-open doorway and walks toward the exterior; Eema remains behind him inside.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "LAUNCHER GEOMETRY LOCK: use only the canonical launcher and short rigid toothed ripcord; no string, cable, long shaft, hanging top or invented launcher design.",
+      "composition": "medium doorway two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @launcher. The visible setting is @kaidens_house.",
+      "focalPoint": "Kaiden bobs his head and moves out;",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+      "continuity": "Incoming physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate. Outgoing physical state: Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "dialogue": [],
+      "sound": "Two quick footfalls and a ripcord rattle.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC003_006_P02",
+      "sourceMicroShotId": "MS_SC003_006_02",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_006",
+        "sourceBeatIds": [
+          "SC003_B006"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 3.0,
+        "end": 6
+      },
+      "shotSizeAndAngle": "slightly lower medium doorway two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera makes a short pan toward the doorway.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Eema notices and lifts the forgotten ripcord. Kaiden pauses at the doorway threshold and turns only far enough to receive it; they remain separated with no embrace or kiss.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "LAUNCHER GEOMETRY LOCK: use only the canonical launcher and short rigid toothed ripcord; no string, cable, long shaft, hanging top or invented launcher design.",
+      "composition": "slightly lower medium doorway two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @launcher. The visible setting is @kaidens_house.",
+      "focalPoint": "Eema lifts the forgotten ripcord. He turns back sharply.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+      "continuity": "Incoming physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate. Outgoing physical state: Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "I know!",
+          "start": 4.263673,
+          "end": 5.08
+        },
+        {
+          "speaker": "@ima",
+          "text": "Kaiden!",
+          "start": 5.3,
+          "end": 6.0
+        }
+      ],
+      "sound": "Two quick footfalls and a ripcord rattle.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC003_006_P03",
+      "sourceMicroShotId": "MS_SC003_006_03",
+      "scriptReference": {
+        "sceneId": "SC003",
+        "segmentId": "SEG_SC003_006",
+        "sourceBeatIds": [
+          "SC003_B006"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 6,
+        "end": 10
+      },
+      "shotSizeAndAngle": "medium two-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "From arm's length, Kaiden takes the ripcord from Eema, pivots back toward the exterior, crosses through the open doorway and exits left to right into the rain. Eema stays inside and lowers her raised hand. No hug, kiss or other invented contact occurs.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @kaiden, @ima; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "LAUNCHER GEOMETRY LOCK: use only the canonical launcher and short rigid toothed ripcord; no string, cable, long shaft, hanging top or invented launcher design.",
+      "composition": "medium two-shot; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @kaiden, @ima, @launcher.",
+      "focalPoint": "Kaiden takes the ripcord from Eema, kisses her cheek and rushes left to right out of frame. Her raised hand lowers slowly.",
+      "locationHandle": "@kaidens_house",
+      "locationDescription": "Kaiden's modest house with bed-left, workbench-right and doorway-screen-right geography",
+      "weather": "The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "lighting": "Soft window daylight with warm skin tones. The same continuous monsoon morning remains visible outside: dense overcast and steady light rain; the house interior remains dry with no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "physics": "HANDLING STATE ONLY: preserve the authored grip or close flush attachment. No pull, release, launch or spin-up occurs unless this shot visibly performs it.",
+      "continuity": "Incoming physical state: Top concealed in the right side-seam pocket of his black athletic shorts; launcher held at side; wrapped breakfast in other hand; Eema at doorway holds plate. Outgoing physical state: Kaiden exits left-to-right with top concealed, launcher and short ripcord secured and wrapped food; Eema stays at doorway.",
+      "dialogue": [],
+      "sound": "Fabric swish and fading footsteps.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT"
+    }
+  ]
+}

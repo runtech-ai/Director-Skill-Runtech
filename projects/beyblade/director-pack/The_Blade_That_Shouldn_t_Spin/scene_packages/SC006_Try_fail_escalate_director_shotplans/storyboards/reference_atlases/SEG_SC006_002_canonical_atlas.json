@@ -1,0 +1,94 @@
+{
+  "segmentId": "SEG_SC006_002",
+  "canvas": {
+    "width": 3840,
+    "height": 2160
+  },
+  "labelPolicy": "Each label names the only canonical design in that tile; labels are metadata and must not appear in the rendered storyboard.",
+  "tiles": [
+    {
+      "tile": 1,
+      "assetId": "@kaiden",
+      "sourceFile": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "character identity for kaiden"
+    },
+    {
+      "tile": 2,
+      "assetId": "@nanao",
+      "sourceFile": "canonical_refs/assets/characters/nanao_sheet.png",
+      "rect": {
+        "x": 960,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "character identity for nanao"
+    },
+    {
+      "tile": 3,
+      "assetId": "@mocha",
+      "sourceFile": "canonical_refs/assets/characters/mocha_sheet.png",
+      "rect": {
+        "x": 1920,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "character identity for mocha"
+    },
+    {
+      "tile": 4,
+      "assetId": "@kangla",
+      "sourceFile": "canonical_refs/assets/locations/kangla_sheet.png",
+      "rect": {
+        "x": 2880,
+        "y": 0,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "location identity for kangla"
+    },
+    {
+      "tile": 5,
+      "assetId": "@stadium",
+      "sourceFile": "canonical_refs/assets/props/stadium_sheet.png",
+      "rect": {
+        "x": 0,
+        "y": 1080,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "prop identity for stadium"
+    },
+    {
+      "tile": 6,
+      "assetId": "@3_beyblades",
+      "sourceFile": "canonical_refs/assets/props/3_beyblades.png",
+      "rect": {
+        "x": 960,
+        "y": 1080,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "prop identity for the three owner-labeled Beyblades"
+    },
+    {
+      "tile": 7,
+      "assetId": "@launcher",
+      "sourceFile": "canonical_refs/assets/props/launcher_sheet.png",
+      "rect": {
+        "x": 1920,
+        "y": 1080,
+        "width": 960,
+        "height": 1080
+      },
+      "authority": "prop identity for launcher"
+    }
+  ]
+}

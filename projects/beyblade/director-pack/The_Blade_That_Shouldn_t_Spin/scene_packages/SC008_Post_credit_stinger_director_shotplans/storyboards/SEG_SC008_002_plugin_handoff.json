@@ -1,0 +1,182 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC008_002",
+  "sceneId": "SC008",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC008_002_P01",
+    "SEG_SC008_002_P02",
+    "SEG_SC008_002_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@unknown_observer",
+      "file": "canonical_refs/assets/characters/unknown_observer_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for unknown observer",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@kangla_perimeter",
+      "file": "canonical_refs/assets/locations/kangla_perimeter_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla perimeter",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@observer_device",
+      "file": "canonical_refs/assets/props/observer_device_sheet.jpg",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for observer device",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues.",
+  "continuityOut": "Observer lowers detector and turns screen inward beside same wet fence; light rain continues.",
+  "music": "Sparse low synth pulses and one metallic mallet note at 72 BPM in D minor, ending on an unresolved soft D. This is the continuous scene cue M08, using source offset 15.000 to 25.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC008_002_P01",
+      "sourceMicroShotId": "MS_SC008_002_01",
+      "scriptReference": {
+        "sceneId": "SC008",
+        "segmentId": "SEG_SC008_002",
+        "sourceBeatIds": [
+          "SC008_B002"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 6
+      },
+      "shotSizeAndAngle": "tight dark-haired portrait",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes in with small amplitude at slow speed.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The observer’s eyes remain fixed downward at the detector display facing him, then lift toward the grounds; the audience sees only its back or edge from the objective angle.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "tight dark-haired portrait; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @unknown_observer. The visible setting is @kangla_perimeter.",
+      "focalPoint": "The observer’s eyes remain fixed downward at the detector display facing him, then lift toward the grounds; the audience sees only its back or edge from the objective angle.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues. Outgoing physical state: Observer lowers detector and turns screen inward beside same wet fence; light rain continues.",
+      "dialogue": [
+        {
+          "speaker": "@control_voice",
+          "text": "Do not approach. Track the boy.",
+          "start": 2.63102,
+          "end": 5.08
+        },
+        {
+          "speaker": "@unknown_observer",
+          "text": "Understood.",
+          "start": 5.3,
+          "end": 6.0
+        }
+      ],
+      "sound": "Earpiece static and rain.",
+      "transitionIn": "MATCH_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC008_002_P02",
+      "sourceMicroShotId": "MS_SC008_002_02",
+      "scriptReference": {
+        "sceneId": "SC008",
+        "segmentId": "SEG_SC008_002",
+        "sourceBeatIds": [
+          "SC008_B002"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 6,
+        "end": 8
+      },
+      "shotSizeAndAngle": "medium single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The observer lowers the detector to his side and turns its lit screen inward toward his thigh, away from the audience, with a natural wrist rotation.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "medium single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @unknown_observer, @observer_device. The visible setting is @kangla_perimeter.",
+      "focalPoint": "The observer lowers the detector to his side and turns its lit screen inward toward his thigh, away from the audience, with a natural wrist rotation.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues. Outgoing physical state: Observer lowers detector and turns screen inward beside same wet fence; light rain continues.",
+      "dialogue": [],
+      "sound": "Rain on the casing.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC008_002_P03",
+      "sourceMicroShotId": "MS_SC008_002_03",
+      "scriptReference": {
+        "sceneId": "SC008",
+        "segmentId": "SEG_SC008_002",
+        "sourceBeatIds": [
+          "SC008_B002"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 8,
+        "end": 10
+      },
+      "shotSizeAndAngle": "long-lens wide single",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The suited observer stands alone beside the wet fence beneath an empty sky, detector resting at his side.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 1 named human subject(s): @unknown_observer; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "long-lens wide single; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @unknown_observer, @observer_device. The visible setting is @kangla_perimeter.",
+      "focalPoint": "The suited observer stands alone beside the wet fence beneath an empty sky, detector resting at his side.",
+      "locationHandle": "@kangla_perimeter",
+      "locationDescription": "the exact outer Kangla perimeter from the canonical sheet: road direction, waterway/moat edge, bridge or railing, boundary fence, vegetation and cream gateway remain in their depicted spatial order and orientation; never substitute the interior plaza or a generic gate",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kangla_perimeter"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Observer stands alone at wet perimeter, detector held up showing recorded Kaiden; light rain continues. Outgoing physical state: Observer lowers detector and turns screen inward beside same wet fence; light rain continues.",
+      "dialogue": [],
+      "sound": "Rain and a fading electronic pulse.",
+      "transitionIn": "CUT",
+      "transitionOut": "END_FILM"
+    }
+  ]
+}

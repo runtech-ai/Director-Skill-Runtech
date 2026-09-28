@@ -1,0 +1,306 @@
+{
+  "id": "SEG_SC005_001",
+  "sceneId": "SC005",
+  "sceneStart": 0,
+  "sceneEnd": 15,
+  "duration": 15,
+  "sourceBeatIds": [
+    "SC005_B001"
+  ],
+  "purpose": "Nanao holds the north-west place and Mocha the north-east place of the portable round grey plastic stadium on bare ground, clear of the monuments. Their launched tops circle on their tips.",
+  "continuityIn": "Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen.",
+  "continuityOut": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+  "requiredAssets": [
+    "@nanao",
+    "@mocha",
+    "@stadium",
+    "@dragoon",
+    "@driger",
+    "@kangla"
+  ],
+  "optionalAssets": [],
+  "dialogue": [
+    {
+      "id": "DLG_SC005_001",
+      "sourceLine": 1,
+      "speaker": "@mocha",
+      "text": "Come on, Driger. Hold the centre!",
+      "language": "English",
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "microShots": [
+    {
+      "id": "MS_SC005_001_01",
+      "displayShot": 1,
+      "segmentStart": 0,
+      "segmentEnd": 6,
+      "sceneStart": 0,
+      "sceneEnd": 6,
+      "purpose": "Nanao remains at the north-west rim and Mocha at the north-east rim after the launch has already finished. Their empty shooters are lowered and the fully extracted toothed winders are held separately. Palm-sized Dragoon and Driger spin and travel inside the bowl with their tips in continuous moving contact; no Beyblade remains attached to either shooter.",
+      "framing": "wide two-person arena view",
+      "visibleAssets": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "startState": "Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen.",
+      "action": "Nanao remains at the north-west rim and Mocha at the north-east rim after the launch has already finished. Their empty shooters are lowered and the fully extracted toothed winders are held separately. Palm-sized Dragoon and Driger spin and travel inside the bowl with their tips in continuous moving contact; no Beyblade remains attached to either shooter.",
+      "endState": "Their launched tops circle on their tips.",
+      "camera": "The camera lowers slowly toward rim height.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "wide two-person arena view; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @nanao, @mocha, @stadium, @dragoon, @driger. The visible setting is @kangla.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen. Outgoing physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "sound": "Plastic tip hiss and distant park ambience.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "Mouth motion is restricted to the named visible speaker during that speaker’s exact dialogue window; all listeners keep lips closed. Background people, screen images, symbols and reflections never mouth another voice.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Nanao's Dragoon preserves its canonical blue-red-yellow design and never borrows parts or colors from another top. Mocha's Driger preserves its canonical white-red-purple design and never borrows parts or colors from another top. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 2 named human subject(s): @nanao, @mocha; exactly 2 top(s): @dragoon, @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC005_001_02",
+      "displayShot": 2,
+      "segmentStart": 6,
+      "segmentEnd": 10.5,
+      "sceneStart": 6,
+      "sceneEnd": 10.5,
+      "purpose": "An overhead view establishes battle geography. Left-spinning Dragoon runs a wide outer orbit counterclockwise around its own axis while right-spinning Driger circulates on a tighter continuous orbit near the centre. Dragoon descends the stadium slope and cuts inward along a readable attack sweep.",
+      "framing": "low arena close-up",
+      "visibleAssets": [
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "startState": "Blue Dragoon turns counterclockwise;.",
+      "action": "An overhead view establishes battle geography. Left-spinning Dragoon runs a wide outer orbit counterclockwise around its own axis while right-spinning Driger circulates on a tighter continuous orbit near the centre. Dragoon descends the stadium slope and cuts inward along a readable attack sweep.",
+      "endState": "Blue Dragoon turns counterclockwise;",
+      "camera": "The camera holds nearly static.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "low arena close-up; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @stadium, @dragoon, @driger.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen. Outgoing physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "sound": "Impact click, falling-pitch whir and a soft stop.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Nanao's Dragoon preserves its canonical blue-red-yellow design and never borrows parts or colors from another top. Mocha's Driger preserves its canonical white-red-purple design and never borrows parts or colors from another top. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "cameraGeometry": "AUTHORED OVERHEAD GEOMETRY: the upper face is visible because this shot is explicitly overhead; do not mix in an edge-on body view within the same panel.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 2 top(s): @dragoon, @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    },
+    {
+      "id": "MS_SC005_001_03",
+      "displayShot": 3,
+      "segmentStart": 10.5,
+      "segmentEnd": 15,
+      "sceneStart": 10.5,
+      "sceneEnd": 15,
+      "purpose": "The physical Attack Rings meet once at the edge. Both palm-sized Beyblades recoil and change paths: Dragoon kicks outward, briefly tilts, then restabilizes; Driger is displaced toward the middle slope with reduced RPM. Driger progresses from slight wobble to wider precession, ring scrape, slow final rotations and a stop on its side. Dragoon remains upright at low-to-medium RPM.",
+      "framing": "slightly lower low arena close-up",
+      "visibleAssets": [
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "startState": "white Driger clockwise.",
+      "action": "The physical Attack Rings meet once at the edge. Both palm-sized Beyblades recoil and change paths: Dragoon kicks outward, briefly tilts, then restabilizes; Driger is displaced toward the middle slope with reduced RPM. Driger progresses from slight wobble to wider precession, ring scrape, slow final rotations and a stop on its side. Dragoon remains upright at low-to-medium RPM.",
+      "endState": "Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "camera": "The camera tracks a short arc beside the rim.",
+      "POV": "Objective camera on the authored side of the scene axis",
+      "lensIntent": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "composition": "slightly lower low arena close-up; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @stadium, @dragoon, @driger.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "continuity": "Incoming physical state: Inside Kangla plaza; friends' warm-up battle already underway while Kaiden approaches offscreen. Outgoing physical state: Driger lies stopped in bowl; Dragoon finishes slowing upright; Nanao north-west, Mocha north-east.",
+      "sound": "Impact click, falling-pitch whir and a soft stop.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT",
+      "speechRouting": "Only the structured timed speaker produces voice; every other visible human remains silent with lips closed during that line.",
+      "lipSyncDirection": "No visible mouth articulates speech during this shot; any screen playback remains nonverbal.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weatherState": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "appearance": "Nanao's Dragoon preserves its canonical blue-red-yellow design and never borrows parts or colors from another top. Mocha's Driger preserves its canonical white-red-purple design and never borrows parts or colors from another top. The stadium remains ordinary nonluminous grey plastic; authored cracks persist after breakage.",
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 2 top(s): @dragoon, @driger. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel."
+    }
+  ],
+  "soundPlan": [
+    "Plastic tip hiss and distant park ambience. Impact click, falling-pitch whir and a soft stop. Continuous ambience and spin phase bridge internal cuts; cut effects only at their physical event."
+  ],
+  "musicPlan": "Dry hand percussion and plucked bass at 108 BPM; the D–F–E–A figure gradually loses its upper notes as the emblem brightens. This is the continuous scene cue M05, using source offset 0.000 to 15.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "storyboard": {
+    "spec": "storyboards/specs/SEG_SC005_001_storyboard.json",
+    "prompt": "storyboards/prompts/SEG_SC005_001_storyboard_prompt.txt",
+    "expectedOutputFile": "SEG_SC005_001.png",
+    "h3StoryboardReferenceDefault": false
+  },
+  "promptBundle": "prompts/SEG_SC005_001_prompt_bundle.json",
+  "continuityMode": "CUT",
+  "previousSegmentId": "SEG_SC004_004",
+  "referencePreviousLastKeyframe": false,
+  "previousKeyframeReference": null,
+  "finalEditUnit": true,
+  "postProductionExpectation": "CONCAT_ONLY_NO_TRIM",
+  "continuityPriority": "HIGH",
+  "environmentContinuityGroup": "KANGLa_PLAZA",
+  "environmentStateAnchors": [
+    "Round grey plastic stadium in open plaza, clear of monuments.",
+    "Kaiden south, Nanao north-west, Mocha north-east; camera remains south of the Nanao–Mocha axis.",
+    "Parked bicycle stays outside battle frames. Emblem has replaced three ink lines."
+  ],
+  "editorialPacing": {
+    "shotCount": 3,
+    "pace": "AUTHORED"
+  },
+  "editorialBoundaryIn": "HARD_CUT",
+  "usePreviousLastKeyframeAsFirstFrame": false,
+  "editorialBoundaryOut": "MATCH_CUT",
+  "outgoingFrameIsHandoff": true,
+  "storyboardMode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
+  "physicsPlan": "[Shot 1] ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.\n[Shot 2] ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.\n[Shot 3] ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+  "audioContinuity": {
+    "cueId": "M05",
+    "movieStart": 255,
+    "movieEnd": 270,
+    "sceneCueOffset": 0,
+    "sampleRate": 48000,
+    "startSample": 12240000,
+    "endSample": 12960000,
+    "musicDelivery": "One continuous score master sliced at these sample boundaries; no repeated per-clip fade.",
+    "ambienceBridge": "Carry the same ambience recording across scene clips; intentional silence at the SC006/SC007 threshold."
+  },
+  "continuityReferencePolicy": {
+    "source": "PREVIOUS_SEGMENT_SELECTED_ACTIVE_TAKE_FINAL_FRAME",
+    "role": "VISUAL_STATE_ONLY",
+    "required": false,
+    "onMissing": "NOT_REQUIRED",
+    "neverUse": "latest unused retry or storyboard composite"
+  },
+  "speechRouting": [
+    {
+      "dialogueId": "DLG_SC005_001",
+      "speaker": "@mocha",
+      "start": 0,
+      "end": 6,
+      "mouthTarget": "@mocha",
+      "delivery": "ONSCREEN"
+    }
+  ],
+  "classicBeybladeState": {
+    "dragoon": "LEFT spin; HIGH to MEDIUM RPM; outer orbit then recoil; upright",
+    "driger": "RIGHT spin; MEDIUM to STOPPED; centre hold to wobble, scrape and stop"
+  },
+  "classicBeybladePhysics": "Classic Plastic Generation physics apply: physical Beyblades stay palm-sized, solid and tip-driven; right-spin and left-spin remain constant; stadium translation is separate from axial rotation; collisions use direct Attack Ring contact with recoil; supernatural energy remains anchored to the visible physical top. Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts. Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "canonicalReferences": [
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@dragoon",
+      "file": "canonical_refs/assets/props/dragoon_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for dragoon",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@driger",
+      "file": "canonical_refs/assets/props/driger_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for driger",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    }
+  ],
+  "runtimeAssetLock": {
+    "policy": "ATTACH_ALL_VISIBLE_CANONICAL_ASSETS",
+    "source": "canonicalReferences",
+    "active": true,
+    "assetIds": [
+      "@nanao",
+      "@mocha",
+      "@stadium",
+      "@dragoon",
+      "@driger",
+      "@kangla"
+    ]
+  },
+  "runtimeAssetMentionLock": {
+    "policy": "EVERY_VISIBLE_ASSET_EXPLICITLY_MENTIONED_IN_SHOT_PROSE",
+    "active": true
+  },
+  "optional_h3_storyboard_reference": {
+    "default_enabled": false,
+    "enabledDefault": false,
+    "target": "shot_planning_prompt.compiled_prompt",
+    "prompt": "{{STORYBOARD_REFERENCE}} is the storyboard reference for the mapped shots, defining their viewpoint, framing, subject placement, screen direction, and shot order. Read its visual panels sequentially, one corresponding panel per listed shot, then render exactly one ordinary full-screen moving shot at a time in the requested visual style. The storyboard sheet itself is never visible: no multi-panel grid, split screen, panel borders, divider lines, gutters, white margins, page edges, cropped fragments from adjacent panels, captions, labels, timestamps, or typography.",
+    "renderIsolation": "SINGLE_FULL_SCREEN_SHOT_NO_BOARD_LAYOUT_V2"
+  },
+  "stadiumMotionLock": "Post-landing stadium-motion lock: after the tip's first contact, a spinning Beyblade must continue both axial rotation and visible translation across the bowl. A brief landing skid transitions immediately into a curved orbit governed by tip friction, gravity and the local bowl tangent; on a slope it travels along or down the surface and may precess, climb, descend or deflect, but it never adheres to the slope, freezes in place, or pivots around a glued point. Even a defense-type top traces a tight low-speed orbit or small precessing circle. It may become stationary only after RPM decays, wobble widens, the rim scrapes and the body falls onto its side.",
+  "realWorldSpinStabilityLock": "Real-world spin-stability lock: angular momentum is the only thing that keeps a free Beyblade balanced on its pointed tip. As RPM approaches zero, precession must widen, the rim or base must touch, and gravity must tip the body onto its side. A non-spinning free top may not remain upright on its tip or freeze in a balanced pose. It may stay level while not spinning only when visibly supported by a hand or fixture, lying flat on a broad surface, or firmly locked to both launcher posts.",
+  "beybladeDynamicsLock": "Observable Beyblade dynamics lock: every active top is a rigid palm-sized gyroscope with one tip in continuous contact with the stadium after landing. High RPM produces rapid circumferential texture blur around the Attack Ring; center emblems may remain centered but perimeter markings may not stay crisp or frozen. The contact tip and center of mass define one coherent axis; the top never hovers. Any tilt produces continuous gyroscopic precession: the lean direction rotates around the contact point and may damp toward vertical at high RPM or widen as RPM falls, but it never freezes at one lean angle or compass direction. Tip friction, gravity, and the bowl tangent create a continuous curved trajectory with position continuous from frame to frame; tops do not hold a staged side-by-side formation, teleport, or pivot on a glued point. Each collision is a brief Attack-Ring-to-Attack-Ring impulse followed immediately by visible separation, tangential deflection or rebound, changed travel velocity, wobble, and some speed loss; tops never overlap, stick together, or cluster like magnets. Mechanical energy then decreases monotonically through friction and impacts: orbit speed and RPM decay, precession widens, the rim or base may scrape, and a fully stopped unsupported top falls onto its side. Preserve every owner's authored top design, axial spin direction, path, and outcome across cuts.",
+  "rotationalCausalityLock": "Rotational-causality lock: spin energy comes from the ripcord-driven launcher gear while the top is still mechanically engaged. Before the pull the loaded top is stationary. During the pull it accelerates while remaining flush-mounted; on every successful release, the very first unsupported airborne frame already shows rapid high-RPM axial rotation and strong circumferential Attack Ring blur. The top carries that same continuous rotation through tip-first landing, with no stopped, crisp, or low-RPM airborne or landed interval followed by a later spin-up. After detachment its RPM may persist briefly, transfer through a visible rim impact, or decrease through drag, friction, scraping and collision, but it never increases or restarts without a photographed external torque. An explicitly failed release that receives no usable launcher torque remains non-spinning, falls under gravity, and never starts spinning by itself.",
+  "dialogueTurnPolicy": "Exactly one named structured speaker owns each timed line; all other visible humans keep lips closed for that interval."
+}

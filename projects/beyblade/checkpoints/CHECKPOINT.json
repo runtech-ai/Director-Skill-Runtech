@@ -1,0 +1,52 @@
+{
+  "schema": "beyblade-runtech-checkpoint-v1",
+  "updated_at": "2026-09-29T02:20:00+05:30",
+  "movie": {
+    "id": "82e1e29d-cf5f-48de-802b-478422125ef7",
+    "org_id": "f28933d2-53c6-4320-ba0b-f83775e11aed",
+    "active_scene_key": "SC001",
+    "active_scene_uuid": "c0656174-fc90-4d0a-bc3a-19134d76a8c2",
+    "inactive_duplicate_scene_uuid": "5f99b4eb-ea56-4658-85fa-b21f7d76ca40"
+  },
+  "policy": {
+    "workflow": "one segment at a time: Draft-Anime -> review -> Production-Anime",
+    "pass_threshold": "main shot beats and overall scene match at least 95 percent",
+    "preserve_existing_takes": true,
+    "do_not_generate_inactive_duplicate": true,
+    "token_policy": "runtime checkpoint only; load DIRECTOR_CAPSULE.json only for prompt or compliance work"
+  },
+  "active": {
+    "segment_id": "SEG_SC001_002",
+    "clip_id": "827da4d1-e9ee-4111-adb3-454520406960",
+    "stage": "complete",
+    "prompt_file": "runtech_reviews/SEG_SC001_002_draft_prompt.txt",
+    "storyboard_file": "director_v9_current/storyboards/SEG_SC001_002.png",
+    "draft_take": "video.v7.mp4",
+    "draft_result": "accepted under 95-percent main-beat rule",
+    "failed_production_take": "video.v8.mp4",
+    "failed_production_reason": "required wobble not clearly demonstrated; post-launch tip contact ambiguous",
+    "production_take": "video.v9.mp4",
+    "production_result": "accepted: scene match >=95 percent and Beyblade physics hard gate passed"
+  },
+  "completed_or_skipped": {
+    "SEG_SC001_001": {
+      "draft_take": "video.v11.mp4",
+      "draft_result": "accepted under 95-percent main-beat rule",
+      "production_result": "skipped by user",
+      "clip_id": "8217331b-2f68-4adc-bac4-6d9f76ef9027"
+    },
+    "SEG_SC001_002": {
+      "draft_take": "video.v7.mp4",
+      "draft_result": "accepted under 95-percent main-beat rule",
+      "production_take": "video.v9.mp4",
+      "production_result": "accepted with coherent launcher, landing, spin, stadium-contact, collision-response, and wobble physics",
+      "clip_id": "827da4d1-e9ee-4111-adb3-454520406960"
+    }
+  },
+  "mcp_notes": [
+    "Use scene key SC001 with get_segment_review_bundle and exact clip_id.",
+    "Use active scene UUID plus exact clip_id with generate_segment.",
+    "wait_until_reviewable can see an older completed path while a fresh run is active; require a new versioned clip path before review.",
+    "MCP queue may briefly report stopped before the worker changes the clip to generating."
+  ]
+}

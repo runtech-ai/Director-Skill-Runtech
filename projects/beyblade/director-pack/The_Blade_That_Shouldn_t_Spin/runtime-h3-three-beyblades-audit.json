@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "segmentId": "SEG_SC005_009",
+  "mode": "DIRECTOR_CANONICAL_REFERENCE_FALLBACK",
+  "runtimeSubject": "@3_beyblades",
+  "compiledPromptPassthrough": true,
+  "ownerMappingPreserved": true,
+  "ownerSheet": "/Users/nengkhoiba/Runtech/Beyblade/director_v9_current/package/The_Blade_That_Shouldn_t_Spin/scene_packages/SC005_Friends_and_friction_director_shotplans/canonical_refs/assets/props/3_beyblades.png",
+  "directorFallbackNotes": [
+    "@kaiden: attached from Director canonical reference",
+    "@nanao: attached from Director canonical reference",
+    "@mocha: attached from Director canonical reference",
+    "@launcher: attached from Director canonical reference",
+    "@stadium: attached from Director canonical reference",
+    "@kangla: attached from Director canonical reference",
+    "@3_beyblades: attached from Director canonical reference"
+  ],
+  "subjectDefinitions": "<Subject 1> is @kaiden (Kaiden), the twelve-year-old boy with short spiky navy hair, plain pocketless cobalt-blue T-shirt, black athletic shorts with white side stripes and blue-white sneakers from <Picture 1>, used for character identity and design.\n<Subject 2> is @nanao (Nanao), the dark-haired boy in the green T-shirt, grey shorts and navy-white sneakers from <Picture 2>, used for character identity and design.\n<Subject 3> is @mocha (Mocha), the brown-haired boy in the white emblem T-shirt, dark cargo trousers and white sneakers from <Picture 3>, used for character identity and design.\n<Subject 4> is @launcher from <Picture 4>, the owner-labeled launcher sheet: Kaiden uses only the blue-red launcher with blue ring, Nanao only the green-black-yellow launcher with yellow ring, and Mocha only the red-purple launcher with red ring; preserve each exact design and never swap owners.\n<Subject 5> is @stadium, the portable shallow round grey plastic bowl with black rim, short feet and circular scratches; diameter about six top diameters from <Picture 5>, used for prop identity and design.\n<Subject 6> is @kangla, the A historical site where Kaiden and friends play. from <Picture 6>, used for location identity and design.\n<Subject 7> is @3_beyblades from <Picture 7>, one owner-labeled reference sheet defining exactly three separate rigid assembled palm-sized Beyblades. Kaiden owns the handmade blue-red-metal-and-brown-wood top; Nanao owns the blue-red-yellow top; Mocha owns the white-red-purple top. Preserve each depicted layer, Bit Chip, colors, materials and owner mapping; never fuse, duplicate or swap them."
+}

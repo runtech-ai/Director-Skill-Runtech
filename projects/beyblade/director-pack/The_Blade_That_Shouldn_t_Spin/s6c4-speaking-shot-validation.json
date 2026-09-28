@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "segmentId": "SEG_SC006_004",
+  "shot": 3,
+  "dialogueLines": [
+    "<d>[English] There. Normal.</d>",
+    "<d>[English] That's not normal.</d>"
+  ],
+  "dialogueTagCount": 2,
+  "silenceBoilerplatePresent": false,
+  "delivery": [
+    "OFFSCREEN_ONLY",
+    "OFFSCREEN_ONLY"
+  ]
+}

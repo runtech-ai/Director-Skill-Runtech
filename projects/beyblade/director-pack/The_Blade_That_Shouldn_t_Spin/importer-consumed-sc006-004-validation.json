@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "segmentId": "SEG_SC006_004",
+  "updateMode": "IMPORTER_CONSUMED_STRUCTURED_FIELDS",
+  "preservesExistingSegmentId": true,
+  "preservesExistingGeneratedClipsOnMerge": "Importer-dependent; package performs no clip deletion or replacement.",
+  "checks": {
+    "physicsEmbeddedInMicroShotAction": "PASS",
+    "physicsEmbeddedInMicroShotPurpose": "PASS",
+    "stateChainEmbeddedInStartAndEndState": "PASS",
+    "topOnlyShotOccupancy": "PASS",
+    "offscreenDialogueRouting": "PASS",
+    "compiledPromptRetained": "PASS"
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "status": "PASS",
+  "policy": "Every canonical asset declared visible in a shot is persisted on the importer-facing segment as attach:true.",
+  "segmentCount": 43,
+  "segments": [
+    {
+      "segmentId": "SEG_SC001_001",
+      "referenceCount": 3,
+      "assetIds": [
+        "@imphal",
+        "@launcher",
+        "@toybeyblade"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC001_002",
+      "referenceCount": 3,
+      "assetIds": [
+        "@toybeyblade",
+        "@imphal",
+        "@launcher"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC001_003",
+      "referenceCount": 2,
+      "assetIds": [
+        "@imphal",
+        "@kaidens_house"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC002_001",
+      "referenceCount": 3,
+      "assetIds": [
+        "@kaiden",
+        "@kaidens_house",
+        "@ebudhou_pakhangba"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC002_002",
+      "referenceCount": 2,
+      "assetIds": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC002_003",
+      "referenceCount": 2,
+      "assetIds": [
+        "@kaiden",
+        "@ebudhou_pakhangba"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC002_004",
+      "referenceCount": 3,
+      "assetIds": [
+        "@kaiden",
+        "@beyblade",
+        "@kaidens_house"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC002_005",
+      "referenceCount": 5,
+      "assetIds": [
+        "@kaiden",
+        "@beyblade",
+        "@kaidens_house",
+        "@kangla",
+        "@ebudhou_pakhangba"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC003_001",
+      "referenceCount": 3,
+      "assetIds": [
+        "@kaiden",
+        "@beyblade",
+        "@kaidens_house"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC003_002",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@ima",
+        "@breakfast_plate",
+        "@beyblade",
+        "@kaidens_house",
+        "@phone"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC003_003",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kaiden",
+        "@ima",
+        "@kaidens_house",
+        "@beyblade"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC003_004",
+      "referenceCount": 4,
+      "assetIds": [
+        "@ima",
+        "@kaidens_house",
+        "@kaiden",
+        "@phone"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@ima",
+        "@beyblade",
+        "@launcher",
+        "@breakfast_plate",
+        "@kaidens_house"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC003_006",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kaiden",
+        "@ima",
+        "@launcher",
+        "@kaidens_house"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC004_001",
+      "referenceCount": 3,
+      "assetIds": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal",
+        "@phone",
+        "@mocha",
+        "@stadium"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC004_003",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal",
+        "@beyblade"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC004_004",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kaiden",
+        "@bicycle",
+        "@imphal",
+        "@kangla_perimeter"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "referenceCount": 6,
+      "assetIds": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "referenceCount": 8,
+      "assetIds": [
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@dragoon",
+        "@driger",
+        "@kangla",
+        "@kaiden",
+        "@bicycle"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "referenceCount": 5,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "referenceCount": 7,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@stadium",
+        "@kangla",
+        "@beyblade"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@beyblade",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "referenceCount": 5,
+      "assetIds": [
+        "@kaiden",
+        "@mocha",
+        "@beyblade",
+        "@kangla",
+        "@nanao"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "referenceCount": 5,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@beyblade",
+        "@launcher",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "referenceCount": 7,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@stadium",
+        "@kangla",
+        "@beyblade"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "referenceCount": 9,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@stadium",
+        "@kangla",
+        "@beyblade",
+        "@dragoon",
+        "@driger"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@beyblade",
+        "@launcher"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@beyblade",
+        "@launcher",
+        "@nanao",
+        "@mocha",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "referenceCount": 9,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@stadium",
+        "@kangla",
+        "@beyblade",
+        "@dragoon",
+        "@driger"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "referenceCount": 8,
+      "assetIds": [
+        "@beyblade",
+        "@dragoon",
+        "@driger",
+        "@stadium",
+        "@kaiden",
+        "@mocha",
+        "@kangla",
+        "@nanao"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "referenceCount": 8,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@stadium",
+        "@beyblade",
+        "@kangla",
+        "@dragoon",
+        "@driger"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@beyblade",
+        "@stadium"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@beyblade",
+        "@stadium",
+        "@mocha",
+        "@nanao",
+        "@kangla"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "referenceCount": 4,
+      "assetIds": [
+        "@nanao",
+        "@kangla",
+        "@kaiden",
+        "@mocha"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@beyblade",
+        "@stadium"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "referenceCount": 7,
+      "assetIds": [
+        "@kangla",
+        "@ebudhou_pakhangba",
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@beyblade",
+        "@stadium"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "referenceCount": 5,
+      "assetIds": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@kangla",
+        "@ebudhou_pakhangba"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "referenceCount": 4,
+      "assetIds": [
+        "@kangla",
+        "@ebudhou_pakhangba",
+        "@beyblade",
+        "@stadium"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "referenceCount": 6,
+      "assetIds": [
+        "@kaiden",
+        "@mocha",
+        "@nanao",
+        "@kangla",
+        "@beyblade",
+        "@stadium"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC008_001",
+      "referenceCount": 4,
+      "assetIds": [
+        "@unknown_observer",
+        "@observer_device",
+        "@kangla_perimeter",
+        "@kaiden"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    },
+    {
+      "segmentId": "SEG_SC008_002",
+      "referenceCount": 3,
+      "assetIds": [
+        "@unknown_observer",
+        "@kangla_perimeter",
+        "@observer_device"
+      ],
+      "allAttached": true,
+      "allResolved": true
+    }
+  ]
+}

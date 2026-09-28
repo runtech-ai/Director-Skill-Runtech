@@ -1,0 +1,171 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC001_001",
+  "sceneId": "SC001",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC001_001_P01",
+    "SEG_SC001_001_P02",
+    "SEG_SC001_001_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@imphal",
+      "file": "canonical_refs/assets/locations/imphal_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for imphal",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for launcher",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@toybeyblade",
+      "file": "canonical_refs/assets/props/toybeyblade_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for toybeyblade",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Black frame; ordinary-world montage begins.",
+  "continuityOut": "Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it.",
+  "music": "Muted electric bass, dry snare taps and bright plucked synth at 108 BPM in D minor; a short D–F–E–A figure repeats softly. This is the continuous scene cue M01, using source offset 0.000 to 15.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC001_001_P01",
+      "sourceMicroShotId": "MS_SC001_001_01",
+      "scriptReference": {
+        "sceneId": "SC001",
+        "segmentId": "SEG_SC001_001",
+        "sourceBeatIds": [
+          "SC001_B001"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 2
+      },
+      "shotSizeAndAngle": "black frame",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "The frame remains completely black; only quiet room tone is audible, with no launch or impact yet.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "black frame; empty black field.",
+      "focalPoint": "The frame remains completely black; only quiet room tone is audible, with no launch or impact yet.",
+      "locationHandle": null,
+      "locationDescription": "explicitly authored synthetic field",
+      "weather": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Unlit black field. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [],
+      "physics": "",
+      "continuity": "Incoming physical state: Black frame; ordinary-world montage begins. Outgoing physical state: Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it.",
+      "dialogue": [],
+      "sound": "Quiet room tone; no launch yet.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC001_001_P02",
+      "sourceMicroShotId": "MS_SC001_001_02",
+      "scriptReference": {
+        "sceneId": "SC001",
+        "segmentId": "SEG_SC001_001",
+        "sourceBeatIds": [
+          "SC001_B001"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 2,
+        "end": 8
+      },
+      "shotSizeAndAngle": "close view of a television",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera pushes toward the screen slowly.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "A cartoon hero and an illustrated dragon fill the television screen, bezel visible. Both hold their mouths firmly closed throughout; the screen shows only nonverbal action. The narrator exists outside the television programme.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; zero Beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "close view of a television; spatially separated bodies and clearly separated prop silhouettes. The visible setting is @imphal.",
+      "focalPoint": "A cartoon hero and an illustrated dragon fill the television screen, bezel visible. Both hold their mouths firmly closed throughout; the screen shows only nonverbal action. The narrator exists outside the television programme.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@imphal"
+      ],
+      "physics": "",
+      "continuity": "Incoming physical state: Black frame; ordinary-world montage begins. Outgoing physical state: Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it.",
+      "dialogue": [
+        {
+          "speaker": "@narrator",
+          "text": "This is a world without magic.",
+          "start": 2,
+          "end": 8
+        }
+      ],
+      "sound": "Thin television effects without intelligible words.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC001_001_P03",
+      "sourceMicroShotId": "MS_SC001_001_03",
+      "scriptReference": {
+        "sceneId": "SC001",
+        "segmentId": "SEG_SC001_001",
+        "sourceBeatIds": [
+          "SC001_B001"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 8,
+        "end": 15
+      },
+      "shotSizeAndAngle": "floor-level wide",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tracks a short distance beside the top.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "From 8 to 10 seconds, only the child’s hands and knees enter at screen-left: one toy top is level and flush beneath the horizontal launcher, both posts fully inserted and twist-locked, tip down, above an empty floor. The sofa is screen-right. The left hand holds the launcher; the right index finger hooks through the short toothed ripcord ring. At 10 seconds the right hand pulls the ripcord fully toward screen-left while the launcher stays steady. The top immediately releases downward and slightly screen-right, rotating clockwise. At 10.4 seconds its tip lands once on the floor. From 10.4 to 13 seconds it spins and travels screen-right, then loses balance, rolls off its tip and slides under the sofa by 15 seconds. The detached ripcord stays in the right hand; the launcher underside remains empty. Never show a floor top before release, a second top, or a reverse/repeated launch.",
+      "spatialBlocking": "Preserve the authored blocking, screen direction, eyelines and foreground-to-background relationships exactly.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly 1 top(s): @toybeyblade. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand.",
+      "composition": "floor-level wide; spatially separated bodies and clearly separated prop silhouettes. The frame visibly includes @launcher, @toybeyblade.",
+      "focalPoint": "From 8 to 10 seconds, only the child’s hands and knees enter at screen-left: one toy top is level and flush beneath the horizontal launcher, both posts fully inserted and twist-locked, tip down, above an empty floor. The sofa is screen-right. The left hand holds the launcher; the right index finger hooks through the short toothed ripcord ring. At 10 seconds the right hand pulls the ripcord fully toward screen-left while the launcher stays steady. The top immediately releases downward and slightly screen-right, rotating clockwise. At 10.4 seconds its tip lands once on the floor. From 10.4 to 13 seconds it spins and travels screen-right, then loses balance, rolls off its tip and slides under the sofa by 15 seconds. The detached ripcord stays in the right hand; the launcher underside remains empty. Never show a floor top before release, a second top, or a reverse/repeated launch.",
+      "locationHandle": "@imphal",
+      "locationDescription": "the exact wet Imphal street geography from the canonical sheet, preserving road direction, drainage edges, storefront/building placement, mountain skyline and landmark relationships",
+      "weather": "Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "lighting": "Overcast daylight with natural sky illumination and no emitted supernatural light. Continuous monsoon overcast is consistent across the montage; exterior surfaces are wet while depicted interiors remain dry, with no sunny or clear-sky shift.",
+      "visibleAssets": [
+        "@launcher",
+        "@toybeyblade",
+        "@imphal"
+      ],
+      "physics": "AUTHORED LAUNCH: each stationary top is twist-locked flush against its own launcher underside with a short rigid toothed ripcord inserted. One hand stabilizes the launcher while the opposite hand pulls once by the ring; the internal gear accelerates the still-engaged top. It detaches exactly once already at rapid RPM, descends immediately and lands tip-first. The extracted ripcord is fully separate in the pulling hand; no string, tether, duplicate top or delayed spin-up. ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Black frame; ordinary-world montage begins. Outgoing physical state: Toy top has lost all RPM, tipped over under gravity and lies on its side under the sofa; anonymous child remains beside it.",
+      "dialogue": [],
+      "sound": "Ripcord scrape, plastic tip hiss and a dull furniture tap.",
+      "transitionIn": "CUT",
+      "transitionOut": "HARD_CUT"
+    }
+  ]
+}

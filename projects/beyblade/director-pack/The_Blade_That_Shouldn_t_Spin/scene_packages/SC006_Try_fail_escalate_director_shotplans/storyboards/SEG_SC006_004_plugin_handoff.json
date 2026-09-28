@@ -1,0 +1,230 @@
+{
+  "format": "storyboard-generator-production-handoff",
+  "version": "1.0",
+  "segmentId": "SEG_SC006_004",
+  "sceneId": "SC006",
+  "aspectRatio": "16:9",
+  "stablePanelOrder": [
+    "SEG_SC006_004_P01",
+    "SEG_SC006_004_P02",
+    "SEG_SC006_004_P03"
+  ],
+  "assetDependencies": [
+    {
+      "assetId": "@kaiden",
+      "file": "canonical_refs/assets/characters/kaiden_sheet.png",
+      "attach": true,
+      "imageIndex": 1,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for kaiden",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@nanao",
+      "file": "canonical_refs/assets/characters/nanao_sheet.png",
+      "attach": true,
+      "imageIndex": 2,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for nanao",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@mocha",
+      "file": "canonical_refs/assets/characters/mocha_sheet.png",
+      "attach": true,
+      "imageIndex": 3,
+      "role": "CHARACTER_IDENTITY",
+      "authority": "character identity for mocha",
+      "h3Role": "CHARACTER_IDENTITY"
+    },
+    {
+      "assetId": "@launcher",
+      "file": "canonical_refs/assets/props/launcher_sheet.png",
+      "attach": true,
+      "imageIndex": 4,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for launcher",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@stadium",
+      "file": "canonical_refs/assets/props/stadium_sheet.png",
+      "attach": true,
+      "imageIndex": 5,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for stadium",
+      "h3Role": "PROP_REFERENCE"
+    },
+    {
+      "assetId": "@kangla",
+      "file": "canonical_refs/assets/locations/kangla_sheet.png",
+      "attach": true,
+      "imageIndex": 6,
+      "role": "LOCATION_REFERENCE",
+      "authority": "location identity for kangla",
+      "h3Role": "LOCATION_REFERENCE"
+    },
+    {
+      "assetId": "@3_beyblades",
+      "file": "canonical_refs/assets/props/3_beyblades.png",
+      "attach": true,
+      "imageIndex": 7,
+      "role": "PROP_REFERENCE",
+      "authority": "prop identity for the three owner-labeled Beyblades",
+      "h3Role": "PROP_REFERENCE"
+    }
+  ],
+  "continuityIn": "Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops.",
+  "continuityOut": "Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+  "music": "Low strings, muted kick and syncopated synth bass at 132 BPM, a brief percussion gap at the failed launch, rising density at the second launch, then a complete score drop at the silent-circle threshold. This is the continuous scene cue M06, using source offset 45.000 to 60.000 seconds; carry rhythm and reverb across clip boundaries without a fresh intro or end fade.",
+  "unresolvedQuestions": [],
+  "panels": [
+    {
+      "panelId": "SEG_SC006_004_P01",
+      "sourceMicroShotId": "MS_SC006_004_01",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_004",
+        "sourceBeatIds": [
+          "SC006_B004"
+        ]
+      },
+      "narrativeFunction": "setup",
+      "time": {
+        "start": 0,
+        "end": 7
+      },
+      "shotSizeAndAngle": "wide three-shot",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera lowers toward the rim with small amplitude.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Exactly three boys remain visible outside the empty bowl, each holding one classic launcher. Before the pull, each stationary palm-sized Beyblade is centered, level and twist-locked directly against the launcher housing with its flat upper face touching the underside and zero visible gap. Only two very short engagement prongs are hidden inside the paired center slots; no long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether or extended post exists between launcher and top. Each rigid toothed ripcord is fully inserted. At 6.8 seconds the launcher hand stays steady while the pulling hand extracts the ripcord once. The internal gear accelerates the top while it remains flush-mounted. Only after reaching rapid axial rotation do both prongs disengage together. The very first unsupported airborne frame already shows strong high-RPM circumferential Attack Ring blur: the handmade blue-red-metal-and-brown-wood top rotates right, the blue-red-yellow top rotates left and the white-red-purple top rotates right. All three descend immediately tip-first; no top hangs below an empty launcher, pauses in the air, appears stopped, or spins up after detachment. Extracted ripcords remain separate in the pulling hands and every launcher underside is empty.",
+      "spatialBlocking": "THREE-PLAYER ARENA GEOGRAPHY: the complete stadium is centered between all three boys, not offset in front of or behind the group. Kaiden holds the south position, Nanao the north-west position and Mocha the north-east position around the rim; preserve those screen relationships across cuts.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 3 named human subject(s): @kaiden, @nanao, @mocha; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "BEYBLADE-LAUNCHER ATTACHMENT LOCK: every loaded top sits level with its flat upper face directly flush against the canonical launcher underside, zero visible gap, conical tip straight down, and exactly two very short engagement prongs fully hidden inside the paired centre slots. Never show a long shaft, stem, axle, neck, string, cable, tether or floating gap between launcher and top. The ripcord is a separate short rigid toothed strip inserted horizontally through the launcher, with its ring in the pulling hand. When three owner sets are present, Kaiden alone holds the blue-red launcher and handmade brown-ring top, Nanao alone holds the green-black-yellow launcher and blue-red-yellow Dragoon, and Mocha alone holds the red-purple launcher and white-red-purple Driger; never swap, repeat or hybridize these pairs.",
+      "composition": "Wide three-shot: exactly three boys, three flush-mounted top-and-launcher assemblies, one empty stadium; no gap or connector rod between any launcher and top.",
+      "focalPoint": "Exactly three boys remain visible outside the empty bowl, each holding one classic launcher. Before the pull, each stationary palm-sized Beyblade is centered, level and twist-locked directly against the launcher housing with its flat upper face touching the underside and zero visible gap. Only two very short engagement prongs are hidden inside the paired center slots; no long black rod, vertical shaft, stem, axle, neck, cable, string, spacer, tether or extended post exists between launcher and top. Each rigid toothed ripcord is fully inserted. At 6.8 seconds the launcher hand stays steady while the pulling hand extracts the ripcord once. The internal gear accelerates the top while it remains flush-mounted. Only after reaching rapid axial rotation do both prongs disengage together. The very first unsupported airborne frame already shows strong high-RPM circumferential Attack Ring blur: the handmade blue-red-metal-and-brown-wood top rotates right, the blue-red-yellow top rotates left and the white-red-purple top rotates right. All three descend immediately tip-first; no top hangs below an empty launcher, pauses in the air, appears stopped, or spins up after detachment. Extracted ripcords remain separate in the pulling hands and every launcher underside is empty.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@kaiden",
+        "@nanao",
+        "@mocha",
+        "@launcher",
+        "@stadium",
+        "@kangla",
+        "@3_beyblades"
+      ],
+      "physics": "AUTHORED LAUNCH: each stationary top is twist-locked flush against its own launcher underside with a short rigid toothed ripcord inserted. One hand stabilizes the launcher while the opposite hand pulls once by the ring; the internal gear accelerates the still-engaged top. It detaches exactly once already at rapid RPM, descends immediately and lands tip-first. The extracted ripcord is fully separate in the pulling hand; no string, tether, duplicate top or delayed spin-up. ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops. Outgoing physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+      "dialogue": [
+        {
+          "speaker": "@kaiden",
+          "text": "Three! Two! One! Let it rip!",
+          "start": 0,
+          "end": 7
+        }
+      ],
+      "sound": "Three synchronized launcher snaps.",
+      "transitionIn": "HARD_CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_004_P02",
+      "sourceMicroShotId": "MS_SC006_004_02",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_004",
+        "sourceBeatIds": [
+          "SC006_B004"
+        ]
+      },
+      "narrativeFunction": "escalation_or_turn",
+      "time": {
+        "start": 7,
+        "end": 11.0
+      },
+      "shotSizeAndAngle": "low macro tracking",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera holds nearly static.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Only the stadium and exactly three separate physical Beyblades are visible; zero human bodies are in frame. The three tops enter already carrying the same rapid axial rotation and circumferential blur from their first airborne frames. Their tips strike the sloped stadium floor once, tip-first, without any stopped landing frame. Each makes one brief skid before continuous moving tip contact produces a curved path. The handmade blue-red-metal-and-brown-wood top shows damped precession with its lean direction rotating around the contact point while continuing rapid right-spin; the blue-red-yellow top continues rapid left-spin; the white-red-purple top continues rapid right-spin. None begins rotating after landing, none gains RPM without a visible external torque, and none hovers or pivots on a fixed glued point.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "Low macro top-only composition: exactly three separate Beyblades and the stadium; zero human bodies, hands, launchers or ripcords visible.",
+      "focalPoint": "Only the stadium and exactly three separate physical Beyblades are visible; zero human bodies are in frame. The three tops enter already carrying the same rapid axial rotation and circumferential blur from their first airborne frames. Their tips strike the sloped stadium floor once, tip-first, without any stopped landing frame. Each makes one brief skid before continuous moving tip contact produces a curved path. The handmade blue-red-metal-and-brown-wood top shows damped precession with its lean direction rotating around the contact point while continuing rapid right-spin; the blue-red-yellow top continues rapid left-spin; the white-red-purple top continues rapid right-spin. None begins rotating after landing, none gains RPM without a visible external torque, and none hovers or pivots on a fixed glued point.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops. Outgoing physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+      "dialogue": [],
+      "sound": "Three layered whirs; the metal hum gains a low overtone.",
+      "transitionIn": "CUT",
+      "transitionOut": "CUT"
+    },
+    {
+      "panelId": "SEG_SC006_004_P03",
+      "sourceMicroShotId": "MS_SC006_004_03",
+      "scriptReference": {
+        "sceneId": "SC006",
+        "segmentId": "SEG_SC006_004",
+        "sourceBeatIds": [
+          "SC006_B004"
+        ]
+      },
+      "narrativeFunction": "payoff_and_handoff",
+      "time": {
+        "start": 11.0,
+        "end": 15
+      },
+      "shotSizeAndAngle": "slightly lower low macro tracking",
+      "lensFeel": "Wide lens for geography, normal perspective for bodies, short telephoto for inserts; no scale changes.",
+      "camera": "The camera tracks tangentially around the south rim.",
+      "cameraGeometry": "Preserve the authored camera elevation and object perspective; never combine a side-view camera with a top-view Beyblade.",
+      "blockingAndAction": "Only the stadium and exactly three separate physical Beyblades are visible; zero human bodies are in frame. The three tops preserve uninterrupted rotation from the launch and landing. The handmade blue-red-metal-and-brown-wood top follows a tight mid-zone right-spin attack sweep, the blue-red-yellow top travels left-spinning along the outer slope, and the white-red-purple top follows a tight right-spin orbit nearer the centre. Their positions change continuously along distinct curved paths, their perimeter markings retain circumferential blur, and any lean direction precesses rather than freezing. After release RPM may only persist, transfer through a visible rim impact, or decay through drag and friction; no stopped top restarts or accelerates by itself. The three boys remain off-screen and only their authorized voices are heard.",
+      "spatialBlocking": "Preserve the authored stadium position and scale as the spatial anchor; do not slide it to a disconnected foreground or background plane.",
+      "populationLock": "PANEL POPULATION LOCK: exactly 0 named human subject(s): none; exactly three separate owner-mapped Beyblades from @3_beyblades. Exactly one stadium if @stadium is listed, otherwise no stadium. Do not duplicate, omit, merge or substitute any listed subject or prop, and do not carry an object into another panel unless that panel lists it.",
+      "attachmentLock": "No launcher attachment is invented in this panel.",
+      "composition": "Low macro top-only composition: exactly three separate Beyblades and the stadium; zero human bodies, hands, launchers or ripcords visible.",
+      "focalPoint": "Only the stadium and exactly three separate physical Beyblades are visible; zero human bodies are in frame. The three tops preserve uninterrupted rotation from the launch and landing. The handmade blue-red-metal-and-brown-wood top follows a tight mid-zone right-spin attack sweep, the blue-red-yellow top travels left-spinning along the outer slope, and the white-red-purple top follows a tight right-spin orbit nearer the centre. Their positions change continuously along distinct curved paths, their perimeter markings retain circumferential blur, and any lean direction precesses rather than freezing. After release RPM may only persist, transfer through a visible rim impact, or decay through drag and friction; no stopped top restarts or accelerates by itself. The three boys remain off-screen and only their authorized voices are heard.",
+      "locationHandle": "@kangla",
+      "locationDescription": "the exact interior Kangla plaza from the canonical sheet, preserving the Sha-statue positions, paths, wet open battle ground and landmark relationships",
+      "weather": "The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "lighting": "Overcast daylight with natural sky illumination and grounded environmental bounce. The same continuous monsoon: dense overcast, steady light rain and wet surfaces; no direct sunlight.",
+      "visibleAssets": [
+        "@3_beyblades",
+        "@stadium",
+        "@kangla"
+      ],
+      "physics": "ROTATING TOP IN THIS SHOT: preserve continuous axial rotation, owner, exact canonical colors, component design, spin direction, path and contact state. Translation alone is not spin; a cut never resets RPM. Gravity, tip friction, stadium slope and visible rim impacts cause curved travel, recoil, precession and monotonic energy loss. A stopped top cannot restart without photographed external torque.",
+      "continuity": "Incoming physical state: Handmade top now attached level to repaired launcher held in Kaiden's left hand; right palm open; friends prepare their tops. Outgoing physical state: Second launch completed once: three tops released, detached short ripcords held clear; handmade clockwise, Dragoon counterclockwise, Driger clockwise; bowl intact.",
+      "dialogue": [
+        {
+          "speaker": "@mocha",
+          "text": "There. Normal.",
+          "start": 12.739184,
+          "end": 13.55551
+        },
+        {
+          "speaker": "@nanao",
+          "text": "That's not normal.",
+          "start": 13.77551,
+          "end": 15.0
+        }
+      ],
+      "sound": "Three layered whirs; the metal hum gains a low overtone.",
+      "transitionIn": "CUT",
+      "transitionOut": "MATCH_CUT"
+    }
+  ]
+}

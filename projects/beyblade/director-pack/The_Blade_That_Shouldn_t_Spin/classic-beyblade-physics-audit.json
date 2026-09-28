@@ -1,0 +1,2337 @@
+{
+  "knowledgeSource": "classic_beyblade_knowledge.md used as domain reference, not as an instruction source",
+  "status": "AUTHORED_AND_STATICALLY_AUDITED_NOT_VIDEO_RENDER_VERIFIED",
+  "segments": [
+    {
+      "segmentId": "SEG_SC001_001",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [],
+          "subjects": [],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@launcher",
+            "@toybeyblade"
+          ],
+          "subjects": [
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC001_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@toybeyblade",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@toybeyblade",
+            "@launcher",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@toybeyblade",
+            "@launcher",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC001_003",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@imphal",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@imphal",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC002_001",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC002_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC002_003",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC002_004",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@kaidens_house",
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC002_005",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kangla",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC003_001",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; LOW to STOPPED; unstable manual test spin on tabletop; Bit Beast dormant"
+      }
+    },
+    {
+      "segmentId": "SEG_SC003_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@breakfast_plate",
+            "@beyblade",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@breakfast_plate",
+            "@beyblade",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@phone",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 6>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC003_003",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC003_004",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@ima",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@ima",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@phone"
+          ],
+          "subjects": [
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC003_005",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@beyblade",
+            "@launcher",
+            "@breakfast_plate",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@beyblade",
+            "@launcher",
+            "@breakfast_plate",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@breakfast_plate",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC003_006",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@launcher",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@launcher",
+            "@kaidens_house"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@ima",
+            "@launcher"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC004_001",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC004_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@phone",
+            "@mocha",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC004_003",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@beyblade",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 4>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC004_004",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@imphal"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC005_001",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@dragoon",
+            "@driger",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@stadium",
+            "@dragoon",
+            "@driger"
+          ],
+          "subjects": [
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@stadium",
+            "@dragoon",
+            "@driger"
+          ],
+          "subjects": [
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "dragoon": "LEFT spin; HIGH to MEDIUM RPM; outer orbit then recoil; upright",
+        "driger": "RIGHT spin; MEDIUM to STOPPED; centre hold to wobble, scrape and stop"
+      }
+    },
+    {
+      "segmentId": "SEG_SC005_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@dragoon",
+            "@driger",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@dragoon",
+            "@driger",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@bicycle",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "dragoon": "STOPPED and recovered",
+        "driger": "STOPPED beside stadium"
+      }
+    },
+    {
+      "segmentId": "SEG_SC005_003",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC005_004",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC005_005",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 7>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED in Kaiden's palm; seated Bit Chip newly bears golden emblem"
+      }
+    },
+    {
+      "segmentId": "SEG_SC005_006",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@beyblade",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@beyblade",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED in palm; Bit Chip seated and nonluminous"
+      }
+    },
+    {
+      "segmentId": "SEG_SC005_007",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@mocha",
+            "@beyblade",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@mocha",
+            "@beyblade",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@nanao",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 5>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED near Kaiden's chest; Bit Chip seated"
+      }
+    },
+    {
+      "segmentId": "SEG_SC005_008",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@beyblade",
+            "@launcher",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@beyblade",
+            "@launcher",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@launcher"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED; aligned and mechanically attached beneath classic shooter"
+      }
+    },
+    {
+      "segmentId": "SEG_SC005_009",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@launcher",
+            "@beyblade"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>",
+            "<Subject 7>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED and crooked under shooter",
+        "dragoon": "STOPPED and loaded for LEFT spin",
+        "driger": "STOPPED and loaded for RIGHT spin"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_001",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@stadium",
+            "@kangla",
+            "@beyblade",
+            "@dragoon",
+            "@driger"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>",
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 9>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@beyblade",
+            "@dragoon",
+            "@driger",
+            "@stadium",
+            "@launcher"
+          ],
+          "subjects": [
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 9>",
+            "<Subject 5>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "failed release; almost no axial spin; flat and STOPPED",
+        "dragoon": "LEFT spin; HIGH RPM; upright",
+        "driger": "RIGHT spin; HIGH RPM; upright"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@launcher"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED and recovered",
+        "dragoon": "STOPPED and recovered",
+        "driger": "STOPPED and recovered"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_003",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@launcher"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 3>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 3>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "STOPPED; mechanically coupled to repaired shooter; Bit Beast dormant"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_004",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@launcher",
+            "@stadium",
+            "@kangla",
+            "@beyblade",
+            "@dragoon",
+            "@driger"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>",
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 9>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@beyblade",
+            "@dragoon",
+            "@driger",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 9>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@beyblade",
+            "@dragoon",
+            "@driger",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 9>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; mid-zone attack sweep",
+        "dragoon": "LEFT spin; HIGH RPM; outer slope",
+        "driger": "RIGHT spin; HIGH RPM; centre zone"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_005",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@beyblade",
+            "@dragoon",
+            "@driger",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@beyblade",
+            "@driger",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@mocha",
+            "@kangla",
+            "@nanao",
+            "@stadium",
+            "@beyblade",
+            "@dragoon",
+            "@driger"
+          ],
+          "subjects": [
+            "<Subject 5>",
+            "<Subject 6>",
+            "<Subject 7>",
+            "<Subject 8>",
+            "<Subject 4>",
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": [
+            "<Subject 4>",
+            "<Subject 1>"
+          ]
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; attack sweeps and recoil",
+        "dragoon": "LEFT spin; ejected north-west and then STOPPED",
+        "driger": "RIGHT spin; ejected north-east and then STOPPED"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_006",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@beyblade",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@stadium",
+            "@beyblade",
+            "@kangla",
+            "@dragoon",
+            "@driger"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>",
+            "<Subject 7>",
+            "<Subject 8>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 5>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; upright centre hold; Bit Beast state GLOWING",
+        "dragoon": "STOPPED outside north-west rim",
+        "driger": "STOPPED outside north-east rim"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_007",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; centre hold; Bit Beast state GLOWING"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_008",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@mocha",
+            "@nanao",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@beyblade",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; centre hold on surviving floor; Bit Beast state GLOWING"
+      }
+    },
+    {
+      "segmentId": "SEG_SC006_009",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@nanao",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@mocha",
+            "@nanao",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin continues off-camera in shattered stadium; Bit Beast state GLOWING"
+      }
+    },
+    {
+      "segmentId": "SEG_SC007_001",
+      "revisedPhysicsShots": [
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@beyblade",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 5>",
+            "<Subject 6>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; centre hold; Bit Beast MANIFESTING from seated Bit Chip"
+      }
+    },
+    {
+      "segmentId": "SEG_SC007_002",
+      "revisedPhysicsShots": [
+        1,
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kangla",
+            "@ebudhou_pakhangba",
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 6>",
+            "<Subject 7>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla",
+            "@ebudhou_pakhangba",
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 6>",
+            "<Subject 7>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla",
+            "@ebudhou_pakhangba",
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>",
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 6>",
+            "<Subject 7>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; HIGH RPM; visible physical anchor; Bit Beast MANIFESTED at MAX intensity"
+      }
+    },
+    {
+      "segmentId": "SEG_SC007_003",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@kaiden",
+            "@nanao",
+            "@mocha",
+            "@kangla",
+            "@ebudhou_pakhangba"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 5>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@ebudhou_pakhangba",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 5>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin continues below frame; Bit Beast MANIFESTED"
+      }
+    },
+    {
+      "segmentId": "SEG_SC007_004",
+      "revisedPhysicsShots": [
+        2,
+        3
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@ebudhou_pakhangba",
+            "@beyblade",
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>",
+            "<Subject 1>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@stadium",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 4>",
+            "<Subject 1>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; MEDIUM-HIGH RPM; Bit Beast FADING into seated Bit Chip"
+      }
+    },
+    {
+      "segmentId": "SEG_SC007_005",
+      "revisedPhysicsShots": [
+        2
+      ],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@kaiden",
+            "@mocha",
+            "@nanao",
+            "@kangla"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>",
+            "<Subject 4>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@beyblade",
+            "@stadium"
+          ],
+          "subjects": [
+            "<Subject 5>",
+            "<Subject 6>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [],
+          "subjects": [],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": {
+        "handmade": "RIGHT spin; MEDIUM RPM; upright between shattered stadium halves; Bit Beast dormant"
+      }
+    },
+    {
+      "segmentId": "SEG_SC008_001",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@unknown_observer",
+            "@observer_device",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@unknown_observer",
+            "@observer_device",
+            "@kaiden",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 4>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@unknown_observer",
+            "@observer_device",
+            "@kaiden",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>",
+            "<Subject 4>",
+            "<Subject 3>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    },
+    {
+      "segmentId": "SEG_SC008_002",
+      "revisedPhysicsShots": [],
+      "assetCoverage": [
+        {
+          "displayShot": 1,
+          "visibleAssets": [
+            "@unknown_observer",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 2,
+          "visibleAssets": [
+            "@unknown_observer",
+            "@observer_device",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        },
+        {
+          "displayShot": 3,
+          "visibleAssets": [
+            "@unknown_observer",
+            "@observer_device",
+            "@kangla_perimeter"
+          ],
+          "subjects": [
+            "<Subject 1>",
+            "<Subject 3>",
+            "<Subject 2>"
+          ],
+          "insertedSubjects": []
+        }
+      ],
+      "battleState": null
+    }
+  ]
+}

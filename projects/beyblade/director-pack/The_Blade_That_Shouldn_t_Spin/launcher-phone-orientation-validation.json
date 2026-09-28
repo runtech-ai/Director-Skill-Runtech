@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "officialMechanicsBasis": "Hasbro classic launcher instructions: insert ripcord, insert launcher posts into top openings, rotate top to lock, hold launcher securely, pull ripcord.",
+  "launcherSegments": {
+    "SEG_SC001_001": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    },
+    "SEG_SC001_002": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    },
+    "SEG_SC005_008": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    },
+    "SEG_SC005_009": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    },
+    "SEG_SC006_001": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    },
+    "SEG_SC006_003": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    },
+    "SEG_SC006_004": {
+      "firmTwoPostLock": true,
+      "contradictoryPrePullGeometry": []
+    }
+  },
+  "screenSegments": {
+    "SEG_SC003_002": {
+      "subjectFacingDisplay": true
+    },
+    "SEG_SC003_004": {
+      "subjectFacingDisplay": true
+    },
+    "SEG_SC004_002": {
+      "subjectFacingDisplay": true
+    },
+    "SEG_SC008_001": {
+      "subjectFacingDisplay": true
+    },
+    "SEG_SC008_002": {
+      "subjectFacingDisplay": true
+    }
+  },
+  "postLandingMotionSegments": {
+    "SEG_SC001_001": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC001_002": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC002_004": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC002_005": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC003_001": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC003_002": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC003_003": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC003_005": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC003_006": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC004_002": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC004_003": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_001": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_002": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_003": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_005": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_006": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_007": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_008": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC005_009": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_001": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_002": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_003": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_004": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_005": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_006": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_007": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_008": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC006_009": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC007_001": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC007_002": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC007_003": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC007_004": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    },
+    "SEG_SC007_005": {
+      "continuousPostLandingTranslation": true,
+      "zeroRpmFallsOntoSide": true,
+      "stickySlopeLanguage": []
+    }
+  }
+}

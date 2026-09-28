@@ -1,0 +1,279 @@
+{
+  "version": "1.0",
+  "assets": {
+    "@beyblade": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/beyblade_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "7270b3e8-0597-4b90-9f69-350cba80a992"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s homemade Beyblade built from plastic wood and scrap metal."
+    },
+    "@bicycle": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/bicycle_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "14a9bea4-4171-4865-87a9-285d6ac91a88"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s bicycle."
+    },
+    "@breakfast_plate": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/breakfast_plate_sheet.jpg"
+      ],
+      "assetLibraryIds": [
+        "8390c841-9b84-4475-874e-66500027ac0b"
+      ],
+      "bindingStatus": "bound",
+      "description": "Plate of breakfast prepared by Eema."
+    },
+    "@control_voice": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/control_voice_sheet.jpg"
+      ],
+      "assetLibraryIds": [
+        "b0d3677a-1cb2-4311-98a4-d90c622639d5"
+      ],
+      "bindingStatus": "bound",
+      "description": "Distorted voice heard only through the observer s earpiece never appears on screen."
+    },
+    "@dragoon": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/dragoon_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "89b48580-3dc8-4858-8334-9d4be41e45fa"
+      ],
+      "bindingStatus": "bound",
+      "description": "Nanao s blue toy Beyblade."
+    },
+    "@driger": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/driger_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "c53d37c2-a00a-4f1e-b801-e48a94454162"
+      ],
+      "bindingStatus": "bound",
+      "description": "Mocha s toy Beyblade."
+    },
+    "@ebudhou_pakhangba": {
+      "type": "CREATURE",
+      "referenceType": "REFERENCE_SHEET",
+      "files": [
+        "assets/creatures/ebudhou_pakhangba_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "01ea06d6-7ec4-4c74-b98e-b1904dd440c9"
+      ],
+      "bindingStatus": "bound",
+      "description": "A single revered deity-presence manifested as a vast serpent-dragon in Kaiden s dream and above Kangla."
+    },
+    "@ima": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/ima_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "e2426921-4cbf-458c-b22c-5ffaed4c1e8e"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s caring mother."
+    },
+    "@imphal": {
+      "type": "LOCATION",
+      "referenceType": "LOCATION_REFERENCE",
+      "files": [
+        "assets/locations/imphal_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "109971a3-85ee-44df-9092-2721bfbdad3b"
+      ],
+      "bindingStatus": "bound",
+      "description": "The city where Kaiden lives."
+    },
+    "@kaiden": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/kaiden_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "014c259e-ab5f-4a88-be63-606d6794963e"
+      ],
+      "bindingStatus": "bound",
+      "description": "Twelve-year-old boy passionate about Beyblade."
+    },
+    "@kaidens_house": {
+      "type": "LOCATION",
+      "referenceType": "LOCATION_REFERENCE",
+      "files": [
+        "assets/locations/kaidens_house_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "b696443e-e987-4d70-8937-cefbff650f31"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s modest home."
+    },
+    "@kangla": {
+      "type": "LOCATION",
+      "referenceType": "LOCATION_REFERENCE",
+      "files": [
+        "assets/locations/kangla_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "5c4fdd01-34bc-4446-b86e-498670e054e5"
+      ],
+      "bindingStatus": "bound",
+      "description": "A historical site where Kaiden and friends play."
+    },
+    "@kangla_perimeter": {
+      "type": "LOCATION",
+      "referenceType": "LOCATION_REFERENCE",
+      "files": [
+        "assets/locations/kangla_perimeter_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "2936c22a-bdf3-4893-a285-46b5f115b246"
+      ],
+      "bindingStatus": "bound",
+      "description": "The outer area of Kangla."
+    },
+    "@launcher": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/launcher_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "0dbc16a8-1a30-443c-bea7-3f5ce63f8634"
+      ],
+      "bindingStatus": "bound",
+      "description": "The device used to launch Beyblades."
+    },
+    "@mocha": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/mocha_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "fb23416d-a776-4a0d-8bfe-7eac75ad2cb3"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s friend playful and teasing."
+    },
+    "@nanao": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/nanao_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "f9157f0a-989b-47c3-af0b-327578b6bb9d"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s friend competitive and supportive."
+    },
+    "@narrator": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/narrator_sheet.jpg"
+      ],
+      "assetLibraryIds": [
+        "5bf1d309-aedd-4baa-b3f9-871a0d9d097c"
+      ],
+      "bindingStatus": "bound",
+      "description": "Voice-only episode narrator never appears on screen."
+    },
+    "@observer_device": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/observer_device_sheet.jpg"
+      ],
+      "assetLibraryIds": [
+        "156fb817-5b34-4c3c-820c-6c07987fc14e"
+      ],
+      "bindingStatus": "bound",
+      "description": "Rugged handheld resonance detector used by the unknown observer."
+    },
+    "@phone": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/phone_sheet.jpg"
+      ],
+      "assetLibraryIds": [
+        "b72e1d34-7553-44ec-9693-80810a9d08c5"
+      ],
+      "bindingStatus": "bound",
+      "description": "Kaiden s old mobile phone displaying messages from his friends."
+    },
+    "@stadium": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/stadium_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "9f1d49b7-e6e5-407a-82cb-5ac4550cf17c"
+      ],
+      "bindingStatus": "bound",
+      "description": "Shallow plastic Beyblade stadium that splits during the resonance."
+    },
+    "@toybeyblade": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/toybeyblade_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "07b1f802-200d-4e28-8a74-b9d835e8642d"
+      ],
+      "bindingStatus": "bound",
+      "description": "Scene asset: toybeyblade."
+    },
+    "@unknown_observer": {
+      "type": "CHARACTER",
+      "referenceType": "CHARACTER_SHEET",
+      "files": [
+        "assets/characters/unknown_observer_sheet.png"
+      ],
+      "assetLibraryIds": [
+        "790f5dc1-792b-4279-9807-3cc5afef995a"
+      ],
+      "bindingStatus": "bound",
+      "description": "Mysterious figure observing Kaiden."
+    },
+    "@3_beyblades": {
+      "type": "PROP",
+      "referenceType": "PROP_REFERENCE",
+      "files": [
+        "assets/props/3_beyblades.png"
+      ],
+      "assetLibraryIds": [],
+      "bindingStatus": "package-attached",
+      "description": "One owner-labeled reference sheet for three separate Beyblades: Kaiden handmade blue-red-metal-and-brown-wood, Nanao blue-red-yellow, Mocha white-red-purple."
+    }
+  }
+}

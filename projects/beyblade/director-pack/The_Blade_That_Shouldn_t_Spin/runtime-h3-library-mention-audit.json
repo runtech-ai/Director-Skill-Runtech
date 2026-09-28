@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "segmentId": "SEG_SC003_001",
+  "mode": "MOVIE_LIBRARY_DISCOVERY_FROM_EXPLICIT_SHOT_HANDLES",
+  "runtimeSubjects": [
+    "@kaiden",
+    "@beyblade",
+    "@kaidens_house"
+  ],
+  "subjectImportNotes": [
+    "tagged mentioned characters in shot prose: @kaiden"
+  ],
+  "subjectDefinitions": "<Subject 1> is @kaiden from <Picture 1>; preserve identity, facial features, hairstyle, body proportions, wardrobe, and appearance.\n<Subject 2> is @beyblade from <Picture 2>; preserve shape, colors, materials, and design.\n<Subject 3> is @kaidens_house from <Picture 3>; preserve canonical architecture, materials, colors, geography, structural layout, and visual character."
+}

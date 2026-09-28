@@ -11,6 +11,7 @@ Auto Pilot runs: read `AUTOPILOT_RULES.json`, load the applicable skills, and qu
 ## Current work
 
 - Active segment: `SEG_SC001_002`
+- Runtime anomaly notes: `RUNTECH_MCP_NOTES.md`
 - Active clip: `827da4d1-e9ee-4111-adb3-454520406960`
 - Prompt: `SEG_SC001_002_draft_prompt.txt`
 - Storyboard: `../director_v9_current/storyboards/SEG_SC001_002.png`

@@ -30,3 +30,5 @@ Whenever a segment contains a Beyblade, launcher, ripcord, stadium interaction, 
 Use `../../checkpoints/LOOKUP_INDEX.md` for targeted retrieval. Open only the current segment prompt, relevant package record, and relevant Bible section. Do not reread the full Director package unless a validation failure cannot be resolved from those sources.
 
 The text-only package under `../../director-pack/The_Blade_That_Shouldn_t_Spin/` intentionally excludes media assets. Resolve actual live assets through MCP.
+
+If preset routing, duplicate clips, latent previews, or artifact download behaves unexpectedly, read [RUNTECH_MCP_NOTES.md](references/RUNTECH_MCP_NOTES.md) before retrying.

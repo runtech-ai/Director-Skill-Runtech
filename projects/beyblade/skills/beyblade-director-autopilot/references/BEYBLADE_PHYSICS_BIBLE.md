@@ -56,7 +56,11 @@ Director and generation reference for classic Plastic Generation Beyblade action
 - A failed release that receives no usable torque remains non-spinning, falls under gravity, and stays stopped.
 - Each pull produces at most one release of its attached top. No duplicate top may appear from one launcher.
 
-## 5. Release, descent, and landing
+## 5. Spin-start causality, release, descent, and landing
+
+- A stationary Beyblade never begins spinning by itself. Spin must have a visible physical cause: deliberate hand rotation, a valid launcher release, or continuous carry-over from the immediately previous authored shot where the same top was already spinning.
+- This causality lock also applies to dream, symbolic, magical, and Bit Beast imagery. Those forces may affect an already-spinning top only when separately authored; they do not replace the mechanical cause of initial spin.
+- If a graphic beat needs to reveal multiple sides without an allowed spin cause, keep the top's orientation fixed and orbit the camera around it.
 
 - Detachment is a single readable event after torque transfer.
 - Gravity carries the spinning top downward immediately; it never floats or pauses in mid-air.
@@ -89,6 +93,8 @@ Director and generation reference for classic Plastic Generation Beyblade action
 - A free unsupported top cannot remain balanced upright on its tip.
 - It falls onto its side or lies flat after the final wobble.
 - It may remain level while stopped only when held by a hand, locked to a launcher, supported by a fixture, or resting on a broad flat surface in a physically stable orientation.
+- A physical Beyblade never spins freely in a palm, between fingers, in a pocket, on bedding, or in unsupported air. Hand-held rotation is allowed only as deliberate low-speed manual inspection explicitly authored as such; it must not resemble powered spin.
+- If an authored dream or graphic beat rotates a top symbol, isolate it as unmistakably non-physical imagery: no hand, body, launcher, stadium, bedding, or real-world contact surface may share that frame.
 
 ## 7. Stadium interaction
 
@@ -220,4 +226,3 @@ If any answer is yes, the take fails even when the overall scene match exceeds 9
 - Sparse samples are insufficient when a failure could occur between them. Use denser temporal evidence or fail closed.
 - Verify exact active clip and newly versioned path before judging.
 - Asset integrity is checked before every generation run; motion physics is checked after every generated take.
-

@@ -1,0 +1,14 @@
+# Microdrama research and application
+
+Research reviewed 2026-10-14. These sources informed craft choices, not fixed algorithmic promises. Recheck platform specifications when targeting a specific current release or festival.
+
+- [Final Draft: micro-drama and vertical templates](https://www.finaldraft.com/blog/how-to-use-the-final-draft-micro-drama-and-verticals-templates), 2026-08-24. Discusses short serialized episodes and episode headings separate from scene headings. Application: write a complete season screenplay with explicit episode boundaries; do not equate each scene with an episode.
+- [Raindance vertical submissions](https://raindance.org/festival/submit/vertical/). Festival-specific episode/duration/orientation criteria demonstrate a particular delivery brief, not a universal length. Application: expose episode count, runtime and aspect ratio as project settings.
+- [Producers Guild: Verticals / Microdrama](https://producersguild.org/wp-content/uploads/2026/05/Verticals-Microdrama.pdf), June–July 2026, producer/director interviews. Discusses the density of information and emotion in short episodes and distinguishes orientation from form. Application: make shots carry change; do not assume all portrait storytelling follows one genre formula.
+- [John August: Writing for microdramas](https://johnaugust.com/2025/writing-for-microdramas-aka-verticals), 2025-09-24. Firsthand anonymous accounts describe differing production experiences and attention concentrated on openings. Anecdotal evidence, not industry-wide measurement. Application: review later episodes and finale payoffs with the same care as opening hooks.
+- [Cao et al.: Audience in the Loop](https://arxiv.org/abs/2602.14045), 2026, qualitative interviews with 28 writers. Describes audience feedback in collaborative writing. Application: optional feedback-driven revisions with a canon/change ledger; no claim that a formula guarantees retention.
+- [TikTok Creative Guidance](https://ads.tiktok.com/business/creativecenter/quicktok/online/tiktok_creative_accelerator/pc/en). Advertising-oriented guidance on mobile composition and UI-safe regions. Application: keep faces, essential action and intended captions readable in the actual target UI; this is not a universal narrative timing rule.
+
+## Synthesis for this workflow
+
+Establish conflict or curiosity early, then earn each turn with causality and character decisions. Vary suspense, emotional consequence, revelation and reversal rather than repeating one kind of cliffhanger. Pay off earlier promises while opening meaningful new questions. Plan portrait staging and readable prop actions before generating boards. Do not use unsupported fixed three-second hooks, a mandatory 3-7-21 formula, prescribed romance tropes, a fixed paywall episode or guaranteed engagement claims. The six-episode 60–90-second default comes from this user's workflow, not these sources.

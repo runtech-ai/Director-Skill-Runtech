@@ -89,6 +89,16 @@ Each visual subject is one line. Multi-view stays on that line (`from <Picture 1
 
 When storyboard is ON, list every mapped shot: `… storyboard reference for [Shot 1], [Shot 2], and [Shot 3]…`. Never `for Shot 1` only. Never `STORYBOARD EXECUTION LOCK`.
 
+## Global retention and consistent references in H3 prompts
+
+For v9 H3 authoring, define each subject-to-picture mapping once in `subject_definitions` and state unchanged identity, wardrobe, prop design, location identity, and reference retention once in the global `retention_analysis` section. Preserve the official H3 section order and retention vocabulary. Do not repeat these retention paragraphs or picture citations in every shot.
+
+Shot prose contains the shot timing/cut, framing and visible occupancy, camera, physical action, relevant state changes, and the dialogue owner in the official form required by Mandates 1–3 and 8. Refer to the established `<Subject N>` identifiers. Repeat a specific retained detail only when a state transition or an action-critical constraint needs local emphasis; do not paste the full global retention block.
+
+Use one consistent subject/picture/speaker mapping throughout each compiled segment prompt. A subject ID cannot identify both a character and a prop. Every dialogue owner must resolve to a defined character; every picture citation must agree with the global mapping and actual runtime attachments. If attachment order changes, remap all affected references throughout the prompt together, including shot prose, rather than updating only the definitions.
+
+Before delivery, check the complete compiled prompt for conflicting or unresolved Subject/Picture/Speaker labels and duplicated per-shot retention boilerplate. Repair these in the Director authoring pass before H3 form validation. Concision must preserve exact dialogue, voice-timbre citations when attached, occupancy, timing, and action-critical continuity.
+
 ## MANDATE 6 — Audio layers stay in their bins
 
 `sound` / `soundPlan` / `overall_soundscape`: physical and ambient only. No dialogue text. No score.

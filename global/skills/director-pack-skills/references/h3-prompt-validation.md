@@ -1,38 +1,18 @@
-# H3 PROMPT VALIDATION — OFFICIAL SKILL ONLY
+# H3 validation and compiler layers
 
-`h3-prompt-writing` does not author the director pack. It checks `shot_planning_prompt.compiled_prompt` after direction is written.
+Direction remains owned by the selected Director contract. The official `h3-prompt-writing` skill validates the final H3 form; it does not independently restyle approved direction, occupancy, camera or exact dialogue.
 
-If the skill is not installed, stop and ask the user to run:
+## Identify the field before validating
 
-```bash
-npx skills add https://github.com/MiniMax-AI/MiniMax-H3 --skill h3-prompt-writing
-```
+RunTech has separate planning and final-prompt layers. The current normalized `ShotPlanningPrompt.compiled_prompt` and `StoryboardReferencePrompt.reference_prompt` are guidance: their validators reject `<Picture>`, `<Audio>`, `<Video>` attachment labels and `subject_definitions:` / `retention_analysis:` wrapper sections. Keep structured dialogue in its authored records and planning prose consistent with the planning schema. Do not paste a six-section Ref2VA prompt into a planning-only field.
 
-Do not install it unless they ask. Do not validate from memory of this page.
+The final H3 request packager owns actual attachment numbering and H3 syntax. Some importer versions recognize a complete packaged H3 prompt separately, even when the package envelope uses a similarly named `compiled_prompt` field. Inspect the actual importer/adapter and normalized result before choosing that route. Do not invent a new schema field or assume identical names imply identical contracts. Local schema acceptance does not establish deployed compatibility.
 
-## Check
+## Validate the final H3 output
 
-1. Open the installed `h3-prompt-writing` `SKILL.md`.
-2. Identify the real input mode: T2VA, I2VA, FL2VA, L2VA, or Ref2VA.
-3. Read the guide that skill names: `references/ref-en.txt` for Ref2VA, `references/base-en.txt` for base modes.
-4. Compare the existing `compiled_prompt` to that guide.
+1. Open the installed `h3-prompt-writing` skill. Read its selected guide: `references/ref-en.txt` for Ref2VA, `references/base-en.txt` for T2VA/I2VA/FL2VA/L2VA. If unavailable, report the missing dependency; install only if requested.
+2. Check the actual final/runtime-resolved prompt for official section names/order, retention vocabulary, duration, timing notation and exact dialogue/lyrics in `<d>`.
+3. Check definitions, retention, every shot, dialogue owners and actual attachment mappings together. Subject, Picture, Audio and clip-local speaker IDs are independent. First vocal occurrence sets speaker order; never infer Picture/Audio order from a library listing.
+4. Repair only a confirmed H3 form defect. Preserve approved direction and exact dialogue/windows. No issue means no rewrite. Return semantic or state conflicts to the owning Director repair.
 
-Look only for H3 form problems:
-
-- wrong or missing section names
-- sections out of order
-- unstable or unresolved reference labels
-- illegal retention words (anything other than the official lists)
-- duration that does not match the segment
-- shot timing notation the guide forbids
-- dialogue or lyrics outside `<d>` when the guide requires `<d>`
-- English rewrite sections that dropped a required label
-
-v9 occupancy, picture-only action, and importer field names are not H3-form issues. Do not use this pass to restyle a valid prompt.
-
-## Fix or leave
-
-- **Issue found:** change only the broken part so it matches the official guide. Keep the directed picture, camera, occupancy, and exact `<d>` lines.
-- **No issue:** leave the prompt. Do not rewrite, shorten, or “improve” it.
-
-Write the check result in `validation-report.json` as pass or as the specific H3 form errors you fixed. A clean prompt stays the authored prompt.
+Record planning-schema checks, final H3 form checks, attachment-resolution checks and rendered audio/visual acceptance separately in the validation report. Unknown runtime inputs cannot be reported as validated attachment or voice identity.

@@ -29,3 +29,7 @@ When the importer/compiler is available, run the package through its real refere
 Run the zip checks in [storyboard-images.md](storyboard-images.md). Member count equals the segment count. Every member is `<SEGMENT_ID>.png` at the archive root.
 
 Also run [direction-continuity-asset-lock.md](direction-continuity-asset-lock.md) against the rendered pixels. Report segment counts and ids under `PASS_NO_RESHOOT`, `PROMPT_ONLY`, `STORYBOARD_RESHOOT`, and `FULL_SEGMENT_REDIRECT`.
+
+## Runtime and rendered evidence
+
+Apply [v9-generation-lessons.md](v9-generation-lessons.md) to text-only generation, runtime readback, consistent reference mappings, predecessor state, and distinct visual/audio verification. Validate the entire compiled prompt, not only subject definitions. Record unperformed media checks as unverified, never as passed.

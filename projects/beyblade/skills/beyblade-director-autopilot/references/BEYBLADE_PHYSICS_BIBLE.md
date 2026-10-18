@@ -2,13 +2,17 @@
 
 Director and generation reference for classic Plastic Generation Beyblade action. These rules are a hard validation gate whenever a Beyblade, launcher, ripcord, stadium, collision, knockout, or Bit Beast appears.
 
+## Current-episode applicability
+
+For the current 73-segment source, new launches occur in S5C4, S6C4 and S7C4. Do not import old scene-number effect examples into this episode. A launched top retains rotation during its short descent; an already fallen, fully stopped top remains at zero RPM until new torque is supplied. The project’s fixed spin directions and free-top side-rest are staging commitments, not universal laws for every spinning-top design.
+
 ## 1. Core physical model
 
 - A Beyblade is a palm-sized, solid, rigid spinning top. Its visible components stay assembled unless the script explicitly depicts damage or disassembly.
 - The pointed performance tip is the ground-contact point. After landing, the tip remains in continuous contact with the stadium or support surface until a photographed impact causes a hop, ring-out, or fall.
 - Axial rotation and travel across the stadium are separate motions. A top can spin rapidly while translating slowly, or travel rapidly while losing RPM.
 - Right-spin and left-spin are persistent authored properties. They never reverse during a take or across a cut.
-- Mechanical energy is causal and decreases through drag, tip friction, scraping, impacts, and deformation. A free top cannot gain RPM or restart without visible external torque.
+- Mechanical energy has a physical source. Drag, friction, scraping and inelastic deformation dissipate energy; a collision can transfer energy from one top to another. An isolated top cannot gain RPM or restart without an external torque. Preserve this episode’s authored spin-down and complete-stop boundaries.
 - Scale, owner, design, colors, component stack, damage, spin direction, RPM state, path, contact state, and outcome must survive every cut.
 
 ## 2. Project ownership and identity
@@ -28,7 +32,7 @@ Director and generation reference for classic Plastic Generation Beyblade action
 
 ### Valid loaded state
 
-- The top is level and flush against the launcher underside with zero visible air gap.
+- The top is level and mechanically engaged with the actual short underside holder. Preserve real holder depth and contact; no floating gap or invented extension.
 - Both launcher engagement posts are inserted into the top’s receiving slots and twist-locked.
 - The performance tip points straight down.
 - The launcher and attached top behave as one rigid assembly before release.
@@ -46,7 +50,7 @@ Director and generation reference for classic Plastic Generation Beyblade action
 
 1. Before the pull, the loaded top is stationary.
 2. The user braces the launcher and pulls the complete ripcord once along its toothed axis.
-3. The internal gear transfers torque while the top is still flush-mounted.
+3. The internal gear transfers torque while the top remains engaged with the short holder.
 4. During the pull, the attached top accelerates around its authored spin axis.
 5. The entire ripcord exits into the pulling hand; it does not remain embedded or become a string.
 6. The launcher releases the already-spinning top once.
@@ -60,7 +64,7 @@ Director and generation reference for classic Plastic Generation Beyblade action
 
 - A stationary Beyblade never begins spinning by itself. Spin must have a visible physical cause: deliberate hand rotation, a valid launcher release, or continuous carry-over from the immediately previous authored shot where the same top was already spinning.
 - This causality lock also applies to dream, symbolic, magical, and Bit Beast imagery. Those forces may affect an already-spinning top only when separately authored; they do not replace the mechanical cause of initial spin.
-- If a graphic beat needs to reveal multiple sides without an allowed spin cause, keep the top's orientation fixed and orbit the camera around it.
+- For stopped-object detail, prefer a fixed camera and fixed markings. A separately authored camera orbit must not masquerade as top rotation or override the current shot camera.
 
 - Detachment is a single readable event after torque transfer.
 - Gravity carries the spinning top downward immediately; it never floats or pauses in mid-air.
@@ -84,16 +88,16 @@ Director and generation reference for classic Plastic Generation Beyblade action
 
 ### Low RPM
 
-- Precession widens continuously.
+- In the authored spin-down, instability and scraping become visible before final rest. Precession and nutation may fluctuate; do not require continuously increasing tilt at every instant.
 - The body tilts farther, with the lean direction rotating around the tip rather than freezing toward one compass direction.
 - Rim/base scraping becomes possible and produces further speed loss.
 
 ### Stopped
 
-- A free unsupported top cannot remain balanced upright on its tip.
+- For this project’s authored free stopped tops, use side-rest after the final wobble. This is a project staging rule, not a universal claim about flat-tipped tops or supported fixtures.
 - It falls onto its side or lies flat after the final wobble.
 - It may remain level while stopped only when held by a hand, locked to a launcher, supported by a fixture, or resting on a broad flat surface in a physically stable orientation.
-- A physical Beyblade never spins freely in a palm, between fingers, in a pocket, on bedding, or in unsupported air. Hand-held rotation is allowed only as deliberate low-speed manual inspection explicitly authored as such; it must not resemble powered spin.
+- A carried, pocketed, wrapped or fully stopped top has zero powered axial spin. An already-spinning top DOES retain rotation during the brief gravity-driven descent after launch or an authored ring-out; forbid sustained hovering, not rotating flight. Hand-held rotation is allowed only as deliberate low-speed manual inspection explicitly authored as such; it must not resemble powered spin.
 - If an authored dream or graphic beat rotates a top symbol, isolate it as unmistakably non-physical imagery: no hand, body, launcher, stadium, bedding, or real-world contact surface may share that frame.
 
 ## 7. Stadium interaction
@@ -115,7 +119,7 @@ Director and generation reference for classic Plastic Generation Beyblade action
 - At least some combination of path change, wobble, RPM loss, vibration, scraping, or ring-out follows the impact.
 - Momentum and spin direction determine the response; the weaker or less stable top usually shows the larger deflection and wobble.
 - Tops never stick together, overlap, merge, magnetically cluster, or remain touching while spinning.
-- A collision cannot create extra tops, swap designs, reverse spin direction, or restore lost energy.
+- A collision cannot create extra tops or swap designs. Preserve authored spin direction in this project. Contact can transfer rotational/translational energy between tops: one may gain energy while the pair dissipates energy. Do not demand an RPM decrease for every individual top at every impact; any gain must have an evidenced interaction.
 
 ## 9. Multiple-top population and continuity
 
@@ -179,7 +183,7 @@ Use only the locks relevant to the photographed beat.
 
 ### Loaded launcher
 
-`The stationary top is level and flush beneath the launcher with zero gap, both engagement posts inserted, tip down, and the short rigid toothed ripcord passing horizontally through the gear channel.`
+`The stationary top is level beneath the head on the actual short engaged holder, tip down. One flat toothed rack passes through the correct head channel, perpendicular to the long grip in device coordinates. The handle stays outside one side and the free tail protrudes from the other; perspective may project the rack toward camera. Preserve original mounting contacts without inventing hidden parts.`
 
 ### Successful launch
 

@@ -69,3 +69,7 @@ The zip contains those png files and nothing else. No folders. No JSON. No READM
 3. Do not write a placeholder, empty file, copied frame, or another segment's board. If no image tool is available, stop and say the boards were not generated.
 4. Zip every segment png at the archive root under `<Movie_Title>_<N>_Segment_Storyboards.zip`.
 5. Reopen the zip. Member count equals the segment count. Every member is `<SEGMENT_ID>.png` at the root, and every segment id in the director package has exactly one image.
+
+## Runtime composition images versus package boards
+
+A single-shot runtime repair may use a landscape composition image when the supported input route and authorized task call for it. Record that role, actual dimensions and the owning shot explicitly. It is not automatically a compliant Director-package board: the inverse-movie aspect and one-panel-per-shot contract above remain in force unless an explicit supported override is recorded. Upload success is not a layout waiver. Resolve physical-state/identity conflicts even when an image is used only for composition. No skill-only update repairs or regenerates existing media.

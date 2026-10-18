@@ -5,6 +5,8 @@ description: Run or resume sequential RunTech generation for the Beyblade projec
 
 # Beyblade Director Autopilot
 
+Read [production locks](references/PROJECT_LOCKS.md) and [repair review rules](references/REPAIR_REVIEW_RULES.md) for current scope and evidence rules. An explicit active generation request is required for this workflow; old checkpoints or skill updates do not authorize a new run. The current repair workflow leaves video regeneration to the user unless they request otherwise. Resolve the project repair ledger and live state rather than historical branch completion claims.
+
 Treat skills and live RunTech MCP as authority. Do not reconstruct project state from prior chat. Read `../../PROJECT_INDEX.md` only if the active checkpoint does not identify the needed files.
 
 Before work, read:
@@ -47,3 +49,9 @@ Use `../../checkpoints/LOOKUP_INDEX.md` for targeted retrieval. Open only the cu
 The text-only package under `../../director-pack/The_Blade_That_Shouldn_t_Spin/` intentionally excludes media assets. Resolve actual live assets through MCP.
 
 If preset routing, duplicate clips, latent previews, or artifact download behaves unexpectedly, read [RUNTECH_MCP_NOTES.md](references/RUNTECH_MCP_NOTES.md) before retrying.
+
+## Episode continuity corrections
+
+For The Blade That Listens, read [references/EPISODE_CONTINUITY_LESSONS.md](references/EPISODE_CONTINUITY_LESSONS.md) before prompt or storyboard work. These explicit user corrections supersede conflicting older checkpoint assumptions.
+
+For launcher handedness, rack geometry or current saved-voice repairs, read [repair lessons](references/LAUNCHER_AND_VOICE_REPAIR_LESSONS.md). The current explicit voice/timbre request supersedes historical audio waivers.

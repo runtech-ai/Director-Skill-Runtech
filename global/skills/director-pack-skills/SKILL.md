@@ -7,6 +7,8 @@ metadata:
 
 # Director package generator
 
+Before authoring, repair or final handoff, read [production handoff gates](references/production-handoff-gates.md) and [RunTech continuity import gate](references/runtech-continuity-import.md). Apply them under the selected contract; H3 form approval alone does not validate direction, dialogue ownership or effective continuity.
+
 Build a complete `movie-director-result` / `3.1-shotplan-only` Director ZIP from the v9 contract. Do not invent a new schema. Do not load a video skill or any other direction skill.
 
 The body of this file is the procedure. The v9 markdown and the reference files are the contract. Do not deliver from memory of this page.
@@ -44,8 +46,8 @@ Keep existing field names, `scene_packages/` placement, and this base version. S
 
 1. Read the v9 contract, `references/v9-hardening-lock.md`, and `references/package-schema.md`.
 2. Read [references/direction-continuity-asset-lock.md](references/direction-continuity-asset-lock.md). Direct every shot from the contract. Draw dialogue occupancy before action or `compiled_prompt`. Write picture-only action. Write camera as v9 specifies: observable move or hold, not a field dump. For mechanical or rules-bound action, write the object-state and screen-direction transitions before shot prose.
-3. Author the director ZIP from the schema file. Scene packages live under `scene_packages/`. Write `shot_planning_prompt.compiled_prompt` as the directed picture in H3-ready prose. Do not serialize Director field labels into that prompt. Close the per-segment asset ledger across the manifest, segment JSON, prompt bundle, H3 subject definitions, and actual package files.
-4. Confirm `h3-prompt-writing` is installed. Read [references/h3-prompt-validation.md](references/h3-prompt-validation.md). Validate each `compiled_prompt`. Fix only a confirmed H3 issue. If the prompt already matches the official skill, leave it. If the skill is missing, stop and ask for `npx skills add https://github.com/MiniMax-AI/MiniMax-H3 --skill h3-prompt-writing`.
+3. Author the director ZIP from the schema file. Scene packages live under `scene_packages/`. Keep normalized `ShotPlanningPrompt.compiled_prompt` as label-free planning guidance. Validate the separately packaged/runtime-resolved H3 output against the official guide; inspect the importer adapter before using a package field that accepts complete H3 text. See `references/h3-prompt-validation.md` for the layer distinction. Apply the global-retention rule in `references/v9-hardening-lock.md`: declare identity/reference retention once, keep shots focused on their changing picture and dialogue ownership, and verify consistent labels throughout the prompt. Do not serialize Director field labels into that prompt. Close the per-segment asset ledger across the manifest, segment JSON, prompt bundle, H3 subject definitions, and actual package files.
+4. Confirm `h3-prompt-writing` is installed. Read [references/h3-prompt-validation.md](references/h3-prompt-validation.md). Validate the final H3 prompt and check planning-schema compatibility separately. Fix only a confirmed H3 issue. If the prompt already matches the official skill, leave it. If the skill is missing, stop and ask for `npx skills add https://github.com/MiniMax-AI/MiniMax-H3 --skill h3-prompt-writing`.
 5. Read `references/storyboard.md` and write each segment’s index, spec, and prompt. Match each panel to its micro-shot state, physical phase, axis, screen direction, population, prop ownership, damage state, and boundary continuity. A board that contradicts the directed state must be regenerated.
 6. Read `references/storyboard-images.md`. Generate one real composite image per segment, one panel per micro-shot, file name `SEG_SC001_001.png`. Zip them as `<Movie_Title>_<N>_Segment_Storyboards.zip` with only those pngs at the archive root.
 7. Reopen both zips. Every segment id is a storyboard filename. Run [references/validation.md](references/validation.md), including runtime H3 attachment smoke tests when the importer/compiler is available. Compatibility is the v9 contract, not the version string.
@@ -59,3 +61,11 @@ If deleting every `dialogue` array would still tell a reader what was said, the 
 ## Storyboard
 
 The storyboard pass is a second use of this skill on the finished director package. File name is the segment id. Panel count is the shot count. Details are only in `references/storyboard.md` and `references/storyboard-images.md`.
+
+## V9 generation lessons
+
+Before authoring or repairing H3 prompts, read [references/v9-generation-lessons.md](references/v9-generation-lessons.md). Apply its concise staging, continuity, runtime-input and exact-take review rules alongside the hardening lock. Load applicable project canon and physics separately.
+
+## Direct microdrama option
+
+For **direct microdrama**, read [microdrama-series](../microdrama-series/SKILL.md). Develop the full story with chapter-writing and supporting story skills before v9 direction. The named supporting craft skills are permitted for this mode; v9 remains the schema and shot-plan authority.

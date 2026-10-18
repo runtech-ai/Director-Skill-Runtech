@@ -1,0 +1,4 @@
+interface:
+  display_name: "Director to Manhwa / Manga PDF"
+  short_description: "Turn Director packages into illustrated comic PDFs"
+  default_prompt: "Use $director-manga-export to turn my Director package into a manhwa or manga and export the complete illustrated PDF."

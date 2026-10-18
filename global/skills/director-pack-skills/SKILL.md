@@ -7,6 +7,8 @@ metadata:
 
 # Director package generator
 
+For a comic adaptation of an existing package, use [Director to Manhwa / Manga PDF](../director-manga-export/SKILL.md). That workflow creates a separate comic page plan, artwork, lettering and PDF; it preserves the source package and does not run film generation or apply storyboard grid rules to comic pages.
+
 Before authoring, repair or final handoff, read [production handoff gates](references/production-handoff-gates.md) and [RunTech continuity import gate](references/runtech-continuity-import.md). Apply them under the selected contract; H3 form approval alone does not validate direction, dialogue ownership or effective continuity.
 
 Build a complete `movie-director-result` / `3.1-shotplan-only` Director ZIP from the v9 contract. Do not invent a new schema. Do not load a video skill or any other direction skill.

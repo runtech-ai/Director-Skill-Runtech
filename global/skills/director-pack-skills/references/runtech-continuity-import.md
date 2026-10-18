@@ -1,6 +1,6 @@
-# RunTech continuity import gate for Director v9, v10 and v11
+# RunTech continuity import gate for Director v9
 
-Read this when authoring or repairing segment boundaries under any supported contract and before exporting
+Read this when authoring or repairing segment boundaries under the v9 contract and before exporting
 the Director ZIP. Preserve the established importer fields and package hierarchy.
 
 ## Separate physical state from machine continuity

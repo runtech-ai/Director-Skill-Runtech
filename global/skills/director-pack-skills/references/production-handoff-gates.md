@@ -1,6 +1,6 @@
 # Direction, dialogue and production handoff gates
 
-Apply to v9, v10 and v11; preserve each package's selected contract. These checks supplement H3 form validation, which cannot establish story, speaker or runtime correctness.
+Apply under the v9 contract; preserve each package's source and provenance. These checks supplement H3 form validation, which cannot establish story, speaker or runtime correctness.
 
 ## Direct the shot before writing the prompt
 

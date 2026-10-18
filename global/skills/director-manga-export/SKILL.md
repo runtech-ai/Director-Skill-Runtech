@@ -11,7 +11,7 @@ Turn an existing Director ZIP or extracted package into a readable, illustrated 
 
 ## Resolve the source and format
 
-Inspect the actual manifest and its referenced scene, segment, shot, dialogue and asset records. Follow declared order, not filename sorting. For a series, qualify source IDs by episode. Record the package revision/hash and selected scope. Read the applicable Director schema only as needed to interpret the existing v9/v10/v11 package; do not re-author it under a different profile. Resolve conflicting redundant copies before using them as source.
+Inspect the actual manifest and its referenced scene, segment, shot, dialogue and asset records. Follow declared order, not filename sorting. For a series, qualify source IDs by episode. Record the package revision/hash and selected scope. Read the applicable Director schema only as needed to interpret the existing package; do not re-author it under a different profile. Resolve conflicting redundant copies before using them as source.
 
 Use the original canonical character, prop and location images. A text-only package may require the user's connected asset library or supplied images; discover supported retrieval tools when needed. Existing storyboards are staging evidence, not automatically canonical identity or finished comic art. If required source or canonical assets cannot be obtained, complete the supported planning work and report the precise gap; do not invent replacements or silently omit scenes.
 

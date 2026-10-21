@@ -1,5 +1,7 @@
 # V9 HARDENING LOCK — VISUAL DIRECTION + DIALOGUE TIME OCCUPANCY
 
+For action phase budgets and reference roles, apply [action physics and timing](action-physics-and-timing.md). These rules preserve dialogue occupancy while keeping motion independent of speech.
+
 Live Ref2VA takes invented extra spoken words, copied voice-sample dialogue, cloned bodies, restaged close-ups into two-shots, bound the storyboard to Shot 1 only, and — after those were locked — still garbled the voice when a long line was parked in one shot while overlapping shots were marked silent or told to “continue the same spoken line.” Those failures share one cause: **the Director wrote the meaning of the scene instead of the picture, or wrote speech timing that the shots contradict**.
 
 A package that violates any mandate below MUST fail validation and MUST NOT be delivered. Downstream compilers may clean leftovers. They are not allowed to be the place the rule is invented. You must author the pack correctly.
@@ -24,7 +26,7 @@ They may **not** contain:
 
 If you need the audience to hear words, put those exact words in structured `dialogue` for that micro-shot and nowhere else.
 
-If a shot has no structured dialogue, it is a visual hold. Direct the hold as a picture. Do not direct it as “the pause after the question” or “the beat before he answers.”
+If a shot has no structured dialogue, it has no authorized speech. Direct its authored physical action, including movement, contact and follow-through. Speech silence does not imply stillness. Use a physical hold only when the shot explicitly motivates it; describe its visible behavior rather than “the pause after the question” or “the beat before he answers.”
 
 Test: if you deleted every `dialogue` array in the segment, would the remaining prose still tell a reader what was said? If yes, the package fails.
 
@@ -44,7 +46,7 @@ Never write `@sharon (S1) says` or `Sharon (S1) says`.
 
 Never put those words in `summary`, `retention_analysis`, `overall_soundscape`, `non_diegetic_music`, `action`, `purpose`, `startState`, `endState`, `sound`, or storyboard prose.
 
-If stripping a speech paraphrase leaves no action, write a short physical hold: `The subject remains in frame.` Do not replace it with another speech paraphrase.
+If stripping a speech paraphrase leaves no action, recover the source-authored visible action or flag missing physical direction for the Director. Do not insert a generic hold as filler or replace it with another speech paraphrase. Preserve an intentional stationary performance when the source calls for one.
 
 Empty `dialogue` means no spoken words are authorized. Do not invent listener lines, replies, or “he does not speak” essays on a shot that already has a `<d>`. Absence of a second `<d>` is enough for listeners.
 
@@ -67,7 +69,7 @@ When the segment has any structured dialogue, every shot that does **not overlap
 
 Do not put that lock at the end of the shot. Do not write the lock on any shot that overlaps a line’s start/end (except `closes their lips after the line` on the last occupied shot after the line ends). Do not write the lock on a fully silent segment.
 
-In Director JSON for that silent shot, write only visual hold / reaction. Do not mention questions, answers, offers, promises, credit, or “response.”
+In Director JSON for that silent shot, write the authored visual action and relevant state changes; a motivated hold or reaction is also allowed. Do not mention questions, answers, offers, promises, credit, or “response.”
 
 ## MANDATE 4 — Occupancy follows the actual frame
 
@@ -128,7 +130,7 @@ Rules:
   1. keep **one** exact line and time it across the overlapping shots — emit official `<d>` once in the first occupied shot; later occupied shots are visual action only (no second `<d>`, no “continue the same spoken line”);
   2. split into shorter exact lines, one structured line per speaking shot, each timed to that shot.
 - Do not cram a ~10s line into a ~4s middle shot and mark the overlapping first/last shots as silent holds or reactions. That fight garbles the voice: H3 is told to speak and to keep lips closed at the same time.
-- When the line’s end is before the last occupied shot ends, the remaining tail of that shot is a visual hold. After the line ends: no further words. Do not invent a spoken tail.
+- When the line’s end is before the last occupied shot ends, the remaining tail continues the authored physical action or motivated settled state. Ending speech does not stop movement. After the line ends: no further words. Do not invent a spoken tail.
 - Never write keep-talking direction (`continues the same spoken line`, `continues speaking`, `keeps the promise going`). That is Mandate 0 (directing a speech event) and it makes H3 invent extra words after the line should have stopped.
 
 Director JSON for an occupied-but-not-first shot: visual action only. Do not attach a second copy of the line. Do not write a silent-shot lock.

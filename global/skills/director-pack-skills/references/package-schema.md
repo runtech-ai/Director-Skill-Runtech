@@ -323,7 +323,7 @@ Do not add `dialogueCue` or `genericVisibleElements` as replacements for structu
 
 If the micro-shot has structured dialogue, put the spoken line only in structured dialogue data.
 
-If the micro-shot has no structured dialogue, write a visible hold or reaction. Do not mention questions, answers, offers, promises, credit, or “her response.”
+If the micro-shot has no structured dialogue, direct its authored visible action without spoken words. Silence does not require stillness; a physical hold or reaction must be explicitly motivated by the shot. Do not mention questions, answers, offers, promises, credit, or “her response.”
 
 `visibleAssets` is a literal occupancy list for that shot. Two named people means two visible bodies, not two plus a doorway extra. A tight single lists the one person in frame.
 

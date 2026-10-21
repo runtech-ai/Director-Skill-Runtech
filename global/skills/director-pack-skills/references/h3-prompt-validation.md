@@ -1,5 +1,7 @@
 # H3 validation and compiler layers
 
+For action timing, support/contact transitions and storyboard temporal roles, apply [action physics and timing](action-physics-and-timing.md). Preserve existing fields and distinguish motion review from schema acceptance.
+
 Direction remains owned by the selected Director contract. The official `h3-prompt-writing` skill validates the final H3 form; it does not independently restyle approved direction, occupancy, camera or exact dialogue.
 
 ## Identify the field before validating
@@ -16,3 +18,9 @@ The final H3 request packager owns actual attachment numbering and H3 syntax. So
 4. Repair only a confirmed H3 form defect. Preserve approved direction and exact dialogue/windows. No issue means no rewrite. Return semantic or state conflicts to the owning Director repair.
 
 Record planning-schema checks, final H3 form checks, attachment-resolution checks and rendered audio/visual acceptance separately in the validation report. Unknown runtime inputs cannot be reported as validated attachment or voice identity.
+
+For cadence drift, silent VO performance or series-wide prompt corrections, apply [cadence and narration repairs](../../../../skills/h3-prompt-writing/references/cadence-and-narration-repairs.md) alongside the official selected mode guide. A saved full-reference prompt must match actual attachment slots; a local sole-board test does not validate a live request with additional references.
+
+## Cinematic request fidelity
+
+Check [camera techniques](camera-techniques.md) and [cinematic direction](h3-cinematic-direction.md) when the prompt directs motion. Compare the final request with the authored camera route, action timing and board roles. Distinguish client/API brief templates from final H3 syntax. Genre labels and rig names do not prove feasible movement. Return a semantic camera or staging conflict to the Director; do not restyle a valid approved prompt in a format-only pass.

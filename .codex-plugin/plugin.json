@@ -1,0 +1,24 @@
+{
+  "interface": {
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Use Director Pack with Director v9 to direct my supplied script while preserving its package schema and dialogue-time occupancy rules.",
+      "Review my Director package for continuity, H3 prompt validity and preflight issues.",
+      "Generate and review storyboards from my existing Director package."
+    ],
+    "developerName": "RuntechStudio",
+    "displayName": "Director Pack v9",
+    "longDescription": "Build and review importer-compatible Director packages with Director v9. Includes H3 prompt guides, continuity, storyboard and preflight procedures, plus manhwa/manga adaptation and PDF export. Film operations require a separately connected RunTech plugin and project assets. Includes Beyblade physics and launcher mechanics for the RunTech Beyblade project.",
+    "shortDescription": "Director packs and storyboards",
+    "capabilities": []
+  },
+  "name": "director-pack-v9",
+  "version": "0.1.16",
+  "description": "RunTech Director v9 packages, H3 validation, continuity, preflight, storyboards, and manhwa/manga PDF export.",
+  "author": {
+    "name": "RuntechStudio",
+    "email": "developers@runtech.co.in"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

@@ -73,3 +73,4 @@ reference along with canonical images and an enabled storyboard; exceeding the
 provider limit is a generation preflight failure, not permission to drop needed
 canonical references. Changes to directed boundary states require affected board
 acceptance to be reviewed against the new revision; retain the original evidence.
+

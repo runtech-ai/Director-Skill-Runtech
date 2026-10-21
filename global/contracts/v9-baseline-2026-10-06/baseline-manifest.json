@@ -1,0 +1,90 @@
+{
+  "captured": "2026-10-06",
+  "scope": "Current working files, including uncommitted and untracked rules; no movie packages",
+  "files": [
+    {
+      "path": "global/skills/director-pack-skills/SKILL.md",
+      "sha256": "db5d724e3ebe60d348ba2527ad1434a45e7bb80aae11d3273abf3397351bc339"
+    },
+    {
+      "path": "global/skills/director-pack-skills/agents/openai.yaml",
+      "sha256": "41e90589c48dfafd3be3ac4548a126259ae98498d1d28e9157373a8ae62c8852"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/camera-techniques.md",
+      "sha256": "4f7e94935e7bdf0535741176da236ec02103d00d623a350f50c21948f37628c9"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/direction-continuity-asset-lock.md",
+      "sha256": "8e4b8866a00b61fd5418c0d04c96c8ccb1925a9d4afef50262c23143dfad922f"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/h3-prompt-validation.md",
+      "sha256": "ab01fa513cc92fedceb1cb825afa65ce146eadf7a8ce40680ca2ed7df9e513ad"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/media-lifecycle.md",
+      "sha256": "69c08a78228b09ca5ca58147b9347fc604d37bad48f52fe14a79dfa17027530a"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/package-schema.md",
+      "sha256": "957fe047791e0a7d295ca124712dfa12e6dc2b5a9aedf306f757cd2d0f6d9acb"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/prompt-repair-loop.md",
+      "sha256": "1a77b653f84a8733d343c85ec5e50e28fa0953a1225d5ea4399312968d87dd3c"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/runtech-artifact-retrieval.md",
+      "sha256": "cfd3aba78c1d7d33964cf46326cdfe3aa8dedd79001bfccf93d968b20d96b9ef"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/storyboard-fidelity-gate.md",
+      "sha256": "94e34c17e5bfaddaf8843ee03ec17d00015bb04a8503bc00d797084ae2efd147"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/storyboard-images.md",
+      "sha256": "67980e943d7d35b29c2de7d0369252c344b61c96e4b1f05369969f94cd9c4da9"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/storyboard.md",
+      "sha256": "10d4bdd93c64866a0eb9dda4d0772803c505e1dda53067cd8a35f7d1327a5f9b"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/v9-common-movie-direction.md",
+      "sha256": "56241e32dc09e01946b7a6905263406df2891e5bc0bb8e7daa76ce830918ab8e"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/v9-hardening-lock.md",
+      "sha256": "97ff2a14835bbb4939aef77906fdaf030a4887747cffd82fa1ea261533937460"
+    },
+    {
+      "path": "global/skills/director-pack-skills/references/validation.md",
+      "sha256": "f10b3199377b1792921132353ab57e135222f8fd238f9b04ffcc6005fe02c4c6"
+    },
+    {
+      "path": "global/skills/director-preflight-gate/SKILL.md",
+      "sha256": "26de56abae5302a0703bf81eca32a4a3fbba7f8ca0f6fafc04a014a32e5d4d65"
+    },
+    {
+      "path": "global/skills/director-storyboard-generator/SKILL.md",
+      "sha256": "332fad215f0b1642c3d8ac52f611e99fbf9952b4d70a8e4693c4af90846f1ebb"
+    },
+    {
+      "path": "global/skills/runtech-movie-mcp/SKILL.md",
+      "sha256": "edb05184df94bd83ef1b02874e7f442fae8300a687aaa9fe0594b9babb55f8cc"
+    },
+    {
+      "path": "global/rules/asset-reference-authority.md",
+      "sha256": "7558c6cbf3501cf4380737fc717265661c7a6041a70d4f4fa0654ab868826146"
+    },
+    {
+      "path": "global/rules/storyboard-image-model.md",
+      "sha256": "257938f55b1e7a5b6d4b6d28a020926089961c1a40a59a33d92441bd42ef9493"
+    },
+    {
+      "path": "Director_Package_Generator_System_Prompt_v9_H3_DIALOGUE_TIME_OCCUPANCY.md",
+      "sha256": "25c115ce8e968550d413d0fb23244cd8295e9c442079aaebf45b3e436f765463"
+    }
+  ]
+}

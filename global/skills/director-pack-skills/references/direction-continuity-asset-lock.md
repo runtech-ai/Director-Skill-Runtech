@@ -1,6 +1,10 @@
 # DIRECTION, CONTINUITY, PHYSICS, AND ASSET LOCK
 
+For action timing, support/contact transitions and storyboard temporal roles, apply [action physics and timing](action-physics-and-timing.md). Preserve existing fields and distinguish motion review from schema acceptance.
+
 Use this audit for every package. Apply the domain-specific physics section only when the story contains a mechanism, sport, vehicle, weapon, spinning top, or other rules-bound action.
+
+Use [prompt-repair-loop.md](prompt-repair-loop.md) to scope these mechanics per shot and object, synchronize repairs and recheck. A rule constrains an authored action; it never authorizes inserting that action into a holding, dialogue, dream or title beat. An effect is permitted only at its source-authorized emitter and interval, not on every prop associated with the story.
 
 ## Direct states before shots
 

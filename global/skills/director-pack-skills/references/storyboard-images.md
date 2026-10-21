@@ -6,6 +6,26 @@ Prompts, specs, source-lock, and style rules stay in [storyboard.md](storyboard.
 
 Generating these images does not turn H3 storyboard reference on. `storyboardReferenceDefault` stays `false` unless the user explicitly enables it.
 
+## Model route — best available built-in ChatGPT image generator
+
+Use the best available built-in ChatGPT image generator under global/rules/storyboard-image-model.md (latest user instruction, 2026-10-02). Record exact backend as unreported when absent. Preserve all canonical-source and pixel-quality gates.
+
+Official OpenAI documentation checked 2026-10-01 lists [GPT Image 2.5 Sunburst](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst) for detailed generation/editing and [GPT Image 2.5 image-generation guidance](https://developers.openai.com/api/docs/guides/tools-image-generation). Recheck current official guidance when updating the policy or selecting an explicitly controlled model. Built-in `image_gen` may not expose a model selector or exact variant: use its current route and record the variant as `unreported` when absent. Never invent a parameter/model ID or claim an API model is necessarily the built-in backend.
+
+Use the best available built-in ChatGPT image generator under global/rules/storyboard-image-model.md (latest user instruction, 2026-10-02). Record exact backend as unreported when absent. Preserve all canonical-source and pixel-quality gates.
+
+## Per-board preflight and repair
+
+Read [storyboard-fidelity-gate.md](storyboard-fidelity-gate.md) before rendering and review. Freeze each panel's Director-derived expectations first, then compare the actual pixels for exact location, canonical assets and beat. Save separate evidence-backed results per panel; failed or unreadable required details block acceptance. Never silently pass, weaken a requirement or use a video soft threshold to excuse board mismatch.
+
+For an already-moving beat, the board must depict its current motion state with the applicable project-defined visual cues, not a stationary asset-sheet pose. Include those cues in the beat/image prompt and inspect their actual rendering per object while retaining identity and support/contact. Do not rely on a later video prompt to introduce motion missing from the board. Load the project authoring/physics reference for domain-specific cues; preserve authored stationary and slower phases.
+
+Use [director-storyboard-generator](../../director-storyboard-generator/SKILL.md) and [director-preflight-gate](../../director-preflight-gate/SKILL.md). Gate the owning segment before rendering and each board's actual pixels afterward. Review every panel, not just the composite thumbnail. Match identity, population/anatomy, wardrobe, location, camera/perspective, support, phase, effect emitter/window and boundary state to its exact micro-shot and applicable project autopilot rules.
+
+For a failed board, record all defects, repair the earliest direction/spec/prompt/binding cause, synchronize representations, regenerate fresh from current canonical assets and recheck the complete board. Never attach a rejected/prior board as a repair source. Preserve accepted boards. Continue the loop until the required gates pass; no automatic waiver after a fixed retry count, and no unchanged blind retries. User stop, an explicit run/cost limit or an actual infrastructure/authority failure ends external retries with a recorded resume action.
+
+Only accepted boards enter the final ZIP. Missing pixel evidence is unknown, not passed. A static board cannot validate continuous motion, audio or lip-sync; those remain exact-take gates when video generation is authorized. Project-specific physics and audio waivers stay in the project rather than becoming global film rules.
+
 ## One image, one panel per shot
 
 Each segment gets exactly one composite image.
@@ -14,7 +34,7 @@ Each segment gets exactly one composite image.
 
 Each beat's `sourceMicroShotId`, `displayShot`, `segmentTime`, and `visibleAssets` match that micro-shot. Do not draw a person who is not in that shot's `visibleAssets`. People, location, props, light, and panel time stay the same as that micro-shot.
 
-Panel order on the image is `LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM`. No captions, panel numbers, speech bubbles, subtitles, timestamps, labels, or watermarks inside the image. Shot prose on the board is a photograph of that shot, not a speech event.
+The image uses the inverse aspect ratio of the movie delivery frame: a `16:9` movie uses a portrait `9:16` board; a `9:16` movie uses a landscape `16:9` board. Panel order is `TOP_TO_BOTTOM`: equal-height horizontal panels, one per micro-shot, read from top to bottom. No captions, panel numbers, speech bubbles, subtitles, timestamps, labels, watermarks, typography, grid, columns, gutters, or adjacent-panel fragments inside the image. Shot prose on the board is a photograph of that shot, not a speech event.
 
 ## Filename
 
@@ -67,8 +87,9 @@ The zip contains those png files and nothing else. No folders. No JSON. No READM
 1. Read the finished director package with this skill. Write the storyboard prompt and spec from its shots.
 2. Generate a real image with the image tool in this session. The file name is `<SEGMENT_ID>.png`.
 3. Do not write a placeholder, empty file, copied frame, or another segment's board. If no image tool is available, stop and say the boards were not generated.
-4. Zip every segment png at the archive root under `<Movie_Title>_<N>_Segment_Storyboards.zip`.
+4. Inspect and gate each board; repair/regenerate failed boards under the loop above before zipping. Zip every accepted segment png at the archive root under `<Movie_Title>_<N>_Segment_Storyboards.zip`.
 5. Reopen the zip. Member count equals the segment count. Every member is `<SEGMENT_ID>.png` at the root, and every segment id in the director package has exactly one image.
+
 
 ## Runtime composition images versus package boards
 

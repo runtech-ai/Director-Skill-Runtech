@@ -1,15 +1,28 @@
 ---
 name: director-pack-skills
-description: Builds importer-locked movie Director packages (movie-director-result / 3.1-shotplan-only) with scene ZIPs, shot plans, MiniMax H3 compiled prompts, and a second-pass storyboard zip (one image per segment, file name is the segment id, files at the zip root) under the v9 dialogue-time occupancy lock. Direction, camera, and first compiled prompts come from the v9 markdown. Official h3-prompt-writing validates those prompts and fixes only confirmed H3 form issues. Use when the user asks for a director package, director pack, shot plan, scene package, H3 compiled prompt, storyboard image, storyboard beat sheet, or movie-director-result ZIP.
+description: Build importer-locked movie Director packages with the v9 contract, shot plans, H3 prompts and one storyboard per segment. Use for direct microdrama, Director packages, movie direction, shot plans and package storyboard beats.
 metadata:
-  compatibility: Codex and Claude Code. Requires the v9 markdown for direction and h3-prompt-writing only to validate compiled prompts.
+  compatibility: Codex and Claude Code. Read the v9 contract; h3-prompt-writing validates compiled prompts only.
 ---
+
+For physical action, timing or storyboard references, read [action physics and timing](references/action-physics-and-timing.md) before direction or review. Speech silence never implies a motion hold; preserve authored movement and intentional stillness.
+
+
+For H3 movie direction, camera selection, genre treatment or storyboard planning, read [cinematic direction](references/h3-cinematic-direction.md). Select a physically plausible viewpoint and camera path; use its genre guidance only where relevant.
 
 # Director package generator
 
-For a comic adaptation of an existing package, use [Director to Manhwa / Manga PDF](../director-manga-export/SKILL.md). That workflow creates a separate comic page plan, artwork, lettering and PDF; it preserves the source package and does not run film generation or apply storyboard grid rules to comic pages.
+For a comic adaptation of an existing package, use [Director to Manhwa / Manga PDF](../../../skills/director-manga-export/SKILL.md). That workflow creates a separate comic page plan, artwork, lettering and PDF; it preserves the source package and does not run film generation or apply storyboard grid rules to comic pages.
 
-Before authoring, repair or final handoff, read [production handoff gates](references/production-handoff-gates.md) and [RunTech continuity import gate](references/runtech-continuity-import.md). Apply them under the selected contract; H3 form approval alone does not validate direction, dialogue ownership or effective continuity.
+Before authoring, repair or final handoff, read [production handoff gates](references/production-handoff-gates.md) for direction/state, dialogue ownership and timing, runtime reference closure, effective match continuity and archive freshness.
+
+## Director v9 contract
+
+Use [the v9 profile](../../director-contract.json) and the v9 procedure below. The profile is repository configuration, never an importer schema field. Preserve existing package provenance; a different historical authoring profile requires an explicit migration before claiming v9 contract acceptance.
+
+For segment continuity and final ZIP handoff, read [the RunTech continuity import gate](references/runtech-continuity-import.md). Validate effective normalized modes; conflicting HARD_CUT boundaries can disable previous-frame references unless the installed importer explicitly reconciles them.
+
+Use the best available built-in ChatGPT image generator under global/rules/storyboard-image-model.md (latest user instruction, 2026-10-02). Record exact backend as unreported when absent. Preserve all canonical-source and pixel-quality gates.
 
 Build a complete `movie-director-result` / `3.1-shotplan-only` Director ZIP from the v9 contract. Do not invent a new schema. Do not load a video skill or any other direction skill.
 
@@ -38,21 +51,32 @@ Keep existing field names, `scene_packages/` placement, and this base version. S
 | When | Read |
 |---|---|
 | Always, before any shot prose | The v9 markdown, then [references/v9-hardening-lock.md](references/v9-hardening-lock.md) |
+| Always, before direction, preflight, or storyboard work | [references/v9-common-movie-direction.md](references/v9-common-movie-direction.md) |
 | Direction, physical action, inter-segment continuity, asset closure, dialogue-source and audio continuity | [references/direction-continuity-asset-lock.md](references/direction-continuity-asset-lock.md) |
+| Always, before authoring and final handoff; any prompt or generated-media repair | [references/prompt-repair-loop.md](references/prompt-repair-loop.md) |
+| Always, before media retrieval, rendering, review or advancing to another segment | [references/media-lifecycle.md](references/media-lifecycle.md) |
+| Always, before segment handoff and after any repair; every rendered board | [director-preflight-gate](../director-preflight-gate/SKILL.md) |
+| Storyboard generation or repair pass | [director-storyboard-generator](../director-storyboard-generator/SKILL.md) |
 | ZIP layout, manifests, segment JSON, prompt-bundle envelope | [references/package-schema.md](references/package-schema.md) |
 | After `compiled_prompt` is written | [references/h3-prompt-validation.md](references/h3-prompt-validation.md) |
 | Storyboard index, spec, prompt | [references/storyboard.md](references/storyboard.md) |
+| Always, for storyboard expectations, pixel review and acceptance | [references/storyboard-fidelity-gate.md](references/storyboard-fidelity-gate.md) |
 | One `<SEGMENT_ID>.png` per segment at the zip root | [references/storyboard-images.md](references/storyboard-images.md) |
+| Validating a Director ZIP or attached storyboard through RunTech MCP | [references/runtech-artifact-retrieval.md](references/runtech-artifact-retrieval.md) |
 
 ## Procedure
 
-1. Read the v9 contract, `references/v9-hardening-lock.md`, and `references/package-schema.md`.
-2. Read [references/direction-continuity-asset-lock.md](references/direction-continuity-asset-lock.md). Direct every shot from the contract. Draw dialogue occupancy before action or `compiled_prompt`. Write picture-only action. Write camera as v9 specifies: observable move or hold, not a field dump. For mechanical or rules-bound action, write the object-state and screen-direction transitions before shot prose.
-3. Author the director ZIP from the schema file. Scene packages live under `scene_packages/`. Keep normalized `ShotPlanningPrompt.compiled_prompt` as label-free planning guidance. Validate the separately packaged/runtime-resolved H3 output against the official guide; inspect the importer adapter before using a package field that accepts complete H3 text. See `references/h3-prompt-validation.md` for the layer distinction. Apply the global-retention rule in `references/v9-hardening-lock.md`: declare identity/reference retention once, keep shots focused on their changing picture and dialogue ownership, and verify consistent labels throughout the prompt. Do not serialize Director field labels into that prompt. Close the per-segment asset ledger across the manifest, segment JSON, prompt bundle, H3 subject definitions, and actual package files.
+Apply [references/media-lifecycle.md](references/media-lifecycle.md) throughout this procedure: one segment's required media at a time, files outside conversation context, and compact textual checkpoints between segments. Never carry a movie-wide media bundle or accumulated retries into each generation request.
+
+1. Read the v9 contract, `references/v9-hardening-lock.md`, `references/v9-common-movie-direction.md`, and `references/package-schema.md`.
+2. Read [references/direction-continuity-asset-lock.md](references/direction-continuity-asset-lock.md) and [references/prompt-repair-loop.md](references/prompt-repair-loop.md). Direct every shot from the contract. Draw dialogue occupancy before action or `compiled_prompt`. Write picture-only action. Write camera as v9 specifies: observable move or hold, not a field dump. Author per-object states, causal transitions and effect permissions before shot prose. Apply domain mechanics only to the relevant object and photographed phase; their presence in the movie does not authorize adding motion or effects to other beats. When the content is Beyblade, load its project-local Physics Bible and Director-authoring reference as hard gates.
+3. Author the director ZIP from the schema file. Scene packages live under `scene_packages/`. Keep normalized `ShotPlanningPrompt.compiled_prompt` as label-free planning guidance. Validate the separately packaged/runtime-resolved H3 output against the official guide; inspect the importer adapter before using a package field that accepts complete H3 text. See `references/h3-prompt-validation.md` for the layer distinction. Do not serialize Director field labels into that prompt. Close the per-segment asset ledger across the manifest, segment JSON, prompt bundle, H3 subject definitions, and actual package files.
 4. Confirm `h3-prompt-writing` is installed. Read [references/h3-prompt-validation.md](references/h3-prompt-validation.md). Validate the final H3 prompt and check planning-schema compatibility separately. Fix only a confirmed H3 issue. If the prompt already matches the official skill, leave it. If the skill is missing, stop and ask for `npx skills add https://github.com/MiniMax-AI/MiniMax-H3 --skill h3-prompt-writing`.
-5. Read `references/storyboard.md` and write each segment’s index, spec, and prompt. Match each panel to its micro-shot state, physical phase, axis, screen direction, population, prop ownership, damage state, and boundary continuity. A board that contradicts the directed state must be regenerated.
-6. Read `references/storyboard-images.md`. Generate one real composite image per segment, one panel per micro-shot, file name `SEG_SC001_001.png`. Zip them as `<Movie_Title>_<N>_Segment_Storyboards.zip` with only those pngs at the archive root.
-7. Reopen both zips. Every segment id is a storyboard filename. Run [references/validation.md](references/validation.md), including runtime H3 attachment smoke tests when the importer/compiler is available. Compatibility is the v9 contract, not the version string.
+5. Run [director-preflight-gate](../director-preflight-gate/SKILL.md) on the authored segment. Read `references/storyboard.md` and write each segment’s index, spec, and prompt. Use the inverse aspect ratio of the movie delivery frame (16:9 movie → 9:16 board; 9:16 movie → 16:9 board), with an equal-height TOP_TO_BOTTOM stack and exactly one panel per micro-shot. Match each panel to its micro-shot state, physical phase, axis, screen direction, population, prop ownership, damage state, and boundary continuity. Use [director-storyboard-generator](../director-storyboard-generator/SKILL.md) for this same package's rendering/review pass; it cannot rewrite the shot plan independently.
+6. Read `references/storyboard-images.md`. When images are authorized, use the latest available ChatGPT image model through built-in `image_gen` to generate one real composite image per segment, one panel per micro-shot, file name `SEG_SC001_001.png`. Run the shared preflight gate on every board's actual pixels; repair and regenerate failed boards until all applicable gates pass. Then zip them as `<Movie_Title>_<N>_Segment_Storyboards.zip` with only those pngs at the archive root. For skill-only work, update instructions and validate links without changing the movie pack or generating media.
+7. Reopen both zips. Every segment id is a storyboard filename. Run [references/validation.md](references/validation.md), including runtime H3 attachment smoke tests when the importer/compiler is available. Review, repair and recheck under `references/prompt-repair-loop.md` until all applicable checks pass. Never delegate a known authoring contradiction to the renderer or mark missing pixel/runtime evidence passed. Compatibility is the v9 contract, not the version string.
+
+When the package is stored in RunTech rather than on disk, use the artifact-retrieval reference to validate its metadata, chunked ZIP central directory, and exact per-segment storyboard PNG. Do not treat scene-level storyboard metadata as image bytes.
 
 ## Occupancy
 
@@ -64,10 +88,30 @@ If deleting every `dialogue` array would still tell a reader what was said, the 
 
 The storyboard pass is a second use of this skill on the finished director package. File name is the segment id. Panel count is the shot count. Details are only in `references/storyboard.md` and `references/storyboard-images.md`.
 
-## V9 generation lessons
+Acceptance also requires [references/storyboard-fidelity-gate.md](references/storyboard-fidelity-gate.md): exact Director location, canonical assets and beat for every panel, backed by current pixel evidence. A failed or unknown required detail blocks board handoff and final ZIP inclusion. No silent pass or aggregate-score waiver is allowed.
 
-Before authoring or repairing H3 prompts, read [references/v9-generation-lessons.md](references/v9-generation-lessons.md). Apply its concise staging, continuity, runtime-input and exact-take review rules alongside the hardening lock. Load applicable project canon and physics separately.
+
+## Latest user override — 2026-10-02
+Use the best available built-in ChatGPT image generator. This supersedes all Image 2.5-only blocking instructions above. Record backend as unreported; keep all pixel and source quality gates. See global/rules/storyboard-image-model.md.
+
+
+
 
 ## Direct microdrama option
 
-For **direct microdrama**, read [microdrama-series](../microdrama-series/SKILL.md). Develop the full story with chapter-writing and supporting story skills before v9 direction. The named supporting craft skills are permitted for this mode; v9 remains the schema and shot-plan authority.
+When the user says **direct microdrama**, follow [the microdrama series workflow](../../../skills/microdrama-series/SKILL.md). Start from a summary, develop full episode stories with chapter-writing and supporting story skills, then return here for v9 direction and packaging. This mode permits its named story and camera craft skills as supporting guidance; the v9 schema, occupancy and shot-plan authority remain unchanged.
+
+
+For v9 authoring and repair, read [v9 generation lessons](references/v9-generation-lessons.md) for concise retention, complete mappings and exact-take evidence. These supplement the selected contract.
+
+## Import verification
+
+For archive delivery, import or missing-scene troubleshooting, follow [import routing and persistence verification](references/import-verification.md). Keep local validation, live import, script-scoped persistence and deployment status separate.
+
+## Cinematic direction repair
+
+For direction, timing, camera, prop, speech or board repairs, follow [cinematic causality and timing](references/cinematic-causality-and-timing.md). This project uses variable shot and segment lengths, episodes around 90 seconds, fixed cameras, and evidence-based board reuse.
+
+## Production repair scope
+
+For timing, continuity, narration, prop-state, board or package repairs, follow [production repair lessons](references/production-repair-lessons.md). Preserve explicitly locked episodes, separate generic rules from project preferences, and distinguish local checks from reviewed footage or deployed fixes.

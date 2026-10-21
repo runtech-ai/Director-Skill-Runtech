@@ -1,138 +1,73 @@
-# CINEMATIC CAMERA — SITUATION ONLY
+# Cinematic camera: plausible movement and deliberate framing
 
-Every micro-shot `camera` / `lensIntent` field and every compiled-prompt camera sentence must be a **cinematic camera move** chosen for that beat. Do not invent an AI camera. Do not add motion because the clip is short or because “cinematic” sounds better.
+Read before authoring `camera`, `lensIntent`, `POV` or a compiled camera sentence. Apply [action physics and timing](action-physics-and-timing.md), then choose relevant guidance from [genre camera language](genre-camera-language.md). The user's current preference is physically plausible camera behavior in every medium, including anime. A genre label does not authorize impossible movement.
 
-Read this file before writing `camera`, `lensIntent`, `POV`, or the compiled shot’s camera line.
+## Direct a viewpoint, not a list of effects
 
-## Default
+Decide what the audience must discover, whose experience shapes the shot, and when attention changes. A useful move may reveal space, preserve a composition during blocking, approach a decision, follow a pursuit or leave someone behind. If moving adds no intended information or feeling, keep the camera settled. A locked shot can contain vigorous action. Handheld can also be quiet and controlled; it is not prohibited in dialogue.
 
-If the beat does not need a move, lock the camera:
+Plan one coherent camera trajectory per shot. A coordinated pan while tracking, or a tilt during a crane rise, can be one feasible operation. Do not stack unrelated moves to fill time. When viewpoints require incompatible positions, cut instead of inventing a flight between them. A cut is an edit, not a camera teleport inside an uninterrupted shot.
 
-```text
-The camera holds nearly static.
-The camera is locked off. The framing does not change.
-```
+For a moving shot, resolve these in existing camera/composition/continuity fields or authoring notes:
 
-Most dialogue holds, listens, and table scenes stay locked off or take one small slow push. One shot, one move. Do not stack techniques.
+- **Start and finish:** camera side, approximate height and distance, initial framing and final framing.
+- **Support and path:** plausible tripod pivot, operator walk, dolly/slider route, crane arc, vehicle mount or aerial route; identify obstructions and clearance when relevant. The equipment need not appear in the picture.
+- **Timing:** the visible/audible trigger, travel pace, and landing or cut. Use distances or angles only when they resolve ambiguity; they are intent, not calibrated H3 controls.
+- **Optics and focus:** fixed lens versus zoom, intended depth, and focus target. Keep the focal length stable unless a lens change is authored.
+- **Continuity:** subject blocking, axis, foreground occlusion and what remains visible throughout the path.
 
-## Banned — unnatural AI camera
+Compile these decisions into short natural sentences. MiniMax's base guide expresses camera type with amplitude and speed when needed. Rig names and measurements below are descriptive film language, not new API commands. See [research sources](cinematic-research-sources.md).
 
-Do not write these, or any wording that does the same thing:
+## Working movement library
 
-- unmotivated orbit / “slowly circles” / “360 around them” on a talking two-shot
-- floating drone drift with no crane, aerial, or pursuit beat
-- fly-through walls, furniture, faces, or cups
-- morphing, melting, or impossible path
-- endless push that never lands
-- snap zoom with no shock or reveal
-- random Dutch tilt
-- handheld shake on a still conversation
-- “cinematic camera movement”, “dynamic camera”, “AI camera”, “the camera explores”
-- a new move every cut with no story reason
+Choose by dramatic purpose and available space. These examples are adaptable shot fragments, not complete prompts or mandatory shot durations.
 
-If you deleted the camera sentence and the picture still reads, the move was decoration. Remove it.
+| Technique | Plausible operation and useful constraint | Example direction |
+|---|---|---|
+| Locked-off | Fixed camera position, orientation and lens; acting changes the frame. | A waist-height static wide shot lets the worker cross to the door and leave frame. |
+| Pan / tilt | Pivot from one position; pan changes azimuth, tilt changes elevation. | From the doorway, pan right as she turns toward the window, stopping with both in frame. |
+| Follow pan | Rotate to follow travel rather than translating with it. | The sideline camera pans with the runner while the near fence remains at the camera's fixed position. |
+| Dolly push / pull | Translate closer/farther on a clear route; perspective and parallax change. | Push forward along the open aisle from medium-wide to medium, then settle as he stops. |
+| Truck / lateral track | Translate sideways while maintaining a deliberate camera side. | Track parallel to the walkers along the pavement; foreground posts pass faster than the far buildings. |
+| Slider reveal | Short translation uncovers a subject behind a foreground edge. | Slide left just beyond the door jamb to reveal the waiting visitor, then stop. |
+| Lead / follow tracking | Operator or platform travels ahead of/behind the subject, with plausible clearance. | Follow at walking pace down the unobstructed hall, remaining behind her right shoulder. |
+| Steadicam / gimbal | Stabilized travel with a traversable route, finite turns and coherent height. | Walk the curve of the corridor at chest height; turn with the actor and settle outside the next doorway. |
+| Handheld / shoulder | Human-supported movement, ranging from nearly still to energetic. | Shoulder-held medium shot with small, irregular weight corrections; reframe only as the seated subject leans. |
+| POV / body-mounted | Identify the viewpoint owner and mount; head, chest and handheld motion differ. | A chest-mounted view turns with the torso as the wearer steps back from the threshold. |
+| Arc / partial orbit | Curved route with a defined radius and unobstructed sector. | Arc from front three-quarter to side view around the near end of the table, staying outside its edge. |
+| Full orbit | Only for a deliberate circling beat with room and adequate time; preserve geography. | Complete one measured circle in the open courtyard, holding distance and returning to the starting side. |
+| Pedestal / boom | Change camera height; state whether the lens tilts to retain the subject. | Raise the camera from seated to standing eye level as she rises, without moving closer. |
+| Jib / crane | Bounded boom arc; head orientation can compensate, but the camera needs clearance. | Rise over the low fence on the near side to reveal the crowd beyond; stop before the canopy. |
+| Aerial / drone | Aerial viewpoint from the start, with plausible speed, altitude and obstacle clearance. | From above the clearing, retreat and climb gradually to reveal the surrounding forest. |
+| Vehicle-mounted / parallel pursuit | Camera belongs to a moving platform; ground motion, distance and turns agree. | A side-mounted view tracks the adjacent vehicle at matched road speed through a gentle bend. |
+| Overhead / top-down | A viewpoint, not inherently a movement; establish how it is held. | Fixed overhead view shows the hands sorting components; framing remains unchanged. |
+| Optical zoom | Stationary viewpoint, changing field of view; no invented dolly parallax. | From the back of the room, zoom gradually to the speaker and hold the new framing. |
+| Snap / crash zoom | Brief motivated optical reframe with a readable landing; no universal millisecond recipe. | After the unexpected movement, snap-zoom to the open latch and settle sharply on it. |
+| Dolly zoom | Coordinated translation and opposite focal-length change; subject size approximately stable. | Pull back along a clear straight track while zooming in to retain the face's size as the background compresses. |
+| Rack focus | Focus change, not camera travel; establish foreground/background depths. | With framing fixed, shift focus from the near envelope to the person in the far doorway. |
+| Whip pan | Rapid pivot between established positions, with a brief blurred transit and definite landing. | On the impact sound, whip-pan across the room to the fallen shelf and settle. |
+| Dutch angle / roll | A canted composition or deliberate rotation; avoid automatic spiraling. | Begin at a modest fixed cant for the disoriented viewpoint; keep that angle through the shot. |
+| Snorricam | Camera attached to the performer, body relatively stable while environment moves. | The torso-mounted camera keeps the chest in place while the corridor moves with each step. |
+| Macro / detail insert | Respect close focus, clearance and shallow depth; usually a separate setup. | Cut to a stable close-focus insert of the catch closing under the thumb. |
 
-## Pick from this list
+Split screen, match cut, dissolve, speed ramp and time-lapse are editorial/temporal treatments, not camera moves. Use only when authored and supported. A storyboard sheet must never turn into an accidental split screen. A tight eye insert does not authorize pushing the camera through a face. “Super dolly” and “yo-yo zoom” are not special H3 controls: translate any requested effect into a feasible path/lens operation or replace it with an authored edit.
 
-Choose **one** technique from the catalog. Match the situation. Then write the move in H3 English: who it is on, start frame, end frame, **amplitude**, and **speed**. Adapt subject labels to this movie. Do not import the catalog’s original people or rooms.
+## Lens, staging and lighting
 
-| Situation | Technique |
-|---|---|
-| Hold, listen, talk, pour, wait | Locked off (default) |
-| Sudden shock, a name lands, a door slams | Crash Zoom In |
-| Snap away to scale, then snap back onto the face | Yo-Yo Zoom |
-| Dread, vertigo, the room goes wrong while the person stays the same size | Dolly Zoom |
-| Subjective panic; the body walks and the world heaves | Snorricam |
-| Attention shifts from a near face to a far pair (or the reverse) | Rack Focus |
-| Same instant, two or three locked angles of one action | Split Screen |
-| Attention jumps from one person to another in the same shot | Whip Pan |
-| Unease, wrongness, the world is off-axis | Dutch Angle |
-| Charge, commitment, closing the last distance | Super Dolly In |
-| The look is the point; land inside one eye | Eyes In |
-| Isolation, leaving, the place opens around a small figure | Aerial Pullback |
-| Run, chase, documentary urgency | Handheld |
-| Survey, surround, power — only when the beat is to circle | 360 Orbit |
-| Rise from the ground to overhead while staying on the runner | Crane Rise |
+Choose shot size and camera distance together. Wide/normal/long-lens language is often enough; numeric focal lengths need a stated format or equivalent basis if exact comparison matters. Perspective is governed by camera position. A long-lens close-up from farther away differs from a wide-lens close-up at arm's length. Do not ask a zoom alone to create lateral parallax.
 
-Do not pick Orbit, Aerial, Snorricam, Yo-Yo, Split Screen, or Crash Zoom unless that row is the beat. A quiet kitchen is not a crane.
+Use depth to separate planes when the scene benefits. Do not demand both razor-thin depth of field and crisp simultaneous action at widely separated distances. A rack needs distinct focus targets. Specify focus holds through a critical hand/contact action; avoid gratuitous autofocus hunting. Match depth and shading to the requested animation medium rather than adding photographic bokeh automatically.
 
-## How to write it
+Give light a credible source, direction, hardness and stable relationship to the setting. Shadows/reflections change with subject and camera motion; they do not spin because the camera arcs. Exposure adaptations belong to an authored camera behavior, such as a consumer camera moving from a dark hall into daylight, not arbitrary flicker. Do not add fog, smoke, rain or flares merely to signal cinematic quality.
 
-`lensIntent` may name the support (tripod, dolly, slider, handheld, gimbal, crane, drone) when it is real for that technique.
+## Cuts and geography
 
-`camera` and the compiled shot use the catalog’s motion phrasing, not a plot of the camera:
+Keep an axis and eyelines through coverage. If crossing the axis, show a readable crossing or establish the new geography before reverse coverage. Preserve action direction and match the physical phase across a cut, without replaying a completed impact. An objective close-up is not automatically a character POV; an eyeline target does not add that person to the frame.
 
-```text
-The camera pushes in with small amplitude at slow speed.
-The camera pulls back with small amplitude at slow speed.
-The camera holds nearly static.
-The camera whip pans right and lands on <Subject 2>.
-```
+Give a cut new information: a consequence, reaction, detail, viewpoint, location or authored time change. Avoid compulsory wide-medium-close ladders and arbitrary cuts on every spoken phrase. A moving shot can cut while still moving when deliberately matched; it need not settle at every boundary. Across generations, do not promise an invisible join from text alone.
 
-Keep occupancy. A push “between” two people keeps those two people in one frame. A tight single after a crash zoom shows one face.
+## Camera plausibility review
 
-Storyboard panels show the start or landed frame of that same move. They do not invent a second angle.
+Reject world geometry bending around the camera; passage through solid objects; an unexplained handheld-to-drone transformation; instantaneous height/distance changes inside a continuous shot; unsupported acceleration, radius changes or direction reversals; subject auto-centering that erases intended blocking; and zoom/focus breathing that was not authored. A named gimbal or crane does not make an impossible route feasible.
 
-## Catalog — motion phrasing
-
-Use these moves. Change only labels, place, and timing to this segment.
-
-### Crash Zoom In
-
-Locked off, then one violent zoom from wide to a tight close-up in about 200 milliseconds, no easing. Then locked off again.
-
-```text
-The camera is locked off. At the mark it performs a Zoom In with large amplitude at fast speed: a single crash zoom from the wide shot to a tight close-up of <Subject 1>'s face. The instant the zoom lands the camera is locked off.
-```
-
-### Yo-Yo Zoom
-
-Tight close-up, zoom out accelerating until the figure is tiny, hold about a second, then zoom in with large amplitude at fast speed back to the same tight face.
-
-### Dolly Zoom
-
-Push in while zooming out so the subject’s size and position stay constant while the background recedes and spreads.
-
-### Snorricam
-
-Camera fixed to the torso. Shoulders and chest stay the same place and size. Only the head moves in frame. The room tracks and shakes with the stride.
-
-### Rack Focus
-
-Locked off. Near subject sharp, far subjects soft; then focus racks so the near face blurs as the far pair resolve.
-
-### Split Screen
-
-Equal locked-off vertical panels. Nothing pans or zooms. Use only when the beat is simultaneous angles of one action. Each panel still obeys that shot’s occupancy.
-
-### Whip Pan
-
-Start on <Subject 1>, whip pan, motion-blur the middle, land sharp on <Subject 2>.
-
-### Dutch Angle
-
-Roll to a canted horizon and hold. Off-axis subject. Do not keep rolling.
-
-### Super Dolly In
-
-Push in with large amplitude at fast speed the length of the track. Near objects sweep out of frame. End in a tight close-up.
-
-### Eyes In
-
-Push in with large amplitude at slow speed past the face until one eye fills the frame.
-
-### Aerial Pullback
-
-Pull out with large amplitude at fast speed while pedestalling up until the subject is a small figure and the place opens around them.
-
-### Handheld
-
-Shake strongly at fast speed only while tracking a run or chase. Correct with the stride. Not a talking-head default.
-
-### 360 Orbit
-
-Arc around the subject with large amplitude at fast speed, a complete circle, back to the front. Only when the beat is to surround them.
-
-### Crane Rise
-
-Start low at the feet, track with large amplitude at fast speed, pedestal up and tilt down, subject stays centred from high overhead.
+Correct the source path or simplify to a cut. Preserve useful energy and deliberate handheld character. Do not impose locked cameras globally to solve drift. Before acceptance, compare the planned start/path/end with actual footage when available; review parallax, horizon, occlusion and landing through the full shot. A still verifies only its selected instant. Record untested behavior rather than claiming cinematic realism from prompt validation.

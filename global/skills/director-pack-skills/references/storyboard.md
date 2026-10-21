@@ -1,5 +1,9 @@
 # STORYBOARD INDEX — EXACT CONTRACT
 
+For action timing, support/contact transitions and storyboard temporal roles, apply [action physics and timing](action-physics-and-timing.md). Preserve existing fields and distinguish motion review from schema acceptance.
+
+For runtime prompts, enforce [attached asset authority](../../../rules/asset-reference-authority.md): bound canonical attachments determine character, prop and location design; the storyboard supplies composition, framing, staging and pose intent only. Resolve any design or background discrepancy from the attached asset using the actual runtime Picture label.
+
 Scene `storyboards/index.json`:
 
 ```json
@@ -8,7 +12,7 @@ Scene `storyboards/index.json`:
   "mode": "OPTIONAL_FILM_STILL_BEAT_SHEET",
   "generator": "GPT Image 2",
   "storyboardImageRequiredForH3": false,
-  "panelCountRangePerSegment": {"min": 3, "max": 10},
+  "panelCountRangePerSegment": {"min": 1, "max": "MICRO_SHOT_COUNT"},
   "segments": [
     {
       "segmentId": "SEG_SC001_001",
@@ -46,8 +50,8 @@ Each segment has exactly one storyboard spec:
   "generator": "GPT Image 2",
   "required": false,
   "beatCount": 3,
-  "allowedBeatRange": {"min": 3, "max": 10},
-  "panelOrder": "LEFT_TO_RIGHT_THEN_TOP_TO_BOTTOM",
+  "allowedBeatRange": {"min": 1, "max": "MICRO_SHOT_COUNT"},
+  "panelOrder": "TOP_TO_BOTTOM",
   "promptFile": "storyboards/prompts/SEG_SC001_001_storyboard_prompt.txt",
   "expectedOutputFile": "storyboards/generated/SEG_SC001_001_storyboard.png",
   "assetReferences": [],
@@ -87,9 +91,9 @@ Beat `visibleAssets` must match the owning micro-shot occupancy. Do not draw a t
 
 # STORYBOARD PROMPT REQUIREMENT
 
-Each segment gets one GPT Image 2 prompt for ONE composite storyboard image containing 3–10 film-still beats.
+Each segment gets one prompt for the latest available ChatGPT image model under [storyboard-images.md](storyboard-images.md), for ONE composite storyboard image whose aspect ratio is the inverse of the movie delivery frame: 16:9 movie → portrait 9:16 board; 9:16 movie → landscape 16:9 board. Its panel count equals the segment's micro-shot count, with one film-still beat per micro-shot. Historical `GPT Image 2` schema examples do not pin the generation model.
 
-The number of storyboard beats is chosen according to the amount of meaningful visual progression in the segment.
+Panels are equal-height horizontal bands stacked `TOP_TO_BOTTOM`, read from top to bottom in playback order. Do not use a grid, columns, captions, numbers, speech bubbles, subtitles, timestamps, labels, watermarks, typography, gutters, or adjacent-panel fragments.
 
 Storyboard prompts must explicitly declare asset attachment order:
 
@@ -102,6 +106,8 @@ Only attach assets actually needed by the storyboard.
 
 The storyboard is a VISUAL PLANNING REFERENCE ONLY.
 It never overrides director action, exact timing, dialogue, occupancy, continuity, prop ownership, or canonical identity.
+
+Apply [storyboard-fidelity-gate.md](storyboard-fidelity-gate.md): each panel must depict the Director's exact location, canonical assets and beat. Freeze its expected picture before rendering and save expected-versus-observed pixel evidence afterward. Missing, substituted, contradictory or unreadable required content is not accepted. Never modify the authoritative description merely to make an existing board pass.
 
 Do not duplicate exact screenplay dialogue into storyboard prompt prose.
 Do not illustrate extra people who are not in that beat's `visibleAssets`.
@@ -210,6 +216,8 @@ Do not instruct the storyboard renderer to search the surrounding Project for a 
 
 ## Storyboard retries
 
+Run [director-preflight-gate](../../director-preflight-gate/SKILL.md) before rendering and on every actual board afterward. Apply the content-repair loop in [prompt-repair-loop.md](prompt-repair-loop.md), then regenerate/recheck each failed board until applicable gates pass. A generation-success response does not satisfy this gate.
+
 Do not encode any rule that permits the storyboard renderer to use the last generated storyboard as a fallback visual target. Retries must remain grounded to the same package assets and style unless the user explicitly changes the reference set.
 
 ---
@@ -239,3 +247,7 @@ When ON, inject only the concise storyboard shot-planning definition that lists 
 Do not inject a `STORYBOARD EXECUTION LOCK`, repeated panel exclusions, or additional storyboard boilerplate.
 
 The one concise definition must also prevent the storyboard sheet from appearing in the video: read the visual panels sequentially, use one corresponding panel per listed shot, and render exactly one full-screen moving shot at a time. In the same definition exclude the multi-panel grid, split screen, borders, divider lines, gutters, white margins, page edges, adjacent-panel fragments, captions, labels, timestamps, and typography. State this once rather than repeating it in every shot.
+
+## Camera and timing handoff
+
+Use [cinematic direction](h3-cinematic-direction.md) for the board-to-motion handoff. Record the selected instant and the camera start/path/end in existing description, cameraContext and continuity prose. Keep any camera diagrams or timing notes outside clean reference panels. Preserve this package's panel-count/layout contract; a moving shot does not become extra shots merely because it has several phases.

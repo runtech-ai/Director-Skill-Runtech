@@ -1,0 +1,47 @@
+{
+  "about": "Template for projects/<project>/h3/h3-locks.json, read by h3_compile.py. Works for any genre or medium. Each entry is stated once in the compiled prompt: style before [Shot 1], identity and wardrobe in retention_analysis, a setting at its first appearance, a state lock on the first shot where that state applies.",
+  "medium": "live-action",
+  "style": [
+    "The target video is a live-action drama with natural light, real textures and a steady, grounded camera."
+  ],
+  "humans": ["@lead", "@friend"],
+  "voices": {
+    "@narrator": "A warm, low adult narrator's voice"
+  },
+  "names": {
+    "@lead": ["Maya"],
+    "@friend": ["Joel"]
+  },
+  "subjects": {
+    "@lead": {
+      "definition": "@lead (Maya), the woman in her thirties with shoulder-length black hair, a grey wool coat and a red scarf",
+      "retain": "Maya's face, hair and wardrobe are retained"
+    },
+    "@friend": {
+      "definition": "@friend (Joel), the bearded man in his forties in a brown work jacket",
+      "retain": "Joel's face, beard and jacket are retained"
+    },
+    "@diner": {
+      "definition": "@diner, a narrow roadside diner",
+      "retain": "the diner layout is retained: counter on the left, booths along the window"
+    }
+  },
+  "settings": {
+    "@diner": {
+      "geography": "with the counter on the left and booths along the rain-streaked window",
+      "byScene": {
+        "SC001": "Night outside; warm overhead practicals and cold blue neon through the window"
+      }
+    }
+  },
+  "ambience": {
+    "SC001": "Low diner room tone, a humming refrigerator and occasional passing traffic continue throughout."
+  },
+  "stateLocks": [
+    {
+      "object": "@lead",
+      "state": "injured",
+      "text": "Maya's left hand stays bandaged from this shot on."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "runtech-director",
+  "owner": {
+    "name": "RuntechStudio",
+    "email": "developers@runtech.co.in"
+  },
+  "plugins": [
+    {
+      "name": "director-pack-v9",
+      "source": "./",
+      "description": "RunTech Director v9 packages, scene direction, H3 compile/lint, storyboards and manhwa/manga export.",
+      "version": "0.1.17"
+    }
+  ],
+  "description": "RunTech Director Pack: direct any movie, series or microdrama into Director v9 packages with H3 prompts and storyboards."
+}

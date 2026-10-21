@@ -1,6 +1,6 @@
 ---
 name: director-pack-skills
-description: Build importer-locked movie Director packages with the v9 contract, shot plans, H3 prompts and one storyboard per segment. Use for direct microdrama, Director packages, movie direction, shot plans and package storyboard beats.
+description: Direct any movie, series or microdrama in any genre and medium into importer-locked Director v9 packages, with scene direction, shot plans, compiled H3 prompts and one storyboard per segment. Use for direct microdrama, Director packages, movie direction, shot plans and package storyboard beats.
 metadata:
   compatibility: Codex and Claude Code. Read the v9 contract; h3-prompt-writing validates compiled prompts only.
 ---
@@ -10,6 +10,8 @@ metadata:
 For a comic adaptation of an existing package, use [Director to Manhwa / Manga PDF](../director-manga-export/SKILL.md). That workflow creates a separate comic page plan, artwork, lettering and PDF; it preserves the source package and does not run film generation or apply storyboard grid rules to comic pages.
 
 Read and follow [the complete bundled procedure](../../global/skills/director-pack-skills/SKILL.md). Resolve its references relative to its bundled file location.
+
+The Director works for any genre and medium. Before shot prose, run the bundled [scene direction pass](../../global/skills/director-pack-skills/references/scene-direction-pass.md) with a project direction profile built from [genre direction profiles](../../global/skills/director-pack-skills/references/genre-direction-profiles.md). Compile H3 prompts with `global/scripts/h3_compile.py` and lint them with `global/scripts/h3_lint.py` from the plugin root.
 
 The bundled global/director-contract.json supports Director v9. Preserve existing package provenance; do not silently convert an older package or claim v9 contract acceptance without the appropriate review.
 

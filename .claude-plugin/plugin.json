@@ -1,0 +1,10 @@
+{
+  "name": "director-pack-v9",
+  "version": "0.1.17",
+  "description": "Direct any movie, series or microdrama in any genre into RunTech Director v9 packages: scene direction, shot plans, compiled and linted H3 prompts, continuity, preflight, storyboards, and manhwa/manga PDF export.",
+  "author": {
+    "name": "RuntechStudio",
+    "email": "developers@runtech.co.in"
+  },
+  "keywords": ["director", "storyboard", "h3", "minimax", "microdrama", "film"]
+}

@@ -1,0 +1,70 @@
+{
+  "about": "Locks for the 30-second Let It Rip commercial, read by global/scripts/h3_compile.py. Kaiden's top is shown after emblem discovery, with the yellow dragon emblem.",
+  "medium": "2D television anime",
+  "style": [
+    "The target video is a 2D television sports-anime toy commercial in a landscape 16:9 frame, with bold clean inked linework, vibrant cel shading and simplified hand-painted backgrounds.",
+    "Character animation is stepped and expressive at natural action speed; no photorealism, 3D rendering or photographic depth of field."
+  ],
+  "humans": ["@kaiden", "@nanao"],
+  "voices": {
+    "@narrator": "A bright, energetic adult announcer's voice"
+  },
+  "names": {
+    "@beyblade": ["Kaiden's top", "the handmade top"],
+    "@dragoon": ["Nanao's top", "the blue top"],
+    "@kaiden": ["Kaiden"],
+    "@nanao": ["Nanao"],
+    "@kangla": ["Kangla"]
+  },
+  "subjects": {
+    "@kaiden": {
+      "definition": "@kaiden (Kaiden), the twelve-year-old boy with short spiky navy hair, a plain pocketless cobalt-blue T-shirt, black athletic shorts with white side stripes and blue-white sneakers",
+      "retain": "Kaiden's face, navy hair and wardrobe are retained"
+    },
+    "@nanao": {
+      "definition": "@nanao (Nanao), the boy with short spiky brown hair, a bright green T-shirt with a white graphic, blue-grey knee shorts and navy-white sneakers",
+      "retain": "Nanao's face, hair and wardrobe are retained"
+    },
+    "@beyblade": {
+      "definition": "@beyblade, Kaiden's palm-sized handmade top with a blue-red metal attack ring, weathered silver metal, a brown wooden lower ring, visible screws, a yellow dragon emblem on its central bit chip and a conical metal tip",
+      "retain": "the top's exact layers, colors, screws and yellow dragon emblem are retained, and the physical top never glows"
+    },
+    "@dragoon": {
+      "definition": "@dragoon, Nanao's manufactured top with a blue attack ring flecked with red and yellow wings, a silver metal weight disc, a red tip and a blue-and-yellow dragon emblem",
+      "retain": "Nanao's top keeps its exact design and colors and never borrows parts from Kaiden's top"
+    },
+    "@launcher": {
+      "definition": "@launcher, the owner-labeled launcher sheet; each boy uses only his own launcher as labeled",
+      "retain": "each launcher keeps its owner's exact design: a rigid gear housing with a horizontal grip and a short, flat, toothed ripcord rack"
+    },
+    "@stadium": {
+      "definition": "@stadium, a portable shallow round grey plastic bowl with a black rim and short feet, about six tops wide",
+      "retain": "the stadium's size, grey plastic and black rim are retained"
+    },
+    "@kangla": {
+      "definition": "@kangla, the historic Kangla grounds with an open stone plaza",
+      "retain": "the Kangla plaza and its monuments are retained"
+    }
+  },
+  "settings": {
+    "@kangla": {
+      "geography": "with the stadium on open paving clear of the monuments, Kaiden on its south side and Nanao on its north side",
+      "byScene": {
+        "SC001": "Bright monsoon overcast lights the wet stone evenly; there is no direct sun"
+      }
+    }
+  },
+  "ambience": {
+    "SC001": "Open-air plaza ambience with light wind and distant birds continues throughout; the spin whine of the tops rises and falls with their speed."
+  },
+  "stateLocks": [
+    {"object": "@launcher", "state": "loaded", "text": "Each launcher is held with its grip level and the short rigid toothed ripcord passing straight through the housing; there is no string or shaft."},
+    {"object": "@beyblade", "state": "loaded", "text": "@beyblade sits flush beneath the launcher's underside mount, tip straight down, and is not spinning."},
+    {"object": "@dragoon", "state": "loaded", "text": "@dragoon sits flush beneath Nanao's launcher, tip straight down, and is not spinning."},
+    {"object": "@launcher", "state": "launching", "text": "The rack drives the gear while the top is still mounted, so the top spins up before it drops; it releases once, already spinning fast, and lands tip-first. The pulled rack stays in the hand and the launcher is left empty."},
+    {"object": "@beyblade", "state": "spinning", "text": "@beyblade spins clockwise on its tip with a blurred attack ring, precessing slightly and losing speed only through friction and contact."},
+    {"object": "@dragoon", "state": "spinning", "text": "@dragoon spins counterclockwise on its tip with a blurred attack ring; the two tops never stick together or pass through each other."},
+    {"object": "@dragoon", "state": "knocked_out", "text": "Once @dragoon leaves the bowl it falls under gravity, lands on the paving, tumbles onto its side and stops; it does not come back."},
+    {"object": "@dragoon", "state": "stopped", "text": "@dragoon lies stopped on its side on the paving."}
+  ]
+}

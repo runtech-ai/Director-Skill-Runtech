@@ -1,0 +1,80 @@
+{
+  "about": "Project invariants for global/scripts/h3_compile.py. Each one is stated once in the compiled prompt: identity and wardrobe in retention_analysis, style before [Shot 1], setting at its first appearance, object-state locks on the first shot where that state applies.",
+  "medium": "2D television anime",
+  "style": [
+    "The target video is a 2D television sports-anime episode in a landscape 16:9 frame, with bold clean inked linework, controlled cel shading and simplified hand-painted backgrounds.",
+    "Character animation is stepped and expressive at natural action speed; no photorealism, 3D rendering or photographic depth of field."
+  ],
+  "humans": ["@kaiden", "@ima", "@nanao", "@mocha", "@unknown_observer"],
+  "names": {
+    "@kaiden": ["Kaiden"],
+    "@ima": ["Eema", "Ima"],
+    "@nanao": ["Nanao"],
+    "@mocha": ["Mocha"],
+    "@breakfast_plate": ["breakfast plate", "the breakfast plate", "breakfast"],
+    "@phone": ["the phone"]
+  },
+  "subjects": {
+    "@kaiden": {
+      "definition": "@kaiden (Kaiden), the twelve-year-old boy with short spiky navy hair, a plain pocketless cobalt-blue T-shirt, black athletic shorts with white side stripes and blue-white sneakers",
+      "retain": "Kaiden's face, navy hair and wardrobe are retained; the T-shirt stays plain and pocketless, the only pocket is the right side seam of his shorts, and he carries no bag"
+    },
+    "@ima": {
+      "definition": "@ima (Eema), the brown-haired adult woman in the front-view teal blazer, white blouse, dark knee-length skirt and black shoes",
+      "retain": "Eema's face, brown hair and front-view teal blazer outfit are retained; the alternate rear-view wardrobe on the sheet is not used"
+    },
+    "@nanao": {
+      "definition": "@nanao (Nanao), the dark-haired boy in the green T-shirt, grey shorts and navy-white sneakers",
+      "retain": "Nanao's face, hair and wardrobe are retained"
+    },
+    "@mocha": {
+      "definition": "@mocha (Mocha), the brown-haired boy in the white emblem T-shirt, dark cargo trousers and white sneakers",
+      "retain": "Mocha's face, hair and wardrobe are retained"
+    },
+    "@beyblade": {
+      "definition": "@beyblade, Kaiden's palm-sized handmade top with a blue-red metal attack ring, weathered silver metal, a brown wooden lower ring, visible screws, a central bit chip and a conical metal tip",
+      "retain": "the top's exact layers, colors and screws are retained; before the emblem discovery its centre shows three plain ink strokes, and the physical top never glows"
+    },
+    "@breakfast_plate": {
+      "definition": "@breakfast_plate, the plate of breakfast Eema prepared",
+      "retain": "the plate and food design are retained"
+    },
+    "@phone": {
+      "definition": "@phone, Kaiden's old mobile phone",
+      "retain": "the phone's design is retained; its screen shows content only toward its viewer"
+    },
+    "@kaidens_house": {
+      "definition": "@kaidens_house, Kaiden's modest one-room home",
+      "retain": "the room layout is retained: bed on the left, workbench on the right, doorway screen right"
+    }
+  },
+  "settings": {
+    "@kaidens_house": {
+      "geography": "with the bed on the left, the workbench on the right and the doorway screen right",
+      "byScene": {
+        "SC002": "Rain falls in the monsoon night outside; the room stays dry and lit by a blue-grey lamp",
+        "SC003": "Steady monsoon rain falls past the window under dense overcast; the room stays dry, lit by soft window daylight with warm skin tones"
+      }
+    }
+  },
+  "ambience": {
+    "SC003": "Steady rain on the tin roof, a ceiling-fan hum and quiet room tone continue throughout; a distant television murmurs from another room."
+  },
+  "stateLocks": [
+    {
+      "object": "@beyblade",
+      "state": "stationary",
+      "text": "@beyblade is not spinning; it rests where it lies and moves only when a hand moves it."
+    },
+    {
+      "object": "@beyblade",
+      "state": "spinning",
+      "text": "@beyblade spins continuously on its tip with circumferential blur, precessing and losing speed only through friction and contact."
+    },
+    {
+      "object": "@launcher",
+      "state": "loaded",
+      "text": "The top sits flush against the launcher underside with no gap, tip down, and the short rigid toothed ripcord is inserted through the launcher; there is no string or shaft."
+    }
+  ]
+}

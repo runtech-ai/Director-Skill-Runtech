@@ -26,6 +26,12 @@ They may **not** contain:
 
 If you need the audience to hear words, put those exact words in structured `dialogue` for that micro-shot and nowhere else.
 
+Mandate 0 bans the *content* of speech outside `<d>`, not performance. These are allowed and expected:
+
+- **Vocal delivery** in the dialogue item's optional `delivery` field: tone, pace, volume and manner ("dry and unhurried", "quick and defensive, without looking up"). The compiler places it next to the official `<d>` line, as the MiniMax examples do. Delivery never restates, summarizes or hints at the words.
+- **Visible emotional reaction** in `action`: a jaw tightening, eyes dropping, a short exhale, a hand stopping on a prop. Describe the body, not the thought ("her eyes drop to the plate", never "she realizes he is lying").
+- **Listening behavior** on a listener in a speaking shot: the compiler adds "listens with lips closed"; `action` may add what the listener's body does.
+
 If a shot has no structured dialogue, it has no authorized speech. Direct its authored physical action, including movement, contact and follow-through. Speech silence does not imply stillness. Use a physical hold only when the shot explicitly motivates it; describe its visible behavior rather than “the pause after the question” or “the beat before he answers.”
 
 Test: if you deleted every `dialogue` array in the segment, would the remaining prose still tell a reader what was said? If yes, the package fails.
@@ -99,7 +105,7 @@ Shot prose contains the shot timing/cut, framing and visible occupancy, camera, 
 
 Use one consistent subject/picture/speaker mapping throughout each compiled segment prompt. A subject ID cannot identify both a character and a prop. Every dialogue owner must resolve to a defined character; every picture citation must agree with the global mapping and actual runtime attachments. If attachment order changes, remap all affected references throughout the prompt together, including shot prose, rather than updating only the definitions.
 
-Before delivery, check the complete compiled prompt for conflicting or unresolved Subject/Picture/Speaker labels and duplicated per-shot retention boilerplate. Repair these in the Director authoring pass before H3 form validation. Concision must preserve exact dialogue, voice-timbre citations when attached, occupancy, timing, and action-critical continuity.
+Compile with `global/scripts/h3_compile.py`, which enforces this placement from the project's `h3/h3-locks.json`, and run `global/scripts/h3_lint.py`. A prompt that repeats a lock sentence, spends more than a quarter of its description on restriction text, or exceeds the word budget fails. Before delivery, check the complete compiled prompt for conflicting or unresolved Subject/Picture/Speaker labels and duplicated per-shot retention boilerplate. Repair these in the Director authoring pass before H3 form validation. Concision must preserve exact dialogue, voice-timbre citations when attached, occupancy, timing, and action-critical continuity.
 
 ## MANDATE 6 — Audio layers stay in their bins
 

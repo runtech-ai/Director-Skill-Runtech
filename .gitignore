@@ -31,3 +31,7 @@
 **/videos/**
 **/renders/**
 **/generated_images/**
+
+# Personal Claude Code settings
+.claude/settings.local.json
+.claude/bin/
